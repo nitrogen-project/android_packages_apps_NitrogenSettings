@@ -67,4 +67,9 @@
     <string name="status_bar_battery_percentage_default">Не отображать</string>
     <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+
+    <!-- Status bar battery style-->
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_port">Вертикальный значок</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
 </resources>
