@@ -24,6 +24,14 @@
         android:title="@string/heads_up_notifications"
         android:fragment="com.nitrogen.settings.fragments.HeadsUpSettings" />
 
+    <ListPreference
+        android:key="less_notification_sounds"
+        android:title="@string/less_notification_sounds_title"
+        android:summary="@string/less_notification_sounds_summary"
+        android:entries="@array/less_notification_sounds_entries"
+        android:entryValues="@array/less_notification_sounds_values"
+        android:persistent="false" />
+
     <Preference
         android:key="charging_light"
         android:fragment="com.nitrogen.settings.BatteryLightSettings"

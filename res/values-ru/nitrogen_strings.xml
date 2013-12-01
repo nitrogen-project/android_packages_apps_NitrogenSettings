@@ -541,4 +541,18 @@
 
     <string name="qs_tile_title_visibility_title">Подписи плиток</string>
     <string name="qs_tile_title_visibility_summary">Отображать подписи плиток в панели быстрых настроек</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Снизить частоту звуков уведомлений</string>
+    <string name="less_notification_sounds_summary">Ограничить звуки уведомлений: каждое приложение воспроизводит звук один раз в заданный временной отрезок</string>
+    <string name="less_notification_sounds_default">По умолчанию</string>
+    <string name="less_notification_sounds_3s">3 секунды</string>
+    <string name="less_notification_sounds_5s">5 секунд</string>
+    <string name="less_notification_sounds_10s">10 секунд</string>
+    <string name="less_notification_sounds_15s">15 секунд</string>
+    <string name="less_notification_sounds_30s">30 секунд</string>
+    <string name="less_notification_sounds_45s">45 секунд</string>
+    <string name="less_notification_sounds_1m">1 минуту</string>
+    <string name="less_notification_sounds_2m">2 минуты</string>
+    <string name="less_notification_sounds_5m">5 минут</string>
 </resources>
