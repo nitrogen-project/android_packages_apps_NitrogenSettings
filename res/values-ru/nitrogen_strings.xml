@@ -362,4 +362,9 @@
     <!-- Toast app icon -->
     <string name="toast_icon_title">Иконка в тост-уведомлении</string>
     <string name="toast_icon_summary">Отображать значок приложения в тост-уведомлениях</string>
+
+    <!-- Disable QS on secure Lockscreen -->
+    <string name="lockscreen_qs_disabled_title">На экране блокировки</string>
+    <string name="lockscreen_qs_disabled_summary">Выключить панель быстрых настроек на защищенном экране блокировки</string>
+
 </resources>
