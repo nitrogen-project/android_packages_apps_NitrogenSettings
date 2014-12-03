@@ -197,6 +197,21 @@
         <item>3</item>
     </string-array>
 
+    <!-- Smart pulldown -->
+    <string-array name="smart_pulldown_entries" translatable="false">
+        <item>@string/smart_pulldown_off</item>
+        <item>@string/smart_pulldown_dismissable</item>
+        <item>@string/smart_pulldown_ongoing</item>
+        <item>@string/smart_pulldown_none</item>
+    </string-array>
+
+    <string-array name="smart_pulldown_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
     <!-- Volume key cursor control -->
     <string-array name="volbtn_cursor_control_entries" translatable="false">
         <item>@string/volbtn_cursor_control_off</item>
