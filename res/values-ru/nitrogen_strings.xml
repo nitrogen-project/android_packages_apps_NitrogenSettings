@@ -34,4 +34,13 @@
     <string name="cancel">Отмена</string>
     <string name="save">Сохранить</string>
 
+    <!-- Color picker -->
+    <string name="dialog_color_picker">Выбор цвета</string>
+    <string name="press_color_to_apply">Нажмите на цвет, чтобы применить</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_check_button_text">ПРОСМОТР</string>
+    <string name="hex_reset_button_text">СБРОС</string>
+    <string name="longpress_info">Удерживайте, чтобы сохранить цвет</string>
+    <string name="set">Выбрать</string>
+    <string name="color_default">По умолчанию</string>
 </resources>
