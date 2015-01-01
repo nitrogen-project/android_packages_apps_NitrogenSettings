@@ -537,4 +537,8 @@
     <string name="systemui_theme_style_auto">Авто (по обоям)</string>
     <string name="systemui_theme_style_light">Светлый</string>
     <string name="systemui_theme_style_dark">Темный</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Вибрация при касании</string>
+    <string name="quick_settings_vibrate_summary">Вибрировать при касании плиток</string>
 </resources>
