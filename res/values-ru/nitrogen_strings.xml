@@ -285,4 +285,8 @@
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Вибрация при касании</string>
+    <string name="quick_settings_vibrate_summary">Вибрировать при касании плиток</string>
 </resources>
