@@ -74,6 +74,9 @@
     <string name="notification_drawer_settings_title">Notification drawer</string>
     <string name="notification_panel_title">Notification panel</string>
     <string name="qs_panel_title">Quick settings panel</string>
+    <!-- Advanced location quick settings -->
+    <string name="qs_advanced_location_title">Advanced location settings</string>
+    <string name="qs_advanced_location_summary">Enable advanced settings for location in quick settings</string>
     <!-- Brightness slider -->
     <string name="qs_brightness_slider_title">Brightness slider</string>
     <!-- Force expand notifications -->
