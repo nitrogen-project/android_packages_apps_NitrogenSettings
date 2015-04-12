@@ -23,6 +23,13 @@
         android:entryValues="@array/heads_up_time_out_values"
         android:persistent="false" />
 
+    <ListPreference
+        android:key="heads_up_snooze_time"
+        android:title="@string/heads_up_snooze_title"
+        android:entries="@array/heads_up_snooze_entries"
+        android:entryValues="@array/heads_up_snooze_values"
+        android:persistent="false" />
+
     <com.pure.settings.preferences.SystemSettingSwitchPreference
         android:key="heads_up_force_all"
         android:title="@string/force_headsup_title"
