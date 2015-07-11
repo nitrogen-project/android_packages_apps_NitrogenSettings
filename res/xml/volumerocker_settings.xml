@@ -50,4 +50,10 @@
         android:entryValues="@array/volbtn_cursor_control_values"
         android:persistent="false" />
 
+    <PreferenceScreen
+        android:fragment="com.pure.settings.fragments.VolumeStepsSettings"
+        android:key="vol_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary" />
+
 </PreferenceScreen>
