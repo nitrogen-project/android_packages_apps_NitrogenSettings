@@ -30,4 +30,9 @@
 
     <!-- Lockscreen Fragment -->
     <string name="lockscreen_settings_title">Lockscreen</string>
+    <!-- Lockscreen Wallpaper -->
+    <string name="lockscreen_wallpaper_title">Lockscreen wallpaper</string>
+    <string name="lockscreen_wallpaper_set_title">Set lockscreen wallpaper</string>
+    <string name="lockscreen_wallpaper_clear_title">Reset lockscreen wallpaper</string>
+    <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper reset</string>
 </resources>
