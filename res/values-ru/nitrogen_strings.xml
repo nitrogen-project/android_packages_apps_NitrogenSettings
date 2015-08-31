@@ -35,6 +35,8 @@
     <string name="hex_check_button_text">ПРОСМОТР</string>
     <string name="hex_reset_button_text">СБРОС</string>
     <string name="longpress_info">Удерживайте, чтобы сохранить цвет</string>
+    <string name="set">Выбрать</string>
+    <string name="color_default">По умолчанию</string>
 
     <!-- General strings -->
     <string name="ok">Ок</string>
