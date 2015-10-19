@@ -90,6 +90,9 @@
     <!-- Kill app long-press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back button</string>
+    <!-- Recent longpress last app toggle -->
+    <string name="recents_longpress_title">Recents longpress</string>
+    <string name="recents_longpress_summary">Longpress recents to go to last open app</string>
     <!-- Navbar toggle -->
     <string name="navbar_enable_bar">Enable</string>
     <!-- Navbar Dimensions -->
