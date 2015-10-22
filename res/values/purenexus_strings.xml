@@ -59,6 +59,9 @@
     <!-- Force expand notifications -->
     <string name="notification_force_expand_title">Force expanded notifications</string>
     <string name="notification_force_expand_summary">Auto expands notifications on apps that support it</string>
+    <!-- notification panel header weather -->
+    <string name="status_bar_show_weather_title">Show weather</string>
+    <string name="status_bar_show_weather_summary">Show weather in the notification panel header</string>
     <!-- Quicks settings shortcut -->
     <string name="quick_settings_title">Quick Settings</string>
     <string name="quick_settings_summary">Configure quick settings tiles</string>
