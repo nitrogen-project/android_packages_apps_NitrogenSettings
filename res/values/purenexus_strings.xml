@@ -53,6 +53,9 @@
     <!-- Notification panel fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
     <string name="qs_panel_title">Quick settings panel</string>
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Force expanded notifications</string>
+    <string name="notification_force_expand_summary">Auto expands notifications on apps that support it</string>
     <!-- Quicks settings shortcut -->
     <string name="quick_settings_title">Quick Settings</string>
     <string name="quick_settings_summary">Configure quick settings tiles</string>
