@@ -96,7 +96,7 @@
     <string name="volumerocker_settings_title">Volume rocker</string>
     <!-- Volume button wake -->
     <string name="volbtn_wake_device_title">Volume button wake</string>
-    <string name="volbtn_wake_device_summary">Pressing either volume button will wake your device</string>
+    <string name="button_wake_summary">Overrides music control</string>
     <!-- Volume button track change -->
     <string name="volbtn_music_controls_title">Music control</string>
     <string name="volbtn_music_controls_summary">With screen off, long pressing the volume keys will seek tracks</string>
