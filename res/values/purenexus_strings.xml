@@ -94,4 +94,7 @@
 
     <!-- Volume Rocker fragment -->
     <string name="volumerocker_settings_title">Volume rocker</string>
+    <!-- Volume button wake -->
+    <string name="volbtn_wake_device_title">Volume button wake</string>
+    <string name="volbtn_wake_device_summary">Pressing either volume button will wake your device</string>
 </resources>
