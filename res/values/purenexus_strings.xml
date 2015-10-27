@@ -83,6 +83,25 @@
 
     <!-- Navbar fragment -->
     <string name="navbar_settings_title">Navigation bar</string>
+    <string name="navigation_bar_opt_cat">Navigation bar options</string>
+    <string name="navigation_bar_cus">Navbar customization</string>
+    <!-- Navbar toggle -->
+    <string name="navbar_enable_bar">Enable</string>
+    <!-- Navbar Dimensions -->
+    <string name="navbar_dimensions_title">Navbar Dimensions</string>
+    <string name="navigation_bar_height_title">Navigation bar height</string>
+    <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
+    <string name="navigation_bar_width_title">Navigation bar width</string>
+    <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+    <string name="navigation_bar_size_36_dp">36 dp</string>
+    <string name="navigation_bar_size_30_dp">30 dp</string>
+    <string name="navigation_bar_size_24_dp">24 dp</string>
+    <string name="navigation_bar_size_52_dp">52 dp</string>
+    <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+    <string name="navigation_bar_size_44_dp">44 dp</string>
+    <string name="navigation_bar_size_40_dp">40 dp</string>
+    <string name="navigation_bar_size_42_dp">42 dp</string>
+    <string name="navigation_bar_size_0_dp">0 dp (off)</string>
 
     <!-- Notification panel fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
