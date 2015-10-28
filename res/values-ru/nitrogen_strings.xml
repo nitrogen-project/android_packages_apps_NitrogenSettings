@@ -181,6 +181,7 @@
     <string name="network_traffic_hidearrow">Скрыть стрелки</string>
     <string name="network_traffic_hidearrow_summary">Скрыть стрелки активности индикатора</string>
 
+<<<<<<< HEAD
     <!-- Power Menu -->
     <string name="powermenu_screenshot">Снимок экрана</string>
     <string name="powermenu_screenrecord">Запись экрана</string>
@@ -224,4 +225,12 @@
      <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Кнопка адаптивной яркости</string>
     <string name="brightness_icon_summary">Отображать кнопку включения адаптивной яркости справа от регулятора</string>
+
+    <!-- Battery percentage -->
+    <string name="battery_style_category_title">Иконка батареи</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда</string>
+    <string name="status_bar_battery_percentage_default">Не отображать</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
+
 </resources>
