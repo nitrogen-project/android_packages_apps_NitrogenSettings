@@ -145,6 +145,9 @@
     <string name="clock_date_style_lowercase">Lowercase</string>
     <string name="clock_date_style_uppercase">Uppercase</string>
     <string name="clock_date_format_custom">Custom java format</string>
+    <!-- double tap statusbar to sleep -->
+    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
     <!-- Network traffic Settings -->
     <string name="nettraffic_settings_title">Network traffic</string>
     <string name="nettraffic_settings_summary">Network traffic options</string>
