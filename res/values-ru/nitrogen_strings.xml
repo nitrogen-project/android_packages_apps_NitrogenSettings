@@ -60,4 +60,11 @@
     <string name="volume_key_cursor_control_off">Выключено</string>
     <string name="volume_key_cursor_control_on">Кнопка "+" двигает курсор влево, "-" вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Кнопка "+" двигает курсор вправо, "-" влево</string>
+
+    <!-- Battery percentage -->
+    <string name="battery_style_category_title">Иконка батареи</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда</string>
+    <string name="status_bar_battery_percentage_default">Не отображать</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
 </resources>
