@@ -184,4 +184,5 @@
     <string name="status_bar_battery_style_title">Стиль батареи</string>
     <string name="status_bar_battery_style_port">Вертикальный значок</string>
     <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
 </resources>
