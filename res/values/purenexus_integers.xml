@@ -15,17 +15,9 @@
 -->
 
 <resources>
-    <!-- SeekBar -->
-    <declare-styleable name="SeekBarPreference">
-        <attr name="interval" format="integer" />
-        <attr name="minimum" format="integer" />
-        <attr name="unitsLeft" format="string|reference" />
-        <attr name="unitsRight" format="string|reference" />
-    </declare-styleable>
-    <!-- ColorPicker -->
-    <declare-styleable name="ColorPickPref">
-        <attr name="alphaSlider" format="boolean" />
-        <attr name="alphaText" format="boolean" />
-        <attr name="colorgroupname" format="string" />
-    </declare-styleable>
+    <!-- Overlays for NetworkTraffic to use -->
+    <integer name="maskUp">0x00000001</integer>
+    <integer name="maskDown">0x00000002</integer>
+    <integer name="maskUnit">0x00000004</integer>
+    <integer name="maskPeriod">0xFFFF0000</integer>
 </resources>

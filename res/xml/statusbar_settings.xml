@@ -29,6 +29,12 @@
         android:summary="@string/clock_settings_summary" />
 
     <PreferenceScreen
+        android:fragment="com.pure.settings.fragments.NetworkTrafficSettings"
+        android:key="pure_nettraffic_settings"
+        android:title="@string/nettraffic_settings_title"
+        android:summary="@string/nettraffic_settings_summary" />
+
+    <PreferenceScreen
             android:title="@string/status_bar_icon_blacklist_title"
             android:summary="@string/status_bar_icon_blacklist_summary" >
         <intent android:action="android.intent.action.MAIN"
