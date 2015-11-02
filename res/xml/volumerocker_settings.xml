@@ -17,6 +17,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.pure.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_keys_control_media_stream"
+        android:title="@string/volume_keys_control_media_stream_title"
+        android:summary="@string/volume_keys_control_media_stream_summary"
+        android:defaultValue="false" />
+
+    <com.pure.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_wake_screen"
         android:title="@string/volbtn_wake_device_title"
         android:summary="@string/button_wake_summary"
