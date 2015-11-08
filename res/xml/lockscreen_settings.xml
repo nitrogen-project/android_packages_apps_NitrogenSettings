@@ -20,6 +20,13 @@
         android:key="lockscreen_options"
         android:title="@string/lockscreen_options_title" >
 
+        <PreferenceScreen
+            android:title="@string/lockscreen_targets_message" >
+            <intent
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.purenexus.LockscreenShortcutsActivity" />
+        </PreferenceScreen>
+
         <com.pure.settings.preferences.SystemSettingSwitchPreference
             android:key="keyguard_toggle_torch"
             android:title="@string/keyguard_torch_title"
