@@ -63,6 +63,9 @@
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
     <!-- Lockscreen custom shortcuts -->
     <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
+    <!-- Lockscreen double tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
 
     <!-- Notification panel fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
