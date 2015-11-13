@@ -88,6 +88,12 @@
             android:title="@string/qs_brightness_slider_title"
             android:defaultValue="true"/>
 
+        <com.pure.settings.preferences.SystemSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
+
     </PreferenceCategory>	    
 
 </PreferenceScreen>
