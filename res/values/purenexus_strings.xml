@@ -50,6 +50,9 @@
     <!-- Pin scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <!-- quick pin unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Enable at your own discretion. pins with more than 4 digits can cause issues</string>
     <!-- Lockscreen Wallpaper -->
     <string name="lockscreen_wallpaper_title">Lockscreen wallpaper</string>
     <string name="lockscreen_wallpaper_set_title">Set lockscreen wallpaper</string>
