@@ -130,6 +130,9 @@
     <string name="recents_clear_all_location_bottom_right">Bottom right</string>
     <string name="recents_clear_all_location_bottom_left">Bottom left</string>
     <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <!-- Recent clear all tasks option -->
+    <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
+    <string name="recents_clear_all_dismiss_all_summary">Include foreground task when clearing all</string>
 
     <!-- StatusBar fragment -->
     <string name="statusbar_settings_title">Statusbar</string>
