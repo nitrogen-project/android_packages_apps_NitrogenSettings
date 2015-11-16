@@ -133,6 +133,9 @@
     <!-- Recent clear all tasks option -->
     <string name="recents_clear_all_dismiss_all_title">Clear all tasks</string>
     <string name="recents_clear_all_dismiss_all_summary">Include foreground task when clearing all</string>
+    <!-- Recent search bar -->
+    <string name="recents_searchbar_title">Search bar</string>
+    <string name="recents_searchbar_summary">Show Google search bar in the recents screen</string>
 
     <!-- StatusBar fragment -->
     <string name="statusbar_settings_title">Statusbar</string>
