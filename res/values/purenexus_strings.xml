@@ -71,6 +71,8 @@
     <string name="notification_drawer_settings_title">Notification drawer</string>
     <string name="notification_panel_title">Notification panel</string>
     <string name="qs_panel_title">Quick settings panel</string>
+    <!-- Brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness slider</string>
     <!-- Force expand notifications -->
     <string name="notification_force_expand_title">Force expanded notifications</string>
     <string name="notification_force_expand_summary">Auto expands notifications on apps that support it</string>
