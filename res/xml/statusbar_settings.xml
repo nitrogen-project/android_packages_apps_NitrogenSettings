@@ -23,6 +23,12 @@
         android:summary="@string/battery_settings_summary" />
 
     <PreferenceScreen
+        android:fragment="com.pure.settings.fragments.CarrierLabelSettings"
+        android:key="pure_carrier_label_settings"
+        android:title="@string/carrier_label_settings_title"
+        android:summary="@string/carrier_label_settings_summary" />
+
+    <PreferenceScreen
         android:fragment="com.pure.settings.fragments.ClockSettings"
         android:key="pure_clock_settings"
         android:title="@string/clock_settings_title"
