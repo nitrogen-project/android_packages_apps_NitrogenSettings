@@ -36,6 +36,12 @@
         android:defaultValue="false"
         android:dependency="volume_wake_screen" />
 
+    <com.pure.settings.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="false"/>
+
     <ListPreference
         android:key="volume_key_cursor_control"
         android:dialogTitle="@string/volbtn_cursor_control_title"
