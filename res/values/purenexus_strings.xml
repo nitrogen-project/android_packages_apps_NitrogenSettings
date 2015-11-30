@@ -149,7 +149,22 @@
     <string name="statusbar_settings_title">Statusbar</string>
     <!-- Battery settings -->
     <string name="battery_settings_title">Battery settings</string>
-    <string name="battery_settings_summary">Change battery icon, percentage</string>
+    <string name="battery_settings_summary">Custom battery &amp; batterybar options</string>
+    <string name="status_bar_battery_title">Battery icon</string>
+    <!-- Battery bar settings -->
+    <string name="battery_bar_title">Battery Bar</string>
+    <string name="battery_bar_location">Battery bar location</string>
+    <string name="battery_bar_color">Battery bar color</string>
+    <string name="battery_bar_style_title">Battery bar style</string>
+    <string name="battery_bar_thickness_title">Battery bar thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
+    <string name="battery_bar_hide">Hide</string>
+    <string name="battery_bar_statusbar">Statusbar</string>
+    <string name="battery_bar_topnav">Top of navbar</string>
+    <string name="battery_bar_bottomnav">Bottom of navbar</string>
+    <string name="battery_bar_reg">Regular</string>
+    <string name="battery_bar_center">Center-mirrored</string>
     <!-- Battery icon options -->
     <string name="status_bar_battery_style_title">Battery status style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
