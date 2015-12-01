@@ -201,6 +201,9 @@
     <!-- Battery saver notification toggle -->
     <string name="battery_saver_notif_title">Battery saver notification</string>
     <string name="battery_saver_notif_summary">Show battery saver notification when enabled</string>
+    <!-- Camera shutter sound -->
+    <string name="camera_sounds_title">Camera shutter sound</string>
+    <string name="camera_sounds_summary">Enable system camera shutter sound</string>
     <!-- low battery notification toggle -->
     <string name="battery_low_notif_title">Low battery notification</string>
     <string name="battery_low_notif_summary">Show low battery notification when enabled</string>

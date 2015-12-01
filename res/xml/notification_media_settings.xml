@@ -20,6 +20,12 @@
         android:key="media_cat"
         android:title="@string/media_cat_title" >
 
+        <SwitchPreference
+            android:key="camera_sounds"
+            android:title="@string/camera_sounds_title"
+            android:summary="@string/camera_sounds_summary"
+            android:defaultValue="true" />
+
         <com.pure.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_vibrate"
             android:title="@string/dbl_tap_vib_title"
