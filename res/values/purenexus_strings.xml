@@ -107,6 +107,9 @@
     <!-- low battery notification toggle -->
     <string name="battery_low_notif_title">Low battery notification</string>
     <string name="battery_low_notif_summary">Show low battery notification when enabled</string>
+    <!-- double tap power button vibration -->
+    <string name="dbl_tap_vib_title">Double tap power for camera vibration</string>
+    <string name="dbl_tap_vib_summary">Vibrate on double tap of power button when enabled</string>
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>

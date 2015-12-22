@@ -17,6 +17,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.pure.settings.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_vibrate"
+        android:title="@string/dbl_tap_vib_title"
+        android:summary="@string/dbl_tap_vib_summary"
+        android:defaultValue="true" />
+
+    <com.pure.settings.preferences.SystemSettingSwitchPreference
         android:key="battery_saver_notification"
         android:title="@string/battery_saver_notif_title"
         android:summary="@string/battery_saver_notif_summary"
