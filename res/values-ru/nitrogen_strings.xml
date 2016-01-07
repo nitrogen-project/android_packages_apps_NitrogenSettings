@@ -331,4 +331,8 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Значок яркости</string>
+    <string name="brightness_icon_summary">Показать значок включения автояркости слева от регулятора</string>
 </resources>

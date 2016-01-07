@@ -330,4 +330,8 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Brightness icon</string>
+    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust autobrightness</string>
 </resources>
