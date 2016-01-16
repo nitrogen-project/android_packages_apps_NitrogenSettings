@@ -136,6 +136,12 @@
     <!-- Recent search bar -->
     <string name="recents_searchbar_title">Search bar</string>
     <string name="recents_searchbar_summary">Show Google search bar in the recents screen</string>
+    <!-- Immersive recents -->
+    <string name="immersive_recents_title">Immersive Recents</string>
+    <string name="immersive_recents_default">Default</string>
+    <string name="immersive_recents_fullscreen">Fullscreen</string>
+    <string name="immersive_recents_statusbar">Statusbar only</string>
+    <string name="immersive_recents_navbar">Navbar only</string>
 
     <!-- StatusBar fragment -->
     <string name="statusbar_settings_title">Statusbar</string>

@@ -127,6 +127,21 @@
         <item>@string/clock_date_format_custom</item>
     </string-array>
 
+    <!-- Immersive Recents -->
+    <string-array name="immersive_recents_entries" translatable="false">
+        <item>@string/immersive_recents_default</item>
+        <item>@string/immersive_recents_fullscreen</item>
+        <item>@string/immersive_recents_statusbar</item>
+        <item>@string/immersive_recents_navbar</item>
+    </string-array>
+
+    <string-array name="immersive_recents_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
     <!-- Network Traffic -->
     <string-array name="show_network_traffic_state_entries" translatable="false">
         <item>@string/show_network_traffic_disable</item>
@@ -197,7 +212,7 @@
         <item>3</item>
     </string-array>
 
-    <!-- clear all recents button location -->
+    <!-- Recents Clear all location -->
     <string-array name="recents_clear_all_location_entries" translatable="false">
         <item>@string/recents_clear_all_location_top_right</item>
         <item>@string/recents_clear_all_location_top_left</item>

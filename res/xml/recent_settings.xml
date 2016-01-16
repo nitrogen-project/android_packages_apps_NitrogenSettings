@@ -16,6 +16,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <ListPreference
+        android:key="immersive_recents"
+        android:title="@string/immersive_recents_title"
+        android:entries="@array/immersive_recents_entries"
+        android:entryValues="@array/immersive_recents_values"
+        android:persistent="false" />
+
      <com.pure.settings.preferences.SystemSettingSwitchPreference
         android:key="recents_show_search_bar"
         android:title="@string/recents_searchbar_title"
