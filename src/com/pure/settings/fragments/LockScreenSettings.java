@@ -17,7 +17,9 @@ package com.pure.settings.fragments;
 
 import android.app.Activity;
 import android.app.WallpaperManager;
+import android.content.Context;
 import android.content.Intent;
+import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -42,12 +44,15 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
     private static final String LS_OPTIONS_CAT = "lockscreen_options";
     private static final String LS_SECURE_CAT = "lockscreen_secure_options";
 
+    private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
     private static final String KEY_WALLPAPER_SET = "lockscreen_wallpaper_set";
     private static final String KEY_WALLPAPER_CLEAR = "lockscreen_wallpaper_clear";
 
+    private FingerprintManager mFingerprintManager;
     private Preference mSetWallpaper;
     private Preference mClearWallpaper;
     private SystemSettingSwitchPreference mLsTorch;
+    private SystemSettingSwitchPreference mFingerprintVib;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -66,6 +71,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
         mLsTorch = (SystemSettingSwitchPreference) prefScreen.findPreference("keyguard_toggle_torch");
         if (!Utils.deviceSupportsFlashLight(getActivity())) {
             optionsCategory.removePreference(mLsTorch);
+        }
+
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
+        if (!mFingerprintManager.isHardwareDetected()){
+            secureCategory.removePreference(mFingerprintVib);
         }
 
         if (!lockPatternUtils.isSecure(MY_USER_ID)) {
