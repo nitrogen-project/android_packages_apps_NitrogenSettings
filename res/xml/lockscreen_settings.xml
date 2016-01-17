@@ -20,6 +20,12 @@
         android:key="lockscreen_options"
         android:title="@string/lockscreen_options_title" >
 
+        <com.pure.settings.preferences.SystemSettingSwitchPreference
+            android:key="keyguard_toggle_torch"
+            android:title="@string/keyguard_torch_title"
+            android:summary="@string/keyguard_torch_summary"
+            android:defaultValue="false" />
+
     </PreferenceCategory>	    
 
     <PreferenceCategory

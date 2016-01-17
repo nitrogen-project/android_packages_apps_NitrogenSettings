@@ -51,6 +51,9 @@
     <string name="lockscreen_wallpaper_set_title">Set lockscreen wallpaper</string>
     <string name="lockscreen_wallpaper_clear_title">Reset lockscreen wallpaper</string>
     <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper reset</string>
+    <!-- Lockscreen torch -->
+    <string name="keyguard_torch_title">Lockscreen torch</string>
+    <string name="keyguard_torch_summary">Longpress power button with screen off turns on torch</string>
 
     <!-- Notification panel fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>

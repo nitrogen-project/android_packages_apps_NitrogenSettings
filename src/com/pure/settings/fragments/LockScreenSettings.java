@@ -30,6 +30,9 @@ import com.android.internal.logging.MetricsLogger;
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.android.settings.Utils;
+
+import com.pure.settings.preferences.SystemSettingSwitchPreference;
 
 public class LockScreenSettings extends SettingsPreferenceFragment {
     public static final int IMAGE_PICK = 1;
@@ -43,6 +46,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
 
     private Preference mSetWallpaper;
     private Preference mClearWallpaper;
+    private SystemSettingSwitchPreference mLsTorch;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,6 +61,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment {
 
         mSetWallpaper = (Preference) findPreference(KEY_WALLPAPER_SET);
         mClearWallpaper = (Preference) findPreference(KEY_WALLPAPER_CLEAR);
+
+        mLsTorch = (SystemSettingSwitchPreference) prefScreen.findPreference("keyguard_toggle_torch");
+        if (!Utils.deviceSupportsFlashLight(getActivity())) {
+            optionsCategory.removePreference(mLsTorch);
+        }
 
         if (!lockPatternUtils.isSecure(MY_USER_ID)) {
             prefScreen.removePreference(secureCategory);
