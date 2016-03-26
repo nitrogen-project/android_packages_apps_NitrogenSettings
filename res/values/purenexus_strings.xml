@@ -147,6 +147,9 @@
     <string name="heads_up_whitelist_title">Whitelist</string>
     <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up.</string>
     <string name="heads_up_contains_key">Already added this application to the list</string>
+    <!-- force heads up all apps -->
+    <string name="force_headsup_title">Force heads up</string>
+    <string name="force_headsup_summary">Force heads up in all applications</string>
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>

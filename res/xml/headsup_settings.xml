@@ -16,9 +16,17 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.pure.settings.preferences.SystemSettingSwitchPreference
+        android:key="heads_up_force_all"
+        android:title="@string/force_headsup_title"
+        android:summary="@string/force_headsup_summary"
+        android:defaultValue="false"
+        android:disableDependentsState="true" />
+
     <PreferenceCategory
             android:title="@string/heads_up_whitelist_title"
-            android:key="whitelist_applications" >
+            android:key="whitelist_applications"
+            android:dependency="heads_up_force_all" >
         <Preference
             android:key="add_whitelist_packages"
             android:icon="@drawable/ic_menu_add_dark"
