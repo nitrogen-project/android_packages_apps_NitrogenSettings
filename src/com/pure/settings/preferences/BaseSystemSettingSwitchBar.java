@@ -25,7 +25,7 @@ import android.provider.Settings;
 import android.widget.Switch;
 import com.android.settings.widget.SwitchBar;
 
-public class BaseGlobalSettingSwitchBar implements SwitchBar.OnSwitchChangeListener  {
+public class BaseSystemSettingSwitchBar implements SwitchBar.OnSwitchChangeListener  {
     private Context mContext;
     private SwitchBar mSwitchBar;
     private SettingsObserver mSettingsObserver;
@@ -41,7 +41,7 @@ public class BaseGlobalSettingSwitchBar implements SwitchBar.OnSwitchChangeListe
         public void onEnablerChanged(boolean isEnabled);
     }
 
-    public BaseGlobalSettingSwitchBar(Context context, SwitchBar switchBar, String key,
+    public BaseSystemSettingSwitchBar(Context context, SwitchBar switchBar, String key,
                                       boolean defaultState, SwitchBarChangeCallback callback) {
         mContext = context;
         mSwitchBar = switchBar;
@@ -98,7 +98,7 @@ public class BaseGlobalSettingSwitchBar implements SwitchBar.OnSwitchChangeListe
     }
 
     private void setSwitchState() {
-        boolean enabled = Settings.Global.getInt(mContext.getContentResolver(),
+        boolean enabled = Settings.System.getInt(mContext.getContentResolver(),
                 mSettingKey, mDefaultState) == 1;
         mStateMachineEvent = true;
         setSwitchBarChecked(enabled);
@@ -113,7 +113,7 @@ public class BaseGlobalSettingSwitchBar implements SwitchBar.OnSwitchChangeListe
         }
 
         // Handle a switch change
-        Settings.Global.putInt(mContext.getContentResolver(),
+        Settings.System.putInt(mContext.getContentResolver(),
                 mSettingKey, isChecked ? 1 : 0);
 
         if (mCallback != null) {
@@ -128,7 +128,7 @@ public class BaseGlobalSettingSwitchBar implements SwitchBar.OnSwitchChangeListe
 
         void observe() {
             ContentResolver resolver = mContext.getContentResolver();
-            resolver.registerContentObserver(Settings.Global.getUriFor(
+            resolver.registerContentObserver(Settings.System.getUriFor(
                     mSettingKey), false, this);
             update();
         }
