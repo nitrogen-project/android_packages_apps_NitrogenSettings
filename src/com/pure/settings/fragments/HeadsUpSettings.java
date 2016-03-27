@@ -20,11 +20,14 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -53,11 +56,16 @@ import java.util.Map;
 
 public class HeadsUpSettings extends SettingsPreferenceFragment
         implements BaseSystemSettingSwitchBar.SwitchBarChangeCallback,
-                AdapterView.OnItemLongClickListener, Preference.OnPreferenceClickListener {
+                AdapterView.OnItemLongClickListener, Preference.OnPreferenceClickListener,
+                            OnPreferenceChangeListener {
 
     private static final int DIALOG_DND_APPS = 0;
     private static final int DIALOG_BLACKLIST_APPS = 1;
     private static final int DIALOG_WHITELIST_APPS = 2;
+
+    private static final String PREF_HEADS_UP_TIME_OUT = "heads_up_time_out";
+
+    private ListPreference mHeadsUpTimeOut;
 
     private PackageListAdapter mPackageAdapter;
     private PackageManager mPackageManager;
@@ -87,6 +95,22 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.headsup_settings);
         mPackageManager = getPackageManager();
         mPackageAdapter = new PackageListAdapter(getActivity());
+
+        Resources systemUiResources;
+        try {
+            systemUiResources = mPackageManager.getResourcesForApplication("com.android.systemui");
+        } catch (Exception e) {
+            return;
+        }
+
+        int defaultTimeOut = systemUiResources.getInteger(systemUiResources.getIdentifier(
+                    "com.android.systemui:integer/heads_up_notification_decay", null, null));
+        mHeadsUpTimeOut = (ListPreference) findPreference(PREF_HEADS_UP_TIME_OUT);
+        mHeadsUpTimeOut.setOnPreferenceChangeListener(this);
+        int headsUpTimeOut = Settings.System.getInt(getContentResolver(),
+                Settings.System.HEADS_UP_TIMEOUT, defaultTimeOut);
+        mHeadsUpTimeOut.setValue(String.valueOf(headsUpTimeOut));
+        updateHeadsUpTimeOutSummary(headsUpTimeOut);
 
         mDndPrefList = (PreferenceGroup) findPreference("dnd_applications_list");
         mDndPrefList.setOrderingAsAdded(false);
@@ -327,6 +351,25 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
         mDndPrefList.addPreference(mAddDndPref);
         mBlacklistPrefList.addPreference(mAddBlacklistPref);
         mWhitelistPrefList.addPreference(mAddWhitelistPref);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mHeadsUpTimeOut) {
+            int headsUpTimeOut = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.HEADS_UP_TIMEOUT,
+                    headsUpTimeOut);
+            updateHeadsUpTimeOutSummary(headsUpTimeOut);
+            return true;
+        }
+        return false;
+    }
+
+    private void updateHeadsUpTimeOutSummary(int value) {
+        String summary = getResources().getString(R.string.heads_up_time_out_summary,
+                value / 1000);
+        mHeadsUpTimeOut.setSummary(summary);
     }
 
     @Override
