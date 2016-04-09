@@ -38,6 +38,9 @@
     <!-- Wake when connected/disconnected -->
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn on screen when connecting or disconnecting charger</string>
+    <!-- Three finger swipe screenshot -->
+    <string name="three_finger_gesture">Three finger screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers across the screen to screenshot</string>
 
     <!-- General strings -->
     <string name="cancel">Cancel</string>
