@@ -11,8 +11,18 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Main Menu -->
-    <!-- Title -->
+    <!-- App Title -->
     <string name="pure_settings_title">PureNexus Settings</string>
+
+    <!-- Color picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint" translatable="false">#FFDDDDDD</string>
+    <string name="hex_check_button_text">PREVIEW</string>
+    <string name="hex_reset_button_text">RESET</string>
+    <string name="color_right_arrow" translatable="false">"→"</string>
+    <string name="color_down_arrow" translatable="false">"↓"</string>
+    <string name="longpress_info">Longpress box to save color</string>
 
 </resources>
