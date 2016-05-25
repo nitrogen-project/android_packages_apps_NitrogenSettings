@@ -15,17 +15,6 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/pure_settings_title">
-
-    <PreferenceCategory
-        android:key="pure_interface"
-        android:title="@string/pure_interface">
-
-        <PreferenceScreen
-            android:fragment="com.pure.settings.fragments.LockScreenSettings"
-            android:key="pure_lockscreen_settings"
-            android:title="@string/lockscreen_settings_title"/>
-
-    </PreferenceCategory>
+    android:title="@string/lockscreen_settings_title">
 
 </PreferenceScreen>

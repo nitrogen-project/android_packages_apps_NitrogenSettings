@@ -14,6 +14,9 @@
     <!-- App Title -->
     <string name="pure_settings_title">PureNexus Settings</string>
 
+    <!-- Categories -->
+    <string name="pure_interface">Interface</string>
+
     <!-- Color picker -->
     <string name="dialog_color_picker">Color Picker</string>
     <string name="press_color_to_apply">Press on Color to apply</string>
@@ -25,4 +28,6 @@
     <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Longpress box to save color</string>
 
+    <!-- Lockscreen Fragment -->
+    <string name="lockscreen_settings_title">Lockscreen</string>
 </resources>
