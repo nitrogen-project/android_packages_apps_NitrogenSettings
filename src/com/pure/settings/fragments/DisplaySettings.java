@@ -16,22 +16,46 @@
 package com.pure.settings.fragments;
 
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.preference.Preference;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 
 import com.android.internal.logging.MetricsLogger;
+import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 public class DisplaySettings extends SettingsPreferenceFragment {
+
+    private static final String KEY_NOTIFICATION_LIGHT = "notification_light";
+    private static final String KEY_BATTERY_LIGHT = "battery_light";
+
+    private static final String CATEGORY_LEDS = "pure_leds";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.disp_settings);
+
+        final PreferenceCategory leds = (PreferenceCategory)
+                findPreference(CATEGORY_LEDS);
+		initPulse(leds);
     }
 
     @Override
     protected int getMetricsCategory() {
         return MetricsLogger.PURE_SETTINGS;
+    }
+
+    private void initPulse(PreferenceCategory parent) {
+        if (!getResources().getBoolean(
+                com.android.internal.R.bool.config_intrusiveNotificationLed)) {
+            parent.removePreference(parent.findPreference(KEY_NOTIFICATION_LIGHT));
+        }
+        if (!getResources().getBoolean(
+                com.android.internal.R.bool.config_intrusiveBatteryLed)
+                || UserHandle.myUserId() != UserHandle.USER_OWNER) {
+            parent.removePreference(parent.findPreference(KEY_BATTERY_LIGHT));
+        }
     }
 }

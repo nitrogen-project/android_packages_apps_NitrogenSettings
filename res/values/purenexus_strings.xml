@@ -31,6 +31,8 @@
 
     <!-- Display fragment -->
     <string name="display_settings_title">Display</string>
+    <!-- LED controls -->
+    <string name="led_category">LED controls</string>
 
     <!-- Lockscreen Fragment -->
     <string name="lockscreen_settings_title">Lockscreen</string>
