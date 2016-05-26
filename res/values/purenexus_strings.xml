@@ -16,6 +16,7 @@
 
     <!-- Categories -->
     <string name="pure_interface">Interface</string>
+    <string name="pure_system">System</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -27,6 +28,9 @@
     <string name="color_right_arrow" translatable="false">"→"</string>
     <string name="color_down_arrow" translatable="false">"↓"</string>
     <string name="longpress_info">Longpress box to save color</string>
+
+    <!-- Display fragment -->
+    <string name="display_settings_title">Display</string>
 
     <!-- Lockscreen Fragment -->
     <string name="lockscreen_settings_title">Lockscreen</string>

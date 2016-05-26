@@ -28,4 +28,15 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="pure_system"
+        android:title="@string/pure_system">
+
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.DisplaySettings"
+            android:key="pure_display_settings"
+            android:title="@string/display_settings_title"/>
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
