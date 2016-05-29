@@ -16,6 +16,7 @@
 
     <!-- Categories -->
     <string name="pure_interface">Interface</string>
+    <string name="pure_buttons">Buttons</string>
     <string name="pure_system">System</string>
 
     <!-- Color picker -->
@@ -42,4 +43,7 @@
     <string name="lockscreen_wallpaper_set_title">Set lockscreen wallpaper</string>
     <string name="lockscreen_wallpaper_clear_title">Reset lockscreen wallpaper</string>
     <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper reset</string>
+
+    <!-- Power Menu fragment -->
+    <string name="powermenu_settings_title">PowerMenu</string>
 </resources>

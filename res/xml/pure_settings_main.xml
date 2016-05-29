@@ -29,6 +29,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="pure_buttons"
+        android:title="@string/pure_buttons">
+
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.PowerMenuSettings"
+            android:key="pure_powermenu_settings"
+            android:title="@string/powermenu_settings_title"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="pure_system"
         android:title="@string/pure_system">
 
