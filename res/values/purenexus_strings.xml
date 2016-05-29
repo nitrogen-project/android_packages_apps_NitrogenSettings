@@ -44,6 +44,13 @@
     <string name="lockscreen_wallpaper_clear_title">Reset lockscreen wallpaper</string>
     <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper reset</string>
 
+    <!-- Notification panel fragment -->
+    <string name="notification_drawer_settings_title">Notification drawer</string>
+    <string name="qs_panel_title">Quick settings panel</string>
+    <!-- Quicks settings shortcut -->
+    <string name="quick_settings_title">Quick Settings</string>
+    <string name="quick_settings_summary">Configure quick settings tiles</string>
+
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>
     <!-- Power menu customization -->
@@ -60,4 +67,10 @@
     <string name="power_menu_bug_report_title">Bug report</string>
     <string name="power_menu_sound_title">Sound panel</string>
     <string name="power_menu_bug_report_disabled">Bug reporting is disabled in development settings</string>
+
+    <!-- StatusBar fragment -->
+    <string name="statusbar_settings_title">Statusbar</string>
+    <!-- StatusBar icons -->
+    <string name="status_bar_icon_blacklist_title">Status bar icons</string>
+    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
 </resources>

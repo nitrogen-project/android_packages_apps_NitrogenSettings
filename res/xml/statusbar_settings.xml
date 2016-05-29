@@ -14,22 +14,14 @@
      limitations under the License.
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">	    
 
-    <PreferenceCategory
-        android:key="lockscreen_wallpaper"
-        android:title="@string/lockscreen_wallpaper_title">
-
-        <Preference
-            android:key="lockscreen_wallpaper_set"
-            android:title="@string/lockscreen_wallpaper_set_title"
-            android:persistent="false"/>
-
-        <Preference
-            android:key="lockscreen_wallpaper_clear"
-            android:title="@string/lockscreen_wallpaper_clear_title"
-            android:persistent="false"/>
-
-    </PreferenceCategory>	    
+    <PreferenceScreen
+            android:title="@string/status_bar_icon_blacklist_title"
+            android:summary="@string/status_bar_icon_blacklist_summary" >
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.TunerActivity" />
+    </PreferenceScreen>
 
 </PreferenceScreen>
