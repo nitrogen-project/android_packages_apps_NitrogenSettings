@@ -18,6 +18,17 @@
     android:title="@string/display_settings_title">
 
     <PreferenceCategory
+        android:key="disp"
+        android:title="@string/display_category" >
+
+        <PreferenceScreen
+            android:key="expanded_desktop"
+            android:title="@string/power_menu_expanded_desktop"
+            android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="pure_leds"
         android:title="@string/led_category" >
 
