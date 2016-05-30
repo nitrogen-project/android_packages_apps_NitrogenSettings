@@ -16,11 +16,23 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <com.pure.settings.preferences.SystemSettingSwitchPreference
-        android:key="lockscreen_scramble_pin_layout"
-        android:title="@string/unlock_scramble_pin_layout_title"
-        android:summary="@string/unlock_scramble_pin_layout_summary"
-        android:defaultValue="false" />
+    <PreferenceCategory
+        android:key="lockscreen_options"
+        android:title="@string/lockscreen_options_title" >
+
+    </PreferenceCategory>	    
+
+    <PreferenceCategory
+        android:key="lockscreen_secure_options"
+        android:title="@string/lockscreen_secure_options_title" >
+
+        <com.pure.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_scramble_pin_layout"
+            android:title="@string/unlock_scramble_pin_layout_title"
+            android:summary="@string/unlock_scramble_pin_layout_summary"
+	    android:defaultValue="false" />
+
+    </PreferenceCategory>	    
 
     <PreferenceCategory
         android:key="lockscreen_wallpaper"

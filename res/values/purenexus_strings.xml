@@ -41,6 +41,8 @@
 
     <!-- Lockscreen Fragment -->
     <string name="lockscreen_settings_title">Lockscreen</string>
+    <string name="lockscreen_options_title">Lockscreen options</string>
+    <string name="lockscreen_secure_options_title">Secure Lockscreen options</string>
     <!-- Pin scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
@@ -52,6 +54,7 @@
 
     <!-- Notification panel fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
+    <string name="notification_panel_title">Notification panel</string>
     <string name="qs_panel_title">Quick settings panel</string>
     <!-- Force expand notifications -->
     <string name="notification_force_expand_title">Force expanded notifications</string>
