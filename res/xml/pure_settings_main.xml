@@ -47,6 +47,11 @@
             android:key="pure_powermenu_settings"
             android:title="@string/powermenu_settings_title"/>
 
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.VolumeRockerSettings"
+            android:key="pure_volumerocker_settings"
+            android:title="@string/volumerocker_settings_title"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
