@@ -95,6 +95,9 @@
 
     <!-- StatusBar fragment -->
     <string name="statusbar_settings_title">Statusbar</string>
+    <!-- Battery settings -->
+    <string name="battery_settings_title">Battery settings</string>
+    <string name="battery_settings_summary">Change battery icon, percentage</string>
     <!-- StatusBar icons -->
     <string name="status_bar_icon_blacklist_title">Status bar icons</string>
     <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
