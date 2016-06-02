@@ -111,6 +111,9 @@
     <string name="status_bar_battery_percentage_default">Hidden</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <!-- Clock settings -->
+    <string name="clock_settings_title">Clock settings</string>
+    <string name="clock_settings_summary">Custom clock and date options</string>
     <!-- StatusBar icons -->
     <string name="status_bar_icon_blacklist_title">Status bar icons</string>
     <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>

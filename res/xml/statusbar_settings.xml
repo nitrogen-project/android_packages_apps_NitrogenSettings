@@ -23,6 +23,12 @@
         android:summary="@string/battery_settings_summary" />
 
     <PreferenceScreen
+        android:fragment="com.pure.settings.fragments.ClockSettings"
+        android:key="pure_clock_settings"
+        android:title="@string/clock_settings_title"
+        android:summary="@string/clock_settings_summary" />
+
+    <PreferenceScreen
             android:title="@string/status_bar_icon_blacklist_title"
             android:summary="@string/status_bar_icon_blacklist_summary" >
         <intent android:action="android.intent.action.MAIN"
