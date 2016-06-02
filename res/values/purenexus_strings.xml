@@ -39,6 +39,10 @@
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn on screen when connecting or disconnecting charger</string>
 
+    <!-- General strings -->
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
     <!-- Lockscreen Fragment -->
     <string name="lockscreen_settings_title">Lockscreen</string>
     <string name="lockscreen_options_title">Lockscreen options</string>
@@ -114,6 +118,28 @@
     <!-- Clock settings -->
     <string name="clock_settings_title">Clock settings</string>
     <string name="clock_settings_summary">Custom clock and date options</string>
+    <!-- clock date options -->
+    <string name="clock_title_enable">Alignment</string>
+    <string name="status_bar_show_clock_title">Show clock and date</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="right_clock">Right clock</string>
+    <string name="center_clock">Center clock</string>
+    <string name="left_clock">Left clock</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_position">Date position</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="clock_date_right">Right of time</string>
+    <string name="clock_date_left">Left of time</string>
+    <string name="clock_am_pm_date_normal">Normal</string>
+    <string name="clock_am_pm_date_small">Small</string>
+    <string name="clock_am_pm_date_none">Hidden</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Custom java format</string>
     <!-- StatusBar icons -->
     <string name="status_bar_icon_blacklist_title">Status bar icons</string>
     <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
