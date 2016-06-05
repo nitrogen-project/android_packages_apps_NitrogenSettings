@@ -118,6 +118,9 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Show power menu on secure lock screen</string>
 
+    <!-- Recent Apps fragment -->
+    <string name="recent_settings_title">Recent apps</string>
+
     <!-- StatusBar fragment -->
     <string name="statusbar_settings_title">Statusbar</string>
     <!-- Battery settings -->
