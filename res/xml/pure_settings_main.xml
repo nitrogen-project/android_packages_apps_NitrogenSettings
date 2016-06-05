@@ -68,6 +68,11 @@
             android:key="pure_display_settings"
             android:title="@string/display_settings_title"/>
 
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.NotificationMediaSettings"
+            android:key="pure_notification_media_settings"
+            android:title="@string/notification_media_settings_title"/>
+
     </PreferenceCategory>
 
 </PreferenceScreen>

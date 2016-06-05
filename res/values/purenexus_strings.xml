@@ -99,6 +99,9 @@
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
 
+    <!-- Notification & Media fragment -->
+    <string name="notification_media_settings_title">Media &amp; notifications</string>
+
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>
     <string name="power_category">Power menu options</string>
