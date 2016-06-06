@@ -266,6 +266,19 @@
         <item>3</item>
     </string-array>
 
+    <!-- QS Tiles Columns -->
+    <string-array name="qs_num_columns_entries" translatable="false">
+        <item>@string/quick_columns_three</item>
+        <item>@string/quick_columns_four</item>
+        <item>@string/quick_columns_five</item>
+    </string-array>
+
+    <string-array name="qs_num_columns_values" translatable="false">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
     <!-- Recents Clear all location -->
     <string-array name="recents_clear_all_location_entries" translatable="false">
         <item>@string/recents_clear_all_location_top_right</item>

@@ -96,6 +96,12 @@
     <!-- Quicks settings shortcut -->
     <string name="quick_settings_title">Quick Settings</string>
     <string name="quick_settings_summary">Configure quick settings tiles</string>
+    <!-- Quicks settings columns -->
+    <string name="qs_num_columns_title">Number of tiles per row</string>
+    <string name="qs_num_columns_showing">%1$s tiles per row showing</string>
+    <string name="quick_columns_three">Three</string>
+    <string name="quick_columns_four">Four</string>
+    <string name="quick_columns_five">Five</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Smart pulldown</string>
     <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
