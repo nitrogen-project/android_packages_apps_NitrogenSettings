@@ -79,6 +79,9 @@
     <!-- Force expand notifications -->
     <string name="notification_force_expand_title">Force expanded notifications</string>
     <string name="notification_force_expand_summary">Auto expands notifications on apps that support it</string>
+    <!-- main tiles -->
+    <string name="qs_main_tiles_title">Enlarge first row</string>
+    <string name="qs_main_tiles_summary">Two main tiles on the first row</string>
     <!-- notification panel header weather -->
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show weather in the notification panel header</string>
