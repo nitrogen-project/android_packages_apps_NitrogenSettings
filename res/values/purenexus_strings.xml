@@ -119,6 +119,8 @@
 
     <!-- Notification & Media fragment -->
     <string name="notification_media_settings_title">Media &amp; notifications</string>
+    <string name="media_cat_title">Media options</string>
+    <string name="notif_cat_title">Notification options</string>
     <!-- Battery saver notification toggle -->
     <string name="battery_saver_notif_title">Battery saver notification</string>
     <string name="battery_saver_notif_summary">Show battery saver notification when enabled</string>
@@ -131,6 +133,20 @@
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <!-- Heads up settings -->
+    <string name="headsup_settings_title">Heads up notifications</string>
+    <string name="summary_heads_up_enabled">Peeking notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Peeking notifications are disabled</string>
+    <!-- Heads up blacklist/whitelist/dnd -->
+    <string name="add_heads_up_package">Add app</string>
+    <string name="add_heads_up_dnd_summary">Don\'t show heads up in these applications</string>
+    <string name="add_heads_up_blacklist_summary">Don\'t show heads up from these applications</string>
+    <string name="add_heads_up_whitelist_summary">Force heads up from these applications</string>
+    <string name="heads_up_dnd_title">Do not disturb</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="heads_up_whitelist_title">Whitelist</string>
+    <string name="heads_up_disabled_notice">To allow applications to display interactive notifications in a pop-up window on your screen, enable Heads up.</string>
+    <string name="heads_up_contains_key">Already added this application to the list</string>
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu</string>

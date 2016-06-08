@@ -18,6 +18,7 @@ package com.pure.settings.fragments;
 import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
+import android.provider.Settings;
 
 import com.android.internal.logging.MetricsLogger;
 import com.android.settings.R;
@@ -25,14 +26,34 @@ import com.android.settings.SettingsPreferenceFragment;
 
 public class NotificationMediaSettings extends SettingsPreferenceFragment {
 
+    private static final String KEY_HEADS_UP_SETTINGS = "heads_up_settings";
+
+    private PreferenceScreen mHeadsUp;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.notification_media_settings);
+
+        mHeadsUp = (PreferenceScreen) findPreference(KEY_HEADS_UP_SETTINGS);
+    }
+
+    private boolean getUserHeadsUpState() {
+         return Settings.Global.getInt(getContentResolver(),
+                Settings.Global.HEADS_UP_NOTIFICATIONS_ENABLED,
+                Settings.Global.HEADS_UP_ON) != 0;
     }
 
     @Override
     protected int getMetricsCategory() {
         return MetricsLogger.PURE_SETTINGS;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        mHeadsUp.setSummary(getUserHeadsUpState()
+                ? R.string.summary_heads_up_enabled : R.string.summary_heads_up_disabled);
     }
 }
