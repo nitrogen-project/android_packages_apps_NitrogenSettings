@@ -56,6 +56,11 @@
     <!-- quick pin unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Enable at your own discretion. pins with more than 4 digits can cause issues</string>
+    <!-- Lockscreen items clock, date, alarm text -->
+    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
+    <string name="lockscreen_clock_title">Lockscreen clock</string>
+    <string name="lockscreen_date_title">Lockscreen date</string>
+    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
     <!-- Lockscreen Wallpaper -->
     <string name="lockscreen_wallpaper_title">Lockscreen wallpaper</string>
     <string name="lockscreen_wallpaper_set_title">Set lockscreen wallpaper</string>

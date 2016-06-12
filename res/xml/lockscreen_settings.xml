@@ -27,6 +27,11 @@
                 android:targetClass="com.android.systemui.purenexus.LockscreenShortcutsActivity" />
         </PreferenceScreen>
 
+        <PreferenceScreen
+            android:fragment="com.pure.settings.fragments.LockScreenItemsSettings"
+            android:key="lockscreen_items"
+            android:title="@string/lockscreen_items_settings_title" />
+
         <com.pure.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_anywhere"
             android:title="@string/double_tap_sleep_anywhere_title"
