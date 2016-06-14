@@ -81,6 +81,9 @@
     <string name="lockscreen_alpha">Lockscreen transparency</string>
     <string name="lockscreen_security_alpha">Lockscreen bouncer transparency</string>
 
+    <!-- Navbar fragment -->
+    <string name="navbar_settings_title">Navigation bar</string>
+
     <!-- Notification panel fragment -->
     <string name="notification_drawer_settings_title">Notification drawer</string>
     <string name="notification_panel_title">Notification panel</string>
