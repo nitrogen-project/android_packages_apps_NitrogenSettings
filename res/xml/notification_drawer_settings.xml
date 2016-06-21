@@ -39,6 +39,11 @@
             android:summary="@string/status_bar_show_weather_summary"
             android:defaultValue="true" />
 
+        <Preference
+            android:key="lock_clock_weather"
+            android:title="@string/weather_settings"
+            android:persistent="false"/>
+
         <com.pure.settings.preferences.SystemSettingSwitchPreference
             android:key="force_expanded_notifications"
             android:title="@string/notification_force_expand_title"

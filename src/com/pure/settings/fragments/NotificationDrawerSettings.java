@@ -15,7 +15,9 @@
  */
 package com.pure.settings.fragments;
 
+import android.content.ComponentName;
 import android.content.ContentResolver;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -35,10 +37,12 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
     private static final String PREF_QSCOLUMNS = "sysui_qs_num_columns";
+    private static final String LOCKCLOCK_WEATHER = "lock_clock_weather";
 
     private ListPreference mQuickPulldown;
     ListPreference mSmartPulldown;
     private ListPreference mNumColumns;
+    private Preference mWeatherSettings;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,6 +51,8 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+
+        mWeatherSettings = (Preference) findPreference(LOCKCLOCK_WEATHER);
 
         mQuickPulldown = (ListPreference) findPreference(QUICK_PULLDOWN);
         mQuickPulldown.setOnPreferenceChangeListener(this);
@@ -74,6 +80,22 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
     @Override
     protected int getMetricsCategory() {
         return MetricsLogger.PURE_SETTINGS;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        if (preference == mWeatherSettings) {
+            launchWeatherSettings();
+            return true;
+        }
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
+    }
+
+    private void launchWeatherSettings() {
+        Intent intent = new Intent();
+        intent.setComponent(new ComponentName("com.cyanogenmod.lockclock", "com.cyanogenmod.lockclock.preference.Preferences"));
+        intent.putExtra(":android:show_fragment", "com.cyanogenmod.lockclock.preference.WeatherPreferences");
+        startActivity(intent);
     }
 
     @Override

@@ -146,6 +146,7 @@
     <!-- notification panel header weather -->
     <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show weather in the notification panel header</string>
+    <string name="weather_settings">Weather settings</string>
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
     <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
