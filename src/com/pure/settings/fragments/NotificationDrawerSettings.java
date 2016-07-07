@@ -23,26 +23,35 @@ import android.os.Bundle;
 import android.os.UserHandle;
 import android.preference.ListPreference;
 import android.preference.Preference;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 
 import com.android.internal.logging.MetricsLogger;
+import com.android.internal.widget.LockPatternUtils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import com.pure.settings.preferences.SecureSettingSwitchPreference;
 
 public class NotificationDrawerSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+    private static final String QS_CAT = "qs_panel";
 
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
     private static final String PREF_QSCOLUMNS = "sysui_qs_num_columns";
     private static final String LOCKCLOCK_WEATHER = "lock_clock_weather";
+    private static final String PREF_QSLOCK = "lockscreen_qs_disabled";
 
     private ListPreference mQuickPulldown;
     ListPreference mSmartPulldown;
     private ListPreference mNumColumns;
     private Preference mWeatherSettings;
+    private SecureSettingSwitchPreference mQsLock;
+
+    private static final int MY_USER_ID = UserHandle.myUserId();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -51,6 +60,9 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
 
         PreferenceScreen prefScreen = getPreferenceScreen();
         ContentResolver resolver = getActivity().getContentResolver();
+        final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
+
+        PreferenceCategory qscat = (PreferenceCategory) findPreference(QS_CAT);
 
         mWeatherSettings = (Preference) findPreference(LOCKCLOCK_WEATHER);
 
@@ -75,6 +87,11 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment imple
         mNumColumns.setValue(String.valueOf(numColumns));
         updateNumColumnsSummary(numColumns);
         mNumColumns.setOnPreferenceChangeListener(this);
+
+        mQsLock = (SecureSettingSwitchPreference) prefScreen.findPreference(PREF_QSLOCK);
+        if (!lockPatternUtils.isSecure(MY_USER_ID)) {
+            qscat.removePreference(mQsLock);
+        }
     }
 
     @Override
