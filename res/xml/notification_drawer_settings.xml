@@ -78,6 +78,12 @@
             android:persistent="false" />
 
         <com.pure.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_data_advanced"
+            android:title="@string/qs_advanced_data_title"
+            android:summary="@string/qs_advanced_data_summary"
+            android:defaultValue="false" />
+
+        <com.pure.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_location_advanced"
             android:title="@string/qs_advanced_location_title"
             android:summary="@string/qs_advanced_location_summary"
