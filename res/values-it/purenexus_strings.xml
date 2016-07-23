@@ -177,8 +177,8 @@
   <string name="quick_columns_four">Quattro</string>
   <string name="quick_columns_five">Cinque</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Vibrazione al tocco</string>
+  <string name="quick_settings_vibrate_summary">Vibrazione al tocco dei tiles</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Tendina intelligente</string>
   <string name="smart_pulldown_summary">Apri Impostazioni Rapide quando sono presenti %1$s notifiche</string>
@@ -187,6 +187,9 @@
   <string name="smart_pulldown_none">nessuna notifica</string>
   <string name="smart_pulldown_dismissable">non removibile</string>
   <string name="smart_pulldown_ongoing">no permanenti</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Media &amp; notifiche</string>
   <string name="media_cat_title">Opzioni media</string>

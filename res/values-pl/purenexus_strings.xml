@@ -158,7 +158,7 @@
   <!-- notification panel header weather -->
   <string name="status_bar_show_weather_title">Pokaż Pogodę</string>
   <string name="status_bar_show_weather_summary">Pokaż pogodę w nagłówku panelu powiadomień</string>
-  <string name="weather_settings">Weather settings</string>
+  <string name="weather_settings">Ustawienia pogody</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Szybkie rozwijanie</string>
   <string name="quick_pulldown_summary">%1$s krawędź ekranu rozwija szybkie ustawienia</string>
@@ -177,8 +177,8 @@
   <string name="quick_columns_four">Cztery</string>
   <string name="quick_columns_five">Pięć</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Wibruj przy dotknięciu</string>
+  <string name="quick_settings_vibrate_summary">Wibracje podczas dotykania przełączników</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
   <string name="smart_pulldown_summary">Otwórz Szybkie Ustawienia gdy jest %1$s powiadomień</string>
@@ -187,6 +187,9 @@
   <string name="smart_pulldown_none">brak powiadomień</string>
   <string name="smart_pulldown_dismissable">nieodwoływalne</string>
   <string name="smart_pulldown_ongoing">bez trwałych</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Media &amp; powiadomienia</string>
   <string name="media_cat_title">Opcje multimediów</string>
@@ -195,8 +198,8 @@
   <string name="battery_saver_notif_title">Powiadomienie o oszczędzaniu baterii</string>
   <string name="battery_saver_notif_summary">Pokaż powiadomienie kiedy włączy się oszczędzanie baterii</string>
   <!-- Camera shutter sound -->
-  <string name="camera_sounds_title">Camera shutter sound</string>
-  <string name="camera_sounds_summary">Enable system camera shutter sound</string>
+  <string name="camera_sounds_title">Dźwięk migawki aparatu</string>
+  <string name="camera_sounds_summary">Włącz systemowy dźwięk migawki aparatu</string>
   <!-- low battery notification toggle -->
   <string name="battery_low_notif_title">Powiadomienie o niskim poziomie baterii</string>
   <string name="battery_low_notif_summary">Pokaż powiadomienie o niskim poziomie baterii gdy włączony</string>
@@ -413,7 +416,7 @@
   <string name="volumerocker_settings_title">Przyciski głośności</string>
   <!-- Volume button wake -->
   <string name="volbtn_wake_device_title">Wybudzanie przyciskiem głośności</string>
-  <string name="button_wake_summary">May not wake device if music control is active and music is playing</string>
+  <string name="button_wake_summary">Może nie wybudzić urządzenia, jeśli kontrola muzyki jest aktywna i muzyka jest odtwarzana</string>
   <!-- Volume button track change -->
   <string name="volbtn_music_controls_title">Kontrola muzyki</string>
   <string name="volbtn_music_controls_summary">Gdy ekran jest wyłączony, długie naciśnięcie klawiszy głośności będzie przełączać pomiędzy utworami muzycznymi</string>
@@ -438,5 +441,5 @@
   <string name="volume_steps_ring_title">Poziomy głośności: Dzwonek</string>
   <string name="volume_steps_system_title">Poziomy głośności: Systemowe</string>
   <string name="volume_steps_voice_call_title">Poziomy głośności: Rozmowa głosowa</string>
-  <string name="volume_steps_reset">Restart</string>
+  <string name="volume_steps_reset">Resetuj</string>
 </resources>

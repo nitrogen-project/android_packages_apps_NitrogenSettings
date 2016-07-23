@@ -187,6 +187,9 @@
   <string name="smart_pulldown_none">no notifications</string>
   <string name="smart_pulldown_dismissable">no dismissable</string>
   <string name="smart_pulldown_ongoing">no ongoing</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Media &amp; notifications</string>
   <string name="media_cat_title">Media options</string>

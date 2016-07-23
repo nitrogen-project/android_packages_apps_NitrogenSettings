@@ -177,8 +177,8 @@
   <string name="quick_columns_four">4개</string>
   <string name="quick_columns_five">5개</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">터치 시 진동</string>
+  <string name="quick_settings_vibrate_summary">타일을 터치하면 진동이 울립니다</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">영리한 빠른 설정 내리기</string>
   <string name="smart_pulldown_summary">알림이 %1$s 빠른 설정을 엽니다</string>
@@ -187,6 +187,9 @@
   <string name="smart_pulldown_none">알림이 없을 때</string>
   <string name="smart_pulldown_dismissable">전부 지울 수 없는 상태일 때</string>
   <string name="smart_pulldown_ongoing">진행 중일 때</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">미디어 &amp; 알림</string>
   <string name="media_cat_title">미디어 설정</string>

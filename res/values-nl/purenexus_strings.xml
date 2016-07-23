@@ -131,7 +131,7 @@
   <string name="double_tap_sleep_nav_bar_title">Dubbel-tik om te slapen</string>
   <string name="double_tap_sleep_nav_bar_summary">Dubbel-tik de navigatiebalk om het apparaat te doen slapen</string>
   <!-- Navbar arrow keys -->
-  <string name="navigation_bar_arrow_keys_title">Pijltoetsen weergeven tijdens het typen</string>
+  <string name="navigation_bar_arrow_keys_title">Pijltoetsen weergeven tijdens typen</string>
   <string name="navigation_bar_arrow_keys_summary">Linker en rechter cursorknoppen weergeven tijdens het typen. Overschrijft invoermethodekiezer.</string>
   <!-- Navbar button customization -->
   <string name="navbarbutton_settings_title">Knoppen en lay-out</string>
@@ -151,7 +151,7 @@
   <string name="qs_brightness_slider_title">Helderheidsschuifbalk</string>
   <!-- Force expand notifications -->
   <string name="notification_force_expand_title">Forceer uitgebreide meldingen</string>
-  <string name="notification_force_expand_summary">Breid automatisch meldingen uit bij apps die dit ondersteunen</string>
+  <string name="notification_force_expand_summary">Automatisch meldingen uitbreiden bij apps die dit ondersteunen</string>
   <!-- main tiles -->
   <string name="qs_main_tiles_title">Vergroot eerste rij</string>
   <string name="qs_main_tiles_summary">Twee hoofdtegels op de eerste rij</string>
@@ -177,16 +177,19 @@
   <string name="quick_columns_four">Vier</string>
   <string name="quick_columns_five">Vijf</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Trillen bij aanraking</string>
+  <string name="quick_settings_vibrate_summary">Trillen bij het aanraken van tegels</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Slim slepen</string>
   <string name="smart_pulldown_summary">Snelle Instellingen openen wanneer er %1$s meldingen zijn</string>
   <string name="smart_pulldown_none_summary">Snelle Instellingen openen wanneer er %1$s meldingen zijn</string>
   <string name="smart_pulldown_off">Uit</string>
-  <string name="smart_pulldown_none">geen meldingen</string>
+  <string name="smart_pulldown_none">geen</string>
   <string name="smart_pulldown_dismissable">geen verwijderbare</string>
   <string name="smart_pulldown_ongoing">geen actieve</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Media &amp; meldingen</string>
   <string name="media_cat_title">Mediaopties</string>
@@ -201,8 +204,8 @@
   <string name="battery_low_notif_title">Lage accu melding</string>
   <string name="battery_low_notif_summary">Lage accu melding weergeven wanneer ingeschakeld</string>
   <!-- double tap power button vibration -->
-  <string name="dbl_tap_vib_title">Dubbel-tik powerknop voor camera trilling</string>
-  <string name="dbl_tap_vib_summary">Trillen bij dubbel-tikken van powerknop wanneer ingeschakeld</string>
+  <string name="dbl_tap_vib_title">Dubbel-tik powerknop camera trilling</string>
+  <string name="dbl_tap_vib_summary">Trillen bij dubbel-tikken van powerknop voor camera wanneer ingeschakeld</string>
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">Vingerafdruk authenticatie trilling</string>
   <string name="fprint_sucess_vib_summary">Trillen bij succesvolle vingerafdruk authenticatie</string>
@@ -248,7 +251,7 @@
   <string name="power_category">Powermenu opties</string>
   <string name="actions_category">Powermenu items</string>
   <!-- Power menu customization -->
-  <string name="power_menu_reboot_title">Opnieuw opstarten</string>
+  <string name="power_menu_reboot_title">Herstarten</string>
   <string name="power_menu_screenshot_title">Schermafbeelding</string>
   <string name="power_menu_screenrecord_title">Schermopname</string>
   <string name="power_menu_torch_title">Zaklamp</string>
@@ -416,7 +419,7 @@
   <string name="button_wake_summary">Apparaat zal niet ontwaken als muziekbediening actief is en muziek afspeelt</string>
   <!-- Volume button track change -->
   <string name="volbtn_music_controls_title">Muziekbediening</string>
-  <string name="volbtn_music_controls_summary">Tijdens scherm uit, zal langdurig drukken op de volumeknoppen muzieknummers zoeken</string>
+  <string name="volbtn_music_controls_summary">Tijdens scherm uit, zal volumeknoppen inhouden naar muzieknummers zoeken</string>
   <!-- Volume key cursor control -->
   <string name="volbtn_cursor_control_title">Volumeknop cursorbediening</string>
   <string name="volbtn_cursor_control_off">Uitgeschakeld</string>

@@ -153,7 +153,7 @@
   <string name="notification_force_expand_title">Forçar notificações expandidas</string>
   <string name="notification_force_expand_summary">Auto expandir as notificações sobre apps que oferecerem suporte</string>
   <!-- main tiles -->
-  <string name="qs_main_tiles_title">Ampliar a primeira linha</string>
+  <string name="qs_main_tiles_title">Enlarguecer a primeira linha</string>
   <string name="qs_main_tiles_summary">Dois blocos principais na primeira linha</string>
   <!-- notification panel header weather -->
   <string name="status_bar_show_weather_title">Exibir meteorologia</string>
@@ -177,8 +177,8 @@
   <string name="quick_columns_four">Quatro</string>
   <string name="quick_columns_five">Cinco</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Vibrar ao tocar</string>
+  <string name="quick_settings_vibrate_summary">Vibrar ao tocar nos blocos</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Pulldown inteligente</string>
   <string name="smart_pulldown_summary">Abra as configurações rápidas quando há notificações de %1$s</string>
@@ -187,6 +187,9 @@
   <string name="smart_pulldown_none">Nenhuma notificação</string>
   <string name="smart_pulldown_dismissable">Não descartável</string>
   <string name="smart_pulldown_ongoing">nenhum curso</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Mídia &amp; notificações</string>
   <string name="media_cat_title">Opções de mídia</string>

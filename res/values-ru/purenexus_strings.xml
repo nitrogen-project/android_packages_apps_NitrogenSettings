@@ -79,23 +79,23 @@
   <string name="lock_clock_font_title">Шрифт часов экрана блокировки</string>
   <string name="lock_clock_font_summary">Изменить стандартный шрифт часов экрана блокировки</string>
   <string name="lock_clock_font_normal">Roboto</string>
-  <string name="lock_clock_font_bold">Roboto Bold</string>
-  <string name="lock_clock_font_italic">Roboto Italic</string>
-  <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
-  <string name="lock_clock_font_light_normal">Roboto Light (default)</string>
-  <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
-  <string name="lock_clock_font_thin_normal">Roboto Thin</string>
-  <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
-  <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
-  <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
-  <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
-  <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
-  <string name="lock_clock_font_medium_normal">Roboto Medium</string>
-  <string name="lock_clock_font_medium_italic">Roboto Medium Italic</string>
-  <string name="lock_clock_font_black_normal">Roboto Black</string>
-  <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
-  <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
-  <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
+  <string name="lock_clock_font_bold">Roboto Bold (полужирный)</string>
+  <string name="lock_clock_font_italic">Roboto Italic (курсив)</string>
+  <string name="lock_clock_font_bold_italic">Roboto Bold Italic (полужирный курсив)</string>
+  <string name="lock_clock_font_light_normal">Roboto Light (По умолчанию)</string>
+  <string name="lock_clock_font_light_italic">Roboto Light Italic (мягкий курсив)</string>
+  <string name="lock_clock_font_thin_normal">Roboto Thin (тонкий)</string>
+  <string name="lock_clock_font_thin_italic">Roboto Thin Italic (тонкий курсив)</string>
+  <string name="lock_clock_font_condensed_normal">Roboto Condensed (уплотнённый)</string>
+  <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold (уплотнённый жирный)</string>
+  <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic (уплотнённый курсив)</string>
+  <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic (уплотнённый жирный курсив)</string>
+  <string name="lock_clock_font_medium_normal">Roboto Medium (средний)</string>
+  <string name="lock_clock_font_medium_italic">Roboto Medium Italic (средний курсив)</string>
+  <string name="lock_clock_font_black_normal">Roboto Black (чёрный)</string>
+  <string name="lock_clock_font_black_italic">Roboto Black Italic (чёрный курсив)</string>
+  <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light (уплотнённо-мягкий)</string>
+  <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light (уплотнённо-мягкий курсив)</string>
   <!-- Navbar fragment -->
   <string name="navbar_settings_title">Панель навигации</string>
   <string name="navigation_bar_opt_cat">Настройки панели навигации</string>
@@ -177,8 +177,8 @@
   <string name="quick_columns_four">Четыре</string>
   <string name="quick_columns_five">Пять</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Вибрация при нажатии</string>
+  <string name="quick_settings_vibrate_summary">Включить вибрацию при нажатии на кнопку в быстрых настроек</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">«Умная» панель уведомлений</string>
   <string name="smart_pulldown_summary">Открывать быстрые настройки при %1$s уведомлениях</string>
@@ -187,8 +187,11 @@
   <string name="smart_pulldown_none">Нет уведомлений</string>
   <string name="smart_pulldown_dismissable">Без удаляемых</string>
   <string name="smart_pulldown_ongoing">Без постоянных</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
-  <string name="notification_media_settings_title">Звуки &amp; уведомления</string>
+  <string name="notification_media_settings_title">Звуки и уведомления</string>
   <string name="media_cat_title">Настройки медиа</string>
   <string name="notif_cat_title">Настройки уведомлений</string>
   <!-- Battery saver notification toggle -->
@@ -413,7 +416,7 @@
   <string name="volumerocker_settings_title">Клавиши громкости</string>
   <!-- Volume button wake -->
   <string name="volbtn_wake_device_title">Пробуждение кнопками громкости</string>
-  <string name="button_wake_summary">May not wake device if music control is active and music is playing</string>
+  <string name="button_wake_summary">Может не пробудить устройство, если управление музыкой активно и играет музыка</string>
   <!-- Volume button track change -->
   <string name="volbtn_music_controls_title">Управление музыкой кнопками громкости</string>
   <string name="volbtn_music_controls_summary">Когда экран выключен, долгое нажатие клавиш громкости будет переключать треки</string>

@@ -32,7 +32,7 @@
   <string name="led_category">LED denetimleri</string>
   <!-- Wake when connected/disconnected -->
   <string name="wake_when_plugged_or_unplugged_title">Kablo bağlantısında uyan</string>
-  <string name="wake_when_plugged_or_unplugged_summary">Şarj aletini takıp çıkarmada uyan</string>
+  <string name="wake_when_plugged_or_unplugged_summary">Şarj aletini takıp çıkarmada cihazı uyandır</string>
   <!-- Three finger swipe screenshot -->
   <string name="three_finger_gesture">Üç parmak ekran görüntüsü</string>
   <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı kaydırın</string>
@@ -172,13 +172,13 @@
   <string name="quick_settings_summary">Hızlı ayarlar karelerini yapılandır</string>
   <!-- Quicks settings columns -->
   <string name="qs_num_columns_title">Her bir satır için kare sayısı</string>
-  <string name="qs_num_columns_showing">Her satırda %1$s kare gösterilir</string>
-  <string name="quick_columns_three">üç</string>
+  <string name="qs_num_columns_showing">Satır başına %1$s kare göster</string>
+  <string name="quick_columns_three">Üç</string>
   <string name="quick_columns_four">Dört</string>
   <string name="quick_columns_five">Beş</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Dokunulduğunda Titre</string>
+  <string name="quick_settings_vibrate_summary">Karelere dokununca titret</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Akıllı aşağı çekme</string>
   <string name="smart_pulldown_summary">Mevcut bildirimler %1$s olduğunda hızlı ayarları aç</string>
@@ -187,6 +187,9 @@
   <string name="smart_pulldown_none">bildirim yoksa</string>
   <string name="smart_pulldown_dismissable">kapatılabilir bildirim yoksa</string>
   <string name="smart_pulldown_ongoing">devam eden yok</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Medya &amp; bildirimleri</string>
   <string name="media_cat_title">Medya seçenekleri</string>
@@ -419,7 +422,7 @@
   <string name="volbtn_music_controls_summary">Ekran kapalıyken ses tuşlarına uzun basarak parça arama</string>
   <!-- Volume key cursor control -->
   <string name="volbtn_cursor_control_title">Ses tuşu ile imleç kontrolü</string>
-  <string name="volbtn_cursor_control_off">Devredışı</string>
+  <string name="volbtn_cursor_control_off">Devre dışı</string>
   <string name="volbtn_cursor_control_on">Ses arttırma/azaltma imleci sola/sağa kaydırır</string>
   <string name="volbtn_cursor_control_on_reverse">Ses arttırma/azaltma imleci sağa/sola kaydırır</string>
   <!-- Volume key controls ring stream -->

@@ -126,7 +126,7 @@
   <string name="navigation_bar_size_0_dp">0 pt (désactivée)</string>
   <!-- Navbar IME selector icon -->
   <string name="ime_switcher_notify">Icône du sélecteur de saisie</string>
-  <string name="ime_switcher_notify_summary">Icône du sélecteur de saisie</string>
+  <string name="ime_switcher_notify_summary">Afficher l\'icône du sélecteur de saisie</string>
   <!-- Navbar double tap to sleep -->
   <string name="double_tap_sleep_nav_bar_title">Taper deux fois pour mettre en veille</string>
   <string name="double_tap_sleep_nav_bar_summary">Taper deux fois la barre de navigation pour mettre l\'appareil en veille</string>
@@ -162,11 +162,11 @@
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Accès rapide au volet des paramètres</string>
   <string name="quick_pulldown_summary">Utiliser le coté %1$s de la barre d\'état pour afficher directement les paramètres rapides</string>
-  <string name="quick_pulldown_summary_always">Toujours afficher les paramètres rapide sur la barre de statut déroulante</string>
+  <string name="quick_pulldown_summary_always">Toujours afficher les paramètres rapides lors du déroulement de la barre de statut</string>
   <string name="quick_pulldown_off">Désactivé</string>
-  <string name="quick_pulldown_left">Gauche</string>
-  <string name="quick_pulldown_right">Droite</string>
-  <string name="quick_pulldown_always">Toujours</string>
+  <string name="quick_pulldown_left">à gauche</string>
+  <string name="quick_pulldown_right">à droite</string>
+  <string name="quick_pulldown_always">toujours</string>
   <!-- Quicks settings shortcut -->
   <string name="quick_settings_title">Paramètres rapides</string>
   <string name="quick_settings_summary">Configurer les tuiles des paramètres rapides</string>
@@ -177,16 +177,19 @@
   <string name="quick_columns_four">Quatre</string>
   <string name="quick_columns_five">Cinq</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Retour haptique</string>
+  <string name="quick_settings_vibrate_summary">Vibrer lors de l\'appui sur les tuiles</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Déroulement intelligent</string>
-  <string name="smart_pulldown_summary">Ouvrir les paramètres rapides lorsqu\'il y a %1$s notifications</string>
+  <string name="smart_pulldown_summary">Ouvrir les paramètres rapides lorsqu\'il y a des notifications %1$s</string>
   <string name="smart_pulldown_none_summary">Ouvrir les paramètres rapides lorsqu\'il n\'y a aucune notification</string>
-  <string name="smart_pulldown_off">Désactivé</string>
+  <string name="smart_pulldown_off">désactivé</string>
   <string name="smart_pulldown_none">aucune notification</string>
-  <string name="smart_pulldown_dismissable">Non-effaçables</string>
-  <string name="smart_pulldown_ongoing">aucune notification en cours</string>
+  <string name="smart_pulldown_dismissable">non-effaçables</string>
+  <string name="smart_pulldown_ongoing">en cours et effaçables</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Média &amp; notifications</string>
   <string name="media_cat_title">Options des médias</string>
@@ -284,7 +287,7 @@
   <string name="recents_searchbar_title">Barre de recherche</string>
   <string name="recents_searchbar_summary">Afficher la barre de recherche Google sur l\'écran des applications récentes</string>
   <!-- Immersive recents -->
-  <string name="immersive_recents_title">Récents immersifs</string>
+  <string name="immersive_recents_title">Applications récentes immersives</string>
   <string name="immersive_recents_default">Par défaut</string>
   <string name="immersive_recents_fullscreen">Plein écran</string>
   <string name="immersive_recents_statusbar">Barre de statut uniquement</string>
@@ -433,7 +436,7 @@
   <string name="volume_steps_summary">Personnaliser les niveaux de volume</string>
   <string name="volume_steps_alarm_title">Alarme</string>
   <string name="volume_steps_dtmf_title">DTMF</string>
-  <string name="volume_steps_music_title">Musique</string>
+  <string name="volume_steps_music_title">Médias</string>
   <string name="volume_steps_notification_title">Notification</string>
   <string name="volume_steps_ring_title">Sonnerie</string>
   <string name="volume_steps_system_title">Système</string>

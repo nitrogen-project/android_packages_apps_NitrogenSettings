@@ -76,8 +76,8 @@
   <string name="lockscreen_alpha">Transparencia de pantalla de bloqueo</string>
   <string name="lockscreen_security_alpha">Porcentaje de transparencia de pantalla de bloqueo</string>
   <!-- Lockscreen clock fonts -->
-  <string name="lock_clock_font_title">Lockscreen clock font</string>
-  <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+  <string name="lock_clock_font_title">Fuente del reloj en la pantalla de bloqueo</string>
+  <string name="lock_clock_font_summary">Cambiar la fuente predeterminada del widget del reloj en la pantalla de bloqueo</string>
   <string name="lock_clock_font_normal">Roboto</string>
   <string name="lock_clock_font_bold">Roboto Bold</string>
   <string name="lock_clock_font_italic">Roboto Italic</string>
@@ -158,7 +158,7 @@
   <!-- notification panel header weather -->
   <string name="status_bar_show_weather_title">Mostrar predicción del tiempo</string>
   <string name="status_bar_show_weather_summary">Mostrar el tiempo en la cabecera del panel de notificación</string>
-  <string name="weather_settings">Weather settings</string>
+  <string name="weather_settings">Ajustes del clima</string>
   <!-- Quick pull down-->
   <string name="quick_pulldown_title">Acceso rápido</string>
   <string name="quick_pulldown_summary">El borde %1$s de la barra de notificaciones desplegará el panel de ajustes rápidos</string>
@@ -177,8 +177,8 @@
   <string name="quick_columns_four">Cuatro</string>
   <string name="quick_columns_five">Cinco</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">Vibrar al tocar</string>
+  <string name="quick_settings_vibrate_summary">Vibrar al tocar las fichas</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">Despliegue inteligente</string>
   <string name="smart_pulldown_summary">Abrir los ajustes rápidos cuando haya %1$s notificaciones presentes</string>
@@ -187,6 +187,9 @@
   <string name="smart_pulldown_none">no hay notificaciones</string>
   <string name="smart_pulldown_dismissable">no descartable</string>
   <string name="smart_pulldown_ongoing">no en curso</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Notificaciones&amp; multimedia</string>
   <string name="media_cat_title">Opciones multimedia</string>
@@ -195,8 +198,8 @@
   <string name="battery_saver_notif_title">Notificación de ahorro de batería</string>
   <string name="battery_saver_notif_summary">Muestra la notificación de ahorro de batería cuando está activado</string>
   <!-- Camera shutter sound -->
-  <string name="camera_sounds_title">Camera shutter sound</string>
-  <string name="camera_sounds_summary">Enable system camera shutter sound</string>
+  <string name="camera_sounds_title">Sonido del obturador de la cámara</string>
+  <string name="camera_sounds_summary">Habilitar sonido del obturador de la cámara</string>
   <!-- low battery notification toggle -->
   <string name="battery_low_notif_title">Notificación de batería baja</string>
   <string name="battery_low_notif_summary">Muestra la notificación de batería baja cuando está activado</string>
@@ -413,7 +416,7 @@
   <string name="volumerocker_settings_title">Controles de volumen</string>
   <!-- Volume button wake -->
   <string name="volbtn_wake_device_title">Despertar con botones de volumen</string>
-  <string name="button_wake_summary">May not wake device if music control is active and music is playing</string>
+  <string name="button_wake_summary">Hacer que el dispositivo no se despierte si el control de la música está activo y se está reproduciendo música</string>
   <!-- Volume button track change -->
   <string name="volbtn_music_controls_title">Control de la música</string>
   <string name="volbtn_music_controls_summary">Cuando la pantalla esté apagada, mantener presionados los botones de volumen buscará pistas de música</string>
@@ -429,14 +432,14 @@
   <string name="swap_volume_buttons_title">Intercambiar bbotones de volumen</string>
   <string name="swap_volume_buttons_summary">Ajusta los botones de volumen según la posición del terminal</string>
   <!-- Volume Steps -->
-  <string name="volume_steps_title">Volume steps</string>
-  <string name="volume_steps_summary">Customize volume steps</string>
-  <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-  <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-  <string name="volume_steps_music_title">Volume steps: Media</string>
-  <string name="volume_steps_notification_title">Volume steps: Notification</string>
-  <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-  <string name="volume_steps_system_title">Volume steps: System</string>
-  <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-  <string name="volume_steps_reset">Reset</string>
+  <string name="volume_steps_title">Niveles de volumen</string>
+  <string name="volume_steps_summary">Personalizar niveles de volumen</string>
+  <string name="volume_steps_alarm_title">Niveles de volumen: Alarma</string>
+  <string name="volume_steps_dtmf_title">Niveles de volumen: DTMF</string>
+  <string name="volume_steps_music_title">Niveles de volumen: Multimedia</string>
+  <string name="volume_steps_notification_title">Niveles de volumen: Notificaciones</string>
+  <string name="volume_steps_ring_title">Niveles de volumen: Timbre</string>
+  <string name="volume_steps_system_title">Niveles de volumen: Sistema</string>
+  <string name="volume_steps_voice_call_title">Niveles de volumen: Llamadas</string>
+  <string name="volume_steps_reset">Restablecer</string>
 </resources>

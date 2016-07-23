@@ -177,8 +177,8 @@
   <string name="quick_columns_four">四</string>
   <string name="quick_columns_five">五</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">Vibrate on touch</string>
-  <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
+  <string name="quick_settings_vibrate_title">触摸时振动</string>
+  <string name="quick_settings_vibrate_summary">触摸瓷砖时震动反馈</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">智能下拉</string>
   <string name="smart_pulldown_summary">有 %1$s 的通知时打开快速设置</string>
@@ -187,6 +187,9 @@
   <string name="smart_pulldown_none">无通知</string>
   <string name="smart_pulldown_dismissable">没有可解除的</string>
   <string name="smart_pulldown_ongoing">没有正在进行</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">媒体&amp; 通知</string>
   <string name="media_cat_title">媒体选项</string>

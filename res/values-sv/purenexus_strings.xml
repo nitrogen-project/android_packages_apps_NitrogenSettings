@@ -187,6 +187,9 @@
   <string name="smart_pulldown_none">inga notifieringar</string>
   <string name="smart_pulldown_dismissable">inga möjliga att avvisa</string>
   <string name="smart_pulldown_ongoing">inga pågående</string>
+  <!-- Disable Quicks settings -->
+  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
+  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Media &amp; notifieringar</string>
   <string name="media_cat_title">Mediaalternativ</string>
