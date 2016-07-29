@@ -147,6 +147,9 @@
   <!-- Advanced location quick settings -->
   <string name="qs_advanced_location_title">詳細な位置情報の設定</string>
   <string name="qs_advanced_location_summary">クイック設定上での詳細な位置情報の設定を有効にする</string>
+  <!-- Advanced data quick settings -->
+  <string name="qs_advanced_data_title">Advanced data tile</string>
+  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">明るさ調整スライダー</string>
   <!-- Force expand notifications -->
@@ -177,7 +180,7 @@
   <string name="quick_columns_four">4</string>
   <string name="quick_columns_five">5</string>
   <!-- Quicks settings vibrate -->
-  <string name="quick_settings_vibrate_title">タッチ操作バイブ</string>
+  <string name="quick_settings_vibrate_title">タッチ操作時のバイブ</string>
   <string name="quick_settings_vibrate_summary">タイルに触れたときに振動します</string>
   <!-- Smart pulldown-->
   <string name="smart_pulldown_title">スマートプルダウン</string>
@@ -188,8 +191,8 @@
   <string name="smart_pulldown_dismissable">キャンセル不可</string>
   <string name="smart_pulldown_ongoing">進行中ではない</string>
   <!-- Disable Quicks settings -->
-  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
-  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
+  <string name="lockscreen_qs_disabled_title">クイック設定を無効にする</string>
+  <string name="lockscreen_qs_disabled_summary">ロック画面でのクイック設定を無効にします</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">メディアと通知</string>
   <string name="media_cat_title">メディアオプション</string>

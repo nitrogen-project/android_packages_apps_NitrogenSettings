@@ -147,6 +147,9 @@
   <!-- Advanced location quick settings -->
   <string name="qs_advanced_location_title">Расширенные настройки местоположения</string>
   <string name="qs_advanced_location_summary">Включить расширенные настройки местоположения в быстрых настройках</string>
+  <!-- Advanced data quick settings -->
+  <string name="qs_advanced_data_title">Настройки кнопки передачи данных в быстрых настройках</string>
+  <string name="qs_advanced_data_summary">Включение или отключение передачи данных одним нажатием</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Регулировка яркости</string>
   <!-- Force expand notifications -->
@@ -188,8 +191,8 @@
   <string name="smart_pulldown_dismissable">Без удаляемых</string>
   <string name="smart_pulldown_ongoing">Без постоянных</string>
   <!-- Disable Quicks settings -->
-  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
-  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
+  <string name="lockscreen_qs_disabled_title">Отключить быстрые настройки</string>
+  <string name="lockscreen_qs_disabled_summary">Отключить быстрые настройки на экране блокировки</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Звуки и уведомления</string>
   <string name="media_cat_title">Настройки медиа</string>

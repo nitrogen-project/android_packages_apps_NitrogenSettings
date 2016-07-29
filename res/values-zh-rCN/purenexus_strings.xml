@@ -147,6 +147,9 @@
   <!-- Advanced location quick settings -->
   <string name="qs_advanced_location_title">高级位置服务设置</string>
   <string name="qs_advanced_location_summary">在快速设置中启用高级位置服务设置</string>
+  <!-- Advanced data quick settings -->
+  <string name="qs_advanced_data_title">Advanced data tile</string>
+  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">亮度滑块</string>
   <!-- Force expand notifications -->
@@ -188,8 +191,8 @@
   <string name="smart_pulldown_dismissable">没有可解除的</string>
   <string name="smart_pulldown_ongoing">没有正在进行</string>
   <!-- Disable Quicks settings -->
-  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
-  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
+  <string name="lockscreen_qs_disabled_title">禁用快速设置</string>
+  <string name="lockscreen_qs_disabled_summary">在安全锁屏界面禁用快速设置</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">媒体&amp; 通知</string>
   <string name="media_cat_title">媒体选项</string>
@@ -204,8 +207,8 @@
   <string name="battery_low_notif_title">低电量通知</string>
   <string name="battery_low_notif_summary">低电量时启用电量通知</string>
   <!-- double tap power button vibration -->
-  <string name="dbl_tap_vib_title">双击电源键启动相机并震动</string>
-  <string name="dbl_tap_vib_summary">双击电源按钮启用时的振动</string>
+  <string name="dbl_tap_vib_title">双击电源键启动相机时震动</string>
+  <string name="dbl_tap_vib_summary">当启用电源键双击时振动</string>
   <!-- fingerprint authentication vibration -->
   <string name="fprint_sucess_vib_title">指纹身份验证振动</string>
   <string name="fprint_sucess_vib_summary">在指纹身份验证成功時振动</string>
@@ -350,7 +353,7 @@
   <string name="carrier_label_settings_summary">自定义运营商标签</string>
   <string name="custom_carrier_label_title">自定义运营商标签</string>
   <string name="custom_carrier_label_explain">请输入新标签，留空以恢复默认标签。</string>
-  <string name="custom_carrier_label_notset">自定义标签当前未设置</string>
+  <string name="custom_carrier_label_notset">未设置自定义运营商标签</string>
   <string name="show_carrier_title">运营商标签</string>
   <string name="show_carrier_disabled">禁用</string>
   <string name="show_carrier_keyguard">仅在锁屏时显示</string>
@@ -382,7 +385,7 @@
   <string name="clock_date_style_uppercase">大写字符</string>
   <string name="clock_date_format_custom">自定义 java 格式</string>
   <!-- double tap statusbar to sleep -->
-  <string name="double_tap_to_sleep_title">双击关屏</string>
+  <string name="double_tap_to_sleep_title">双击休眠</string>
   <string name="double_tap_to_sleep_summary">双击状态栏让设备进入睡眠</string>
   <!-- Network traffic Settings -->
   <string name="nettraffic_settings_title">网络流量</string>

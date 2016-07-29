@@ -147,6 +147,9 @@
   <!-- Advanced location quick settings -->
   <string name="qs_advanced_location_title">Advanced location settings</string>
   <string name="qs_advanced_location_summary">Enable advanced settings for location in quick settings</string>
+  <!-- Advanced data quick settings -->
+  <string name="qs_advanced_data_title">Advanced data tile</string>
+  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Brightness slider</string>
   <!-- Force expand notifications -->

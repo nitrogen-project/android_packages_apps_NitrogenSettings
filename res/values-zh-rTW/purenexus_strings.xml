@@ -147,6 +147,9 @@
   <!-- Advanced location quick settings -->
   <string name="qs_advanced_location_title">進階位置設定</string>
   <string name="qs_advanced_location_summary">在快速設定中啟用進階位置設定</string>
+  <!-- Advanced data quick settings -->
+  <string name="qs_advanced_data_title">Advanced data tile</string>
+  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">亮度控制桿</string>
   <!-- Force expand notifications -->

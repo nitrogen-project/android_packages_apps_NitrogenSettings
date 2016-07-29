@@ -147,6 +147,9 @@
   <!-- Advanced location quick settings -->
   <string name="qs_advanced_location_title">Gelişmiş konum ayarları</string>
   <string name="qs_advanced_location_summary">Hızlı ayarlarda konum servisleri için gelişmiş ayarları etkinleştir</string>
+  <!-- Advanced data quick settings -->
+  <string name="qs_advanced_data_title">Advanced data tile</string>
+  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Parlaklık kaydırıcı</string>
   <!-- Force expand notifications -->
@@ -188,8 +191,8 @@
   <string name="smart_pulldown_dismissable">kapatılabilir bildirim yoksa</string>
   <string name="smart_pulldown_ongoing">devam eden yok</string>
   <!-- Disable Quicks settings -->
-  <string name="lockscreen_qs_disabled_title">Disable quick settings</string>
-  <string name="lockscreen_qs_disabled_summary">Disables quick settings on secure lockscreen</string>
+  <string name="lockscreen_qs_disabled_title">Hızlı ayarları devre dışı bırak</string>
+  <string name="lockscreen_qs_disabled_summary">Sadece güvenli kilit ekranında hızlı ayarları devre dışı bırakır</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">Medya &amp; bildirimleri</string>
   <string name="media_cat_title">Medya seçenekleri</string>
