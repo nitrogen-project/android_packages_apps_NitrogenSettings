@@ -148,8 +148,8 @@
   <string name="qs_advanced_location_title">Erweiterte Standort-Einstellungen</string>
   <string name="qs_advanced_location_summary">Aktiviert die erweiterten Einstellungen für Ortung in den Schnelleinstellungen</string>
   <!-- Advanced data quick settings -->
-  <string name="qs_advanced_data_title">Advanced data tile</string>
-  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+  <string name="qs_advanced_data_title">Erweiterte Daten-Kachel</string>
+  <string name="qs_advanced_data_summary">Aktivieren Sie die Funktion um mit einem Tipp die mobilen Daten an- oder auszuschalten</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Helligkeitsregler</string>
   <!-- Force expand notifications -->

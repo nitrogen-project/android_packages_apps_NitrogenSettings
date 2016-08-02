@@ -148,8 +148,8 @@
   <string name="qs_advanced_location_title">Configurações avançadas de localização</string>
   <string name="qs_advanced_location_summary">Habilita as configurações avançadas para localização nas configurações rápidas</string>
   <!-- Advanced data quick settings -->
-  <string name="qs_advanced_data_title">Advanced data tile</string>
-  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+  <string name="qs_advanced_data_title">Bloco de dados avançados</string>
+  <string name="qs_advanced_data_summary">Habilita a ação de um toque para habilitar ou desabilitar dados</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Controle de brilho</string>
   <!-- Force expand notifications -->

@@ -163,7 +163,7 @@
   <string name="status_bar_show_weather_summary">Mostra meteo nell\'intestazione del pannello di notifica</string>
   <string name="weather_settings">Impostazioni Meteo</string>
   <!-- Quick pull down-->
-  <string name="quick_pulldown_title">Quick settings rapidi</string>
+  <string name="quick_pulldown_title">Impostazioni rapide</string>
   <string name="quick_pulldown_summary">Il bordo laterale %1$s della barra di stato mostra le Impostazioni veloci</string>
   <string name="quick_pulldown_summary_always">Visualizza sempre le impostazioni rapide sulla status bar pulldown</string>
   <string name="quick_pulldown_off">Disattivata</string>

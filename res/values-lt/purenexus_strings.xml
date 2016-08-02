@@ -148,8 +148,8 @@
   <string name="qs_advanced_location_title">Išplėstinės vietovės nustatymai</string>
   <string name="qs_advanced_location_summary">Įgalinti vietovės išplėstinius nustatymus sparčiuosiuose nustatymuose</string>
   <!-- Advanced data quick settings -->
-  <string name="qs_advanced_data_title">Advanced data tile</string>
-  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+  <string name="qs_advanced_data_title">Išplėstinių duomenų plytelė</string>
+  <string name="qs_advanced_data_summary">Įjungia vieno paspaudimo veiksmą duomenų įgalinimui ar išjungimui</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Šviesumo slankiklis</string>
   <!-- Force expand notifications -->

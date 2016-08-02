@@ -146,10 +146,10 @@
   <string name="qs_panel_title">Panneau des paramètres rapides</string>
   <!-- Advanced location quick settings -->
   <string name="qs_advanced_location_title">Paramètres avancés de localisation</string>
-  <string name="qs_advanced_location_summary">Activez les paramètres avancés de localisation dans les paramètres rapides</string>
+  <string name="qs_advanced_location_summary">Activer les paramètres avancés de localisation dans les paramètres rapides</string>
   <!-- Advanced data quick settings -->
-  <string name="qs_advanced_data_title">Advanced data tile</string>
-  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+  <string name="qs_advanced_data_title">Tuile des données mobiles avancées</string>
+  <string name="qs_advanced_data_summary">Permettre un appui simple pour activer ou désactiver les données</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Curseur de luminosité</string>
   <!-- Force expand notifications -->

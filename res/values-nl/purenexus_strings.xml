@@ -148,8 +148,8 @@
   <string name="qs_advanced_location_title">Geavanceerde locatie instellingen</string>
   <string name="qs_advanced_location_summary">Geavanceerde locatie instellingen in Snelle Instellingen inschakelen</string>
   <!-- Advanced data quick settings -->
-  <string name="qs_advanced_data_title">Advanced data tile</string>
-  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+  <string name="qs_advanced_data_title">Geavanceerde gegevenstegel</string>
+  <string name="qs_advanced_data_summary">Eén-tik actie om mobiele gegevens in/uit te schakelen</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Helderheidsschuifbalk</string>
   <!-- Force expand notifications -->
