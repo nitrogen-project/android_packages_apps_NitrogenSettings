@@ -15,7 +15,7 @@
   <!-- App Title -->
   <string name="pure_settings_title">PureNexus 设置</string>
   <!-- Categories -->
-  <string name="pure_interface">界面</string>
+  <string name="pure_interface">界面设置</string>
   <string name="pure_buttons">按钮</string>
   <string name="pure_system">系统</string>
   <!-- Color picker -->
@@ -148,8 +148,8 @@
   <string name="qs_advanced_location_title">高级位置服务设置</string>
   <string name="qs_advanced_location_summary">在快速设置中启用高级位置服务设置</string>
   <!-- Advanced data quick settings -->
-  <string name="qs_advanced_data_title">Advanced data tile</string>
-  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+  <string name="qs_advanced_data_title">高级数据磁贴</string>
+  <string name="qs_advanced_data_summary">允许单击操作以启用或禁用数据</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">亮度滑块</string>
   <!-- Force expand notifications -->

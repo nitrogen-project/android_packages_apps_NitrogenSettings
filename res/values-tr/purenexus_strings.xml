@@ -148,8 +148,8 @@
   <string name="qs_advanced_location_title">Gelişmiş konum ayarları</string>
   <string name="qs_advanced_location_summary">Hızlı ayarlarda konum servisleri için gelişmiş ayarları etkinleştir</string>
   <!-- Advanced data quick settings -->
-  <string name="qs_advanced_data_title">Advanced data tile</string>
-  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+  <string name="qs_advanced_data_title">Gelişmiş veri karesi</string>
+  <string name="qs_advanced_data_summary">Bir dokunuşla veriyi etkinleştirme veya devre dışı bırakma</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">Parlaklık kaydırıcı</string>
   <!-- Force expand notifications -->
@@ -433,7 +433,7 @@
   <string name="volume_keys_control_media_stream_summary">Ses tuşları ile medya akışını kontrol etmeye zorla</string>
   <!-- Volume key orientation swap -->
   <string name="swap_volume_buttons_title">Ses tuşu değiştirme</string>
-  <string name="swap_volume_buttons_summary">Ekran rotasyonuna göre ses tuşlarını değiştir</string>
+  <string name="swap_volume_buttons_summary">Geçerli olan yönlendirme ayarlarına dayanarak ses tuşları eylemini ayarlayın</string>
   <!-- Volume Steps -->
   <string name="volume_steps_title">Ses seviyesi</string>
   <string name="volume_steps_summary">Ses seviyelerini özelleştir</string>

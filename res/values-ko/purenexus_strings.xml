@@ -148,8 +148,8 @@
   <string name="qs_advanced_location_title">고급 위치 설정</string>
   <string name="qs_advanced_location_summary">고급 위치 설정을 빠른 설정창에 활성화합니다</string>
   <!-- Advanced data quick settings -->
-  <string name="qs_advanced_data_title">Advanced data tile</string>
-  <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+  <string name="qs_advanced_data_title">고급 데이터 타일</string>
+  <string name="qs_advanced_data_summary">타일을 한 번 눌러 데이터를 켜고 끕니다</string>
   <!-- Brightness slider -->
   <string name="qs_brightness_slider_title">화면 밝기 슬라이더</string>
   <!-- Force expand notifications -->

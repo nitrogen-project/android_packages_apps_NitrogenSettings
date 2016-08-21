@@ -13,17 +13,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
-  <string name="pure_settings_title">PureNexus Settings</string>
+  <string name="pure_settings_title">Налаштування PureNexus</string>
   <!-- Categories -->
-  <string name="pure_interface">Interface</string>
-  <string name="pure_buttons">Buttons</string>
+  <string name="pure_interface">Інтерфейс</string>
+  <string name="pure_buttons">Кнопки</string>
   <string name="pure_system">System</string>
   <!-- Color picker -->
-  <string name="dialog_color_picker">Color Picker</string>
+  <string name="dialog_color_picker">Палітра кольорів</string>
   <string name="press_color_to_apply">Press on Color to apply</string>
   <string name="hex">Hex:</string>
-  <string name="hex_check_button_text">PREVIEW</string>
-  <string name="hex_reset_button_text">RESET</string>
+  <string name="hex_check_button_text">ПОПЕРЕДНІЙ ПЕРЕГЛЯД</string>
+  <string name="hex_reset_button_text">СКИДАННЯ</string>
   <string name="longpress_info">Longpress box to save color</string>
   <!-- Display fragment -->
   <string name="display_settings_title">Display</string>
@@ -40,16 +40,16 @@
   <string name="ok">OK</string>
   <string name="reset">Reset</string>
   <string name="cancel">Cancel</string>
-  <string name="save">Save</string>
+  <string name="save">Зберегти</string>
   <!-- Lockscreen Fragment -->
-  <string name="lockscreen_settings_title">Lockscreen</string>
+  <string name="lockscreen_settings_title">Екран блокування</string>
   <string name="lockscreen_options_title">Lockscreen options</string>
   <string name="lockscreen_secure_options_title">Secure Lockscreen options</string>
   <!-- Pin scramble -->
   <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
   <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
   <!-- quick pin unlock -->
-  <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+  <string name="unlock_quick_unlock_control_title">Швидке розблокування</string>
   <string name="unlock_quick_unlock_control_summary">Enable at your own discretion. pins with more than 4 digits can cause issues</string>
   <!-- Lockscreen items clock, date, alarm text -->
   <string name="lockscreen_items_settings_title">Lockscreen Items</string>
@@ -57,8 +57,8 @@
   <string name="lockscreen_date_title">Lockscreen date</string>
   <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
   <!-- Lockscreen Wallpaper -->
-  <string name="lockscreen_wallpaper_title">Lockscreen wallpaper</string>
-  <string name="lockscreen_wallpaper_set_title">Set lockscreen wallpaper</string>
+  <string name="lockscreen_wallpaper_title">Шпалери екрану блокування</string>
+  <string name="lockscreen_wallpaper_set_title">Встановити шпалери для екрану блокування</string>
   <string name="lockscreen_wallpaper_clear_title">Reset lockscreen wallpaper</string>
   <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper reset</string>
   <!-- Lockscreen torch -->
@@ -113,17 +113,17 @@
   <string name="navbar_dimensions_title">Navbar Dimensions</string>
   <string name="navigation_bar_height_title">Navigation bar height</string>
   <string name="navigation_bar_height_landscape_title">Navigation bar height landscape</string>
-  <string name="navigation_bar_width_title">Navigation bar width</string>
-  <string name="navigation_bar_size_42_dp_default">42 dp (default)</string>
+  <string name="navigation_bar_width_title">Ширина панелі навігації</string>
+  <string name="navigation_bar_size_42_dp_default">42 dp (за замовчуванням)</string>
   <string name="navigation_bar_size_36_dp">36 dp</string>
   <string name="navigation_bar_size_30_dp">30 dp</string>
   <string name="navigation_bar_size_24_dp">24 dp</string>
   <string name="navigation_bar_size_52_dp">52 dp</string>
-  <string name="navigation_bar_size_48_dp_default">48 dp (default)</string>
+  <string name="navigation_bar_size_48_dp_default">48 dp (за замовчуванням)</string>
   <string name="navigation_bar_size_44_dp">44 dp</string>
   <string name="navigation_bar_size_40_dp">40 dp</string>
   <string name="navigation_bar_size_42_dp">42 dp</string>
-  <string name="navigation_bar_size_0_dp">0 dp (off)</string>
+  <string name="navigation_bar_size_0_dp">0 dp (вимкнено)</string>
   <!-- Navbar IME selector icon -->
   <string name="ime_switcher_notify">IME selector icon</string>
   <string name="ime_switcher_notify_summary">Display input method selector icon</string>
@@ -137,7 +137,7 @@
   <string name="navbarbutton_settings_title">Buttons and layout</string>
   <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap \'Save\' to commit your changes, or \'Restore defaults\' to reset the layout to default settings.</string>
   <string name="navigation_restore_button_text">Restore\ndefaults</string>
-  <string name="navigation_edit_button_text">Edit</string>
+  <string name="navigation_edit_button_text">Змінити</string>
   <string name="navigation_save_button_text">Save</string>
   <string name="navigation_bar_reset_message">Delete current settings and restore the default layout?</string>
   <!-- Notification panel fragment -->
@@ -186,7 +186,7 @@
   <string name="smart_pulldown_title">Smart pulldown</string>
   <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
   <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-  <string name="smart_pulldown_off">Off</string>
+  <string name="smart_pulldown_off">Вимкн.</string>
   <string name="smart_pulldown_none">no notifications</string>
   <string name="smart_pulldown_dismissable">no dismissable</string>
   <string name="smart_pulldown_ongoing">no ongoing</string>

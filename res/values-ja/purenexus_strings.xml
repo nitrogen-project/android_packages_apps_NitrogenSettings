@@ -35,7 +35,7 @@
   <string name="wake_when_plugged_or_unplugged_summary">電源に接続または電源から切断された時に画面をオンにする</string>
   <!-- Three finger swipe screenshot -->
   <string name="three_finger_gesture">3本指でスクリーンショット</string>
-  <string name="three_finger_gesture_summary">3本の指をスワイプしてスクリーンショットを撮ります</string>
+  <string name="three_finger_gesture_summary">3本の指でスワイプダウンしてスクリーンショットを撮影する</string>
   <!-- General strings -->
   <string name="ok">OK</string>
   <string name="reset">リセット</string>
@@ -44,10 +44,10 @@
   <!-- Lockscreen Fragment -->
   <string name="lockscreen_settings_title">ロック画面</string>
   <string name="lockscreen_options_title">ロック画面のオプション</string>
-  <string name="lockscreen_secure_options_title">安全なロック画面のオプション</string>
+  <string name="lockscreen_secure_options_title">ロック画面のセキュリティのオプション</string>
   <!-- Pin scramble -->
   <string name="unlock_scramble_pin_layout_title">ランダムなPINキー配置</string>
-  <string name="unlock_scramble_pin_layout_summary">端末のロック解除時にPINキーの配列をランダムに入れ替えます</string>
+  <string name="unlock_scramble_pin_layout_summary">ロック解除時のPINキー配列をランダムに入れ替える</string>
   <!-- quick pin unlock -->
   <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
   <string name="unlock_quick_unlock_control_summary">ご自身の判断で有効にしてください。4桁以上のPINは、問題が発生する可能性があります。</string>
@@ -102,11 +102,11 @@
   <string name="navigation_bar_cus">ナビゲーションバーのカスタマイズ</string>
   <!-- Kill app long-press back -->
   <string name="kill_app_longpress_back">戻るボタンでアプリ終了</string>
-  <string name="kill_app_longpress_back_summary">戻るボタン長押しでフォアグラウンドアプリを終了する</string>
+  <string name="kill_app_longpress_back_summary">戻るボタンの長押しでフォアグラウンドアプリを終了する</string>
   <string name="long_press_kill_delay">アプリ終了の遅延</string>
   <!-- Recent longpress last app toggle -->
   <string name="recents_longpress_title">アプリ履歴ボタンの長押し</string>
-  <string name="recents_longpress_summary">アプリ履歴ボタンを長押しで最後に開いたアプリを開く</string>
+  <string name="recents_longpress_summary">アプリ履歴ボタンの長押しで最後に開いたアプリを開く</string>
   <!-- Navbar toggle -->
   <string name="navbar_enable_bar">有効</string>
   <!-- Navbar Dimensions -->
@@ -132,7 +132,7 @@
   <string name="double_tap_sleep_nav_bar_summary">ナビゲーションバーをダブルタップして端末をスリープにする</string>
   <!-- Navbar arrow keys -->
   <string name="navigation_bar_arrow_keys_title">入力中に矢印キーを表示</string>
-  <string name="navigation_bar_arrow_keys_summary">入力中に左右のカーソルボタンを表示します。IME切り替えより優先されます。</string>
+  <string name="navigation_bar_arrow_keys_summary">入力中に左右のカーソルボタンを表示します。IME選択より優先されます。</string>
   <!-- Navbar button customization -->
   <string name="navbarbutton_settings_title">ボタンとレイアウト</string>
   <string name="navigation_bar_help_text">編集を開始するには、編集アイコンをタップしてナビゲーションバーのロックを解除します。\n\nタップでショートカットの変更、長押しでレイアウトの変更ができます。\n\n保存ボタンで変更を確定、復元ボタンでデフォルト設定に戻します。</string>
@@ -154,7 +154,7 @@
   <string name="qs_brightness_slider_title">明るさ調整スライダー</string>
   <!-- Force expand notifications -->
   <string name="notification_force_expand_title">通知を強制的に拡張</string>
-  <string name="notification_force_expand_summary">アプリが対応している場合は通知を自動で拡張する</string>
+  <string name="notification_force_expand_summary">アプリが対応している場合は自動で通知を拡張する</string>
   <!-- main tiles -->
   <string name="qs_main_tiles_title">最初の行を拡大</string>
   <string name="qs_main_tiles_summary">最初の行に2つのメインタイルを配置する</string>
@@ -192,7 +192,7 @@
   <string name="smart_pulldown_ongoing">進行中ではない</string>
   <!-- Disable Quicks settings -->
   <string name="lockscreen_qs_disabled_title">クイック設定を無効にする</string>
-  <string name="lockscreen_qs_disabled_summary">ロック画面でのクイック設定を無効にします</string>
+  <string name="lockscreen_qs_disabled_summary">ロック画面でのクイック設定を無効にする</string>
   <!-- Notification & Media fragment -->
   <string name="notification_media_settings_title">メディアと通知</string>
   <string name="media_cat_title">メディアオプション</string>
@@ -389,7 +389,7 @@
   <string name="double_tap_to_sleep_summary">ステータスバー上をダブルタップして端末をスリープにする</string>
   <!-- Network traffic Settings -->
   <string name="nettraffic_settings_title">通信量の表示</string>
-  <string name="nettraffic_settings_summary">通信量の表示の設定</string>
+  <string name="nettraffic_settings_summary">通信量の表示のオプション</string>
   <!-- Network traffic options -->
   <string name="show_network_traffic_state">ステータスバーの通信量モニター</string>
   <string name="show_network_traffic_unit">表示単位</string>
@@ -405,10 +405,10 @@
   <string name="show_network_traffic_1500">1500 ms</string>
   <string name="show_network_traffic_2000">2000 ms</string>
   <string name="network_traffic_autohide">自動で非表示</string>
-  <string name="network_traffic_autohide_summary">アクティビティがない時はトラフィックモニターを非表示にします</string>
+  <string name="network_traffic_autohide_summary">アクティビティがない時はトラフィックモニターを非表示にする</string>
   <string name="network_traffic_autohide_threshold">非アクティブのしきい値</string>
   <string name="network_traffic_hidearrow">矢印を非表示にする</string>
-  <string name="network_traffic_hidearrow_summary">通信量のインジケータ矢印を非表示にします</string>
+  <string name="network_traffic_hidearrow_summary">通信量のインジケータ矢印を非表示にする</string>
   <!-- Notification count -->
   <string name="status_bar_notif_count_title">通知数を表示する</string>
   <string name="status_bar_notif_count_summary">保留中の通知数を表示する</string>
