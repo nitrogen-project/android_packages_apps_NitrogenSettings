@@ -24,7 +24,7 @@
     android:paddingEnd="5dp"
     android:orientation="horizontal">
 
-    <com.pure.settings.preferences.ColorPickerView
+    <com.nitrogen.settings.preferences.ColorPickerView
         android:id="@+id/color_picker_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -137,14 +137,14 @@
             android:layout_marginStart="5dp"
             android:orientation="horizontal">
 
-            <com.pure.settings.preferences.ColorPickerPanelView
+            <com.nitrogen.settings.preferences.ColorPickerPanelView
                 android:id="@+id/userset1_panel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="6dp"
                 android:layout_weight="0.5" />
 
-            <com.pure.settings.preferences.ColorPickerPanelView
+            <com.nitrogen.settings.preferences.ColorPickerPanelView
                 android:id="@+id/userset2_panel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -161,14 +161,14 @@
             android:layout_marginStart="5dp"
             android:orientation="horizontal">
 
-            <com.pure.settings.preferences.ColorPickerPanelView
+            <com.nitrogen.settings.preferences.ColorPickerPanelView
                 android:id="@+id/userset3_panel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="6dp"
                 android:layout_weight="0.5" />
 
-            <com.pure.settings.preferences.ColorPickerPanelView
+            <com.nitrogen.settings.preferences.ColorPickerPanelView
                 android:id="@+id/userset4_panel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -185,14 +185,14 @@
             android:layout_marginStart="5dp"
             android:orientation="horizontal">
 
-            <com.pure.settings.preferences.ColorPickerPanelView
+            <com.nitrogen.settings.preferences.ColorPickerPanelView
                 android:id="@+id/userset5_panel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="6dp"
                 android:layout_weight="0.5" />
 
-            <com.pure.settings.preferences.ColorPickerPanelView
+            <com.nitrogen.settings.preferences.ColorPickerPanelView
                 android:id="@+id/userset6_panel"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -217,7 +217,7 @@
                 android:layout_marginEnd="6dp"
                 android:textAppearance="?android:attr/textAppearanceSmall" />
 
-            <com.pure.settings.preferences.ColorPickerPanelView
+            <com.nitrogen.settings.preferences.ColorPickerPanelView
                 android:id="@+id/old_color_panel"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
@@ -232,7 +232,7 @@
                 android:layout_marginTop="3dp"
                 android:layout_marginBottom="3dp" />
 
-            <com.pure.settings.preferences.ColorPickerPanelView
+            <com.nitrogen.settings.preferences.ColorPickerPanelView
                 android:id="@+id/new_color_panel"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
