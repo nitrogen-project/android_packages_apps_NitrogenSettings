@@ -17,4 +17,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+            android:key="cursor"
+            android:title="@string/cursor_section_header">
+
+            <ListPreference
+                android:dialogTitle="@string/volume_key_cursor_control_title"
+                android:entries="@array/volume_key_cursor_control_entries"
+                android:entryValues="@array/volume_key_cursor_control_values"
+                android:key="volume_key_cursor_control"
+                android:persistent="false"
+                android:title="@string/volume_key_cursor_control_title"
+            />
+    </PreferenceCategory>
+
 </PreferenceScreen>

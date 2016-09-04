@@ -65,4 +65,12 @@
     <string name="hardware_keys_action_launch_camera">Запуск камеры</string>
     <string name="hardware_keys_action_sleep">Выключить экран</string>
     <string name="hardware_keys_action_last_app">Последнее приложение</string>
+
+    <!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">Курсор</string>
+    <string name="volume_key_cursor_control_title">Перемещение курсора кнопками громкости</string>
+    <string name="volume_key_cursor_control_off">Выключено</string>
+    <string name="volume_key_cursor_control_on">Кнопка "+" двигает курсор влево, "-" вправо</string>
+    <string name="volume_key_cursor_control_on_reverse">Кнопка "+" двигает курсор вправо, "-" влево</string>
+
 </resources>
