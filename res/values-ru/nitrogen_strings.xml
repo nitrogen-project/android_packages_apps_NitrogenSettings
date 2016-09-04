@@ -73,4 +73,13 @@
     <string name="volume_key_cursor_control_on">Кнопка "+" двигает курсор влево, "-" вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Кнопка "+" двигает курсор вправо, "-" влево</string>
 
+    <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Таймаут подсветки кнопок</string>
+    <string name="backlight_timeout_off">Подсветка выключена</string>
+    <string name="backlight_timeout_default">5 сек (по умолчанию)</string>
+    <string name="backlight_timeout_10s">10 сек</string>
+    <string name="backlight_timeout_15s">15 сек</string>
+    <string name="backlight_timeout_20s">20 сек</string>
+    <string name="backlight_timeout_30s">30 сек</string>
+
 </resources>

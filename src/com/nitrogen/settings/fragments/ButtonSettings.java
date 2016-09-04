@@ -41,6 +41,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_HOME_DOUBLE_TAP = "hardware_keys_home_double_tap";
     private static final String KEY_MENU_PRESS = "hardware_keys_menu_press";
     private static final String KEY_MENU_LONG_PRESS = "hardware_keys_menu_long_press";
+    private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -76,6 +77,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mHomeDoubleTapAction;
     private ListPreference mMenuPressAction;
     private ListPreference mMenuLongPressAction;
+    private ListPreference mBacklightTimeout;
 
     private Handler mHandler;
 
@@ -149,6 +151,19 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         } else {
             prefScreen.removePreference(menuCategory);
         }
+
+        if (hasMenuKey || hasHomeKey) {
+            mBacklightTimeout = (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
+            if (mBacklightTimeout != null) {
+        	mBacklightTimeout.setOnPreferenceChangeListener(this);
+        	int BacklightTimeout = Settings.System.getInt(getContentResolver(),
+                	Settings.System.BUTTON_BRIGHTNESS, 5);
+        	mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
+        	mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
+            }
+        } else {
+            prefScreen.removePreference(mBacklightTimeout);
+        }
     }
 
     private ListPreference initActionList(String key, int value) {
@@ -184,6 +199,16 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         } else if (preference == mMenuLongPressAction) {
             handleActionListChange(mMenuLongPressAction, newValue,
                     Settings.System.KEY_MENU_LONG_PRESS_ACTION);
+            return true;
+        } else if (preference == mBacklightTimeout) {
+            String BacklightTimeout = (String) newValue;
+            int BacklightTimeoutValue = Integer.parseInt(BacklightTimeout);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BUTTON_BRIGHTNESS, BacklightTimeoutValue);
+            int BacklightTimeoutIndex = mBacklightTimeout
+                    .findIndexOfValue(BacklightTimeout);
+            mBacklightTimeout
+                    .setSummary(mBacklightTimeout.getEntries()[BacklightTimeoutIndex]);
             return true;
         }
         return false;
