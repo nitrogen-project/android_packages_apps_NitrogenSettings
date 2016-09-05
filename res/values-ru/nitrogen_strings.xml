@@ -117,4 +117,8 @@
     <string name="profile_choose_app">Выбрать приложение</string>
     <string name="dialog_delete_title">Удалить</string>
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+
+    <!-- Bluetooth battery -->
+    <string name="bluetooth_battery_title">Уровень заряда BT</string>
+    <string name="bluetooth_battery_summary">Отображать уровень заряда устройства Bluetooth</string>
 </resources>

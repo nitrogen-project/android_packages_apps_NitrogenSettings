@@ -23,4 +23,9 @@
             android:title="@string/ime_switcher_notify"
             android:summary="@string/ime_switcher_notify_summary"
             android:defaultValue="true" />
+
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+            android:key="bluetooth_battery"
+            android:title="@string/bluetooth_battery_title"
+            android:summary="@string/bluetooth_battery_summary"/>
 </PreferenceScreen>
