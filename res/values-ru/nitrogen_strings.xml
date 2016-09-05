@@ -85,4 +85,14 @@
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Значок выбора метода ввода</string>
     <string name="ime_switcher_notify_summary">Отображать переключатель метода ввода при открытии текстовых полей</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_screenshot">Снимок экрана</string>
+    <string name="powermenu_power">Выключение</string>
+    <string name="powermenu_reboot">Перезагрузка</string>
+    <string name="powermenu_airplane">Режим полета</string>
+    <string name="powermenu_settings">Ярлык настроек</string>
+    <string name="powermenu_lockdown">Блокировка устройства</string>
+    <string name="powermenu_soundpanel">Звуковая панель</string>
+
 </resources>
