@@ -26,6 +26,7 @@
     <string name="recents_title">Недавние приложения</string>
     <string name="statusbar_title">Строка состояния</string>
     <string name="volume_title">Кнопки громкости</string>
+    <string name="notifications_title">Уведомления</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
