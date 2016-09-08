@@ -104,6 +104,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
         final PreferenceCategory menuCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
+        mBacklightTimeout =
+                (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
 
         mHandler = new Handler();
 
@@ -153,7 +155,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         }
 
         if (hasMenuKey || hasHomeKey) {
-            mBacklightTimeout = (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
             if (mBacklightTimeout != null) {
         	mBacklightTimeout.setOnPreferenceChangeListener(this);
         	int BacklightTimeout = Settings.System.getInt(getContentResolver(),
