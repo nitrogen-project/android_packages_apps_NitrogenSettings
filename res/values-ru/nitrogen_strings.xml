@@ -49,6 +49,13 @@
     <!-- Kill app long press back -->
     <string name="kill_app_longpress_back">Закрыть приложение</string>
     <string name="kill_app_longpress_back_summary">Закрыть приложение удержанием кнопки «Назад»</string>
+    <!-- long press back to kill configurable timeout -->
+    <string name="kill_app_longpress_timeout_title">Задержка долгого нажатия</string>
+    <string name="timeout_2000">2 секунды</string>
+    <string name="timeout_1500">1,5 секунды</string>
+    <string name="timeout_1000">1 секунда (по умолчанию)</string>
+    <string name="timeout_500">0,5 секунды</string>
+    <string name="timeout_350">0,35 секунды</string>
 
     <!-- Hardware keys -->
     <string name="hardware_keys_home_key_title">Кнопка «Домой»</string>
