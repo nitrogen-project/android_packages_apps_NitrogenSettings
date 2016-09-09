@@ -121,4 +121,12 @@
     <!-- Bluetooth battery -->
     <string name="bluetooth_battery_title">Уровень заряда BT</string>
     <string name="bluetooth_battery_summary">Отображать уровень заряда устройства Bluetooth</string>
+
+    <!-- Volume rocker wake -->
+    <string name="wakeup_category_header">Опции пробуждения</string>
+    <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
+    <string name="volume_rocker_wake_summary">Вывести устройство из спящего режима нажатием кнопок громкости</string>
+
+    <!-- Volume rocker music control -->
+    <string name="media_category_header">Медиа</string>
 </resources>

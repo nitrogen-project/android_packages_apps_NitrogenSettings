@@ -27,8 +27,23 @@
                 android:entryValues="@array/volume_key_cursor_control_values"
                 android:key="volume_key_cursor_control"
                 android:persistent="false"
-                android:title="@string/volume_key_cursor_control_title"
-            />
+                android:title="@string/volume_key_cursor_control_title" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="wakeup"
+        android:title="@string/wakeup_category_header" >
+
+        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+            android:key="volume_rocker_wake"
+            android:summary="@string/volume_rocker_wake_summary"
+            android:title="@string/volume_rocker_wake_title"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="media"
+        android:title="@string/media_category_header" >
+
+    </PreferenceCategory>
 </PreferenceScreen>
