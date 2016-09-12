@@ -45,5 +45,10 @@
         android:key="media"
         android:title="@string/media_category_header" >
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary" />
+
     </PreferenceCategory>
 </PreferenceScreen>
