@@ -131,6 +131,8 @@
 
     <!-- Volume rocker music control -->
     <string name="media_category_header">Media options</string>
+    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
     <!-- Volume button orientation based on current rotation -->
     <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
