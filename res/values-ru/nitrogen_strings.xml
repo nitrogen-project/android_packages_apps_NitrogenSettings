@@ -160,4 +160,30 @@
     <string name="network_traffic_autohide_threshold">Порог неактивности</string>
     <string name="network_traffic_hidearrow_title">Скрыть стрелки</string>
     <string name="network_traffic_hidearrow_summary">Скрыть стрелки в индикаторе трафика</string>
+
+    <!-- Statusbar Clock -->
+    <string name="status_bar_clock_title">Дата и время</string>
+    <string name="status_bar_clock_style_title">Часы</string>
+    <string name="status_bar_clock_style_right">Справа</string>
+    <string name="status_bar_clock_style_left">Слева</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_hidden">Не показывать часы</string>
+    <string name="status_bar_am_pm_title">Стиль индикатора «AM/PM»</string>
+    <string name="status_bar_am_pm_info">Включен 24-часовой формат времени</string>
+    <string name="status_bar_am_pm_normal">Обычный</string>
+    <string name="status_bar_am_pm_small">Маленький</string>
+    <string name="status_bar_am_pm_hidden">Не показывать индикатор</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Показывать дату перед часами</string>
+    <string name="clock_date_display_none">Не показывать</string>
+    <string name="clock_date_display_small">Маленький размер</string>
+    <string name="clock_date_display_normal">Нормальный размер</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_style_normal">Нормальный</string>
+    <string name="clock_date_style_lowercase">Строчный</string>
+    <string name="clock_date_style_uppercase">Прописной</string>
+    <string name="clock_date_format_custom">Пользовательский формат</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Должно быть в формате даты прим. ММ/дд/гг</string>
+    <string name="clock_date_string_edittext_summary">Строка ввода</string> 
 </resources>
