@@ -188,4 +188,16 @@
     <string name="clock_date_format">Date format</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
+
+    <!-- Double Tap -->
+    <string name="dtts_category_header">Double tap to sleep</string>
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Status bar</string>
+    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Navigation bar</string>
+    <string name="double_tap_sleep_nav_bar_summary">Double-tap navigation bar to put the device to sleep. It disables split-screen gesture</string>
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
 </resources>

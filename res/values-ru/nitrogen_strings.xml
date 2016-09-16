@@ -185,5 +185,17 @@
     <string name="clock_date_format_custom">Пользовательский формат</string>
     <string name="clock_date_format">Формат даты</string>
     <string name="clock_date_string_edittext_title">Должно быть в формате даты прим. ММ/дд/гг</string>
-    <string name="clock_date_string_edittext_summary">Строка ввода</string> 
+    <string name="clock_date_string_edittext_summary">Строка ввода</string>
+
+    <!-- Double Tap -->
+    <string name="dtts_category_header">Спящий режим</string>
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Строка состояния</string>
+    <string name="double_tap_to_sleep_summary">Дважды коснитесь строки состояния для перевода устройства в спящий режим</string>
+    <!-- Double Tap Navbar to Sleep -->
+    <string name="double_tap_sleep_nav_bar_title">Панель навигации</string>
+    <string name="double_tap_sleep_nav_bar_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим. Отключает разделение экрана пролистыванием</string>
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
 </resources>
