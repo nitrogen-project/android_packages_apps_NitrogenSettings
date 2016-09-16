@@ -160,4 +160,13 @@
     <string name="network_traffic_autohide_threshold">Порог неактивности</string>
     <string name="network_traffic_hidearrow_title">Скрыть стрелки</string>
     <string name="network_traffic_hidearrow_summary">Скрыть стрелки в индикаторе трафика</string>
+
+    <!-- Double Tap -->
+    <string name="dtts_category_header">Спящий режим</string>
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Строка состояния</string>
+    <string name="double_tap_to_sleep_summary">Дважды коснитесь строки состояния для перевода устройства в спящий режим</string>
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
 </resources>
