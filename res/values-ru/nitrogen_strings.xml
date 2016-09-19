@@ -202,4 +202,7 @@
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Ответ кнопкой громкости</string>
     <string name="volume_answer_call_summary">Ответ кнопкой увеличения громкости</string>
+
+    <!-- Show navbar -->
+    <string name="navigation_bar_enabled_title">Включить</string>
 </resources>
