@@ -203,4 +203,8 @@
 
     <!-- CM Lockscreen shortcuts -->
     <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
+
+    <!-- The volume key answer -->
+    <string name="volume_answer_call_title">Volume key Answer</string>
+    <string name="volume_answer_call_summary">Volume up key Answer</string>
 </resources>
