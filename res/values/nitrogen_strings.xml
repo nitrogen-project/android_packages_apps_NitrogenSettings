@@ -210,4 +210,7 @@
 
     <!-- Show navbar -->
     <string name="navigation_bar_enabled_title">Enable</string>
+
+    <!-- Enabble HW keys -->
+    <string name="enable_hw_keys_title">Enable hardware keys</string>
 </resources>

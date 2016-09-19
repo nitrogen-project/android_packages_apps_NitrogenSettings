@@ -43,6 +43,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_MENU_LONG_PRESS = "hardware_keys_menu_long_press";
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String KILL_APP_LONGPRESS_TIMEOUT = "kill_app_longpress_timeout";
+    private static final String KEY_ENABLE_HW_KEYS = "enable_hw_keys";
 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -80,6 +81,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mMenuLongPressAction;
     private ListPreference mBacklightTimeout;
     private ListPreference mKillAppLongpressTimeout;
+    private SwitchPreference mEnableHwKeys;
 
     private Handler mHandler;
 
@@ -108,6 +110,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
         mBacklightTimeout =
                 (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
+        mEnableHwKeys =
+                (SwitchPreference) findPreference(KEY_ENABLE_HW_KEYS);
 
         mHandler = new Handler();
 
@@ -164,8 +168,14 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         	mBacklightTimeout.setValue(Integer.toString(BacklightTimeout));
         	mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
             }
+            if (mEnableHwKeys != null) {
+        	mEnableHwKeys.setChecked((Settings.System.getInt(getContentResolver(),
+            	    Settings.System.ENABLE_HW_KEYS, 1) == 1));
+        	mEnableHwKeys.setOnPreferenceChangeListener(this);
+            }
         } else {
             prefScreen.removePreference(mBacklightTimeout);
+            prefScreen.removePreference(mEnableHwKeys);
         }
 
         // Back long press timeout
@@ -231,7 +241,13 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             mKillAppLongpressTimeout
                     .setSummary(mKillAppLongpressTimeout.getEntries()[KillAppLongpressTimeoutIndex]);
             return true;
+        } else if (preference == mEnableHwKeys) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.ENABLE_HW_KEYS, value ? 1 : 0);
+            return true;
         }
+
         return false;
     }
 
