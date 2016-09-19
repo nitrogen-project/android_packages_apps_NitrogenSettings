@@ -200,4 +200,7 @@
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+
+    <!-- CM Lockscreen shortcuts -->
+    <string name="lockscreen_targets_message">Lockscreen shortcuts</string>
 </resources>
