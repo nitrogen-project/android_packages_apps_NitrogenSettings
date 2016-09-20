@@ -176,4 +176,7 @@
 
     <!-- Enable HW keys -->
     <string name="enable_hw_keys_title">Включить сенсорные кнопки</string>
+
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_title">Включить подсветку</string>
 </resources>
