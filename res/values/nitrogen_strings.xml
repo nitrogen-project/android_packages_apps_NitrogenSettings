@@ -213,4 +213,7 @@
 
     <!-- Enabble HW keys -->
     <string name="enable_hw_keys_title">Enable hardware keys</string>
+
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_title">Enable backlight</string>
 </resources>

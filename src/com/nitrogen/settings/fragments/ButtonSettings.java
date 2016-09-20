@@ -44,6 +44,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String KILL_APP_LONGPRESS_TIMEOUT = "kill_app_longpress_timeout";
     private static final String KEY_ENABLE_HW_KEYS = "enable_hw_keys";
+    private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
 
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
@@ -82,6 +83,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mBacklightTimeout;
     private ListPreference mKillAppLongpressTimeout;
     private SwitchPreference mEnableHwKeys;
+    private SwitchPreference mButtonBrightness;
 
     private Handler mHandler;
 
@@ -112,6 +114,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
         mEnableHwKeys =
                 (SwitchPreference) findPreference(KEY_ENABLE_HW_KEYS);
+
+        mButtonBrightness =
+                (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
 
         mHandler = new Handler();
 
@@ -173,9 +178,16 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             	    Settings.System.ENABLE_HW_KEYS, 1) == 1));
         	mEnableHwKeys.setOnPreferenceChangeListener(this);
             }
+
+            if (mButtonBrightness != null) {
+        	mButtonBrightness.setChecked((Settings.System.getInt(getContentResolver(),
+            	    Settings.System.BUTTON_BRIGHTNESS, 255) == 1));
+        	mButtonBrightness.setOnPreferenceChangeListener(this);
+            }
         } else {
             prefScreen.removePreference(mBacklightTimeout);
             prefScreen.removePreference(mEnableHwKeys);
+            prefScreen.removePreference(mButtonBrightness);
         }
 
         // Back long press timeout
@@ -246,8 +258,12 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.ENABLE_HW_KEYS, value ? 1 : 0);
             return true;
+        } else if (preference == mButtonBrightness) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BUTTON_BRIGHTNESS, value ? 255 : 0);
+            return true;
         }
-
         return false;
     }
 
