@@ -103,6 +103,7 @@
     <string name="powermenu_settings">Ярлык настроек</string>
     <string name="powermenu_lockdown">Блокировка устройства</string>
     <string name="powermenu_soundpanel">Звуковая панель</string>
+    <string name="powermenu_users">Пользователь</string>
 
     <!-- MTP Dirty Hack -->
     <string name="enable_mtp_dirtyhack_title">MTP вместо Зарядки</string>
