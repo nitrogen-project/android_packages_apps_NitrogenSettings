@@ -96,6 +96,7 @@
 
     <!-- Power Menu -->
     <string name="powermenu_screenshot">Снимок экрана</string>
+    <string name="powermenu_torch">Фонарик</string>
     <string name="powermenu_power">Выключение</string>
     <string name="powermenu_reboot">Перезагрузка</string>
     <string name="powermenu_airplane">Режим полета</string>
