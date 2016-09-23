@@ -218,4 +218,10 @@
 
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Enable backlight</string>
+
+    <!-- Navbar Tuner -->
+    <string name="navbar_tuner_title">Edit navigation bar</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
 </resources>
