@@ -22,7 +22,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.RectShape;
+import android.graphics.drawable.shapes.OvalShape;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
@@ -80,12 +80,11 @@ public class BatteryLightPreference extends Preference implements DialogInterfac
     }
 
     private void updatePreferenceViews() {
-        final int width = (int) mResources.getDimension(R.dimen.color_preference_width);
-        final int height = (int) mResources.getDimension(R.dimen.color_preference_height);
+        final int size = (int) getContext().getResources().getDimension(R.dimen.oval_notification_size);
 
         if (mLightColorView != null) {
             mLightColorView.setEnabled(true);
-            mLightColorView.setImageDrawable(createRectShape(width, height, 0xFF000000 | mColorValue));
+            mLightColorView.setImageDrawable(createOvalShape(size, 0xFF000000 | mColorValue));
         }
     }
 
@@ -116,10 +115,10 @@ public class BatteryLightPreference extends Preference implements DialogInterfac
         return d;
     }
 
-    private static ShapeDrawable createRectShape(int width, int height, int color) {
-        ShapeDrawable shape = new ShapeDrawable(new RectShape());
-        shape.setIntrinsicHeight(height);
-        shape.setIntrinsicWidth(width);
+    private static ShapeDrawable createOvalShape(int size, int color) {
+        ShapeDrawable shape = new ShapeDrawable(new OvalShape());
+        shape.setIntrinsicHeight(size);
+        shape.setIntrinsicWidth(size);
         shape.getPaint().setColor(color);
         return shape;
     }

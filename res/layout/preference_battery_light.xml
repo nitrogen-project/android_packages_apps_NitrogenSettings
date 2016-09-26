@@ -40,8 +40,8 @@
 
         <ImageView
             android:id="@+id/light_color"
-            android:layout_width="@dimen/color_preference_width"
-            android:layout_height="@dimen/color_preference_height"
-            android:layout_gravity="center" />
+            android:layout_width="32dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
     </LinearLayout>
 </LinearLayout>
