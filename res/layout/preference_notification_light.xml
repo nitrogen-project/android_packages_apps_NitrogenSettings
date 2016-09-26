@@ -80,5 +80,4 @@
         android:layout_width="32dip"
         android:layout_height="wrap_content"
         android:layout_gravity="center"/>
-
 </LinearLayout>
