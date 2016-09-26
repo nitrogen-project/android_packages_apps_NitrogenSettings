@@ -1,7 +1,6 @@
 /*
  * Copyright (C) 2010 Daniel Nilsson
- * Copyright (C) 2013 Slimroms
- * Copyright (C) 2016 Pure Nexus Project - dwitherell
+ * Copyright (C) 2012 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,16 +17,21 @@
 
 package com.nitrogen.settings.preferences;
 
-import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.Bitmap.Config;
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.graphics.Bitmap.Config;
 import android.graphics.drawable.Drawable;
-import com.android.settings.R;
 
+/**
+ * This drawable that draws a simple white and gray chess board pattern. It's
+ * pattern you will often see as a background behind a partly transparent image
+ * in many applications.
+ *
+ * @author Daniel Nilsson
+ */
 public class AlphaPatternDrawable extends Drawable {
 
     private int mRectangleSize = 10;
@@ -39,18 +43,22 @@ public class AlphaPatternDrawable extends Drawable {
     private int numRectanglesHorizontal;
     private int numRectanglesVertical;
 
-    // where the pattern gets dumped/cached
+    /**
+     * Bitmap in which the pattern will be cached.
+     */
     private Bitmap mBitmap;
 
-    public AlphaPatternDrawable(int rectangleSize, Context context) {
+    public AlphaPatternDrawable(int rectangleSize) {
         mRectangleSize = rectangleSize;
-        mPaintWhite.setColor(context.getResources().getColor(R.color.alphawhite));
-        mPaintGray.setColor(context.getResources().getColor(R.color.alphagray));
+        mPaintWhite.setColor(0xffffffff);
+        mPaintGray.setColor(0xffcbcbcb);
     }
 
     @Override
     public void draw(Canvas canvas) {
-        canvas.drawBitmap(mBitmap, null, getBounds(), mPaint);
+        if (mBitmap != null) {
+            canvas.drawBitmap(mBitmap, null, getBounds(), mPaint);
+        }
     }
 
     @Override
@@ -60,12 +68,12 @@ public class AlphaPatternDrawable extends Drawable {
 
     @Override
     public void setAlpha(int alpha) {
-        throw new UnsupportedOperationException("Alpha is not supported by this drawable.");
+        throw new UnsupportedOperationException("Alpha is not supported by this drawwable.");
     }
 
     @Override
     public void setColorFilter(ColorFilter cf) {
-        throw new UnsupportedOperationException("ColorFilter is not supported by this drawable.");
+        throw new UnsupportedOperationException("ColorFilter is not supported by this drawwable.");
     }
 
     @Override
@@ -81,9 +89,15 @@ public class AlphaPatternDrawable extends Drawable {
         generatePatternBitmap();
     }
 
-    // Generates bitmap cache with pattern as big as allowed to avoid recreating on draw()
-    private void generatePatternBitmap(){
-        if(getBounds().width() <= 0 || getBounds().height() <= 0){
+    /**
+     * This will generate a bitmap with the pattern as big as the rectangle we
+     * were allow to draw on. We do this to cache the bitmap so we don't need
+     * to recreate it each time draw() is called since it takes a few
+     * milliseconds.
+     */
+    private void generatePatternBitmap() {
+
+        if (getBounds().width() <= 0 || getBounds().height() <= 0) {
             return;
         }
 
@@ -93,20 +107,14 @@ public class AlphaPatternDrawable extends Drawable {
         Rect r = new Rect();
         boolean verticalStartWhite = true;
         for (int i = 0; i <= numRectanglesVertical; i++) {
-
             boolean isWhite = verticalStartWhite;
             for (int j = 0; j <= numRectanglesHorizontal; j++) {
-
                 r.top = i * mRectangleSize;
                 r.left = j * mRectangleSize;
                 r.bottom = r.top + mRectangleSize;
                 r.right = r.left + mRectangleSize;
 
-                if (isWhite) {
-                    canvas.drawRect(r, mPaintWhite);
-                } else {
-                    canvas.drawRect(r, mPaintGray);
-                }
+                canvas.drawRect(r, isWhite ? mPaintWhite : mPaintGray);
 
                 isWhite = !isWhite;
             }

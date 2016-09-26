@@ -50,4 +50,26 @@
             android:layout_marginStart="10dp"
             android:layout_weight="0.5" />
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/color_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal" >
+        <Spinner
+            android:id="@+id/color_list_spinner"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.5" />
+        <com.nitrogen.settings.preferences.ColorPanelView
+            android:id="@+id/color_list_panel"
+            android:layout_width="0px"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_weight="0.5" />
+    </LinearLayout>
 </LinearLayout>

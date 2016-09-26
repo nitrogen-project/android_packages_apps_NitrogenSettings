@@ -181,4 +181,51 @@
 
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Включить подсветку</string>
+
+    <!-- Notification light dialogs -->
+    <string name="advanced">Расширенные</string>
+    <string name="edit_light_settings">Изменение настроек индикатора</string>
+    <string name="pulse_speed_title">Длительность и скорость мигания</string>
+    <string name="default_time">Средне</string>
+    <string name="custom_time">Не задано</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+    <!-- Values for the notification light pulse spinners -->
+    <string name="pulse_length_always_on">Всегда вкл.</string>
+    <string name="pulse_length_very_short">Очень коротко</string>
+    <string name="pulse_length_short">Коротко</string>
+    <string name="pulse_length_normal">Средне</string>
+    <string name="pulse_length_long">Долго</string>
+    <string name="pulse_length_very_long">Очень долго</string>
+    <string name="pulse_speed_very_fast">Очень быстро</string>
+    <string name="pulse_speed_fast">Быстро</string>
+    <string name="pulse_speed_normal">Средне</string>
+    <string name="pulse_speed_slow">Медленно</string>
+    <string name="pulse_speed_very_slow">Очень медленно</string>
+    <!-- Battery light settings -->
+    <string name="battery_light_title">Индикация батареи</string>
+    <string name="battery_low_pulse_title">Мигать при низком уровне заряда</string>
+    <string name="battery_light_list_title">Цвета</string>
+    <string name="battery_light_low_color_title">Батарея разряжена</string>
+    <string name="battery_light_medium_color_title">Заряжается</string>
+    <string name="battery_light_full_color_title">Заряжена (90%)</string>
+    <string name="battery_light_really_full_color_title">Заряжена (100%)</string>
+    <string name="led_color_green">Зеленый</string>
+    <string name="led_color_red">Красный</string>
+    <string name="led_color_yellow">Желтый</string>
+    <!-- Lights settings screen, notification light settings -->
+    <string name="notification_light_title">Индикатор событий</string>
+    <string name="notification_light_general_title">Общие</string>
+    <string name="notification_light_applist_title">Приложения</string>
+    <string name="notification_light_use_custom">Собственные значения</string>
+    <string name="notification_light_default_value">По умолчанию</string>
+    <string name="notification_light_screen_on">Использ. индикатор при вкл. экране</string>
+    <string name="notification_light_zen_mode">Вкл. индикатор в режиме «Не беспокоить»</string>
+    <string name="notification_light_use_multiple_leds">Несколько светодиодов</string>
+    <!-- Lights settings, LED notification -->
+    <string name="led_notification_title">Индикатор событий</string>
+    <string name="led_notification_text">Светодиод включен в настройках</string>
+    <string name="notification_light_no_apps_summary">Чтобы разрешить управление приложениями, включите «%1$s» и нажмите «\u002b» в строке меню.</string>
+    <string name="battery_light_settings">Индикация батареи</string>
+    <string name="battery_light_enable">Включена</string>
 </resources>
