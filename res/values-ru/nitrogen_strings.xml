@@ -273,4 +273,13 @@
     <string name="quick_pulldown_off">Выкл</string>
     <string name="quick_pulldown_left">Левый</string>
     <string name="quick_pulldown_right">Правый</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">\"Умная\" панель уведомлений</string>
+    <string name="smart_pulldown_summary">Открыть быстрые настройки %1$s уведомлений</string>
+    <string name="smart_pulldown_none_summary">Открыть быстрые настройки без уведомлений</string>
+    <string name="smart_pulldown_off">выключено</string>
+    <string name="smart_pulldown_none">без уведомлений</string>
+    <string name="smart_pulldown_dismissable">без удаляемых</string>
+    <string name="smart_pulldown_ongoing">без постоянных</string>
 </resources>
