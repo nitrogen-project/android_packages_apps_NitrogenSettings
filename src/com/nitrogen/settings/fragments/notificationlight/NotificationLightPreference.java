@@ -167,7 +167,9 @@ public class NotificationLightPreference extends Preference
 
         if (mLightColorView != null) {
             mLightColorView.setEnabled(true);
-            mLightColorView.setImageDrawable(createOvalShape(size, 0xFF000000 | mColorValue));
+            final int imageColor = ((mColorValue & 0xF0F0F0) == 0xF0F0F0) ?
+                    (mColorValue - 0x101010) : mColorValue;
+            mLightColorView.setImageDrawable(createOvalShape(size, 0xFF000000 + imageColor));
         }
         if (mOnValueView != null) {
             mOnValueView.setText(mapLengthValue(mOnValue));
