@@ -228,4 +228,11 @@
     <string name="notification_light_no_apps_summary">Чтобы разрешить управление приложениями, включите «%1$s» и нажмите «\u002b» в строке меню.</string>
     <string name="battery_light_settings">Индикация батареи</string>
     <string name="battery_light_enable">Включена</string>
+
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Быстрый доступ</string>
+    <string name="summary_quick_pulldown">%1$s угол строки состояния при опускании вниз открывает панель быстрых настроек</string>
+    <string name="quick_pulldown_off">Выкл</string>
+    <string name="quick_pulldown_left">Левый</string>
+    <string name="quick_pulldown_right">Правый</string>
 </resources>
