@@ -18,4 +18,9 @@
     android:title="@string/lockscreen_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_rotation"
+        android:title="@string/display_lockscreen_rotation_title"
+        android:defaultValue="false"/>
+
 </PreferenceScreen>
