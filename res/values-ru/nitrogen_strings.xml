@@ -246,4 +246,8 @@
     <string name="smart_pulldown_ongoing">без постоянных</string>
 
     <string name="display_lockscreen_rotation_title">Поворот экрана блокировки</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Принудительно разворачивать уведомления</string>
+    <string name="force_expanded_notifications_summary">Доступно только для приложений, поддерживающих расширенные уведомления</string>
 </resources>
