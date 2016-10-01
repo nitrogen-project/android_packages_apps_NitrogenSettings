@@ -33,4 +33,9 @@
                 android:key="notification_light"
                 android:title="@string/notification_light_title"
                 android:fragment="com.nitrogen.settings.fragments.notificationlight.NotificationLightSettings" />
+
+        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+             android:key="force_expanded_notifications"
+             android:title="@string/force_expanded_notifications_title"
+             android:summary="@string/force_expanded_notifications_summary" />
 </PreferenceScreen>
