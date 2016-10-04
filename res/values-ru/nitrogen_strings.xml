@@ -312,4 +312,7 @@
     <!-- Tiles settings  -->
     <string name="qs_wifi_easy_toggle_title">Плитка WiFi</string>
     <string name="qs_wifi_easy_toggle_summary">Включение или выключение WiFi одиночным нажатием на плитку</string>
+
+    <string name="qs_bt_easy_toggle_title">Плитка Bluetooth</string>
+    <string name="qs_bt_easy_toggle_summary">Включение или выключение Bluetooth одиночным нажатием на плитку</string>
 </resources>
