@@ -308,4 +308,8 @@
     <!-- Longpress power lockscreen torch -->
     <string name="keyguard_torch_title">Фонарик</string>
     <string name="keyguard_torch_summary">Удерживание кнопки питания при выключенном экране включает фонарик</string>
+
+    <!-- Tiles settings  -->
+    <string name="qs_wifi_easy_toggle_title">Плитка WiFi</string>
+    <string name="qs_wifi_easy_toggle_summary">Включение или выключение WiFi одиночным нажатием на плитку</string>
 </resources>
