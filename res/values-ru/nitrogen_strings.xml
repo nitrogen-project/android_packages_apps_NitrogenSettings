@@ -319,4 +319,8 @@
      <!-- Fancy Animation -->
      <string name="sysui_qs_fancy_anim_title">Анимация маленьких плиток</string>
      <string name="sysui_qs_fancy_anim_summary">Показывать анимацию при развороте быстрых настроек с маленьких плиток</string>
+
+    <!--- Small tiles count -->
+    <string name="sysui_qqs_count_title">Число маленьких плиток</string>
+    <string name="sysui_qqs_count_5_default">5 (по умолчанию)</string>
 </resources>

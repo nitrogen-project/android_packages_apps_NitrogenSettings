@@ -30,9 +30,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
+    private static final String KEY_SYSUI_QQS_COUNT = "sysui_qqs_count_key";
 
     private ListPreference mQuickPulldown;
     private ListPreference mSmartPulldown;
+    private ListPreference mSysuiQqsCount;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,6 +59,14 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
 
+        mSysuiQqsCount = (ListPreference) findPreference(KEY_SYSUI_QQS_COUNT);
+            if (mSysuiQqsCount != null) {
+               mSysuiQqsCount.setOnPreferenceChangeListener(this);
+               int SysuiQqsCount = Settings.Secure.getInt(resolver,
+                Settings.Secure.QQS_COUNT, 5);
+               mSysuiQqsCount.setValue(Integer.toString(SysuiQqsCount));
+               mSysuiQqsCount.setSummary(mSysuiQqsCount.getEntry());
+            }
         }
 
     @Override
@@ -73,7 +83,16 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(resolver, Settings.System.QS_SMART_PULLDOWN, smartPulldown);
             updateSmartPulldownSummary(smartPulldown);
             return true;
-        }
+        } else if (preference == mSysuiQqsCount) {
+            String SysuiQqsCount = (String) newValue;
+            int SysuiQqsCountValue = Integer.parseInt(SysuiQqsCount);
+            Settings.Secure.putInt(resolver, Settings.Secure.QQS_COUNT, SysuiQqsCountValue);
+            int SysuiQqsCountIndex = mSysuiQqsCount
+                    .findIndexOfValue(SysuiQqsCount);
+            mSysuiQqsCount
+                    .setSummary(mSysuiQqsCount.getEntries()[SysuiQqsCountIndex]);
+            return true;
+          }
 
         return false;
     }
