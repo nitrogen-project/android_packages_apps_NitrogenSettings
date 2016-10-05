@@ -327,4 +327,16 @@
     <!-- Power notification controls -->
     <string name="power_notification_title">Расширенное управление уведомлениями</string>
     <string name="power_notification_summary">Настройка уведомлений по категориям</string>
+
+    <!-- Volume down enter do not disturb -->
+    <string name="volbtn_down_zen_title">Громкость вниз для \"Не беспокоить\"</string>
+    <string name="volbtn_down_zen_summary">Отключать режим \"Не беспокоить\" при уменьшении громкости</string>
+    <!-- Volume up exit do not disturb -->
+    <string name="volbtn_up_zen_title">Громкость вверх для \"Не беспокоить\"</string>
+    <string name="volbtn_up_zen_summary">Отключать режим \"Не беспокоить\" при увеличении громкости</string>
+    <!-- Volume do not disturb switch -->
+    <string name="vol_zen_title">Режим \"Не беспокоить\</string>
+    <string name="vol_zen_summary">Показывать при открытии панели громкости</string>
+    <string name="nav_gesture_title">Разделять экран пролистыванием вверх</string>
+    <string name="nav_gesture_summary">Включить разделение экрана пролистыванием вверх с кнопки \"Обзор\"</string>
 </resources>

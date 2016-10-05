@@ -29,5 +29,11 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.NavbarActivity" />
     </PreferenceScreen>
+
+    <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
+        android:key="overview_nav_bar_gesture"
+        android:title="@string/nav_gesture_title"
+        android:summary="@string/nav_gesture_summary"
+        android:defaultValue="false"/>
 </PreferenceScreen>
 
