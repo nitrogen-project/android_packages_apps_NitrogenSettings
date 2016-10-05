@@ -581,4 +581,7 @@
     <string name="show_carrier_keyguard">Lockscreen only</string>
     <string name="show_carrier_statusbar">Statusbar only</string>
     <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+
+    <!-- Power notification controls -->
+    <string name="power_notification_title">Power notification controls</string>
 </resources>
