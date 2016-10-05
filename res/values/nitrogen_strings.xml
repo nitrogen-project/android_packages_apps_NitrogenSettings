@@ -349,4 +349,8 @@
     <string name="sysui_qqs_count_5_default">5 (default)</string>
     <string name="sysui_qqs_count_6">6</string>
     <string name="sysui_qqs_count_7">7</string>
+
+    <!-- Power notification controls -->
+    <string name="power_notification_title">Power notification controls</string>
+    <string name="power_notification_summary">Advanced notification controls and information</string>
 </resources>

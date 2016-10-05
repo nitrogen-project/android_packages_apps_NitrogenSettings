@@ -323,4 +323,8 @@
     <!--- Small tiles count -->
     <string name="sysui_qqs_count_title">Число маленьких плиток</string>
     <string name="sysui_qqs_count_5_default">5 (по умолчанию)</string>
+
+    <!-- Power notification controls -->
+    <string name="power_notification_title">Расширенное управление уведомлениями</string>
+    <string name="power_notification_summary">Настройка уведомлений по категориям</string>
 </resources>
