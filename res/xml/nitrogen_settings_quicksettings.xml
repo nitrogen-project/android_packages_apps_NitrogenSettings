@@ -63,4 +63,10 @@
         android:title="@string/qs_bt_easy_toggle_title"
         android:summary="@string/qs_bt_easy_toggle_summary"
         android:defaultValue="false" />
+
+    <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_qs_fancy_anim"
+        android:title="@string/sysui_qs_fancy_anim_title"
+        android:summary="@string/sysui_qs_fancy_anim_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
