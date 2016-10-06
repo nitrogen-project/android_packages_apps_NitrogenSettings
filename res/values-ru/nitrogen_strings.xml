@@ -339,4 +339,21 @@
     <string name="vol_zen_summary">Показывать при открытии панели громкости</string>
     <string name="nav_gesture_title">Разделять экран пролистыванием вверх</string>
     <string name="nav_gesture_summary">Включить разделение экрана пролистыванием вверх с кнопки \"Обзор\"</string>
+
+    <!-- Battery Customization -->
+    <string name="battery_title">Иконка батареи</string>
+    <string name="battery_style_title">Стиль</string>
+    <string name="battery_percent_title">Отображать процент</string>
+    <string name="battery_percent_none">Никогда</string>
+    <string name="battery_percent_always">Всегда</string>
+    <string name="battery_percent_expanded">Расширенный</string>
+    <string name="statusbar_percent_inside_title">Наложение процента</string>
+    <string name="statusbar_percent_inside_summary">Отображать процент поверх иконки</string>
+    <string name="statusbar_charging_image_title">Индикация зарядки</string>
+    <string name="statusbar_category_charging_title">Зарядка</string>
+    <string name="statusbar_charging_image_summary">Отображать молнию вместо процента</string>
+    <string name="statusbar_battery_charging_color_title">Цвет</string>
+    <string name="statusbar_battery_charging_color_enable_title">Окрашивать во время зарядки</string>
+    <string name="statusbar_battery_charging_color_enable_summary"></string>
+    <string name="battery_enable_title">Отображать иконку</string>
 </resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2015 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+        <ListPreference
+            android:key="statusbar_battery_enable"
+            android:title="@string/battery_enable_title"
+            android:entries="@array/entries_battery_percent"
+            android:entryValues="@array/values_battery_percent"
+            android:persistent="false"
+            android:defaultValue="1"/>
+        <ListPreference
+            android:key="statusbar_battery_style"
+            android:title="@string/battery_style_title"
+            android:entries="@*android:array/entries_battery_styles"
+            android:entryValues="@*android:array/values_battery_styles"
+            android:persistent="false"
+            android:defaultValue="0"/>
+        <ListPreference
+            android:key="statusbar_battery_percent"
+            android:title="@string/battery_percent_title"
+            android:entries="@array/entries_battery_percent"
+            android:entryValues="@array/values_battery_percent"
+            android:persistent="false"
+            android:defaultValue="1"/>
+        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_battery_percent_inside"
+            android:title="@string/statusbar_percent_inside_title"
+            android:summary="@string/statusbar_percent_inside_summary"
+            android:defaultValue="false"/>
+
+        <PreferenceCategory
+            android:key="statusbar_category_charging"
+            android:title="@string/statusbar_category_charging_title">
+
+            <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+                android:key="statusbar_battery_charging_image"
+                android:title="@string/statusbar_charging_image_title"
+                android:summary="@string/statusbar_charging_image_summary"
+                android:defaultValue="true"/>
+            <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+                android:key="statusbar_battery_charging_color_enable"
+                android:title="@string/statusbar_battery_charging_color_enable_title"
+                android:summary="@string/statusbar_battery_charging_color_enable_summary"
+                android:defaultValue="true"/>
+            <com.nitrogen.settings.preferences.ColorPickerPreference
+                android:key="statusbar_battery_charging_color"
+                android:title="@string/statusbar_battery_charging_color_title"
+                android:persistent="false"
+                android:dependency ="statusbar_battery_charging_color_enable"/>
+
+        </PreferenceCategory>
+</PreferenceScreen>
