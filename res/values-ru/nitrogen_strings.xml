@@ -356,4 +356,8 @@
     <string name="statusbar_battery_charging_color_enable_title">Окрашивать во время зарядки</string>
     <string name="statusbar_battery_charging_color_enable_summary"></string>
     <string name="battery_enable_title">Отображать иконку</string>
+
+    <!-- statusbar notification count -->
+    <string name="status_bar_notif_count_title">Счётчик уведомлений</string>
+    <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
 </resources>

@@ -382,4 +382,8 @@
     <string name="statusbar_battery_charging_color_enable_title">Color while charging</string>
     <string name="statusbar_battery_charging_color_enable_summary"></string>
     <string name="battery_enable_title">Show battery</string>
+
+    <!-- statusbar notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 </resources>
