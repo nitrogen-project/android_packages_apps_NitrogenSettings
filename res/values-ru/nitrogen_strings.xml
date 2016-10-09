@@ -477,4 +477,8 @@
     <string name="clock_date_position">Расположение даты</string>
     <string name="clock_date_right">Справа от часов</string>
     <string name="clock_date_left">Слева от часов</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Показывать меню питания на экране блокировки</string>
+    <string name="lockscreen_enable_power_menu_summary">Эта опция отключит меню питания только на защищенном экране блокировки</string>
 </resources>
