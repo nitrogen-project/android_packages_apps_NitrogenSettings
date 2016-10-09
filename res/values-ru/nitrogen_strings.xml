@@ -364,4 +364,33 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Показывать меню питания на экране блокировки</string>
     <string name="lockscreen_enable_power_menu_summary">Эта опция отключит меню питания только на защищенном экране блокировки</string>
+
+    <!-- Lockscreen weather -->
+    <string name="display_category_weather_title">Настройка погоды на экране блокировки</string>
+    <string name="lock_screen_weather_settings_title">Погода на экране блокировки</string>
+    <string name="weather_cat_notifications_title">Уведомления</string>
+    <string name="weather_show_weather_title">Показывать погоду</string>
+    <string name="weather_show_weather_summary">Включить отображение информации о погоде</string>
+    <string name="weather_show_location_title">Показывать местоположение</string>
+    <string name="weather_show_location_summary">Включить отображение местоположения</string>
+    <string name="weather_show_timestamp_title">Показывать время</string>
+    <string name="weather_show_timestamp_summary">Включить отображение времени</string>
+    <string name="weather_condition_icon_title">Стиль иконок</string>
+    <string name="weather_condition_icon_dlg_title">Выберете стиль иконок для отображения погоды</string>
+    <string name="weather_condition_icon_monochrome_title">Монохромные</string>
+    <string name="weather_condition_icon_colored_title">Цветные</string>
+    <string name="weather_condition_icon_vclouds_title">Объёмные</string>
+    <string name="icons_title">Иконки</string>
+    <string name="position_right_title">Справа</string>
+    <string name="position_centered_title">По центру</string>
+    <string name="hidden_title">Скрыть</string>
+    <string name="weather_hide_panel_title">Скрыть панель погоды</string>
+    <string name="weather_hide_panel_dlg_title">Выберите, когда панель погоды должна быть скрыта</string>
+    <string name="weather_hide_panel_auto_title">Автоматически</string>
+    <string name="weather_hide_panel_custom_title">Свое значение</string>
+    <string name="weather_hide_panel_never_title">Никогда</string>
+    <string name="weather_hide_panel_auto_summary">Панель погоды будет скрыта, когда количество уведомлений на экране блокировки достигнет максимального значения</string>
+    <string name="weather_hide_panel_custom_summary">Панель погоды будет скрыта, когда количество уведомлений на экране блокировки будет равно (%s)</string>
+    <string name="weather_hide_panel_never_summary">Панель погоды не будет скрыта</string>
+    <string name="weather_number_of_notifications_title">Количество уведомлений</string>
 </resources>

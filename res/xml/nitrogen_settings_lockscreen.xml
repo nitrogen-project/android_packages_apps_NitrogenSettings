@@ -24,6 +24,11 @@
         android:defaultValue="false"/>
 
     <PreferenceScreen
+            android:key="lockscreen_weather"
+            android:title="@string/lock_screen_weather_settings_title"
+            android:fragment="com.nitrogen.settings.fragments.LockScreenWeatherSettings" />
+
+    <PreferenceScreen
         android:title="@string/lockscreen_targets_message" >
         <intent
             android:targetPackage="com.android.systemui"
