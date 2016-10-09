@@ -90,6 +90,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
         mPulsePref = (SystemSettingSwitchPreference)prefSet.findPreference(BATTERY_PULSE_PREF);
         mPulsePref.setChecked(Settings.System.getInt(resolver,
                         Settings.System.BATTERY_LIGHT_PULSE, 0) == 1);
+        mPulsePref.setOnPreferenceChangeListener(this);
 
         // Does the Device support changing battery LED colors?
         if (getResources().getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed)) {
@@ -211,10 +212,13 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        if (preference == mEnabledPref) {
             boolean value = (Boolean) objValue;
+        if (preference == mEnabledPref) {
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.BATTERY_LIGHT_ENABLED, value ? 1:0);
+        } else if (preference == mPulsePref) {
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BATTERY_LIGHT_PULSE, value ? 1:0);
         } else {
             BatteryLightPreference lightPref = (BatteryLightPreference) preference;
             updateValues(lightPref.getKey(), lightPref.getColor());
