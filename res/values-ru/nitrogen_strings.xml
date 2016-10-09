@@ -360,4 +360,8 @@
     <!-- statusbar notification count -->
     <string name="status_bar_notif_count_title">Счётчик уведомлений</string>
     <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Показывать меню питания на экране блокировки</string>
+    <string name="lockscreen_enable_power_menu_summary">Эта опция отключит меню питания только на защищенном экране блокировки</string>
 </resources>
