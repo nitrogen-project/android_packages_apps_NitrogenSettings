@@ -51,6 +51,7 @@ public class ClockDate extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_CLOCK_DATE_DISPLAY = "clock_date_display";
     private static final String STATUS_BAR_CLOCK_DATE_STYLE = "clock_date_style";
     private static final String STATUS_BAR_CLOCK_DATE_FORMAT = "clock_date_format";
+    private static final String PREF_CLOCK_DATE_POSITION = "clock_date_position";
 
     public static final int CLOCK_DATE_STYLE_LOWERCASE = 1;
     public static final int CLOCK_DATE_STYLE_UPPERCASE = 2;
@@ -61,6 +62,7 @@ public class ClockDate extends SettingsPreferenceFragment implements
     private ListPreference mClockDateDisplay;
     private ListPreference mClockDateStyle;
     private ListPreference mClockDateFormat;
+    private ListPreference mClockDatePosition;
 
     @Override
     protected int getMetricsCategory() {
@@ -114,6 +116,13 @@ public class ClockDate extends SettingsPreferenceFragment implements
         if (mClockDateFormat.getValue() == null) {
             mClockDateFormat.setValue("EEE");
         }
+
+        mClockDatePosition = (ListPreference) findPreference(PREF_CLOCK_DATE_POSITION);
+        mClockDatePosition.setOnPreferenceChangeListener(this);
+        mClockDatePosition.setValue(Integer.toString(Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.STATUSBAR_CLOCK_DATE_POSITION,
+                0)));
+        mClockDatePosition.setSummary(mClockDatePosition.getEntry());
 
         parseClockDateFormats();
     }
@@ -218,7 +227,15 @@ public class ClockDate extends SettingsPreferenceFragment implements
                 }
             }
             return true;
-      }
+        } else if (preference == mClockDatePosition) {
+            int val = Integer.parseInt((String) newValue);
+            int index = mClockDatePosition.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUSBAR_CLOCK_DATE_POSITION, val);
+            mClockDatePosition.setSummary(mClockDatePosition.getEntries()[index]);
+            parseClockDateFormats();
+            return true;
+          }
       return false;
     }
 
