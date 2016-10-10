@@ -338,10 +338,6 @@
     <string name="qs_bt_easy_toggle_title">Bluetooth easy toggle</string>
     <string name="qs_bt_easy_toggle_summary">Makes it so one click will turn Bluetooth on or off instead of taking you to settings</string>
 
-     <!-- Fancy Animation -->
-     <string name="sysui_qs_fancy_anim_title">Fancy animation</string>
-     <string name="sysui_qs_fancy_anim_summary">Animate small tiles when full expand</string>
-
     <!--- Small tiles count -->
     <string name="sysui_qqs_count_title">Small quick tiles count</string>
     <string name="sysui_qqs_count_3">3</string>
