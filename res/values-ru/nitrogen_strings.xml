@@ -392,4 +392,8 @@
     <string name="weather_hide_panel_custom_summary">Панель погоды будет скрыта, когда количество уведомлений на экране блокировки будет равно (%s)</string>
     <string name="weather_hide_panel_never_summary">Панель погоды не будет скрыта</string>
     <string name="weather_number_of_notifications_title">Количество уведомлений</string>
+
+    <!-- Disable QS on secure Lockscreen -->
+    <string name="lockscreen_qs_disabled_title">На экране блокировки</string>
+    <string name="lockscreen_qs_disabled_summary">Выключить панель быстрых настроек на защищенном экране блокировки</string>
 </resources>
