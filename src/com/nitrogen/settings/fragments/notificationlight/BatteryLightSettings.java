@@ -212,11 +212,13 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-            boolean value = (Boolean) objValue;
+
         if (preference == mEnabledPref) {
+            boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.BATTERY_LIGHT_ENABLED, value ? 1:0);
         } else if (preference == mPulsePref) {
+            boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.BATTERY_LIGHT_PULSE, value ? 1:0);
         } else {
