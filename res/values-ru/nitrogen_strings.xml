@@ -197,9 +197,6 @@
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Строка состояния</string>
     <string name="double_tap_to_sleep_summary">Дважды коснитесь строки состояния для перевода устройства в спящий режим</string>
-    <!-- Double Tap Navbar to Sleep -->
-    <string name="double_tap_sleep_nav_bar_title">Панель навигации</string>
-    <string name="double_tap_sleep_nav_bar_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим. Отключает разделение экрана пролистыванием</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
@@ -208,17 +205,11 @@
     <string name="volume_answer_call_title">Ответ кнопкой громкости</string>
     <string name="volume_answer_call_summary">Ответ кнопкой увеличения громкости</string>
 
-    <!-- Show navbar -->
-    <string name="navigation_bar_enabled_title">Включить</string>
-
     <!-- Enable HW keys -->
     <string name="enable_hw_keys_title">Включить сенсорные кнопки</string>
 
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Включить подсветку</string>
-
-    <!-- Navbar Tuner -->
-    <string name="navbar_tuner_title">Редактирование панели навигации</string>
 
     <!-- Statusbar Tuner -->
         <string name="statusbar_items_title">Редактирование иконок</string>
@@ -336,8 +327,6 @@
     <!-- Volume do not disturb switch -->
     <string name="vol_zen_title">Режим \"Не беспокоить\</string>
     <string name="vol_zen_summary">Показывать при открытии панели громкости</string>
-    <string name="nav_gesture_title">Разделять экран пролистыванием вверх</string>
-    <string name="nav_gesture_summary">Включить разделение экрана пролистыванием вверх с кнопки \"Обзор\"</string>
 
     <!-- Battery Customization -->
     <string name="battery_title">Иконка батареи</string>

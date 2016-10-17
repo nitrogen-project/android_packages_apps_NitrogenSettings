@@ -199,9 +199,6 @@
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Status bar</string>
     <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
-    <!-- Double Tap Navbar to Sleep -->
-    <string name="double_tap_sleep_nav_bar_title">Navigation bar</string>
-    <string name="double_tap_sleep_nav_bar_summary">Double-tap navigation bar to put the device to sleep. It disables split-screen gesture</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
@@ -213,17 +210,11 @@
     <string name="volume_answer_call_title">Volume key Answer</string>
     <string name="volume_answer_call_summary">Volume up key Answer</string>
 
-    <!-- Show navbar -->
-    <string name="navigation_bar_enabled_title">Enable</string>
-
     <!-- Enabble HW keys -->
     <string name="enable_hw_keys_title">Enable hardware keys</string>
 
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Enable backlight</string>
-
-    <!-- Navbar Tuner -->
-    <string name="navbar_tuner_title">Edit navigation bar</string>
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
@@ -362,8 +353,6 @@
     <!-- Volume do not disturb switch -->
     <string name="vol_zen_title">Do not disturb switch</string>
     <string name="vol_zen_summary">Show do not disturb swith on volume panel</string>
-    <string name="nav_gesture_title">Enable multiwindow swipe-up gesture</string>
-    <string name="nav_gesture_summary">Gesture to enter multiwindow by swiping up from the recents button</string>
 
     <!-- Battery Customization -->
     <string name="battery_title">Battery display</string>
