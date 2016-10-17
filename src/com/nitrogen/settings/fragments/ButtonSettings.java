@@ -49,6 +49,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String CATEGORY_POWER = "power_key";
     private static final String CATEGORY_HOME = "home_key";
     private static final String CATEGORY_MENU = "menu_key";
+    private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_ASSIST = "assist_key";
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
     private static final String CATEGORY_CAMERA = "camera_key";
@@ -104,12 +105,15 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
         final boolean hasMenuKey = (deviceKeys & KEY_MASK_MENU) != 0;
         final boolean hasAssistKey = (deviceKeys & KEY_MASK_ASSIST) != 0;
+        final boolean hasBackKey = (deviceKeys & KEY_MASK_BACK) != 0;
 
         boolean hasAnyBindableKey = false;
         final PreferenceCategory homeCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_HOME);
         final PreferenceCategory menuCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_MENU);
+        final PreferenceCategory backCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_BACK);
         mBacklightTimeout =
                 (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
         mEnableHwKeys =
@@ -190,6 +194,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             prefScreen.removePreference(mButtonBrightness);
         }
 
+        if (hasBackKey) {
         // Back long press timeout
         mKillAppLongpressTimeout = (ListPreference) findPreference(KILL_APP_LONGPRESS_TIMEOUT);
         mKillAppLongpressTimeout.setOnPreferenceChangeListener(this);
@@ -197,6 +202,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         	Settings.Secure.KILL_APP_LONGPRESS_TIMEOUT, 1000);
         mKillAppLongpressTimeout.setValue(Integer.toString(KillAppLongpressTimeout));
         mKillAppLongpressTimeout.setSummary(mKillAppLongpressTimeout.getEntry());
+        } else {
+            prefScreen.removePreference(backCategory);
+        }
     }
 
     private ListPreference initActionList(String key, int value) {
