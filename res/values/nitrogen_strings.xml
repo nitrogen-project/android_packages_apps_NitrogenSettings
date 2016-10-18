@@ -475,6 +475,7 @@
     <string name="smartbar_config_restore_error_toast">Error restoring Smartbar profile</string>
     <string name="navbar_buttons_alpha_title">Button transparency</string>
 
+<<<<<<< HEAD
     <!-- statusbar notification count -->
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
@@ -544,4 +545,8 @@
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">No QS when secured</string>
     <string name="lockscreen_qs_disabled_summary">Disable quick settings tiles on secured lockscreen</string>
+
+    <!-- Allow fake signature checkbox in developer settings -->
+    <string name="allow_signature_fake">Allow signature spoofing</string>
+    <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app</string>
 </resources>

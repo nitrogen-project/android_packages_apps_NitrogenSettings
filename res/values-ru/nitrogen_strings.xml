@@ -445,6 +445,7 @@
     <string name="smartbar_config_restore_error_toast">Ошибка при восстановлении профиля Smartbar</string>
     <string name="navbar_buttons_alpha_title">Прозрачность кнопок</string>
 
+<<<<<<< HEAD
     <!-- statusbar notification count -->
     <string name="status_bar_notif_count_title">Счётчик уведомлений</string>
     <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
@@ -514,4 +515,8 @@
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">На экране блокировки</string>
     <string name="lockscreen_qs_disabled_summary">Выключить панель быстрых настроек на защищенном экране блокировки</string>
+
+    <!-- Allow fake signature checkbox in developer settings -->
+    <string name="allow_signature_fake">Разрешить подмену подписи</string>
+    <string name="allow_signature_fake_summary">Разрешать приложениям обходить систему безопасности, выдавая себя за другое приложение</string>
 </resources>
