@@ -445,7 +445,6 @@
     <string name="smartbar_config_restore_error_toast">Ошибка при восстановлении профиля Smartbar</string>
     <string name="navbar_buttons_alpha_title">Прозрачность кнопок</string>
 
-<<<<<<< HEAD
     <!-- statusbar notification count -->
     <string name="status_bar_notif_count_title">Счётчик уведомлений</string>
     <string name="status_bar_notif_count_summary">Показывать количество новых уведомлений в строке состояния</string>
@@ -519,4 +518,27 @@
     <!-- Allow fake signature checkbox in developer settings -->
     <string name="allow_signature_fake">Разрешить подмену подписи</string>
     <string name="allow_signature_fake_summary">Разрешать приложениям обходить систему безопасности, выдавая себя за другое приложение</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Шрифт часов</string>
+    <string name="lock_clock_font_summary">Сменить шрифт часов на экране блокировки</string>
+    <string name="lock_clock_font_dialog_title">Выберите шрифт</string>
+    <string name="lock_clock_font_normal">Обычный</string>
+    <string name="lock_clock_font_bold">Жирный</string>
+    <string name="lock_clock_font_italic">Курсив</string>
+    <string name="lock_clock_font_bold_italic">Жирный курсив</string>
+    <string name="lock_clock_font_light_normal">Легкий (по умолчанию)</string>
+    <string name="lock_clock_font_light_italic">Легкий курсив</string>
+    <string name="lock_clock_font_thin_normal">Тонкий</string>
+    <string name="lock_clock_font_thin_italic">Тонкий курсив</string>
+    <string name="lock_clock_font_condensed_normal">Плотный</string>
+    <string name="lock_clock_font_condensed_bold">Плотный жирный</string>
+    <string name="lock_clock_font_condensed_italic">Плотный курсив</string>
+    <string name="lock_clock_font_condensed_bold_italic">Плотный жирный курсив</string>
+    <string name="lock_clock_font_medium_normal">Средний</string>
+    <string name="lock_clock_font_medium_italic">Средний курсив</string>
+    <string name="lock_clock_font_black_normal">Чёрный</string>
+    <string name="lock_clock_font_black_italic">Чёрный курсив</string>
+    <string name="lock_clock_font_condensed_light_normal">Плотный легкий</string>
+    <string name="lock_clock_font_condensed_light_italic">Плотный легкий курсив</string>
 </resources>

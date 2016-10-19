@@ -475,7 +475,6 @@
     <string name="smartbar_config_restore_error_toast">Error restoring Smartbar profile</string>
     <string name="navbar_buttons_alpha_title">Button transparency</string>
 
-<<<<<<< HEAD
     <!-- statusbar notification count -->
     <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
@@ -549,4 +548,26 @@
     <!-- Allow fake signature checkbox in developer settings -->
     <string name="allow_signature_fake">Allow signature spoofing</string>
     <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app</string>
+
+    <!-- Lockscreen clock fonts -->
+    <string name="lock_clock_font_title">Lockscreen clock font</string>
+    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
+    <string name="lock_clock_font_normal">Roboto</string>
+    <string name="lock_clock_font_bold">Roboto Bold</string>
+    <string name="lock_clock_font_italic">Roboto Italic</string>
+    <string name="lock_clock_font_bold_italic">Roboto Bold Italic</string>
+    <string name="lock_clock_font_light_normal">Roboto Light (default)</string>
+    <string name="lock_clock_font_light_italic">Roboto Light Italic</string>
+    <string name="lock_clock_font_thin_normal">Roboto Thin</string>
+    <string name="lock_clock_font_thin_italic">Roboto Thin Italic</string>
+    <string name="lock_clock_font_condensed_normal">Roboto Condensed</string>
+    <string name="lock_clock_font_condensed_bold">Roboto Condensed Bold</string>
+    <string name="lock_clock_font_condensed_italic">Roboto Condensed Italic</string>
+    <string name="lock_clock_font_condensed_bold_italic">Roboto Condensed Bold Italic</string>
+    <string name="lock_clock_font_medium_normal">Roboto Medium</string>
+    <string name="lock_clock_font_medium_italic">Roboto Medium Italic</string>
+    <string name="lock_clock_font_black_normal">Roboto Black</string>
+    <string name="lock_clock_font_black_italic">Roboto Black Italic</string>
+    <string name="lock_clock_font_condensed_light_normal">Roboto Condensed Light</string>
+    <string name="lock_clock_font_condensed_light_italic">Roboto Condensed Light Italic</string>
 </resources>
