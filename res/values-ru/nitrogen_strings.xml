@@ -541,4 +541,15 @@
     <string name="lock_clock_font_black_italic">Чёрный курсив</string>
     <string name="lock_clock_font_condensed_light_normal">Плотный легкий</string>
     <string name="lock_clock_font_condensed_light_italic">Плотный легкий курсив</string>
+
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Название оператора</string>
+    <string name="custom_carrier_label_title">Своё название оператора</string>
+    <string name="custom_carrier_label_explain">Пожалуйста, введите новое название. Пустое вернет к значению по умолчанию.</string>
+    <string name="custom_carrier_label_notset">Название оператора не установлено</string>
+    <string name="show_carrier_title">Название оператора</string>
+    <string name="show_carrier_disabled">Выключено</string>
+    <string name="show_carrier_keyguard">На экране блокировки</string>
+    <string name="show_carrier_statusbar">В строке состояния</string>
+    <string name="show_carrier_enabled">На экране блокировки и в строке состояния</string>
 </resources>
