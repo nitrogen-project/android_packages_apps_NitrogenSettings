@@ -40,6 +40,11 @@
             android:fragment="com.nitrogen.settings.fragments.NetworkTraffic"
             android:title="@string/network_traffic_title" />
 
+    <PreferenceScreen
+            android:fragment="com.nitrogen.settings.fragments.CarrierLabelSettings"
+            android:key="carrier_label_settings"
+            android:title="@string/carrier_label_settings_title" />
+
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
             android:key="status_bar_ime_switcher"
             android:title="@string/ime_switcher_notify"
