@@ -20,26 +20,52 @@ package com.nitrogen.settings.fragments;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.app.WallpaperManager;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
-import android.preference.PreferenceManager;
 import android.support.v7.preference.PreferenceScreen;
 
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class LockScreenSettings extends SettingsPreferenceFragment {
+public class LockScreenSettings extends SettingsPreferenceFragment implements
+        Preference.OnPreferenceChangeListener {
+
+    private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
+
+    private ListPreference mLockClockFonts;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.nitrogen_settings_lockscreen);
+
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        mLockClockFonts = (ListPreference) findPreference(LOCK_CLOCK_FONTS);
+        mLockClockFonts.setValue(String.valueOf(Settings.System.getInt(
+                resolver, Settings.System.LOCK_CLOCK_FONTS, 4)));
+        mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+        mLockClockFonts.setOnPreferenceChangeListener(this);
+    }
+
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mLockClockFonts) {
+            Settings.System.putInt(resolver, Settings.System.LOCK_CLOCK_FONTS,
+                    Integer.valueOf((String) newValue));
+            mLockClockFonts.setValue(String.valueOf(newValue));
+            mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+            return true;
+        }
+        return false;
     }
 
     @Override
