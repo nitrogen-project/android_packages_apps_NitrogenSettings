@@ -313,4 +313,8 @@
     <string name="statusbar_battery_charging_color_enable_title">Color while charging</string>
     <string name="statusbar_battery_charging_color_enable_summary"></string>
     <string name="battery_enable_title">Show battery</string>
+
+    <!-- Advanced data tile -->
+    <string name="qs_advanced_data_title">Advanced data tile</string>
+    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
 </resources>
