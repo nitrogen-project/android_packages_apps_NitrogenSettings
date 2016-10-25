@@ -18,6 +18,11 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceScreen
+        android:key="gestures_preference"
+        android:fragment="com.android.settings.gestures.GestureSettings"
+        android:title="@string/google_camera_gesture_title" />
+
     <PreferenceCategory
         android:key="dtts_category"
         android:title="@string/dtts_category_header" >
@@ -35,4 +40,5 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
+
 </PreferenceScreen>

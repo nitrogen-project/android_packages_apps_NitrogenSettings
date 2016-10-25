@@ -596,4 +596,6 @@
     <string name="vol_zen_summary">Show do not disturb swith on volume panel</string>
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+
+    <string name="google_camera_gesture_title">Camera gestures</string>
 </resources>
