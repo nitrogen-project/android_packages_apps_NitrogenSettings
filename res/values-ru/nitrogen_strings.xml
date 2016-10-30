@@ -571,4 +571,13 @@
     <string name="statusbar_items_title">Редактирование иконок</string>
 
     <string name="google_camera_gesture_title">Жесты камеры</string>
+
+    <!-- Immersive Recents -->
+    <string name="immersive_recents_title">Недавние приложения</string>
+    <string name="immersive_recents_summary">Изменить вид недавних приложений</string>
+    <string name="immersive_recents_dialog_title">Выберите вид:</string>
+    <string name="immersive_recents_default">По умолчанию</string>
+    <string name="immersive_recents_fullscreen">Полноэкранные</string>
+    <string name="immersive_recents_statusbar">Со строкой состояния</string>
+    <string name="immersive_recents_navbar">С панелью навигации</string>
 </resources>
