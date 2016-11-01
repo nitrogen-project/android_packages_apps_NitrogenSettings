@@ -31,6 +31,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
 import com.android.settings.SettingsPreferenceFragment;
+import com.nitrogen.settings.preferences.CustomSeekBarPreference;
 
 public class ButtonSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -84,7 +85,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mBacklightTimeout;
     private ListPreference mKillAppLongpressTimeout;
     private SwitchPreference mEnableHwKeys;
-    private SwitchPreference mButtonBrightness;
+    private CustomSeekBarPreference mButtonBrightness;
 
     private Handler mHandler;
 
@@ -120,7 +121,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 (SwitchPreference) findPreference(KEY_ENABLE_HW_KEYS);
 
         mButtonBrightness =
-                (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
+                (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
 
         mHandler = new Handler();
 
@@ -184,9 +185,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             }
 
             if (mButtonBrightness != null) {
-        	mButtonBrightness.setChecked((Settings.System.getInt(getContentResolver(),
-            	    Settings.System.BUTTON_BRIGHTNESS, 1) == 1));
-        	mButtonBrightness.setOnPreferenceChangeListener(this);
+                int ButtonBrightness = Settings.System.getInt(resolver,
+                                Settings.System.BUTTON_BRIGHTNESS, 255);
+                mButtonBrightness.setValue(ButtonBrightness / 1);
+                mButtonBrightness.setOnPreferenceChangeListener(this);
+
             }
         } else {
             prefScreen.removePreference(mBacklightTimeout);
@@ -267,9 +270,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                     Settings.System.ENABLE_HW_KEYS, value ? 1 : 0);
             return true;
         } else if (preference == mButtonBrightness) {
-            boolean value = (Boolean) newValue;
+            int value = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.BUTTON_BRIGHTNESS, value ? 1 : 0);
+                    Settings.System.BUTTON_BRIGHTNESS, value * 1);
             return true;
         }
         return false;

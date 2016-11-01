@@ -182,7 +182,7 @@
     <string name="enable_hw_keys_title">Включить сенсорные кнопки</string>
 
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Включить подсветку</string>
+    <string name="button_brightness_title">Подсветка</string>
 
     <!-- Notification light dialogs -->
     <string name="advanced">Расширенные</string>
