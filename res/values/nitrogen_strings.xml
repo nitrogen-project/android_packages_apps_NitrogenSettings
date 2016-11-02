@@ -77,6 +77,7 @@
     <string name="hardware_keys_action_launch_camera">Launch camera</string>
     <string name="hardware_keys_action_sleep">Turn screen off</string>
     <string name="hardware_keys_action_last_app">Last app</string>
+    <string name="hardware_keys_action_split_screen">Split screen</string>
 
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
