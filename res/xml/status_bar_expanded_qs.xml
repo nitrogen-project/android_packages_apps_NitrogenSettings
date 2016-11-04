@@ -16,23 +16,28 @@
 
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/status_bar_expanded_qs_settings">
 
     <PreferenceCategory
         android:key="qs_cat_portrait"
         android:title="@string/qs_cat_portrait_title">
 
-        <ListPreference
+        <com.nitrogen.settings.preferences.CustomSeekBarPreference
             android:key="qs_rows_portrait"
             android:title="@string/qs_rows_title"
-            android:entries="@array/qs_rows_portrait_entries"
-            android:entryValues="@array/qs_rows_portrait_values" />
+            settings:max="7"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
 
-        <ListPreference
+        <com.nitrogen.settings.preferences.CustomSeekBarPreference
             android:key="qs_columns_portrait"
             android:title="@string/qs_columns_title"
-            android:entries="@array/qs_columns_portrait_entries"
-            android:entryValues="@array/qs_columns_portrait_values" />
+            settings:max="7"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
 
     </PreferenceCategory>
 
@@ -40,17 +45,21 @@
         android:key="qs_cat_landscape"
         android:title="@string/qs_cat_landscape_title">
 
-        <ListPreference
+        <com.nitrogen.settings.preferences.CustomSeekBarPreference
             android:key="qs_rows_landscape"
             android:title="@string/qs_rows_title"
-            android:entries="@array/qs_rows_landscape_entries"
-            android:entryValues="@array/qs_rows_landscape_values" />
+            settings:max="3"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
 
-        <ListPreference
+        <com.nitrogen.settings.preferences.CustomSeekBarPreference
             android:key="qs_columns_landscape"
             android:title="@string/qs_columns_title"
-            android:entries="@array/qs_columns_landscape_entries"
-            android:entryValues="@array/qs_columns_landscape_values" />
+            settings:max="10"
+            settings:min="1"
+            settings:units=""
+            android:persistent="false" />
 
     </PreferenceCategory>
 
