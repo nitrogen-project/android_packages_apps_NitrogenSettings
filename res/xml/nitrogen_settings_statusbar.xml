@@ -52,7 +52,7 @@
             android:defaultValue="true" />
 
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
-            android:key="bluetooth_battery"
+            android:key="bluetooth_show_battery"
             android:title="@string/bluetooth_battery_title"
             android:summary="@string/bluetooth_battery_summary"/>
 </PreferenceScreen>
