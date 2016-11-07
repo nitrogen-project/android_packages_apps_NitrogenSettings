@@ -30,6 +30,11 @@
                 android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
         </PreferenceScreen>
 
+        <PreferenceScreen
+             android:key="wakelock_blocker"
+             android:fragment="com.nitrogen.settings.fragments.WakeLockBlocker"
+             android:title="@string/wakelock_blocker_title" />
+
         <ListPreference
             android:key="pref_scrollingcache"
             android:dialogTitle="@string/pref_scrollingcache_title"
@@ -59,4 +64,5 @@
             android:key="allow_signature_fake"
             android:title="@string/allow_signature_fake"
             android:summary="@string/allow_signature_fake_summary"/>
+
 </PreferenceScreen>

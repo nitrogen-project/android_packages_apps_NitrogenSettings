@@ -36,4 +36,7 @@
     <color name="icon_tint_color">@color/material_deep_teal_500</color>
     <color name="theme_accent">#ff009688</color>
     <color name="action_picker_fab_background">@color/theme_accent</color>
+
+    <!-- General -->
+    <color name="theme_accent">@*android:color/material_deep_teal_500</color>
 </resources>

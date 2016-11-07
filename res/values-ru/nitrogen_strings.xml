@@ -619,4 +619,12 @@
     <string name="screenshot_type_fullscreen">Полноэкранный</string>
     <string name="screenshot_type_partial">Снимок определенной области экрана</string>
 
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Блокировка пробуждений</string>
+    <string name="wakelock_blocker_summary">Заблокировать пробуждения системы</string>
+    <string name="wakelock_blocker_save">Сохранить</string>
+    <string name="wakelock_list_header">Доступные пробуждения</string>
+    <string name="wakelock_blocker_reload">Сбросить</string>
+    <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="wakelock_blocker_warning">Блокировка пробуждений может вызвать нестабильную работу, краши и потерю данных</string>
 </resources>
