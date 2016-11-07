@@ -37,6 +37,12 @@
             android:entries="@array/entries_scrollingcache"
             android:entryValues="@array/values_scrollingcache" />
 
+        <ListPreference
+            android:entries="@array/screenshot_type_entries"
+            android:entryValues="@array/screenshot_type_values"
+            android:key="screenshot_type"
+            android:title="@string/screenshot_type_title" />
+
         <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
             android:key="mtp_dirty_hack"
             android:title="@string/enable_mtp_dirtyhack_title"
