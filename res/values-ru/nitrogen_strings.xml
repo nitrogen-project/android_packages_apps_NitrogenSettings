@@ -627,4 +627,8 @@
     <string name="wakelock_blocker_reload">Сбросить</string>
     <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
     <string name="wakelock_blocker_warning">Блокировка пробуждений может вызвать нестабильную работу, краши и потерю данных</string>
+
+    <string name="navbar_bottom">Расположение панели навигации</string>
+    <string name="navbar_bottom_summary">Привязывать панель навигации к нижнему краю устройства при повороте на 270 град.</string>
+
 </resources>

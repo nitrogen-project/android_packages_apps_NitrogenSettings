@@ -22,6 +22,12 @@
         android:key="navbar_visibility"
         android:title="@string/navbar_visibility" />
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="force_navbar_bottom"
+        android:defaultValue="false"
+        android:title="@string/navbar_bottom"
+        android:summary="@string/navbar_bottom_summary" />
+
     <PreferenceCategory
         android:key="category_navbar_interface"
         android:title="@string/navbar_interface_title" >

@@ -655,4 +655,7 @@
     <string name="wakelock_blocker_reload">Reload</string>
     <string name="wakelock_blocker_warning_title">Proceed with caution</string>
     <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
+
+    <string name="navbar_bottom">Navbar orientation</string>
+    <string name="navbar_bottom_summary">Force show navbar on the bottom side of device when rotated to 270 degrees</string>
 </resources>
