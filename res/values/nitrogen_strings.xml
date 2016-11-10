@@ -658,4 +658,8 @@
 
     <string name="navbar_bottom">Navbar orientation</string>
     <string name="navbar_bottom_summary">Force show navbar on the bottom side of device when rotated to 270 degrees</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 </resources>

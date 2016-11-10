@@ -631,4 +631,6 @@
     <string name="navbar_bottom">Расположение панели навигации</string>
     <string name="navbar_bottom_summary">Привязывать панель навигации к нижнему краю устройства при повороте на 270 град.</string>
 
+    <string name="status_bar_toggle_brightness">Управление яркостью</string>
+    <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
 </resources>
