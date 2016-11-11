@@ -662,4 +662,9 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Dynamic notification tint -->
+    <string name="notification_tint_title">Dynamic notification title color</string>
+    <string name="notification_tint_summary_off">Title color on notification will be handled by the theme</string>
+    <string name="notification_tint_summary_on">Title color on notification will be taken from app icon color</string>
 </resources>

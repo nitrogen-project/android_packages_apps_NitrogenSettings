@@ -633,4 +633,9 @@
 
     <string name="status_bar_toggle_brightness">Управление яркостью</string>
     <string name="status_bar_toggle_brightness_summary">Регулировать яркость экрана движением пальца по строке состояния</string>
+
+    <!-- Dynamic notification tint -->
+    <string name="notification_tint_title">Динамическое изменение цвета</string>
+    <string name="notification_tint_summary_off">Цвет заголовка уведомления из темы</string>
+    <string name="notification_tint_summary_on">Цвет заголовка уведомления из приложения</string>
 </resources>
