@@ -51,11 +51,4 @@
              android:title="@string/status_bar_notif_count_title"
              android:summary="@string/status_bar_notif_count_summary"
              android:defaultValue="false" />
-
-        <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
-             android:key="notification_title_tint"
-             android:title="@string/notification_tint_title"
-             android:summaryOn="@string/notification_tint_summary_on"
-             android:summaryOff="@string/notification_tint_summary_off"
-             android:defaultValue="true" />
 </PreferenceScreen>
