@@ -45,6 +45,7 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.provider.Settings;
 import android.text.TextUtils;
+import android.widget.Toast;
 
 public class FlingSettings extends ActionFragment implements
         Preference.OnPreferenceChangeListener, IconPickHelper.OnPickListener {
@@ -200,9 +201,26 @@ public class FlingSettings extends ActionFragment implements
     @Override
     public void imagePicked(Uri uri) {
         if (uri != null) {
-            ButtonConfig logoConfig = ButtonConfig.getButton(mContext, FLING_LOGO_URI, true);
-            logoConfig.setCustomImageUri(uri);
-            ButtonConfig.setButton(mContext, logoConfig, FLING_LOGO_URI, true);
+            try {
+                if (!DUActionUtils.isBitmapAllowedSize(mContext, uri,
+                        DUActionUtils.DUI_ICON_MAX_WIDTH, DUActionUtils.DUI_ICON_MAX_HEIGHT)) {
+                    Toast.makeText(mContext, getString(R.string.image_exceeds_max_allowed_size),
+                            Toast.LENGTH_SHORT)
+                            .show();
+                } else {
+                    ButtonConfig logoConfig = ButtonConfig
+                            .getButton(mContext, FLING_LOGO_URI, true);
+                    logoConfig.setCustomImageUri(uri);
+                    ButtonConfig.setButton(mContext, logoConfig, FLING_LOGO_URI, true);
+                }
+            } catch (Exception e) {
+                Toast.makeText(mContext, getString(R.string.invalid_icon_from_uri),
+                        Toast.LENGTH_SHORT)
+                        .show();
+            }
+        } else {
+            Toast.makeText(mContext, getString(R.string.invalid_icon_from_uri), Toast.LENGTH_SHORT)
+                    .show();
         }
     }
 
