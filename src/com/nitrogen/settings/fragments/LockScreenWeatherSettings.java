@@ -28,6 +28,7 @@ import android.provider.Settings;
 
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
+import com.android.settings.DevelopmentSettings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.nitrogen.settings.preferences.CustomSeekBarPreference;
@@ -41,6 +42,8 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
             "weather_hide_panel";
     private static final String PREF_NUMBER_OF_NOTIFICATIONS =
             "weather_number_of_notifications";
+    private static final String KEY_LOCK_CLOCK = "lock_clock";
+    private static final String KEY_LOCK_CLOCK_PACKAGE_NAME = "com.cyanogenmod.lockclock";
 
     private static final int MONOCHROME_ICON = 0;
 
@@ -56,6 +59,11 @@ public class LockScreenWeatherSettings extends SettingsPreferenceFragment implem
         addPreferencesFromResource(R.xml.lock_screen_weather_settings);
         mResolver = getActivity().getContentResolver();
         PreferenceScreen prefs = getPreferenceScreen();
+
+        // mLockClock
+        if (!DevelopmentSettings.isPackageInstalled(getActivity(), KEY_LOCK_CLOCK_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_LOCK_CLOCK));
+        }
 
         mConditionIcon =
                 (ListPreference) findPreference(PREF_CONDITION_ICON);
