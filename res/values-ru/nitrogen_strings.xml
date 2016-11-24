@@ -666,4 +666,5 @@
     <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
     <string name="status_bar_battery_style_tile_title">Плитка батареи</string>
     <string name="status_bar_battery_style_tile_summary">Отображать плитку батареи как в строке состояния</string>
+    <string name="status_bar_charge_color_title">Цвет иконки батареи на зарядке</string>
 </resources>

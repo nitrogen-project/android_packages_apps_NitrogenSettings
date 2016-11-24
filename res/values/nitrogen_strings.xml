@@ -695,4 +695,5 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="status_bar_battery_style_tile_title">Custom battery tile style</string>
     <string name="status_bar_battery_style_tile_summary">Allow to set the same icon style chosen for the statusbar battery</string>
+    <string name="status_bar_charge_color_title">Set statusbar battery icon color when charging</string>
 </resources>
