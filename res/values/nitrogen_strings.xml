@@ -668,4 +668,8 @@
     <string name="hide_apps_from_recents_title">Hidden apps</string>
     <string name="hide_from_recents_add_app">Add App</string>
     <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 </resources>

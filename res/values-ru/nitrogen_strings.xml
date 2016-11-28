@@ -639,4 +639,8 @@
     <string name="hide_from_recents_add_app">Добавить приложение</string>
     <string name="hide_apps_from_recents_title">Скрытые приложения</string>
     <string name="hide_apps_from_recents_summary">Выберите приложения, которые будут исключены из панели недавних.</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Медиа-обложка</string>
+    <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
 </resources>
