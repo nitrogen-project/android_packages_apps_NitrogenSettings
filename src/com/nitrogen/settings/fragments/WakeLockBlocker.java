@@ -94,8 +94,10 @@ public class WakeLockBlocker extends SettingsPreferenceFragment {
                         mWakeLockState.put(v.getText().toString(), new Boolean(checked));
                         if(checked){
                             check.setTextColor(getResources().getColor(android.R.color.holo_red_light));
+                            mListAdapter.notifyDataSetChanged();
                         } else {
                             check.setTextColor(getResources().getColor(android.R.color.primary_text_dark));
+                            mListAdapter.notifyDataSetChanged();
                         }
                     }
             });
@@ -253,7 +255,7 @@ public class WakeLockBlocker extends SettingsPreferenceFragment {
         updateSeenWakeLocksList();
         updateBlockedWakeLocksList();
 
-		mListAdapter.notifyDataSetChanged();
+	mListAdapter.notifyDataSetChanged();
     }
 
     @Override
