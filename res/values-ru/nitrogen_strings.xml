@@ -670,4 +670,9 @@
     <string name="force_charge_battery_text_title">Состояние зарядки батареи</string>
     <string name="force_charge_battery_text_summary_on">Показывать состояние зарядки батареи вне значка</string>
     <string name="force_charge_battery_text_summary_off">Показывать состояние зарядки батареи в значке</string>
+    <string name="text_charging_symbol_title">Символ зарядки рядом с процентом заряда</string>
+    <string name="text_charging_symbol_dialog">Показывать символ заряда рядом с процентом иконки батареи во время зарядки</string>
+    <string name="text_charging_symbol_default">Выключен</string>
+    <string name="text_charging_symbol_flash">Молния</string>
+    <string name="text_charging_symbol_tilde">Тильда</string>
 </resources>
