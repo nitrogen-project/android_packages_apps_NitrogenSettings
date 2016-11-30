@@ -643,4 +643,8 @@
     <!-- Media art -->
     <string name="media_art_title">Медиа-обложка</string>
     <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
+
+    <!-- Lockscreen charging current indicator  -->
+    <string name="lockscreen_charging_current_title">Информация о зарядке</string>
+    <string name="lockscreen_charging_current_summary">Отображение тока зарядки и вольтажа на заблокированном экране</string>
 </resources>
