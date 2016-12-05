@@ -17,4 +17,7 @@
 <resources>
     <!-- ColorPicker -->
     <bool name="showFullColorPickSummary">true</bool>
+
+    <!-- Show lockscreen charging info -->
+    <bool name="showCharging">false</bool>
 </resources>

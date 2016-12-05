@@ -60,5 +60,6 @@
         android:key="lockscreen_charging_current"
         android:title="@string/lockscreen_charging_current_title"
         android:summary="@string/lockscreen_charging_current_summary"
-        android:defaultValue="false" />
+        android:defaultValue="false"
+        android:persistent="false" />
 </PreferenceScreen>
