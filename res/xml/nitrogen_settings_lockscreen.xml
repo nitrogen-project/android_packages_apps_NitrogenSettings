@@ -56,10 +56,9 @@
         android:summary="@string/media_art_summary"
         android:defaultValue="true" />
 
-    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+    <SwitchPreference
         android:key="lockscreen_charging_current"
         android:title="@string/lockscreen_charging_current_title"
         android:summary="@string/lockscreen_charging_current_summary"
-        android:defaultValue="false"
         android:persistent="false" />
 </PreferenceScreen>

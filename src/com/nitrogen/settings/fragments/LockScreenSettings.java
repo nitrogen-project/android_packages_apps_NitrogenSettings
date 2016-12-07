@@ -32,7 +32,6 @@ import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 
-import com.nitrogen.settings.preferences.SystemSettingSwitchPreference;
 import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -44,7 +43,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
     private static final String LOCKSCREEN_CHARGING = "lockscreen_charging_current";
 
     private ListPreference mLockClockFonts;
-    private SystemSettingSwitchPreference mLockscreenCharging;
+    private SwitchPreference mLockscreenCharging;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -61,9 +60,13 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         mLockClockFonts.setSummary(mLockClockFonts.getEntry());
         mLockClockFonts.setOnPreferenceChangeListener(this);
 
-        mLockscreenCharging = (SystemSettingSwitchPreference) findPreference(LOCKSCREEN_CHARGING);
+        mLockscreenCharging = (SwitchPreference) findPreference(LOCKSCREEN_CHARGING);
         if (!resources.getBoolean(R.bool.showCharging)) {
             prefScreen.removePreference(mLockscreenCharging);
+        } else {
+        mLockscreenCharging.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKSCREEN_CHARGING_CURRENT, 0) == 1));
+        mLockscreenCharging.setOnPreferenceChangeListener(this);
         }
     }
 
@@ -74,6 +77,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                     Integer.valueOf((String) newValue));
             mLockClockFonts.setValue(String.valueOf(newValue));
             mLockClockFonts.setSummary(mLockClockFonts.getEntry());
+            return true;
+        } else if (preference == mLockscreenCharging) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.LOCKSCREEN_CHARGING_CURRENT, value ? 1 : 0);
             return true;
         }
         return false;
