@@ -178,8 +178,8 @@
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
 
     <!-- The volume key answer -->
-    <string name="volume_answer_call_title">Volume key Answer</string>
-    <string name="volume_answer_call_summary">Volume up key Answer</string>
+    <string name="volume_answer_call_title">Volume keys answer</string>
+    <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
 
     <!-- Enabble HW keys -->
     <string name="enable_hw_keys_title">Enable hardware keys</string>

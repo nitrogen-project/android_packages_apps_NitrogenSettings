@@ -176,8 +176,8 @@
     <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
 
     <!-- The volume key answer -->
-    <string name="volume_answer_call_title">Ответ кнопкой громкости</string>
-    <string name="volume_answer_call_summary">Ответ кнопкой увеличения громкости</string>
+    <string name="volume_answer_call_title">Ответ кнопками громкости</string>
+    <string name="volume_answer_call_summary">Снять трубку при нажатии кнопок громкости</string>
 
     <!-- Enable HW keys -->
     <string name="enable_hw_keys_title">Включить сенсорные кнопки</string>
