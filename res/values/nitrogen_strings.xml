@@ -600,7 +600,7 @@
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
 
-    <string name="google_camera_gesture_title">Camera gestures</string>
+    <string name="google_camera_gesture_title">AOSP gestures</string>
 
     <!-- Immersive Recents -->
     <string name="immersive_recents_title">Immersive Recents</string>
