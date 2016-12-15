@@ -754,4 +754,8 @@
 
     <string name="hardware_keys_action_one_handed_mode_left">One handed mode (left side)</string>
     <string name="hardware_keys_action_one_handed_mode_right">One handed mode (right side)</string>
+    
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Swipe to screenshot</string>
+    <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
 </resources>
