@@ -20,10 +20,12 @@ package com.nitrogen.settings.fragments;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.ContentResolver;
 import android.app.WallpaperManager;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.hardware.fingerprint.FingerprintManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v14.preference.SwitchPreference;
@@ -41,9 +43,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCKSCREEN_CHARGING = "lockscreen_charging_current";
+    private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
 
     private ListPreference mLockClockFonts;
     private SwitchPreference mLockscreenCharging;
+    private SwitchPreference mFingerprintVib;
+    private FingerprintManager mFingerprintManager;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -68,6 +73,16 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                 Settings.System.LOCKSCREEN_CHARGING_CURRENT, 0) == 1));
         mLockscreenCharging.setOnPreferenceChangeListener(this);
         }
+
+        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);
+        if (!mFingerprintManager.isHardwareDetected()){
+            prefScreen.removePreference(mFingerprintVib);
+        } else {
+        mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
+        mFingerprintVib.setOnPreferenceChangeListener(this);
+        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -82,6 +97,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.LOCKSCREEN_CHARGING_CURRENT, value ? 1 : 0);
+            return true;
+        } else if (preference == mFingerprintVib) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);
             return true;
         }
         return false;

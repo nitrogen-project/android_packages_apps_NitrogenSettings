@@ -61,4 +61,10 @@
         android:title="@string/lockscreen_charging_current_title"
         android:summary="@string/lockscreen_charging_current_summary"
         android:persistent="false" />
+
+    <SwitchPreference
+        android:key="fingerprint_success_vib"
+        android:title="@string/fprint_sucess_vib_title"
+        android:summary="@string/fprint_sucess_vib_summary"
+        android:persistent="false" />
 </PreferenceScreen>
