@@ -28,6 +28,12 @@
         android:title="@string/navbar_bottom"
         android:summary="@string/navbar_bottom_summary" />
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="nav_bar_dynamic"
+        android:title="@string/nav_bar_dynamic_title"
+        android:summary="@string/nav_bar_dynamic_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="category_navbar_interface"
         android:title="@string/navbar_interface_title" >
