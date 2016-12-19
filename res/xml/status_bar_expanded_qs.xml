@@ -19,6 +19,14 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/status_bar_expanded_qs_settings">
 
+    <com.nitrogen.settings.preferences.CustomSeekBarPreference
+        android:key="sysui_qqs_count_key"
+        android:title="@string/sysui_qqs_count_title"
+        settings:max="8"
+        settings:min="3"
+        settings:units=""
+        android:persistent="false" />
+
     <PreferenceCategory
         android:key="qs_cat_portrait"
         android:title="@string/qs_cat_portrait_title">

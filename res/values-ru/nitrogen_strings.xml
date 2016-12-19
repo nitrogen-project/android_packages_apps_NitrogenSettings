@@ -665,4 +665,7 @@
 
     <string name="nav_bar_dynamic_title">Динамический цвет</string>
     <string name="nav_bar_dynamic_summary">Изменять цвет панели навигации в приложении. Требуется перезапуск приложения.</string>
+
+    <!--- Small tiles count -->
+    <string name="sysui_qqs_count_title">Число маленьких плиток</string>
 </resources>

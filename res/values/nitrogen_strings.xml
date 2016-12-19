@@ -694,4 +694,7 @@
 
     <string name="nav_bar_dynamic_title">Dynamic navbar color</string>
     <string name="nav_bar_dynamic_summary">Enable to adapt navbar color to apps primary dark color.Restart your desired app to see effect</string>
+
+    <!--- Small tiles count -->
+    <string name="sysui_qqs_count_title">Small quick tiles count</string>
 </resources>

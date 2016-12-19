@@ -47,11 +47,14 @@ public class StatusbarExpandedQSSettings extends SettingsPreferenceFragment impl
             "qs_rows_landscape";
     private static final String PREF_COLUMNS_LANDSCAPE =
             "qs_columns_landscape";
+    private static final String KEY_SYSUI_QQS_COUNT = 
+            "sysui_qqs_count_key";
 
     private CustomSeekBarPreference mRowsPortrait;
     private CustomSeekBarPreference mColumnsPortrait;
     private CustomSeekBarPreference mRowsLandscape;
     private CustomSeekBarPreference mColumnsLandscape;
+    private CustomSeekBarPreference mSysuiQqsCount;
 
     private ContentResolver mResolver;
 
@@ -110,6 +113,12 @@ public class StatusbarExpandedQSSettings extends SettingsPreferenceFragment impl
                 Settings.System.QS_COLUMNS_LANDSCAPE, defaultValue);
         mColumnsLandscape.setValue(columnsLandscape / 1);
         mColumnsLandscape.setOnPreferenceChangeListener(this);
+
+        mSysuiQqsCount = (CustomSeekBarPreference) findPreference(KEY_SYSUI_QQS_COUNT);
+        int SysuiQqsCount = Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.QQS_COUNT, 6);
+        mSysuiQqsCount.setValue(SysuiQqsCount / 1);
+        mSysuiQqsCount.setOnPreferenceChangeListener(this);
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -135,6 +144,11 @@ public class StatusbarExpandedQSSettings extends SettingsPreferenceFragment impl
             int columnsLandscape = (Integer) newValue;
             Settings.System.putInt(mResolver,
                     Settings.System.QS_COLUMNS_LANDSCAPE, columnsLandscape * 1);
+            return true;
+        } else if (preference == mSysuiQqsCount) {
+            int SysuiQqsCount = (Integer) newValue;
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.QQS_COUNT, SysuiQqsCount * 1);
             return true;
         }
         return false;
