@@ -664,4 +664,6 @@
     <string name="status_bar_battery_percentage_default">Не показывать (по умолч.)</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
     <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
+    <string name="status_bar_battery_style_tile_title">Плитка батареи</string>
+    <string name="status_bar_battery_style_tile_summary">Отображать плитку батареи как в строке состояния</string>
 </resources>
