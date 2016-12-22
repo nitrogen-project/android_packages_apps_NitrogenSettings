@@ -31,14 +31,10 @@
             android:title="@string/status_bar_clock_title" />
 
     <PreferenceScreen
-            android:key="statusbar_battery"
-            android:title="@string/battery_title"
-            android:fragment="com.nitrogen.settings.fragments.StatusbarBatterySettings" />
-
-    <PreferenceScreen
             android:key="network_traffic_state"
             android:fragment="com.nitrogen.settings.fragments.NetworkTraffic"
             android:title="@string/network_traffic_title" />
+    <PreferenceScreen
 
     <PreferenceScreen
             android:fragment="com.nitrogen.settings.fragments.CarrierLabelSettings"

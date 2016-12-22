@@ -281,23 +281,6 @@
     <string name="qs_bt_easy_toggle_title">Плитка Bluetooth</string>
     <string name="qs_bt_easy_toggle_summary">Включение или выключение Bluetooth одиночным нажатием на плитку</string>
 
-    <!-- Battery Customization -->
-    <string name="battery_title">Иконка батареи</string>
-    <string name="battery_style_title">Стиль</string>
-    <string name="battery_percent_title">Отображать процент</string>
-    <string name="battery_percent_none">Никогда</string>
-    <string name="battery_percent_always">Всегда</string>
-    <string name="battery_percent_expanded">Расширенный</string>
-    <string name="statusbar_percent_inside_title">Наложение процента</string>
-    <string name="statusbar_percent_inside_summary">Отображать процент поверх иконки</string>
-    <string name="statusbar_charging_image_title">Индикация зарядки</string>
-    <string name="statusbar_category_charging_title">Зарядка</string>
-    <string name="statusbar_charging_image_summary">Отображать молнию вместо процента</string>
-    <string name="statusbar_battery_charging_color_title">Цвет</string>
-    <string name="statusbar_battery_charging_color_enable_title">Окрашивать во время зарядки</string>
-    <string name="statusbar_battery_charging_color_enable_summary"></string>
-    <string name="battery_enable_title">Отображать иконку</string>
-
     <!-- Advanced data tile -->
     <string name="qs_advanced_data_title">Плитка Передача данных</string>
     <string name="qs_advanced_data_summary">Включение или выключение передачи данных одиночным нажатием на плитку</string>

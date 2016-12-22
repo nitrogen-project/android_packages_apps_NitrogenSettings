@@ -300,23 +300,6 @@
     <string name="qs_bt_easy_toggle_title">Bluetooth easy toggle</string>
     <string name="qs_bt_easy_toggle_summary">Makes it so one click will turn Bluetooth on or off instead of taking you to settings</string>
 
-    <!-- Battery Customization -->
-    <string name="battery_title">Battery display</string>
-    <string name="battery_style_title">Style</string>
-    <string name="battery_percent_title">Show percent</string>
-    <string name="battery_percent_none">Never</string>
-    <string name="battery_percent_always">Always</string>
-    <string name="battery_percent_expanded">Expanded</string>
-    <string name="statusbar_percent_inside_title">Percent overlay</string>
-    <string name="statusbar_percent_inside_summary">Display percent on top of the the battery image</string>
-    <string name="statusbar_charging_image_title">Charging indicator</string>
-    <string name="statusbar_category_charging_title">Charging</string>
-    <string name="statusbar_charging_image_summary">Display bolt indicator while charging. Hides percent overlay</string>
-    <string name="statusbar_battery_charging_color_title">Color</string>
-    <string name="statusbar_battery_charging_color_enable_title">Color while charging</string>
-    <string name="statusbar_battery_charging_color_enable_summary"></string>
-    <string name="battery_enable_title">Show battery</string>
-
     <!-- Advanced data tile -->
     <string name="qs_advanced_data_title">Advanced data tile</string>
     <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
