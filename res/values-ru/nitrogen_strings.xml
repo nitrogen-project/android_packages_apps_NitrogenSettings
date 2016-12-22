@@ -651,4 +651,17 @@
 
     <!--- Small tiles count -->
     <string name="sysui_qqs_count_title">Число маленьких плиток</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_category">Индикатор батареи</string>
+    <string name="status_bar_battery_style_title">Стиль значка батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Вертикальный значок</string>
+    <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Не показывать индикатор</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
+    <string name="status_bar_battery_percentage_default">Не показывать (по умолч.)</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
 </resources>
