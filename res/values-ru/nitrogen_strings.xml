@@ -659,6 +659,7 @@
     <string name="status_bar_battery_style_icon_landscape">Горизонтальный значок</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_bigcircle">Большой круг</string>
+    <string name="status_bar_battery_style_circle_full">Сплошной круг</string>
     <string name="status_bar_battery_style_text">Текст</string>
     <string name="status_bar_battery_style_hidden">Не показывать индикатор</string>
     <string name="status_bar_battery_percentage_title">Процент заряда батареи</string>
