@@ -235,9 +235,11 @@
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Быстрый доступ</string>
     <string name="quick_pulldown_summary">%1$s угол строки состояния открывает панель быстрых настроек</string>
+    <string name="quick_pulldown_summary_always">Всегда открывать панель быстрых настроек</string>
     <string name="quick_pulldown_off">Выкл</string>
     <string name="quick_pulldown_left">Левый</string>
     <string name="quick_pulldown_right">Правый</string>
+    <string name="quick_pulldown_always">Всегда</string>
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">\"Умная\" панель уведомлений</string>
