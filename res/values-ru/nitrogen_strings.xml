@@ -679,4 +679,7 @@
     <string name="text_charging_symbol_default">Выключен</string>
     <string name="text_charging_symbol_flash">Молния</string>
     <string name="text_charging_symbol_tilde">Тильда</string>
+
+    <string name="systemui_recents_mem_display_title">Шкала использования ОЗУ</string>
+    <string name="systemui_recents_mem_display_summary">Отображать шкалу использования ОЗУ в недавних приложениях</string>
 </resources>
