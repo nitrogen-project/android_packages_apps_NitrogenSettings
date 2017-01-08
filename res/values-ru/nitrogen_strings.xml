@@ -682,4 +682,11 @@
 
     <string name="systemui_recents_mem_display_title">Шкала использования ОЗУ</string>
     <string name="systemui_recents_mem_display_summary">Отображать шкалу использования ОЗУ в недавних приложениях</string>
+
+    <!-- Time-context headers in notification header -->
+    <string name="status_bar_custom_header_title">Динамический фон заголовка</string>
+    <string name="status_bar_custom_header_summary">Показывать изображение в заголовке панели уведомления в зависимости от времени суток</string>
+    <string name="daylight_header_pack_title">Пакет изображений</string>
+    <string name="status_bar_custom_header_shadow_title">Затемнение изображения</string>
+    <string name="status_bar_custom_header_shadow_summary">Затемнить изображение заголовка для лучшей видимости на ярких фонах</string>
 </resources>
