@@ -689,4 +689,9 @@
     <string name="daylight_header_pack_title">Пакет изображений</string>
     <string name="status_bar_custom_header_shadow_title">Затемнение изображения</string>
     <string name="status_bar_custom_header_shadow_summary">Затемнить изображение заголовка для лучшей видимости на ярких фонах</string>
+    <string name="static_header_provider_title">Постоянное изображение</string>
+    <string name="daylight_header_provider_title">По времени суток</string>
+    <string name="custom_header_provider_title">Изменение изображений</string>
+    <string name="custom_header_browse_title">Обзор установленных изображений</string>
+    <string name="custom_header_browse_summary">Длительное нажатие на изображение для установки в заголовок</string>
 </resources>
