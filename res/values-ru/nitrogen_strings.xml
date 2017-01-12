@@ -694,4 +694,22 @@
     <string name="custom_header_provider_title">Изменение изображений</string>
     <string name="custom_header_browse_title">Обзор установленных изображений</string>
     <string name="custom_header_browse_summary">Длительное нажатие на изображение для установки в заголовок</string>
+
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_title">Действия в режиме ожидания</string>
+    <string name="screen_state_toggles_enable_title">Включить</string>
+    <string name="screen_state_toggles_enable_summary">Действия, выполняемые при выключении экрана. При включении возвращаются прежние состояния параметров.</string>
+    <string name="screen_state_toggles_mobile_title">Мобильные сети</string>
+    <string name="screen_state_toggles_location_title">Местоположение</string>
+    <string name="screen_state_toggles_twog">Использовать режим 2G</string>
+    <string name="screen_state_toggles_twog_summary">Режим передачи данных активной сети будет переключен в режим 2G</string>
+    <string name="screen_state_toggles_gps">Выключить GPS</string>
+    <string name="screen_state_toggles_gps_summary">Не использовать GPS при выключенном экране</string>
+    <string name="screen_state_toggles_mobile_data">Отключить мобильные данные</string>
+    <string name="screen_state_toggles_mobile_data_summary">Не использовать передачу данных при выключенном экране</string>
+    <string name="screen_state_off_delay_title">Отложить действия при выключении экрана</string>
+    <string name="screen_state_off_delay_summary">Отложить действия при выключении экрана на указанное количество секунд</string>
+    <string name="screen_state_on_delay_title">Отложить действия при включении экрана</string>
+    <string name="screen_state_on_delay_summary">Отложить действия при включении экрана на указанное количество секунд</string>
 </resources>
