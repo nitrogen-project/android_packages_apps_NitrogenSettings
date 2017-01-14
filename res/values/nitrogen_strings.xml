@@ -742,4 +742,7 @@
     <string name="screen_state_off_delay_summary">Number of seconds to wait before performing actions after screen off</string>
     <string name="screen_state_on_delay_title">Screen On actions delay</string>
     <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
+
+    <string name="dnd_when_call_title">Do not Disturb</string>
+    <string name="dnd_when_call_summary">Enable Do not Disturb when call active</string>
 </resources>

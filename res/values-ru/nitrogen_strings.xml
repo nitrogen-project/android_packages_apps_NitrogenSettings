@@ -712,4 +712,7 @@
     <string name="screen_state_off_delay_summary">Отложить действия при выключении экрана на указанное количество секунд</string>
     <string name="screen_state_on_delay_title">Отложить действия при включении экрана</string>
     <string name="screen_state_on_delay_summary">Отложить действия при включении экрана на указанное количество секунд</string>
+
+    <string name="dnd_when_call_title">Режим Не беспокоить</string>
+    <string name="dnd_when_call_summary">Включить режим Не беспокоить во время звонка</string>
 </resources>

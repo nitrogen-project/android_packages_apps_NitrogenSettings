@@ -51,4 +51,10 @@
              android:title="@string/status_bar_notif_count_title"
              android:summary="@string/status_bar_notif_count_summary"
              android:defaultValue="false" />
+
+        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+             android:key="dnd_when_call"
+             android:title="@string/dnd_when_call_title"
+             android:summary="@string/dnd_when_call_summary"
+             android:defaultValue="true" />
 </PreferenceScreen>
