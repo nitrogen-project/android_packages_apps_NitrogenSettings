@@ -715,4 +715,7 @@
 
     <string name="dnd_when_call_title">Режим Не беспокоить</string>
     <string name="dnd_when_call_summary">Включить режим Не беспокоить во время звонка</string>
+
+    <string name="smartbar_doubletap_sleep_title">Панель навигации</string>
+    <string name="smartbar_doubletap_sleep_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим</string>
 </resources>

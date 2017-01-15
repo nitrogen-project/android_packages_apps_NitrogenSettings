@@ -745,4 +745,7 @@
 
     <string name="dnd_when_call_title">Do not Disturb</string>
     <string name="dnd_when_call_summary">Enable Do not Disturb when call active</string>
+
+    <string name="smartbar_doubletap_sleep_title">Double tap to sleep</string>
+    <string name="smartbar_doubletap_sleep_summary">Double tap on navbar empty areas to switch off the screen</string>
 </resources>
