@@ -52,5 +52,16 @@
         settings:units=""
         android:persistent="false" />
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="smartbar_doubletap_sleep"
+        android:title="@string/smartbar_doubletap_sleep_title"
+        android:summary="@string/smartbar_doubletap_sleep_summary"
+        android:defaultValue="true" />
+
+    <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
+        android:key="one_handed_mode_ui"
+        android:title="@string/one_handed_mode_title"
+        android:summary="@string/one_handed_mode_summary"
+        android:defaultValue="true" />
 
 </PreferenceScreen>

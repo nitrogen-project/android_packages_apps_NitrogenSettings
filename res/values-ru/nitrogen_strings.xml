@@ -718,4 +718,7 @@
 
     <string name="smartbar_doubletap_sleep_title">Панель навигации</string>
     <string name="smartbar_doubletap_sleep_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим</string>
+
+    <string name="one_handed_mode_title">Режим одной руки</string>
+    <string name="one_handed_mode_summary">Включать режим одной руки свайпом по панели навигации</string>
 </resources>

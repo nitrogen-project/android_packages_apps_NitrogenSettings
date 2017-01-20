@@ -34,12 +34,6 @@
             android:defaultValue="false" />
 
         <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
-            android:key="smartbar_doubletap_sleep"
-            android:title="@string/smartbar_doubletap_sleep_title"
-            android:summary="@string/smartbar_doubletap_sleep_summary"
-            android:defaultValue="true" />
-
-        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_lock_screen"
             android:title="@string/double_tap_to_sleep_lockscreen_title"
             android:summary="@string/double_tap_to_sleep_lockscreen_summary"
