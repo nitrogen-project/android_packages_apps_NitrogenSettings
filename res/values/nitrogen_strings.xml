@@ -751,4 +751,7 @@
 
     <string name="one_handed_mode_title">One handed mode</string>
     <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+
+    <string name="hardware_keys_action_one_handed_mode_left">One handed mode (left side)</string>
+    <string name="hardware_keys_action_one_handed_mode_right">One handed mode (right side)</string>
 </resources>

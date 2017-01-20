@@ -721,4 +721,7 @@
 
     <string name="one_handed_mode_title">Режим одной руки</string>
     <string name="one_handed_mode_summary">Включать режим одной руки свайпом по панели навигации</string>
+
+    <string name="hardware_keys_action_one_handed_mode_left">Режим одной руки (слева)</string>
+    <string name="hardware_keys_action_one_handed_mode_right">Режим одной руки (справа)</string>
 </resources>

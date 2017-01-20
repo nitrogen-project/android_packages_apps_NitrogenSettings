@@ -27,6 +27,8 @@
         <item>@string/hardware_keys_action_sleep</item>
         <item>@string/hardware_keys_action_last_app</item>
         <item>@string/hardware_keys_action_split_screen</item>
+        <item>@string/hardware_keys_action_one_handed_mode_left</item>
+        <item>@string/hardware_keys_action_one_handed_mode_right</item>
     </string-array>
 
     <string-array name="hardware_keys_action_values" translatable="false">
@@ -40,6 +42,8 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
+        <item>10</item>
+        <item>11</item>
     </string-array>
 
     <!--- Volume key cursor control -->

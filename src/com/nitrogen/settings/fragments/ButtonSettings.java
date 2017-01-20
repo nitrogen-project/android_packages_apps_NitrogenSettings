@@ -69,6 +69,8 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final int ACTION_SLEEP = 7;
     private static final int ACTION_LAST_APP = 8;
     private static final int ACTION_SPLIT_SCREEN = 9;
+    private static final int ACTION_ONE_HANDED_MODE_LEFT = 10;
+    private static final int ACTION_ONE_HANDED_MODE_RIGHT = 11;
 
     // Masks for checking presence of hardware keys.
     // Must match values in frameworks/base/core/res/res/values/config.xml
@@ -130,14 +132,14 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             int defaultLongPressAction = res.getInteger(
                     com.android.internal.R.integer.config_longPressOnHomeBehavior);
             if (defaultLongPressAction < ACTION_NOTHING ||
-                    defaultLongPressAction > ACTION_SPLIT_SCREEN) {
+                    defaultLongPressAction > ACTION_ONE_HANDED_MODE_RIGHT) {
                 defaultLongPressAction = ACTION_NOTHING;
             }
 
             int defaultDoubleTapAction = res.getInteger(
                     com.android.internal.R.integer.config_doubleTapOnHomeBehavior);
             if (defaultDoubleTapAction < ACTION_NOTHING ||
-                    defaultDoubleTapAction > ACTION_SPLIT_SCREEN) {
+                    defaultDoubleTapAction > ACTION_ONE_HANDED_MODE_RIGHT) {
                 defaultDoubleTapAction = ACTION_NOTHING;
             }
 
