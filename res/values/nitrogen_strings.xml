@@ -254,7 +254,7 @@
     <string name="smart_pulldown_title">Smart pulldown</string>
     <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
     <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
-    <string name="smart_pulldown_off">Off</string>
+    <string name="smart_pulldown_off">off</string>
     <string name="smart_pulldown_none">no notifications</string>
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
@@ -557,10 +557,7 @@
 
     <!-- Volume down enter do not disturb -->
     <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
-    <string name="volbtn_down_zen_summary">allow volume down to enter do not disturb mode</string>
-    <!-- Volume up exit do not disturb -->
-    <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
-    <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
+    <string name="volbtn_down_zen_summary">Allow volume down to enter do not disturb mode</string>
     <!-- Volume do not disturb switch -->
     <string name="vol_zen_title">Do not disturb switch</string>
     <string name="vol_zen_summary">Show do not disturb swith on volume panel</string>

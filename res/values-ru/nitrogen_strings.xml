@@ -538,10 +538,7 @@
 
     <!-- Volume down enter do not disturb -->
     <string name="volbtn_down_zen_title">Громкость вниз для \"Не беспокоить\"</string>
-    <string name="volbtn_down_zen_summary">Отключать режим \"Не беспокоить\" при уменьшении громкости</string>
-    <!-- Volume up exit do not disturb -->
-    <string name="volbtn_up_zen_title">Громкость вверх для \"Не беспокоить\"</string>
-    <string name="volbtn_up_zen_summary">Отключать режим \"Не беспокоить\" при увеличении громкости</string>
+    <string name="volbtn_down_zen_summary">Включать режим \"Не беспокоить\" при уменьшении громкости</string>
     <!-- Volume do not disturb switch -->
     <string name="vol_zen_title">Режим \"Не беспокоить\</string>
     <string name="vol_zen_summary">Показывать при открытии панели громкости</string>
