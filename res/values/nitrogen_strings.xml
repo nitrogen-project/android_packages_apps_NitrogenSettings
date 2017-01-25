@@ -273,22 +273,6 @@
     <string name="brightness_icon_title">Brightness icon</string>
     <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
 
-    <!-- QS settings -->
-    <string name="status_bar_expanded_qs_settings">Layout</string>
-    <string name="status_bar_expanded_qs_settings_summary">Choose the number of rows and columns</string>
-    <string name="qs_cat_portrait_title">Portrait</string>
-    <string name="qs_cat_landscape_title">Landscape</string>
-    <string name="qs_rows_title">Rows</string>
-    <string name="qs_columns_title">Columns</string>
-    <string name="qs_rows_columns_1_title">1</string>
-    <string name="qs_rows_columns_2_title">2</string>
-    <string name="qs_rows_columns_3_title">3</string>
-    <string name="qs_rows_columns_4_title">4</string>
-    <string name="qs_rows_columns_5_title">5</string>
-    <string name="qs_rows_columns_6_title">6</string>
-    <string name="qs_rows_columns_7_title">7</string>
-    <string name="qs_rows_columns_8_title">8</string>
-
     <!-- Longpress power lockscreen torch -->
     <string name="keyguard_torch_title">Lockscreen torch</string>
     <string name="keyguard_torch_summary">Longpress power button with screen of turns on torch</string>

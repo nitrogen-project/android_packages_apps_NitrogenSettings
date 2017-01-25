@@ -21,6 +21,7 @@ import java.util.Locale;
 import android.text.TextUtils;
 import android.view.View;
 
+import com.nitrogen.settings.preferences.CustomSeekBarPreference;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -30,9 +31,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     private static final String QUICK_PULLDOWN = "quick_pulldown";
     private static final String PREF_SMART_PULLDOWN = "smart_pulldown";
+    private static final String KEY_SYSUI_QQS_COUNT = "sysui_qqs_count_key";
 
     private ListPreference mQuickPulldown;
     private ListPreference mSmartPulldown;
+    private CustomSeekBarPreference mSysuiQqsCount;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,6 +60,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mSmartPulldown.setValue(String.valueOf(smartPulldown));
         updateSmartPulldownSummary(smartPulldown);
 
+        mSysuiQqsCount = (CustomSeekBarPreference) findPreference(KEY_SYSUI_QQS_COUNT);
+        int SysuiQqsCount = Settings.Secure.getInt(getContentResolver(),
+                Settings.Secure.QQS_COUNT, 6);
+        mSysuiQqsCount.setValue(SysuiQqsCount / 1);
+        mSysuiQqsCount.setOnPreferenceChangeListener(this);
+
         }
 
     @Override
@@ -72,6 +81,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int smartPulldown = Integer.valueOf((String) newValue);
             Settings.System.putInt(resolver, Settings.System.QS_SMART_PULLDOWN, smartPulldown);
             updateSmartPulldownSummary(smartPulldown);
+            return true;
+        } else if (preference == mSysuiQqsCount) {
+            int SysuiQqsCount = (Integer) newValue;
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.QQS_COUNT, SysuiQqsCount * 1);
             return true;
         }
 

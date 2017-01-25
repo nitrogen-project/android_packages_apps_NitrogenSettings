@@ -264,14 +264,6 @@
     <string name="brightness_icon_title">Значок яркости</string>
     <string name="brightness_icon_summary">Показать значок включения авто-яркости слева от регулятора</string>
 
-    <!-- QS settings -->
-    <string name="status_bar_expanded_qs_settings">Расположение</string>
-    <string name="status_bar_expanded_qs_settings_summary">Выберите количество рядов и столбцов</string>
-    <string name="qs_cat_portrait_title">Портретный</string>
-    <string name="qs_cat_landscape_title">Альбомный</string>
-    <string name="qs_rows_title">Ряды</string>
-    <string name="qs_columns_title">Столбцы</string>
-
     <!-- Longpress power lockscreen torch -->
     <string name="keyguard_torch_title">Фонарик</string>
     <string name="keyguard_torch_summary">Удерживание кнопки питания при выключенном экране включает фонарик</string>
