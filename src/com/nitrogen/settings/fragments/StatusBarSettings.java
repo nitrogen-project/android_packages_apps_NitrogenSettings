@@ -102,7 +102,6 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mHeaderProvider.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
         mHeaderProvider.setSummary(mHeaderProvider.getEntry());
         mHeaderProvider.setOnPreferenceChangeListener(this);
-        mDaylightHeaderPack.setEnabled(providerName.equals(mDaylightHeaderProvider));
 
         mHeaderBrowse = (PreferenceScreen) findPreference(CUSTOM_HEADER_BROWSE);
         mHeaderBrowse.setEnabled(isBrowseHeaderAvailable());
@@ -128,7 +127,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
                     Settings.System.STATUS_BAR_CUSTOM_HEADER_PROVIDER, value);
             int valueIndex = mHeaderProvider.findIndexOfValue(value);
             mHeaderProvider.setSummary(mHeaderProvider.getEntries()[valueIndex]);
-            mDaylightHeaderPack.setEnabled(value.equals(mDaylightHeaderProvider));
+            return true;
         }
         return false;
     }
