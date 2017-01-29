@@ -595,13 +595,13 @@
     <string name="screenshot_type_partial">Снимок определенной области экрана</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Блокировка пробуждений</string>
-    <string name="wakelock_blocker_summary">Заблокировать пробуждения системы</string>
+    <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
     <string name="wakelock_blocker_save">Сохранить</string>
-    <string name="wakelock_list_header">Доступные пробуждения</string>
+    <string name="wakelock_blocker_summary">Заблокировать *wakelocks* при выключенном экране</string>
+    <string name="wakelock_list_header">Доступные *wakelocks*</string>
     <string name="wakelock_blocker_reload">Сбросить</string>
     <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
-    <string name="wakelock_blocker_warning">Блокировка пробуждений может вызвать нестабильную работу, краши и потерю данных</string>
+    <string name="wakelock_blocker_warning">Блокировка *wakelocks* может вызвать нестабильную работу, краши и потерю данных</string>
 
     <string name="navbar_bottom">Расположение панели навигации</string>
     <string name="navbar_bottom_summary">Привязывать панель навигации к нижнему краю устройства при повороте на 270 град.</string>
@@ -713,4 +713,14 @@
 
     <string name="hardware_keys_action_one_handed_mode_left">Режим одной руки (слева)</string>
     <string name="hardware_keys_action_one_handed_mode_right">Режим одной руки (справа)</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Блокировка *alarms*</string>
+    <string name="alarm_blocker_title">Включено</string>
+    <string name="alarm_blocker_summary">Заблокировать *alarms* при выключенном экране</string>
+    <string name="alarm_blocker_save">Сохранить</string>
+    <string name="alarm_list_header">Доступные *alarms*</string>
+    <string name="alarm_blocker_reload">Перезагрузить</string>
+    <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="alarm_blocker_warning">Блокировка *alarms* может вызвать нестабильную работу, краши и потерю данных</string>
 </resources>

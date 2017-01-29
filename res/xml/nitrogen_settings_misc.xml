@@ -35,6 +35,11 @@
              android:fragment="com.nitrogen.settings.fragments.WakeLockBlocker"
              android:title="@string/wakelock_blocker_title" />
 
+        <PreferenceScreen
+             android:id="@+id/alarm_blocker"
+             android:fragment="com.nitrogen.settings.fragments.AlarmBlocker"
+             android:title="@string/alarm_blocker" />
+
         <!-- Screen state -->
         <PreferenceScreen
             android:key="screenstate_category"
