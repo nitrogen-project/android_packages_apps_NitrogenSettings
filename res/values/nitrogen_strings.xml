@@ -745,4 +745,8 @@
     <string name="alarm_blocker_reload">Reload</string>
     <string name="alarm_blocker_warning_title">Proceed with caution</string>
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">FP unlock</string>
+    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
 </resources>

@@ -723,4 +723,8 @@
     <string name="alarm_blocker_reload">Перезагрузить</string>
     <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
     <string name="alarm_blocker_warning">Блокировка *alarms* может вызвать нестабильную работу, краши и потерю данных</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Разблокировка отпечатком</string>
+    <string name="fp_unlock_keystore_summary">Разблокировать устройство после перезагрузки без PIN/Пароля/Граф. ключа\nПрим.: Используйте на свой страх и риск!</string>
 </resources>
