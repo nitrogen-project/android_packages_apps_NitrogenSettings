@@ -50,6 +50,7 @@
   <string name="kill_app_longpress_back_summary">Fecha o aplicativo aberto ao manter pressionado o botão voltar</string>
   <!-- long press back to kill configurable timeout -->
   <string name="kill_app_longpress_timeout_title">Tempo limite para pressionar longamente o botão</string>
+  <string name="timeout_3000">3 segundos</string>
   <string name="timeout_2000">2 segundos</string>
   <string name="timeout_1500">1,5 segundos</string>
   <string name="timeout_1000">1 segundo (padrão)</string>
@@ -81,6 +82,7 @@
   <!-- Buttons backlight timeout -->
   <string name="backlight_timeout_title">Duração do brilho</string>
   <string name="backlight_timeout_on">Sempre ativar</string>
+  <string name="backlight_timeout_3s">3 seg</string>
   <string name="backlight_timeout_default">5 seg (padrão)</string>
   <string name="backlight_timeout_10s">10 seg</string>
   <string name="backlight_timeout_15s">15 seg</string>
@@ -645,4 +647,18 @@
   <string name="one_handed_mode_summary">Permite percorrer na barra de navegação para habilitar o modo de uma mão</string>
   <string name="hardware_keys_action_one_handed_mode_left">Modo de uma mão (lado esquerdo)</string>
   <string name="hardware_keys_action_one_handed_mode_right">Modo de uma mão (lado direito)</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Bloqueador de alarmes</string>
+    <string name="alarm_blocker_title">Habilitar</string>
+    <string name="alarm_blocker_summary">Impede que os aplicativos de segundo plano sejam abertos enquanto a tela estiver desligada</string>
+    <string name="alarm_blocker_save">Salvar</string>
+    <string name="alarm_list_header">Alarmes disponíveis</string>
+    <string name="alarm_blocker_reload">Recarregar</string>
+    <string name="alarm_blocker_warning_title">Proceda com cautela</string>
+    <string name="alarm_blocker_warning">O bloqueio dos alarmes pode causar instabilidade, falhas ou perdas de dados.</string>
+
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Desbloqueio por impressão digital</string>
+    <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo com impressão digital após a reinicialização sem pedir o pin/senha/padrão\Atenção: Tenha cuidado, use por sua conta e risco!</string>
 </resources>
