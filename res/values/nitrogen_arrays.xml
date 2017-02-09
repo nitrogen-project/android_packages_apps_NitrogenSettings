@@ -62,6 +62,7 @@
     <!--- Buttons backlight timeout -->
     <string-array name="backlight_timeout_entries">
         <item>@string/backlight_timeout_on</item>
+        <item>@string/backlight_timeout_3s</item>
         <item>@string/backlight_timeout_default</item>
         <item>@string/backlight_timeout_10s</item>
         <item>@string/backlight_timeout_15s</item>
@@ -71,6 +72,7 @@
 
     <string-array name="backlight_timeout_values">
         <item>0</item>
+        <item>3000</item>
         <item>5000</item>
         <item>10000</item>
         <item>15000</item>
