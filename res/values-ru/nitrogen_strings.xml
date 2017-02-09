@@ -53,6 +53,7 @@
     <string name="kill_app_longpress_back_summary">Закрыть приложение удержанием кнопки «Назад»</string>
     <!-- long press back to kill configurable timeout -->
     <string name="kill_app_longpress_timeout_title">Задержка долгого нажатия</string>
+    <string name="timeout_3000">3 секунды</string>
     <string name="timeout_2000">2 секунды</string>
     <string name="timeout_1500">1,5 секунды</string>
     <string name="timeout_1000">1 секунда (по умолчанию)</string>

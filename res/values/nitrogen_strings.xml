@@ -55,6 +55,7 @@
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
     <!-- long press back to kill configurable timeout -->
     <string name="kill_app_longpress_timeout_title">Long press back button timeout</string>
+    <string name="timeout_3000">3 seconds</string>
     <string name="timeout_2000">2 seconds</string>
     <string name="timeout_1500">1,5 seconds</string>
     <string name="timeout_1000">1 second (default)</string>
