@@ -267,6 +267,7 @@
         <item>@string/smartbar_button_animation_flip</item>
         <item>@string/smartbar_button_animation_pixel</item>
         <item>@string/smartbar_button_animation_pixel_home</item>
+        <item>@string/smartbar_button_animation_pixel_home_ripple</item>
     </string-array>
 
     <string-array name="smartbar_button_animation_values" translatable="false">
@@ -275,6 +276,7 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
     </string-array>
 
     <string-array name="smartbar_ime_action_entries">
