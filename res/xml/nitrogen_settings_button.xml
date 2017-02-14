@@ -26,7 +26,7 @@
     <com.nitrogen.settings.preferences.CustomSeekBarPreference
             android:key="button_brightness"
             android:title="@string/button_brightness_title"
-            android:max="255"
+            settings:max="255"
             settings:min="0"
             settings:units=""
             android:dependency="enable_hw_keys"
