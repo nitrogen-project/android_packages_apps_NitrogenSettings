@@ -29,9 +29,9 @@
         android:key="screen_state_off_delay"
         android:title="@string/screen_state_off_delay_title"
         android:summary="@string/screen_state_off_delay_summary"
-        settings:max="180"
+        settings:max="30"
         settings:min="0"
-        settings:units="s"
+        settings:units="m"
         android:persistent="false"
         android:dependency="screen_state_toggles_enable_key" />
 
@@ -39,9 +39,9 @@
         android:key="screen_state_on_delay"
         android:title="@string/screen_state_on_delay_title"
         android:summary="@string/screen_state_on_delay_summary"
-        settings:max="180"
+        settings:max="30"
         settings:min="0"
-        settings:units="s"
+        settings:units="m"
         android:persistent="false"
         android:dependency="screen_state_toggles_enable_key" />
 
