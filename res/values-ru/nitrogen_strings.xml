@@ -409,6 +409,9 @@
     <string name="smartbar_button_animation_ripple">Пульсация</string>
     <string name="smartbar_button_animation_spring">Пружина</string>
     <string name="smartbar_button_animation_flip">Переворот</string>
+    <string name="smartbar_button_animation_pixel">Pixel (все кнопки)</string>
+    <string name="smartbar_button_animation_pixel_home">Pixel (Кнопка домой)</string>
+    <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Кнопка домой) и пульсация</string>
     <string name="smartbar_factory_reset_title">Сброс к настройкам по умолчанию</string>
     <string name="smartbar_factory_reset_confirm">Вы уверены, что вы хотите сбросить SmartBar к настройкам по умолчанию?</string>
     <string name="smartbar_ime_action_title">Параметры метода ввода</string>
