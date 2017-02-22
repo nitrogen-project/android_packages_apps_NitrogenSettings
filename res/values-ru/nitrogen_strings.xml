@@ -367,6 +367,7 @@
     <string name="pulse_custom_fudge_factor">Уровень чувствительности</string>
     <string name="lavamp_solid_speed_title">Скорость \"Лава Лампы\"</string>
     <string name="pulse_solid_units_count">Количество сплошных линий</string>
+    <string name="pulse_solid_units_opacity">Прозрачность сплошных линий</string>
     <string name="pulse_solid_dimen_category">Настройки сплошных линий</string>
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Ширина</string>
