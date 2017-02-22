@@ -224,19 +224,19 @@
     <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
 
     <!-- Battery light settings  -->
-    <string name="batterylight_title">Battery LED settings</string>
-    <string name="battery_light_enable">Enable</string>
+    <string name="batterylight_title">呼吸灯</string>
+    <string name="battery_light_enable">启用</string>
     <string name="battery_low_pulse_title">Pulse if battery low</string>
-    <string name="battery_light_list_title">Colors</string>
-    <string name="battery_light_low_color_title">Battery low</string>
-    <string name="battery_light_medium_color_title">Charging</string>
-    <string name="battery_light_full_color_title">Charged (90%)</string>
-    <string name="battery_light_really_full_color_title">Charged (100%)</string>
-    <string name="edit_battery_settings">Edit battery settings</string>
-    <string name="notification_light_general_title">General</string>
-    <string name="led_color_green">Green</string>
-    <string name="led_color_red">Red</string>
-    <string name="led_color_yellow">Yellow</string>
+    <string name="battery_light_list_title">颜色</string>
+    <string name="battery_light_low_color_title">低电量</string>
+    <string name="battery_light_medium_color_title">充电中</string>
+    <string name="battery_light_full_color_title">充电完成(90%)</string>
+    <string name="battery_light_really_full_color_title">充电完成(100%)</string>
+    <string name="edit_battery_settings">修改电量设置</string>
+    <string name="notification_light_general_title">通用</string>
+    <string name="led_color_green">绿</string>
+    <string name="led_color_red">红</string>
+    <string name="led_color_yellow">黄</string>
 
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
@@ -256,15 +256,15 @@
     <string name="smart_pulldown_dismissable">no dismissable</string>
     <string name="smart_pulldown_ongoing">no ongoing</string>
 
-    <string name="display_lockscreen_rotation_title">Rotate lock screen</string>
+    <string name="display_lockscreen_rotation_title">锁屏旋转</string>
 
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
     <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
 
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_title">Brightness slider</string>
-    <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_brightness_slider_title">亮度调节滑块</string>
+    <string name="qs_brightness_slider_summary">在快捷面板显示亮度调节滑块</string>
 
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Brightness icon</string>
@@ -275,10 +275,10 @@
     <string name="keyguard_torch_summary">Longpress power button with screen of turns on torch</string>
 
     <!-- Tiles settings  -->
-    <string name="qs_wifi_easy_toggle_title">WiFi easy toggle</string>
+    <string name="qs_wifi_easy_toggle_title">WiFi快捷开关</string>
     <string name="qs_wifi_easy_toggle_summary">Makes it so one click will turn WiFi on or off instead of taking you to settings</string>
 
-    <string name="qs_bt_easy_toggle_title">Bluetooth easy toggle</string>
+    <string name="qs_bt_easy_toggle_title">蓝牙快捷开关</string>
     <string name="qs_bt_easy_toggle_summary">Makes it so one click will turn Bluetooth on or off instead of taking you to settings</string>
 
     <!-- Advanced data tile -->
@@ -308,14 +308,14 @@
     <string name="reset">Reset</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
+    <string name="choose_action_title">选择动作</string>
+    <string name="action_entry_default_action">缺省动作</string>
+    <string name="action_entry_select_app">选择应用</string>
+    <string name="action_entry_custom_action">选择自定义动作</string>
 
-    <string name="action_value_default_action" translatable="false">default</string>
-    <string name="action_value_select_app" translatable="false">app</string>
-    <string name="action_value_custom_action" translatable="false">custom</string>
+    <string name="action_value_default_action" translatable="false">缺省</string>
+    <string name="action_value_select_app" translatable="false">应用</string>
+    <string name="action_value_custom_action" translatable="false">自定义</string>
     <string name="action_value_back" translatable="false">task_back</string>
     <string name="action_value_home" translatable="false">task_home</string>
     <string name="action_value_search_assist" translatable="false">task_assist</string>
@@ -446,19 +446,19 @@
     <string name="navbar_buttons_alpha_title">Button transparency</string>
 
     <!-- statusbar notification count -->
-    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_title">显示通知数量</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 
     <!-- Statusbar Clock -->
-    <string name="status_bar_clock_title">Clock and Date settings</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_hidden">Hidden</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_clock_title">时钟和日期设置</string>
+    <string name="status_bar_clock_style_title">时钟样式</string>
+    <string name="status_bar_clock_style_right">靠右</string>
+    <string name="status_bar_clock_style_left">靠左</string>
+    <string name="status_bar_clock_style_center">居中</string>
+    <string name="status_bar_clock_style_hidden">隐藏</string>
+    <string name="status_bar_am_pm_title">上午/下午样式</string>
+    <string name="status_bar_am_pm_info">已开启24小时制</string>
+    <string name="status_bar_am_pm_normal">正常</string>
     <string name="status_bar_am_pm_small">Small</string>
     <string name="status_bar_am_pm_hidden">Hidden (default)</string>
     <string name="clock_date_display">Date</string>
@@ -466,12 +466,12 @@
     <string name="clock_date_display_none">Don\'t show</string>
     <string name="clock_date_display_small">Small font size</string>
     <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
-    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style">日期样式</string>
+    <string name="clock_date_style_normal">正常</string>
     <string name="clock_date_style_lowercase">Lowercase</string>
     <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_format_custom">自定义JAVA格式</string>
+    <string name="clock_date_format">日期格式</string>
     <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Enter string</string>
     <string name="clock_date_position">Date position</string>
@@ -479,14 +479,14 @@
     <string name="clock_date_left">Left of time</string>
 
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
+    <string name="lockscreen_enable_power_menu_title">在锁屏界面显示电源菜单</string>
     <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
 
     <!-- Lockscreen weather -->
-    <string name="display_category_weather_title">Lockscreen weather options</string>
-    <string name="lock_screen_weather_settings_title">Weather</string>
+    <string name="display_category_weather_title">锁屏天气选项</string>
+    <string name="lock_screen_weather_settings_title">天气</string>
     <string name="weather_cat_notifications_title">Notifications</string>
-    <string name="weather_show_weather_title">Show weather</string>
+    <string name="weather_show_weather_title">显示天气</string>
     <string name="weather_show_weather_summary">Enable to show weather information</string>
     <string name="weather_show_location_title">Show location</string>
     <string name="weather_show_location_summary">Enable to show the location</string>
@@ -587,14 +587,14 @@
     <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
 
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_title">超时</string>
     <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_2sec">2秒</string>
+    <string name="heads_up_time_out_4sec">4秒</string>
+    <string name="heads_up_time_out_5sec">5秒</string>
+    <string name="heads_up_time_out_6sec">6秒</string>
+    <string name="heads_up_time_out_8sec">8秒</string>
+    <string name="heads_up_time_out_10sec">10秒</string>
 
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Snooze timer</string>
@@ -613,11 +613,11 @@
     <string name="screenshot_type_partial">Drag selection on the area you want to take as a screenshot</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Wakelock Blocker</string>
-    <string name="wakelock_blocker_summary">Block system wakelocks</string>
-    <string name="wakelock_blocker_save">Save</string>
+    <string name="wakelock_blocker_title">唤醒锁拦截</string>
+    <string name="wakelock_blocker_summary">拦截系统唤醒锁</string>
+    <string name="wakelock_blocker_save">保存</string>
     <string name="wakelock_list_header">Available wakelocks</string>
-    <string name="wakelock_blocker_reload">Reload</string>
+    <string name="wakelock_blocker_reload">刷新</string>
     <string name="wakelock_blocker_warning_title">Proceed with caution</string>
     <string name="wakelock_blocker_warning">Blocking wakelocks have the potential to cause instability, crashes or data loss</string>
 
@@ -629,8 +629,8 @@
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
     <!-- Hide Apps from Recents -->
-    <string name="hide_apps_from_recents_title">Hidden apps</string>
-    <string name="hide_from_recents_add_app">Add App</string>
+    <string name="hide_apps_from_recents_title">隐藏应用</string>
+    <string name="hide_from_recents_add_app">添加应用</string>
     <string name="hide_apps_from_recents_summary">Pick which apps to exclude from the recents panel</string>
 
     <!-- Media art -->
