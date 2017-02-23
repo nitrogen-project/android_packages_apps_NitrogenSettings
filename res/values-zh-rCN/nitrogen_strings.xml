@@ -649,7 +649,7 @@
     <string name="nav_bar_dynamic_summary">启用此项将自动拾取当前应用主颜色给导航栏，重启后应用生效</string>
 
     <!--- Small tiles count -->
-    <string name="sysui_qqs_count_title">Small quick tiles count</string>
+    <string name="sysui_qqs_count_title">快捷小图标数量</string>
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">电量</string>
