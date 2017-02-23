@@ -107,8 +107,8 @@
     <string name="powermenu_users">多用户</string>
 
     <!-- MTP Dirty Hack -->
-    <string name="enable_mtp_dirtyhack_title">MTP instead Charging</string>
-    <string name="enable_mtp_dirtyhack_summary">Enable MTP instead Charging after connect to PC</string>
+    <string name="enable_mtp_dirtyhack_title">MTP文件传输代替充电</string>
+    <string name="enable_mtp_dirtyhack_summary">当连接PC时启用MTP文件传输代替充电</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications">浮动通知</string>
@@ -178,7 +178,7 @@
     <string name="volume_answer_call_summary">按音量键接听电话</string>
 
     <!-- Enabble HW keys -->
-    <string name="enable_hw_keys_title">Enable hardware keys</string>
+    <string name="enable_hw_keys_title">启用实体键</string>
 
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">背光亮度</string>
@@ -654,28 +654,28 @@
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">电量</string>
     <string name="status_bar_battery_style_title">电量状态样式</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_bigcircle">Big Circle</string>
-    <string name="status_bar_battery_style_circle_full">Full Circle</string>
-    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_icon_portrait">纵向</string>
+    <string name="status_bar_battery_style_icon_landscape">横向</string>
+    <string name="status_bar_battery_style_circle">环状</string>
+    <string name="status_bar_battery_style_bigcircle">环状(大)</string>
+    <string name="status_bar_battery_style_circle_full">环状(完整)</string>
+    <string name="status_bar_battery_style_text">数字</string>
     <string name="status_bar_battery_style_hidden">隐藏</string>
     <string name="status_bar_battery_percentage_title">电量百分比</string>
     <string name="status_bar_battery_percentage_default">隐藏</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+    <string name="status_bar_battery_percentage_text_inside">图标中显示</string>
+    <string name="status_bar_battery_percentage_text_next">图标旁显示</string>
     <string name="status_bar_battery_style_tile_title">自定义电池图标样式</string>
     <string name="status_bar_battery_style_tile_summary">允许设置为状态栏电池选择的相同图标样式</string>
     <string name="status_bar_charge_color_title">充电时设置状态栏电池图标颜色</string>
     <string name="force_charge_battery_text_title">充电时在电池旁显示百分比</string>
     <string name="force_charge_battery_text_summary_on">充电时在电池外显示百分比</string>
     <string name="force_charge_battery_text_summary_off">充电时在电池中显示百分比</string>
-    <string name="text_charging_symbol_title">Charging symbol near percentage text</string>
-    <string name="text_charging_symbol_dialog">Show a symbol near percentage text outside the battery icon when charging</string>
+    <string name="text_charging_symbol_title">充电百分比图标样式</string>
+    <string name="text_charging_symbol_dialog">充电时在电池旁显示一个充电百分比图标</string>
     <string name="text_charging_symbol_default">禁用</string>
-    <string name="text_charging_symbol_flash">Flash</string>
-    <string name="text_charging_symbol_tilde">Tilde</string>
+    <string name="text_charging_symbol_flash">闪电</string>
+    <string name="text_charging_symbol_tilde">波浪</string>
 
     <string name="systemui_recents_mem_display_title">显示内存栏</string>
     <string name="systemui_recents_mem_display_summary">启用或禁用在最近任务中的内存栏</string>
