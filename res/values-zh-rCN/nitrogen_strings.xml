@@ -28,17 +28,17 @@
     <string name="notifications_title">通知</string>
 
     <!-- Color picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on Color to apply</string>
-    <string name="hex">Hex:</string>
+    <string name="dialog_color_picker">选色器</string>
+    <string name="press_color_to_apply">按颜色选择</string>
+    <string name="hex">十六进制：</string>
     <string name="hex_hint" translatable="false">#FFDDDDDD</string>
-    <string name="hex_check_button_text">PREVIEW</string>
-    <string name="hex_reset_button_text">RESET</string>
-    <string name="longpress_info">Longpress box to save color</string>
+    <string name="hex_check_button_text">预览</string>
+    <string name="hex_reset_button_text">重设</string>
+    <string name="longpress_info">长按框保存颜色</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">设置</string>
+    <string name="color_default">默认</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -51,14 +51,14 @@
     <string name="lockclock_summary">查看或修改cLock插件的展现</string>
 
     <!-- Kill app long press back -->
-    <string name="kill_app_longpress_back">Kill app back button</string>
-    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
+    <string name="kill_app_longpress_back">返回按钮杀掉应用</string>
+    <string name="kill_app_longpress_back_summary">通过长按返回键来杀死前台应用程序</string>
     <!-- long press back to kill configurable timeout -->
     <string name="kill_app_longpress_timeout_title">长按返回键超时</string>
     <string name="timeout_3000">3秒</string>
     <string name="timeout_2000">2秒</string>
     <string name="timeout_1500">1.5秒</string>
-    <string name="timeout_1000">1秒(缺省)</string>
+    <string name="timeout_1000">1秒(默认)</string>
     <string name="timeout_500">0.5秒</string>
     <string name="timeout_350">0.35秒</string>
 
@@ -72,15 +72,15 @@
     <string name="hardware_keys_single_tap_title">单击动作</string>
     <string name="hardware_keys_long_press_title">长按动作</string>
     <string name="hardware_keys_double_tap_title">双击动作</string>
-    <string name="hardware_keys_category">Hardware keys</string>
-    <string name="hardware_keys_disable_title">Disable keys</string>
+    <string name="hardware_keys_category">实体按键</string>
+    <string name="hardware_keys_disable_title">禁用按键</string>
 
     <!-- Language options - Volume rocker cursor control -->
-    <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+    <string name="cursor_section_header">光标</string>
+    <string name="volume_key_cursor_control_title">音量键控制光标</string>
+    <string name="volume_key_cursor_control_off">禁用</string>
+    <string name="volume_key_cursor_control_on">音量键上下控制光标左右移动</string>
+    <string name="volume_key_cursor_control_on_reverse">音量键上下控制光标左右移动</string>
 
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">键盘灯超时</string>
@@ -93,8 +93,8 @@
     <string name="backlight_timeout_30s">30秒</string>
 
     <!-- Whether to display IME switcher notifcation -->
-    <string name="ime_switcher_notify">Selector notification</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+    <string name="ime_switcher_notify">选择器通知</string>
+    <string name="ime_switcher_notify_summary">显示输入法选择器通知</string>
 
     <!-- Power Menu -->
     <string name="powermenu_screenshot">截屏</string>
@@ -103,13 +103,13 @@
     <string name="powermenu_reboot">重启</string>
     <string name="powermenu_airplane">飞行模式</string>
     <string name="powermenu_settings">设置</string>
-    <string name="powermenu_lockdown">Lock Down</string>
+    <string name="powermenu_lockdown">锁定</string>
     <string name="powermenu_soundpanel">音量面板</string>
-    <string name="powermenu_users">Users</string>
+    <string name="powermenu_users">用户</string>
 
     <!-- MTP Dirty Hack -->
-    <string name="enable_mtp_dirtyhack_title">MTP instead Charging</string>
-    <string name="enable_mtp_dirtyhack_summary">Enable MTP instead Charging after connect to PC</string>
+    <string name="enable_mtp_dirtyhack_title">MTP代替充电</string>
+    <string name="enable_mtp_dirtyhack_summary">连接PC时启用MTP代替充电</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications">Heads up</string>
@@ -137,8 +137,8 @@
     <string name="volume_rocker_music_controls_summary">屏幕关闭时长按音量键切换音乐</string>
 
     <!-- Volume button orientation based on current rotation -->
-    <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
-    <string name="swap_volume_buttons_summary">Adjust the rocker orientation based on current rotation</string>
+    <string name="swap_volume_buttons_title">交换音量摇杆方向</string>
+    <string name="swap_volume_buttons_summary">基于当前旋转调整摇杆方向</string>
 
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">充电唤醒</string>
@@ -147,21 +147,21 @@
     <!-- Network traffic -->
     <string name="network_traffic_title">数据流量</string>
     <string name="show_network_traffic_state">状态栏流量监控</string>
-    <string name="show_network_traffic_unit">Display unit</string>
-    <string name="show_network_traffic_frequency">Update interval</string>
-    <string name="show_network_traffic_disable">Disabled</string>
-    <string name="show_network_traffic_up">Outgoing</string>
-    <string name="show_network_traffic_down">Incoming</string>
-    <string name="show_network_traffic_all">Outgoing and incoming</string>
-    <string name="show_network_traffic_bit">Bits per second</string>
-    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="show_network_traffic_unit">显示单位</string>
+    <string name="show_network_traffic_frequency">更新间隔</string>
+    <string name="show_network_traffic_disable">禁用</string>
+    <string name="show_network_traffic_up">发送</string>
+    <string name="show_network_traffic_down">接收</string>
+    <string name="show_network_traffic_all">发送和接收</string>
+    <string name="show_network_traffic_bit">每秒位数</string>
+    <string name="show_network_traffic_byte">每秒字节数</string>
     <string name="show_network_traffic_500">0.5秒</string>
     <string name="show_network_traffic_1000">1秒</string>
     <string name="show_network_traffic_1500">1.5秒</string>
     <string name="show_network_traffic_2000">2秒</string>
     <string name="network_traffic_autohide">自动隐藏</string>
     <string name="network_traffic_autohide_summary">无数据活动时隐藏流量监控</string>
-    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_autohide_threshold">不活动阀值</string>
     <string name="network_traffic_hidearrow_title">隐藏箭头</string>
     <string name="network_traffic_hidearrow_summary">隐藏数据流量监控箭头</string>
 
@@ -175,8 +175,8 @@
     <string name="double_tap_to_sleep_lockscreen_summary">双击锁定屏幕的顶部或底部快捷键区域，使设备进入睡眠状态</string>
 
     <!-- The volume key answer -->
-    <string name="volume_answer_call_title">Volume keys answer</string>
-    <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
+    <string name="volume_answer_call_title">音量键应答</string>
+    <string name="volume_answer_call_summary">在按音量键时应答呼叫</string>
 
     <!-- Enabble HW keys -->
     <string name="enable_hw_keys_title">启用实体按键</string>
@@ -186,12 +186,12 @@
 
     <!-- Notification light dialogs -->
     <string name="advanced">高级</string>
-    <string name="edit_light_settings">Edit light settings</string>
-    <string name="pulse_speed_title">Pulse length and speed</string>
-    <string name="default_time">Normal</string>
-    <string name="custom_time">Custom</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="edit_light_settings">修改LED设置</string>
+    <string name="pulse_speed_title">呼吸灯长度和速度</string>
+    <string name="default_time">正常</string>
+    <string name="custom_time">自定义</string>
+    <string name="dialog_delete_title">删除</string>
+    <string name="dialog_delete_message">删除所选项目？</string>
 
     <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">常亮</string>
@@ -220,7 +220,7 @@
     <string name="leds_category_title">LED选项</string>
     <string name="battery_light_settings">电量LED</string>
     <string name="led_notification_title">电量LED设置</string>
-    <string name="led_notification_text">LED light enabled by settings</string>
+    <string name="led_notification_text">通过设置启用LED灯</string>
     <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
 
     <!-- Battery light settings  -->
@@ -240,7 +240,7 @@
 
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">快速下拉</string>
-    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
+    <string name="quick_pulldown_summary">%1$s 状态栏的边缘下拉快速设置</string>
     <string name="quick_pulldown_summary_always">始终使用状态栏快速下拉</string>
     <string name="quick_pulldown_off">关闭</string>
     <string name="quick_pulldown_left">靠左</string>
@@ -249,8 +249,8 @@
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">智能下拉</string>
-    <string name="smart_pulldown_summary">Open quick settings when there are %1$s notifications</string>
-    <string name="smart_pulldown_none_summary">Open quick settings when there are no notifications</string>
+    <string name="smart_pulldown_summary">当有 %1$s 通知时打开快速设置</string>
+    <string name="smart_pulldown_none_summary">没有通知时打开快速设置</string>
     <string name="smart_pulldown_off">关闭</string>
     <string name="smart_pulldown_none">无通知</string>
     <string name="smart_pulldown_dismissable">no dismissable</string>
@@ -259,42 +259,42 @@
     <string name="display_lockscreen_rotation_title">锁屏旋转</string>
 
     <!-- Force expanded notifications -->
-    <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
-    <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+    <string name="force_expanded_notifications_title">强制扩展通知</string>
+    <string name="force_expanded_notifications_summary">仅适用于支持展开通知的应用</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">亮度调节滑块</string>
     <string name="qs_brightness_slider_summary">在快捷面板显示亮度调节滑块</string>
 
     <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Brightness icon</string>
-    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+    <string name="brightness_icon_title">亮度图标</string>
+    <string name="brightness_icon_summary">在亮度滑块的左侧显示亮度图标以调整自动亮度</string>
 
     <!-- Longpress power lockscreen torch -->
-    <string name="keyguard_torch_title">Lockscreen torch</string>
-    <string name="keyguard_torch_summary">Longpress power button with screen of turns on torch</string>
+    <string name="keyguard_torch_title">锁屏手电筒</string>
+    <string name="keyguard_torch_summary">长按电源按钮，带有打开手电筒的屏幕</string>
 
     <!-- Tiles settings  -->
     <string name="qs_wifi_easy_toggle_title">WiFi快捷开关</string>
-    <string name="qs_wifi_easy_toggle_summary">Makes it so one click will turn WiFi on or off instead of taking you to settings</string>
+    <string name="qs_wifi_easy_toggle_summary">点击一次将打开或关闭WiFi，而不是进入设置</string>
 
     <string name="qs_bt_easy_toggle_title">蓝牙快捷开关</string>
-    <string name="qs_bt_easy_toggle_summary">Makes it so one click will turn Bluetooth on or off instead of taking you to settings</string>
+    <string name="qs_bt_easy_toggle_summary">点击一次将打开或关闭蓝牙，而不是进入设置</string>
 
     <!-- Advanced data tile -->
-    <string name="qs_advanced_data_title">Advanced data tile</string>
-    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+    <string name="qs_advanced_data_title">数据高级选项</string>
+    <string name="qs_advanced_data_summary">启用单击操作以启用或禁用数据</string>
 
     <!-- Navigation Bar -->
     <string name="navbar_interface_title">接口</string>
-    <string name="navbar_size">Bar size</string>
+    <string name="navbar_size">导航栏大小</string>
     <string name="navbar_mode">导航栏模式</string>
     <string name="navbar_visibility">启用虚拟导航栏</string>
     <string name="navigationbar_settings_title">导航栏</string>
     <string name="navigationbar_settings_summary">自定义导航栏样式与行为</string>
     <string name="navbar_general_title">高级</string>
-    <string name="navigation_bar_left_title">Left-handed mode</string>
-    <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
+    <string name="navigation_bar_left_title">左手模式</string>
+    <string name="navigation_bar_left_summary">横向模式中将导航栏放在屏幕的左侧</string>
     <string name="info_pref_note_title">Note</string>
     <string name="smartbar_interface">SmartBar</string>
     <string name="icon_pack_picker_dialog_title">Icon packs</string>
@@ -324,14 +324,14 @@
     <string name="action_value_menu" translatable="false">task_menu</string>
 
     <!-- Fling -->
-    <string name="fling_settings">Fling settings</string>
+    <string name="fling_settings">Fling设置</string>
     <string name="fling_interface">Fling</string>
-    <string name="fling_enable_title">Enable Fling</string>
-    <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first</string>
-    <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar</string>
-    <string name="fling_def_summary">No action set</string>
-    <string name="fling_swipe_actions">Swipe gestures</string>
-    <string name="fling_tap_actions">Tap gestures</string>
+    <string name="fling_enable_title">启用Fling</string>
+    <string name="fling_back_home_policy">返回和首页需要始终设置。 要更改返回或首页分配，请先设置所需的分配</string>
+    <string name="fling_split_bar_policy">当仅分配右侧或左侧操作时，该操作适用于完整栏</string>
+    <string name="fling_def_summary">未设置操作</string>
+    <string name="fling_swipe_actions">滑动手势</string>
+    <string name="fling_tap_actions">点击手势</string>
     <string name="fling_short_swipe_right">Right short swipe</string>
     <string name="fling_short_swipe_left">Left short swipe</string>
     <string name="fling_long_swipe_right">Right long swipe</string>
@@ -356,20 +356,20 @@
     <string name="down_swipe_title">Down swipe</string>
     <string name="long_swipe_reset">Reset</string>
     <string name="fling_advanced">Advanced</string>
-    <string name="fling_long_swipe_title">Long swipe thresholds</string>
-    <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
-    <string name="fling_trails_enable_title">Enable gesture trails</string>
-    <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
-    <string name="fling_trails_color_title">Trail color</string>
-    <string name="fling_trails_width_title">Trail width</string>
+    <string name="fling_long_swipe_title">长滑动阀值</string>
+    <string name="fling_long_swipe_summary">基于Fling接口宽度或高度的长滑动阈值百分比微调</string>
+    <string name="fling_trails_enable_title">启用手势轨迹</string>
+    <string name="fling_trails_enable_summary">在滑动手势上显示路径</string>
+    <string name="fling_trails_color_title">轨迹颜色</string>
+    <string name="fling_trails_width_title">路径宽度</string>
     <string name="fling_appearance">Appearance</string>
     <string name="fling_show_logo_title">Show Fling logo</string>
     <string name="fling_animate_logo_title">Animate logo</string>
     <string name="fling_animate_logo_summary">Logo animates on touch events</string>
-    <string name="fling_logo_color">Logo color</string>
-    <string name="fling_logo_custom_logo_pick_title">Custom logo icon</string>
-    <string name="fling_logo_custom_logo_image_pick_title">Custom logo image</string>
-    <string name="fling_logo_custom_logo_reset_title">Reset logo icon</string>
+    <string name="fling_logo_color">Logo颜色</string>
+    <string name="fling_logo_custom_logo_pick_title">自定义Logo图标</string>
+    <string name="fling_logo_custom_logo_image_pick_title">自定义Logo图片</string>
+    <string name="fling_logo_custom_logo_reset_title">重设Logo图标</string>
     <string name="fling_show_ripple_title">Show ripple</string>
     <string name="fling_show_ripple_summary">Ripple effect on touch events</string>
     <string name="fling_ripple_color">Ripple color</string>
@@ -379,23 +379,23 @@
     <string name="fling_longpress_summary">Increase or decrease the time it takes to execute a long press</string>
 
     <!-- Pulse navigation bar music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer on the navigation bar when music plays. Pulse does not work with some audio sources when listening on device speaker</string>
+    <string name="pulse_help_policy_notice_title">关于Pulse</string>
+    <string name="pulse_help_policy_notice_summary">当音乐播放时，Pulse是导航栏上的一个音频图形均衡器。 当在设备扬声器上收听时，Pulse不适用于某些音频源。</string>
     <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Navigation bar audio graphic equalizer</string>
-    <string name="fling_show_pulse_title">Show Pulse</string>
-    <string name="fling_show_pulse_summary">Audio graphic equalizer on the navigation bar</string>
-    <string name="pulse_render_mode_title">Render mode</string>
+    <string name="pulse_settings_summary">导航栏音频图形均衡器</string>
+    <string name="fling_show_pulse_title">显示Pulse</string>
+    <string name="fling_show_pulse_summary">导航栏音频图形均衡器</string>
+    <string name="pulse_render_mode_title">渲染模式</string>
     <string name="pulse_render_mode_fading_bars">Fading blocks</string>
     <string name="pulse_render_mode_solid_lines">Solid lines</string>
     <string name="fling_pulse_color">Pulse color</string>
     <string name="eos_fling_lavalamp_title">Turn on Lava Lamp</string>
-    <string name="eos_fling_lavalamp_summary">Pulse animates a smooth lava lamp style color blend</string>
-    <string name="pulse_advanced_category">Advanced</string>
+    <string name="eos_fling_lavalamp_summary">平滑熔岩灯风格颜色混合的Pulse动画</string>
+    <string name="pulse_advanced_category">高级</string>
     <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-    <string name="pulse_custom_fudge_factor">Sanity level</string>
-    <string name="lavamp_solid_speed_title">Lava Lamp speed</string>
-    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
+    <string name="pulse_custom_fudge_factor">健康水平</string>
+    <string name="lavamp_solid_speed_title">熔岩灯速度</string>
+    <string name="pulse_solid_dimen_category">实线模式设置</string>
 
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Bar width</string>
