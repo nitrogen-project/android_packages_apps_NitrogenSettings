@@ -297,7 +297,7 @@
     <string name="info_pref_note_title">备注</string>
     <string name="smartbar_interface">SmartBar</string>
     <string name="icon_pack_picker_dialog_title">图标包</string>
-    <string name="image_exceeds_max_allowed_size">Image must not exceed 512x512</string>
+    <string name="image_exceeds_max_allowed_size">图片不得超过512x512</string>
     <string name="invalid_icon_from_uri">无法从内容提供器中加载图像</string>
     <string name="picker_activities">活动</string>
     <string name="select_custom_app_title">选择自定义应用</string>
@@ -505,8 +505,8 @@
     <string name="lockscreen_qs_disabled_summary">在安全锁屏界面禁用快速设置</string>
 
     <!-- Allow fake signature checkbox in developer settings -->
-    <string name="allow_signature_fake">Allow signature spoofing</string>
-    <string name="allow_signature_fake_summary">Allow apps to bypass security systems by pretending to be a different app</string>
+    <string name="allow_signature_fake">允许伪装签名</string>
+    <string name="allow_signature_fake_summary">允许应用程式伪装签名以绕过安全系统</string>
 
     <!-- Lockscreen clock fonts -->
     <string name="lock_clock_font_title">字体选项</string>
@@ -610,8 +610,8 @@
     <string name="wakelock_blocker_warning_title">谨慎操作</string>
     <string name="wakelock_blocker_warning">拦截唤醒锁可能导致系统不稳定、崩溃或甚至数据丢失！</string>
 
-    <string name="navbar_bottom">Navbar orientation</string>
-    <string name="navbar_bottom_summary">Force show navbar on the bottom side of device when rotated to 270 degrees</string>
+    <string name="navbar_bottom">导航栏方向</string>
+    <string name="navbar_bottom_summary">强制显示导航栏在设备的底部旋转到270度</string>
 
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">亮度控制</string>
@@ -652,28 +652,28 @@
     <string name="sysui_qqs_count_title">Small quick tiles count</string>
 
     <!-- Battery customizations -->
-    <string name="status_bar_battery_style_category">Battery</string>
-    <string name="status_bar_battery_style_title">Battery status style</string>
+    <string name="status_bar_battery_style_category">电量</string>
+    <string name="status_bar_battery_style_title">电量状态样式</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
     <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
     <string name="status_bar_battery_style_circle">Circle</string>
     <string name="status_bar_battery_style_bigcircle">Big Circle</string>
     <string name="status_bar_battery_style_circle_full">Full Circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_style_text">文本</string>
+    <string name="status_bar_battery_style_hidden">隐藏</string>
+    <string name="status_bar_battery_percentage_title">电量百分比</string>
+    <string name="status_bar_battery_percentage_default">隐藏</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-    <string name="status_bar_battery_style_tile_title">Custom battery tile style</string>
-    <string name="status_bar_battery_style_tile_summary">Allow to set the same icon style chosen for the statusbar battery</string>
-    <string name="status_bar_charge_color_title">Set statusbar battery icon color when charging</string>
-    <string name="force_charge_battery_text_title">Show percentage near battery when charging</string>
-    <string name="force_charge_battery_text_summary_on">Show the battery percentage outside the icon when charging</string>
-    <string name="force_charge_battery_text_summary_off">Show the battery percentage inside the icon when charging</string>
+    <string name="status_bar_battery_style_tile_title">自定义电池图标样式</string>
+    <string name="status_bar_battery_style_tile_summary">允许设置为状态栏电池选择的相同图标样式</string>
+    <string name="status_bar_charge_color_title">充电时设置状态栏电池图标颜色</string>
+    <string name="force_charge_battery_text_title">充电时在电池旁显示百分比</string>
+    <string name="force_charge_battery_text_summary_on">充电时在电池外显示百分比</string>
+    <string name="force_charge_battery_text_summary_off">充电时在电池中显示百分比</string>
     <string name="text_charging_symbol_title">Charging symbol near percentage text</string>
     <string name="text_charging_symbol_dialog">Show a symbol near percentage text outside the battery icon when charging</string>
-    <string name="text_charging_symbol_default">Disabled</string>
+    <string name="text_charging_symbol_default">禁用</string>
     <string name="text_charging_symbol_flash">Flash</string>
     <string name="text_charging_symbol_tilde">Tilde</string>
 
@@ -695,21 +695,21 @@
 
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">@null</string>
-    <string name="screen_state_toggles_title">Suspend Actions</string>
-    <string name="screen_state_toggles_enable_title">Enable</string>
-    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
-    <string name="screen_state_toggles_mobile_title">Mobile networks</string>
-    <string name="screen_state_toggles_location_title">Location</string>
-    <string name="screen_state_toggles_twog">Switch to 2G</string>
-    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
-    <string name="screen_state_toggles_gps">Disable GPS</string>
-    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
-    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
-    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
-    <string name="screen_state_off_delay_title">Screen Off actions delay</string>
-    <string name="screen_state_off_delay_summary">Number of seconds to wait before performing actions after screen off</string>
-    <string name="screen_state_on_delay_title">Screen On actions delay</string>
-    <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
+    <string name="screen_state_toggles_title">暂停动作</string>
+    <string name="screen_state_toggles_enable_title">启用</string>
+    <string name="screen_state_toggles_enable_summary">动作将在屏幕关闭后执行，开启屏幕后恢复原状态</string>
+    <string name="screen_state_toggles_mobile_title">移动网络</string>
+    <string name="screen_state_toggles_location_title">定位</string>
+    <string name="screen_state_toggles_twog">切换到2G</string>
+    <string name="screen_state_toggles_twog_summary">屏幕关闭后将切换至2G网络</string>
+    <string name="screen_state_toggles_gps">禁用GPS</string>
+    <string name="screen_state_toggles_gps_summary">屏幕关闭后GPS定位服务将禁用</string>
+    <string name="screen_state_toggles_mobile_data">禁用移动数据</string>
+    <string name="screen_state_toggles_mobile_data_summary">屏幕关闭后移动数据将禁用</string>
+    <string name="screen_state_off_delay_title">屏幕关闭动作延迟</string>
+    <string name="screen_state_off_delay_summary">在屏幕关闭后执行操作之前等待的秒数</string>
+    <string name="screen_state_on_delay_title">屏幕开启动作延迟</string>
+    <string name="screen_state_on_delay_summary">在屏幕开启后执行操作之前等待的秒数</string>
 
     <string name="dnd_when_call_title">请勿打扰</string>
     <string name="dnd_when_call_summary">在呼叫活动时开启请勿打扰</string>
@@ -734,6 +734,6 @@
     <string name="alarm_blocker_warning">拦截警报可能导致系统不稳定、崩溃或数据丢失。</string>
 
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">FP unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
+    <string name="fp_unlock_keystore_title">指纹解锁</string>
+    <string name="fp_unlock_keystore_summary">指纹解锁后重启设备不再输入密码。请自行注意风险！</string>
 </resources>
