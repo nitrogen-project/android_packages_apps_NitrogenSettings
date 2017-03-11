@@ -43,6 +43,7 @@
     <string name="reset">Сброс</string>
     <string name="cancel">Отмена</string>
     <string name="save">Сохранить</string>
+    <string name="default_string">По умолчанию</string>
 
     <!-- Misc strings -->
     <string name="lockclock_title">Виджет часов</string>
@@ -714,4 +715,30 @@
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Разблокировка отпечатком</string>
     <string name="fp_unlock_keystore_summary">Разблокировать устройство после перезагрузки без PIN/Пароля/Граф. ключа\nПрим.: Используйте на свой страх и риск!</string>
+
+    <!-- Slim Recent panel -->
+    <string name="slim_recents_title">Меню недавних приложений Slim</string>
+    <string name="use_slim_recents_title">Недавние приложения от Slim</string>
+    <string name="use_slim_recents_summary">Использовать меню недавних приложений от Slim по умолчанию</string>
+    <string name="slim_recents_settings_title">Настройки недавних приложений от Slim</string>
+    <string name="slim_recents_settings_summary">Изменить настройки недавних приложений от Slim</string>
+    <string name="recent_panel_category">Панель приложений в меню недавних приложений от Slim</string>
+    <string name="show_running_tasks_title">Показывать только запущенные приложения</string>
+    <string name="recents_max_apps_title">Максимально допустимое количество приложений</string>
+    <string name="recent_panel_scale_title">Размер</string>
+    <string name="recent_panel_expanded_mode_title">Расширенный режим</string>
+    <string name="recent_panel_expanded_mode_summary">Расширенный предпросмотр недавних приложений</string>
+    <string name="recent_panel_expanded_mode_auto">Авто (по умолчанию)</string>
+    <string name="recent_panel_expanded_mode_always">Всегда</string>
+    <string name="recent_panel_expanded_mode_never">Никогда</string>
+    <string name="recent_panel_show_topmost_title">Показывать последнее приложение</string>
+    <string name="recent_panel_show_topmost_summary">Показывать последнее приложение в списке недавних</string>
+    <string name="recent_panel_bg_color_title">Цвет фона панели</string>
+    <string name="recent_card_bg_color_title">Цвет фона карточки</string>
+    <string name="recent_card_text_color_title">Цвет текста карточки</string>
+    <string name="default_auto_string">По умолчанию</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Недавние приложения слева</string>
+    <string name="recent_panel_lefty_mode_summary">Показывать панель недавних приложений слева</string>
 </resources>
