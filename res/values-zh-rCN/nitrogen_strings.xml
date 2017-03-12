@@ -736,4 +736,32 @@
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">指纹解锁</string>
     <string name="fp_unlock_keystore_summary">当设备重启后不需验证密码就可使用指纹解锁\n注意: 需要注意风险！</string>
+
+<!-- Slim Recent panel -->
+    <string name="slim_recents_title">Slim最近任务</string>
+    <string name="use_slim_recents_title">用于最近的替代</string>
+    <string name="use_slim_recents_summary">使用Slim最近任务替代默认的任务视图</string>
+    <string name="slim_recents_settings_title">Slim最近任务设置</string>
+    <string name="slim_recents_settings_summary">查看Slim最近任务的设置</string>
+    <string name="recent_panel_category">Slim最近任务应用面板</string>
+    <string name="show_running_tasks_title">只显示正在运行的程序</string>
+    <string name="recents_max_apps_title">最大允许的应用数</string>
+    <string name="recent_panel_scale_title">大小</string>
+    <string name="recent_panel_expanded_mode_title">扩展模式</string>
+    <string name="recent_panel_expanded_mode_summary">在最近任务列表使用展开预览模式</string>
+    <string name="recent_panel_expanded_mode_auto">自动(默认)</string>
+    <string name="recent_panel_expanded_mode_always">总是</string>
+    <string name="recent_panel_expanded_mode_never">总不</string>
+    <string name="recent_panel_show_topmost_title">显示最上面的任务</string>
+    <string name="recent_panel_show_topmost_summary">不要排除最近视图中最上面的任务</string>
+    <string name="recent_panel_bg_color_title">面板背景颜色</string>
+    <string name="recent_card_bg_color_title">卡片背景颜色</string>
+    <!--<string name="recent_card_text_color_title">Card text color</string>-->
+    <string name="recent_reset_title">重置颜色</string>
+    <string name="recent_reset_confirm">您确定要重置Slim最近任务的颜色吗？</string>
+    <string name="default_auto_string">默认(基于应用程序)</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">显示在左边缘</string>
+    <string name="recent_panel_lefty_mode_summary">在屏幕左侧显示最近应用程序列表</string>
 </resources>
