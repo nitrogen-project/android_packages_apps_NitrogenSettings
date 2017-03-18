@@ -737,6 +737,11 @@
     <string name="recent_card_bg_color_title">Цвет фона карточки</string>
     <string name="recent_card_text_color_title">Цвет текста карточки</string>
     <string name="default_auto_string">По умолчанию</string>
+    <string name="slim_icon_pack_title">Наборы иконок</string>
+    <string name="slim_icon_pack_summary">Отображать иконки из пакета в панели Slim</string>
+    <string name="no_iconpacks_summary">Нет наборов иконок</string>
+    <string name="dialog_pick_iconpack_title">Выбрать набор иконок</string>
+    <string name="default_iconpack_title">Иконки по умолчанию</string>
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Недавние приложения слева</string>

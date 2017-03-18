@@ -70,10 +70,10 @@
             defaultColor="#00ffffff"
             alphaSlider="true" />
 
-         <!--<net.margaritov.preference.colorpicker.ColorPickerPreference
-            android:key="recent_card_text_color"
-            android:title="@string/recent_card_text_color_title"
-            defaultColor="#00ffffff"
-        alphaSliderEnabled="true" />-->
+        <Preference
+            android:key="slim_icon_pack"
+            android:title="@string/slim_icon_pack_title"
+            android:summary="@string/slim_icon_pack_summary" />
+
 
 </PreferenceScreen>
