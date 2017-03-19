@@ -736,6 +736,8 @@
     <string name="recent_panel_bg_color_title">Цвет фона панели</string>
     <string name="recent_card_bg_color_title">Цвет фона карточки</string>
     <string name="recent_card_text_color_title">Цвет текста карточки</string>
+    <string name="recent_reset_title">Сброс настроек цвета</string>
+    <string name="recent_reset_confirm">Вы действительно хотите сбросить цвет панели Slim на стандарный?</string>
     <string name="default_auto_string">По умолчанию</string>
     <string name="slim_icon_pack_title">Наборы иконок</string>
     <string name="slim_icon_pack_summary">Отображать иконки из пакета в панели Slim</string>
