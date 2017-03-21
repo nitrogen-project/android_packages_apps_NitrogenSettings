@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 The Nitrogen OS
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <!-- ColorPicker -->
+    <color name="list_background_pressed">#ff555555</color>
+    <color name="transparent">#00000000</color>
+    <!-- ColorPicker - Checkered Alpha colors -->
+    <color name="alphawhite">#ffffffff</color>
+    <color name="alphagray">#ffcbcbcb</color>
+    <!-- ColorPicker - border color of longpress capable panels -->
+    <color name="userpanel_border">#ff888888</color>
+    <!-- ColorPicker - default userpanel colors -->
+    <color name="userpanel_default1">#ff80cbc4</color>
+    <color name="userpanel_default2">#ff2196f3</color>
+    <color name="userpanel_default3">#ff9ccc65</color>
+    <color name="userpanel_default4">#ff2e7d32</color>
+    <color name="userpanel_default5">#fff4511e</color>
+    <color name="userpanel_default6">#ff37474f</color>
+
+    <color name="white">#FFF</color>
+    <color name="material_deep_teal_500">@*android:color/material_deep_teal_500</color>
+    <color name="icon_tint_color">@color/material_deep_teal_500</color>
+    <color name="theme_accent">#ff009688</color>
+    <color name="action_picker_fab_background">@color/theme_accent</color>
+
+    <!-- General -->
+    <color name="theme_accent">@*android:color/material_deep_teal_500</color>
+</resources>
