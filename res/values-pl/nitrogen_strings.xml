@@ -95,7 +95,7 @@
 
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Wybór metody wprowadzania</string>
-    <string name="ime_switcher_notify_summary">Wyświetl powiadomienie wybóru metody wprowadzania po otwarciu pola tekstowego</string>
+    <string name="ime_switcher_notify_summary">Wyświetl powiadomienie wyboru metody wprowadzania po otwarciu pola tekstowego</string>
 
     <!-- Power Menu -->
     <string name="powermenu_screenshot">Zrzut ekranu</string>
