@@ -360,12 +360,12 @@
     <string name="pulse_render_mode_fading_bars">Затухающие блоки</string>
     <string name="pulse_render_mode_solid_lines">Сплошные линии</string>
     <string name="fling_pulse_color">Цвет Pulse</string>
-    <string name="eos_fling_lavalamp_title">Включить \"Лава Лампу\"</string>
+    <string name="eos_fling_lavalamp_title">Включить Lava Lamp</string>
     <string name="eos_fling_lavalamp_summary">Включить плавно меняющиеся цвета визуализатора Pulse</string>
     <string name="pulse_advanced_category">Расширенные настройки</string>
     <string name="pulse_legacy_mode_advanced_category">Настройки затухающих блоков</string>
     <string name="pulse_custom_fudge_factor">Уровень чувствительности</string>
-    <string name="lavamp_solid_speed_title">Скорость    \"Лава Лампы\"</string>
+    <string name="lavamp_solid_speed_title">Скорость Lava Lamp</string>
     <string name="pulse_solid_dimen_category">Настройки сплошных линий</string>
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Ширина</string>
