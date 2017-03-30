@@ -12,20 +12,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="nitrogen_settings_title">Nitrogen Settings</string>
+    <string name="nitrogen_settings_title">Nastavenia Nitrogen</string>
 
     <!-- Categories -->
-    <string name="button_title">Buttons</string>
-    <string name="gestures_title">Gestures</string>
-    <string name="lockscreen_title">Lock screen</string>
-    <string name="misc_title">Miscellaneous</string>
-    <string name="navbar_title">Navigation bar</string>
-    <string name="powermenu_title">Power menu</string>
-    <string name="quicksettings_title">Quick Settings</string>
-    <string name="recents_title">Recents apps</string>
+    <string name="button_title">Tlačidlá</string>
+    <string name="gestures_title">Gestá</string>
+    <string name="lockscreen_title">Zamykacia obrazovka</string>
+    <string name="misc_title">Rôzne</string>
+    <string name="navbar_title">Navigačná lišta</string>
+    <string name="powermenu_title">Menu tlačidla Napájanie</string>
+    <string name="quicksettings_title">Ikony rýchlych nastavení</string>
+    <string name="recents_title">Nedávne aplikácie</string>
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume rockers</string>
-    <string name="notifications_title">Notifications</string>
+    <string name="notifications_title">Notifikácie</string>
 
     <!-- Color picker -->
     <string name="dialog_color_picker">Color Picker</string>
