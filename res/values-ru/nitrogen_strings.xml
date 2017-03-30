@@ -352,7 +352,7 @@
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">О Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse - это блестящий и стильный визуализатор звука, который отображается на панели навигации при воспроизведении музыки. Pulse не работает с некоторыми источниками звука при прослушивании через динамик устройства</string>
-    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings">Визуализатор Pulse</string>
     <string name="pulse_settings_summary">Аудио визуализация панели навигации</string>
     <string name="fling_show_pulse_title">Включить Pulse</string>
     <string name="fling_show_pulse_summary">Включить визуализацию аудио в панели навигации</string>
