@@ -369,6 +369,7 @@
     <string name="pulse_solid_units_count">Количество сплошных линий</string>
     <string name="pulse_solid_units_opacity">Прозрачность сплошных линий</string>
     <string name="pulse_solid_dimen_category">Настройки сплошных линий</string>
+    <string name="pulse_custom_buttons_opacity_title">Прозрачность кнопок в режиме Pulse</string>
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Ширина</string>
     <string name="pulse_custom_div">Интервал</string>
