@@ -20,7 +20,7 @@
     <string name="lockscreen_title">Obrazovka uzamknutia</string>
     <string name="misc_title">Rôzne nastavenia</string>
     <string name="navbar_title">Navigačná lišta</string>
-    <string name="powermenu_title">Mneu tlačidla Power</string>
+    <string name="powermenu_title">Menu tlačidla Power</string>
     <string name="quicksettings_title">Dlaždice rýchlych nastavení</string>
     <string name="recents_title">Nedávne aplikácie</string>
     <string name="statusbar_title">Stavový riadok</string>
