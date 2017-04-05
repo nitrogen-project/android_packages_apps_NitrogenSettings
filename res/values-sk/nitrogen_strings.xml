@@ -20,7 +20,7 @@
     <string name="lockscreen_title">Obrazovka uzamknutia</string>
     <string name="misc_title">Rôzne nastavenia</string>
     <string name="navbar_title">Navigačná lišta</string>
-    <string name="powermenu_title">Mneu tlačidla Power</string>
+    <string name="powermenu_title">Menu tlačidla Power</string>
     <string name="quicksettings_title">Dlaždice rýchlych nastavení</string>
     <string name="recents_title">Nedávne aplikácie</string>
     <string name="statusbar_title">Stavový riadok</string>
@@ -624,7 +624,7 @@
 
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Zobraziť tlačidlo \"Vymazať všetko\"</string>
-    <string name="show_clear_all_recents_button_summary">Zobraziť tlačidlo \"Vymazať všetko\" v zozname \"nedávnych aplikácií\"</string>
+    <string name="show_clear_all_recents_button_summary">Zobraziť tlačidlo \"Vymazať všetko\" na obrazovke zoznamu nedávnych aplikácií</string>
     <string name="recents_clear_all_location_title">Umiestnenie tlačidla \"Vymazať všetko\"</string>
     <string name="recents_clear_all_location_top_right">Vpravo hore</string>
     <string name="recents_clear_all_location_top_left">Vľavo hore</string>
@@ -669,8 +669,8 @@
     <string name="text_charging_symbol_flash">Blesk</string>
     <string name="text_charging_symbol_tilde">Vlnovka</string>
 
-    <string name="systemui_recents_mem_display_title">Zobraziť pruh pamäte</string>
-    <string name="systemui_recents_mem_display_summary">Zobraziť využitie pamäte RAM v zozname nedávnych aplikácií</string>
+    <string name="systemui_recents_mem_display_title">Zobraziť pruh voľnej pamäte</string>
+    <string name="systemui_recents_mem_display_summary">Zobraziť využitie pamäte RAM na obrazovke zoznamu nedávnych aplikácií</string>
 
     <!-- Time-context headers in notification header -->
     <string name="status_bar_custom_header_title">Dynamické záhlavie</string>
@@ -682,7 +682,7 @@
     <string name="daylight_header_provider_title">Podľa dennej doby</string>
     <string name="custom_header_provider_title">Zmena zobrazenia</string>
     <string name="custom_header_browse_title">Prehľad nainštalovaných obrázkov</string>
-    <string name="custom_header_browse_summary">Dlhým stlačením vyberiete obrázok ktorý sa puožije v záhlaví</string>
+    <string name="custom_header_browse_summary">Dlhým stlačením vyberiete obrázok ktorý sa použije v záhlaví</string>
 
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">@null</string>
@@ -732,9 +732,9 @@
     <string name="slim_recents_title">Menu nedávnych aplikácií Slim</string>
     <string name="use_slim_recents_title">Nedávne aplikácie Slim</string>
     <string name="use_slim_recents_summary">Zobraziť ponuku nedávnych aplikácií podľa Slim</string>
-    <string name="slim_recents_settings_title">Nastavenia nedávnych aplikácií SLim</string>
+    <string name="slim_recents_settings_title">Nastavenia nedávnych aplikácií Slim</string>
     <string name="slim_recents_settings_summary">Zmeniť nastavenia nedávnych aplikácii podľa Slim</string>
-    <string name="recent_panel_category">Panel ponúk nedávnych aplikácií SLim</string>
+    <string name="recent_panel_category">Panel ponúk nedávnych aplikácií Slim</string>
     <string name="show_running_tasks_title">Zobraziť iba spustené aplikácie</string>
     <string name="recents_max_apps_title">Maximálny možný počet aplikácií</string>
     <string name="recent_panel_scale_title">Veľkosť</string>
