@@ -20,7 +20,7 @@
     <string name="lockscreen_title">Obrazovka uzamknutia</string>
     <string name="misc_title">Rôzne nastavenia</string>
     <string name="navbar_title">Navigačná lišta</string>
-    <string name="powermenu_title">Mneu tlačidla Power</string>
+    <string name="powermenu_title">Menu tlačidla Power</string>
     <string name="quicksettings_title">Dlaždice rýchlych nastavení</string>
     <string name="recents_title">Nedávne aplikácie</string>
     <string name="statusbar_title">Stavový riadok</string>
@@ -682,7 +682,7 @@
     <string name="daylight_header_provider_title">Podľa dennej doby</string>
     <string name="custom_header_provider_title">Zmena zobrazenia</string>
     <string name="custom_header_browse_title">Prehľad nainštalovaných obrázkov</string>
-    <string name="custom_header_browse_summary">Dlhým stlačením vyberiete obrázok ktorý sa puožije v záhlaví</string>
+    <string name="custom_header_browse_summary">Dlhým stlačením vyberiete obrázok ktorý sa použije v záhlaví</string>
 
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">@null</string>
