@@ -24,7 +24,7 @@
     <string name="quicksettings_title">Ajustes Rápidos</string>
     <string name="recents_title">Aplicaciones Recientes</string>
     <string name="statusbar_title">Barra de Estado</string>
-    <string name="volume_title">Volume rockers</string>
+    <string name="volume_title">Botones de volumen</string>
     <string name="notifications_title">Notificaciones</string>
 
     <!-- Color picker -->
@@ -37,7 +37,7 @@
     <string name="longpress_info">Pulsación larga en el cajón para guardar el color</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="set">Aplicar</string>
+    <string name="set">Establecer</string>
     <string name="color_default">Predeterminado</string>
 
     <!-- General strings -->
