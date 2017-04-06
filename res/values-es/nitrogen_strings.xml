@@ -283,7 +283,7 @@
 
     <!-- Advanced data tile -->
     <string name="qs_advanced_data_title">Data toogle</string>
-    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+    <string name="qs_advanced_data_summary">Esto hace que con una sola pulsación en el toogle actives o desactives los datos móviles</string>
 
     <!-- Navigation Bar -->
     <string name="navbar_interface_title">Interfaz</string>
@@ -327,8 +327,8 @@
     <string name="fling_settings">Ajustes Fling</string>
     <string name="fling_interface">Fling</string>
     <string name="fling_enable_title">Activar Fling</string>
-    <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first</string>
-    <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar</string>
+    <string name="fling_back_home_policy">Back and Home requiere establecerse en todo momento. Para cambiar una asignación Back or Home, establezca primero la asignación deseada</string>
+    <string name="fling_split_bar_policy">Cuando sólo se asigna una acción derecha o izquierda, la acción se aplica a la barra completa</string>
     <string name="fling_def_summary">Ninguna acción establecida</string>
     <string name="fling_swipe_actions">Gestos de deslizamiento</string>
     <string name="fling_tap_actions">Gestos de pulsación</string>
@@ -346,18 +346,18 @@
     <string name="fling_long_left_press">Pulsación larga en la izquierda</string>
     <string name="long_swipe_portrait_title">Vertical</string>
     <string name="long_swipe_landscape_title">Horizontal</string>
-    <string name="portrait_right_swipe_title">Portrait right swipe</string>
-    <string name="portrait_left_swipe_title">Portrait left swipe</string>
+    <string name="portrait_right_swipe_title">Deslizamiento vertical hacia la derecha</string>
+    <string name="portrait_left_swipe_title">Deslizamiento vertical hacia la derecha</string>
     <string name="landscape_right_swipe_title">Deslizamiento horizontal hacia la derecha</string>
     <string name="landscape_left_swipe_title">Deslizamiento horizontal hacia la izquierda</string>
     <string name="vertical_up_swipe_title">Deslizamiento vertical hacia arriba</string>
     <string name="vertical_down_swipe_title">Deslizamiento vertical hacia abajo</string>
     <string name="up_swipe_title">Deslizar hacia arriba</string>
-    <string name="down_swipe_title">DEslizar hacia abajo</string>
+    <string name="down_swipe_title">Deslizar hacia abajo</string>
     <string name="long_swipe_reset">Restablecer</string>
     <string name="fling_advanced">Avanzado</string>
     <string name="fling_long_swipe_title">Largos umbrales de deslizamiento</string>
-    <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
+    <string name="fling_long_swipe_summary">Ajustar los umbrales de deslizamiento largos basados en un porcentaje del ancho o altura de la interfaz de Fling</string>
     <string name="fling_trails_enable_title">Activar línea de gestos</string>
     <string name="fling_trails_enable_summary">Mostrar una línea en los gestos de deslizamiento</string>
     <string name="fling_trails_color_title">Color de línea</string>
@@ -413,10 +413,10 @@
     <!-- SmartBar -->
     <string name="smartbar_category">Smartbar</string>
     <string name="smartbar_settings_title">Ajustes Smartbar</string>
-    <string name="smartbar_editor_title">Toggle button editor</string>
-    <string name="smartbar_editor_summary">Medium press and drag to change position. Long press to show edit menu. Button position may be changed while menu is showing.</string>
-    <string name="smartbar_context_menu_position_title">Context buttons layout position</string>
-    <string name="smartbar_context_menu_position_summary">Set the position of contextual buttons such as menu and ime selector</string>
+    <string name="smartbar_editor_title">Editor de posición de toogles</string>
+    <string name="smartbar_editor_summary">Presione y arrastre para cambiar de posición. Pulsación larga para mostrar el menú de edición. La posición del botón puede cambiarse mientras se muestra el menú.</string>
+    <string name="smartbar_context_menu_position_title">Posición del diseño de los botones de contexto</string>
+    <string name="smartbar_context_menu_position_summary">Establezca la posición de los botones contextuales, como el menú y el selector IME</string>
     <string name="smartbar_right">Derecha</string>
     <string name="smartbar_left">Izquierda</string>
     <string name="smartbar_button_animation_title">Animación de pulsación del botón</string>
@@ -428,12 +428,12 @@
     <string name="smartbar_button_animation_pixel_home">Pixel (Botón Home solo)</string>
     <string name="smartbar_button_animation_pixel_home_ripple">Pixel (Botón Home solo) y onda</string>
     <string name="smartbar_factory_reset_title">Restablecer originales</string>
-    <string name="smartbar_factory_reset_confirm">Are you sure you want to reset Smartbar to stock settings?</string>
-    <string name="smartbar_ime_action_title">Input method actions</string>
-    <string name="smartbar_ime_action_summary">Set what buttons to show when a on-screen keyboard is showing</string>
+    <string name="smartbar_factory_reset_confirm">¿Estás seguro que quieres restablecer los ajustes por defecto de Smartbar?</string>
+    <string name="smartbar_ime_action_title">Acciones del método de entrada</string>
+    <string name="smartbar_ime_action_summary">Establezca qué botones mostrar cuando se muestra un teclado en pantalla</string>
     <string name="smartbar_ime_action_none">Ninguna</string>
-    <string name="smartbar_ime_action_arrows">Input arrows</string>
-    <string name="smartbar_ime_action_switcher">Keyboard switcher</string>
+    <string name="smartbar_ime_action_arrows">Flechas de entrada</string>
+    <string name="smartbar_ime_action_switcher">Conmutador de teclado</string>
     <string name="smartbar_backup_current_config_title">Guardar perfil</string>
     <string name="smartbar_restore_config_title">Restaurar perfil</string>
     <string name="smartbar_config_name_edit_dialog_title">Nombre del perfil Smartbar</string>
@@ -468,8 +468,8 @@
     <string name="clock_date_display_normal">Letra normal</string>
     <string name="clock_date_style">Estilo de fecha</string>
     <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_style_lowercase">Minúscula</string>
+    <string name="clock_date_style_uppercase">Mayúscula</string>
     <string name="clock_date_format_custom">Formato java personalizado</string>
     <string name="clock_date_format">Formato de fecha</string>
     <string name="clock_date_string_edittext_title">Debe ser en formato de fecha ej. MM/dd/yy</string>
@@ -494,8 +494,8 @@
     <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
     <string name="weather_condition_icon_title">Icono del tiempo</string>
     <string name="weather_condition_icon_dlg_title">Elegir un icono para mostrar el tiempo</string>
-    <string name="weather_condition_icon_monochrome_title">Monochrome</string>
-    <string name="weather_condition_icon_colored_title">Colored</string>
+    <string name="weather_condition_icon_monochrome_title">Monocromo</string>
+    <string name="weather_condition_icon_colored_title">Coloreado</string>
     <string name="weather_condition_icon_vclouds_title">VClouds</string>
     <string name="icons_title">Iconos</string>
     <string name="position_right_title">Derecha</string>
@@ -504,7 +504,7 @@
     <string name="weather_hide_panel_title">Ocultar panel del tiempo</string>
     <string name="weather_hide_panel_dlg_title">Elegir cuando el panel del tiempo debería estar oculto</string>
     <string name="weather_hide_panel_auto_title">Automático</string>
-    <string name="weather_hide_panel_custom_title">Perosnalizado</string>
+    <string name="weather_hide_panel_custom_title">Personalizado</string>
     <string name="weather_hide_panel_never_title">Nunca</string>
     <string name="weather_hide_panel_auto_summary">El panel del tiempo se oculta cuando las notificaciones visibles alcancen las notificaciones máximas permitidas en la pantalla de bloqueo</string>
     <string name="weather_hide_panel_custom_summary">El panel del tiempo se oculta cuando las notificaciones visibles lleguen al número elegido de notificaciones</string>
@@ -598,9 +598,9 @@
     <string name="heads_up_time_out_10sec">10 segundos</string>
 
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_title">Tiempo de Apagado (Snooze timer)</string>
+    <string name="heads_up_snooze_summary_one_minute">Deslizando hacia arriba en una notificación apagará las notificaciones heads up para esa aplicación durante 1 minuto</string>
+    <string name="heads_up_snooze_summary">Deslizando hacia arriba en una notificación apagará las notificaciones heads up para esa aplicación durante <xliff:g id="number">%d</xliff:g> minutos</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer está desactivado</string>
     <string name="heads_up_snooze_1min">1 minuto</string>
     <string name="heads_up_snooze_5min">5 minutos</string>
@@ -657,7 +657,7 @@
     <string name="fprint_sucess_vib_title">Vibración de la huella digital</string>
     <string name="fprint_sucess_vib_summary">Vibrar al desbloquear con la huella digital</string>
 
-    <string name="nav_bar_dynamic_title">COlor dinámico de la barra de navegación</string>
+    <string name="nav_bar_dynamic_title">Color dinámico de la barra de navegación</string>
     <string name="nav_bar_dynamic_summary">Permite colorear la barra de navegación según los colores principales de la aplicación. Reinicia la aplicación deseada para ver el efecto</string>
 
     <!--- Small tiles count -->
@@ -678,7 +678,7 @@
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <string name="status_bar_battery_percentage_text_next">Al lado del icono</string>
     <string name="status_bar_battery_style_tile_title">Custom battery tile style</string>
-    <string name="status_bar_battery_style_tile_summary">Allow to set the same icon style chosen for the statusbar battery</string>
+    <string name="status_bar_battery_style_tile_summary">Permite establecer el mismo estilo de icono elegido para la batería de la barra de estado</string>
     <string name="status_bar_charge_color_title">Establecer color del icono de batera cuando se está cargando</string>
     <string name="force_charge_battery_text_title">Mostrar el porcentaje al lado del icono cuando se está cargando</string>
     <string name="force_charge_battery_text_summary_on">Mostrar el porcentaje fuera del icono cuando se está cargando</string>
@@ -693,19 +693,19 @@
     <string name="systemui_recents_mem_display_summary">Activar/Desactivar barra de memoria RAM en aplicaciones recientes</string>
 
     <!-- Time-context headers in notification header -->
-    <string name="status_bar_custom_header_title">Custom header image</string>
-    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
-    <string name="daylight_header_pack_title">Header image pack</string>
-    <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+    <string name="status_bar_custom_header_title">Imagen de encabezado personalizada</string>
+    <string name="status_bar_custom_header_summary">Activar la imagen del encabezado del panel de notificaciones</string>
+    <string name="daylight_header_pack_title">Paquete de imágenes del encabezado</string>
+    <string name="status_bar_custom_header_shadow_title">Imagen del encabezado de la sombra</string>
+    <string name="status_bar_custom_header_shadow_summary">Para una mejor visibilidad en imágenes brillantes</string>
     <string name="unit_percent">\u0025</string>
     <string name="static_header_provider" translatable="false">static</string>
     <string name="daylight_header_provider" translatable="false">daylight</string>
-    <string name="static_header_provider_title">Static</string>
-    <string name="daylight_header_provider_title">Dynamic</string>
-    <string name="custom_header_provider_title">Header provider</string>
-    <string name="custom_header_browse_title">Browse installed headers</string>
-    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+    <string name="static_header_provider_title">Estático</string>
+    <string name="daylight_header_provider_title">Dinámico</string>
+    <string name="custom_header_provider_title">Proveedor de encabezado</string>
+    <string name="custom_header_browse_title">Buscar los encabezados instalados</string>
+    <string name="custom_header_browse_summary">Pulsación prolongada en cualquier imagen para usarla en modo estático</string>
 
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">@null</string>
@@ -766,8 +766,8 @@
     <string name="recent_panel_expanded_mode_auto">Automático (predeterminado)</string>
     <string name="recent_panel_expanded_mode_always">Siempre</string>
     <string name="recent_panel_expanded_mode_never">Nunca</string>
-    <string name="recent_panel_show_topmost_title">Show topmost task</string>
-    <string name="recent_panel_show_topmost_summary">Don\'t exclude the topmost task in recents view</string>
+    <string name="recent_panel_show_topmost_title">Mostrar tarea más alta</string>
+    <string name="recent_panel_show_topmost_summary">No excluya la tarea más alta en la vista de aplicaciones recientes</string>
     <string name="recent_panel_bg_color_title">Color del fondo del panel</string>
     <string name="recent_card_bg_color_title">Color del fondo de tarjeta</string>
     <string name="recent_reset_title">Volver al color predeterminado</string>
