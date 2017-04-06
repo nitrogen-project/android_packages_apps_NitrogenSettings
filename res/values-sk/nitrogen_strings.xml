@@ -111,7 +111,7 @@
 
     <!-- MTP Dirty Hack -->
     <string name="enable_mtp_dirtyhack_title">MTP namiesto nabíjania</string>
-    <string name="enable_mtp_dirtyhack_summary">Povoliť MTP namiesto nabíjania pri pripojení k PC</string>
+    <string name="enable_mtp_dirtyhack_summary">Zapnúť MTP režim namiesto nabíjania pri pripojení k PC</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications">Vyskakujúce oznámenia</string>
@@ -248,11 +248,11 @@
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">\"Inteligentný\" stavový riadok</string>
-    <string name="smart_pulldown_summary">Otvoriť Rýchle nastavenia pri %1$s oznámeniach</string>
+    <string name="smart_pulldown_summary">Otvoriť Rýchle nastavenia ak: %1$s</string>
     <string name="smart_pulldown_none_summary">Otvoriť Rýchle nastavenia keď v riadku nie sú žiadne oznámenia</string>
-    <string name="smart_pulldown_off">vypnuté</string>
+    <string name="smart_pulldown_off">Vypnuté</string>
     <string name="smart_pulldown_none">nie sú žiadne oznámenia</string>
-    <string name="smart_pulldown_dismissable">nie sú skryté oznámenia</string>
+    <string name="smart_pulldown_dismissable">nie sú odstrániteľné oznámenia</string>
     <string name="smart_pulldown_ongoing">nie sú trvalé oznámenia</string>
 
     <string name="display_lockscreen_rotation_title">Otočenie obrazovky uzamknutia</string>
@@ -544,7 +544,7 @@
     <string name="vol_zen_summary">Zobraziť pri otvorení panela hlasitosti</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Editácia ikon</string>
+    <string name="statusbar_items_title">Ikony na zobrazenie</string>
 
     <string name="google_camera_gesture_title">Gestá AOSP</string>
 
@@ -674,7 +674,7 @@
 
     <!-- Time-context headers in notification header -->
     <string name="status_bar_custom_header_title">Dynamické záhlavie</string>
-    <string name="status_bar_custom_header_summary">Zobrazovať obrázok v záhlaví, v závislosti na dennej dobe</string>
+    <string name="status_bar_custom_header_summary">Zobrazenie obrázkov v záhlaví stavového riadku</string>
     <string name="daylight_header_pack_title">Balíček obrázkov</string>
     <string name="status_bar_custom_header_shadow_title">Tieňovanie obrázkov záhlavia</string>
     <string name="status_bar_custom_header_shadow_summary">Tmavšie záhlavie pre lepšiu viditeľnosť na svetlom pozadí</string>
