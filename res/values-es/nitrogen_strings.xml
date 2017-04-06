@@ -487,11 +487,11 @@
     <string name="lock_screen_weather_settings_title">Tiempo</string>
     <string name="weather_cat_notifications_title">Notificaciones</string>
     <string name="weather_show_weather_title">Mostrar tiempo</string>
-    <string name="weather_show_weather_summary">Enable to show weather information</string>
+    <string name="weather_show_weather_summary">Habilitar para mostrar información meteorológica</string>
     <string name="weather_show_location_title">Mostrar localización</string>
     <string name="weather_show_location_summary">Enable to show the location</string>
     <string name="weather_show_timestamp_title">Show timestamp</string>
-    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
+    <string name="weather_show_timestamp_summary">Habilitar para mostrar la marca de tiempo</string>
     <string name="weather_condition_icon_title">Icono del tiempo</string>
     <string name="weather_condition_icon_dlg_title">Elegir un icono para mostrar el tiempo</string>
     <string name="weather_condition_icon_monochrome_title">Monocromo</string>
