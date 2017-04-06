@@ -652,7 +652,7 @@
     <string name="sysui_qqs_count_title">快捷小图标数量</string>
 
     <!-- Battery customizations -->
-    <string name="status_bar_battery_style_category"电量</string>
+    <string name="status_bar_battery_style_category">电量</string>
     <string name="status_bar_battery_style_title">电量样式</string>
     <string name="status_bar_battery_style_icon_portrait">立式图标</string>
     <string name="status_bar_battery_style_icon_landscape">卧式图标</string>
