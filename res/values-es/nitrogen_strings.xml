@@ -489,8 +489,8 @@
     <string name="weather_show_weather_title">Mostrar tiempo</string>
     <string name="weather_show_weather_summary">Habilitar para mostrar información meteorológica</string>
     <string name="weather_show_location_title">Mostrar localización</string>
-    <string name="weather_show_location_summary">Enable to show the location</string>
-    <string name="weather_show_timestamp_title">Show timestamp</string>
+    <string name="weather_show_location_summary">Habilitar para mostrar la ubicación</string>
+    <string name="weather_show_timestamp_title">Mostrar marca de tiempo</string>
     <string name="weather_show_timestamp_summary">Habilitar para mostrar la marca de tiempo</string>
     <string name="weather_condition_icon_title">Icono del tiempo</string>
     <string name="weather_condition_icon_dlg_title">Elegir un icono para mostrar el tiempo</string>
