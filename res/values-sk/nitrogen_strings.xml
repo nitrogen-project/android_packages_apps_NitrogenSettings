@@ -20,7 +20,7 @@
     <string name="lockscreen_title">Obrazovka uzamknutia</string>
     <string name="misc_title">Rôzne nastavenia</string>
     <string name="navbar_title">Navigačná lišta</string>
-    <string name="powermenu_title">Menu tlačidla Power</string>
+    <string name="powermenu_title">Menu tlačidla Napájanie</string>
     <string name="quicksettings_title">Dlaždice rýchlych nastavení</string>
     <string name="recents_title">Nedávne aplikácie</string>
     <string name="statusbar_title">Stavový riadok</string>
@@ -46,7 +46,7 @@
 	<string name="default_string">Predvolené</string>
 
     <!-- Misc strings -->
-    <string name="lockclock_title">Widget hodín</string>
+    <string name="lockclock_title">Miniaplikácia hodín</string>
     <string name="lockclock_summary">Zobraziť alebo zmeniť nastavenia miniaplikácie «Hodiny» na domovskej obrazovke alebo na obrazovke uzamknutia</string>
 
     <!-- Kill app long press back -->
@@ -106,7 +106,7 @@
     <string name="powermenu_airplane">Režim v lietadle</string>
     <string name="powermenu_settings">Nastavenia</string>
     <string name="powermenu_lockdown">Uzamknúť</string>
-    <string name="powermenu_soundpanel">Nastavenie zvuku</string>
+    <string name="powermenu_soundpanel">Nastavenia zvuku</string>
     <string name="powermenu_users">Vlastník</string>
 
     <!-- MTP Dirty Hack -->
@@ -131,7 +131,7 @@
     <!-- Volume rocker wake -->
     <string name="wakeup_category_header">Možnosti prebudenia</string>
     <string name="volume_rocker_wake_title">Prebudenie tlačidlami hlasitosti</string>
-    <string name="volume_rocker_wake_summary">prebudiť z režimu spánku stlačením tlačidiel pre ovládanie hlasitosti</string>
+    <string name="volume_rocker_wake_summary">Prebudiť z režimu spánku stlačením tlačidiel pre ovládanie hlasitosti</string>
 
     <!-- Volume rocker music control -->
     <string name="media_category_header">Médiá</string>
@@ -248,8 +248,8 @@
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">\"Inteligentný\" stavový riadok</string>
-    <string name="smart_pulldown_summary">Otvoriť Rýchle nastavenia ak: %1$s</string>
-    <string name="smart_pulldown_none_summary">Otvoriť Rýchle nastavenia keď v riadku nie sú žiadne oznámenia</string>
+    <string name="smart_pulldown_summary">Otvoriť Rýchle nastavenia ak %1$s</string>
+    <string name="smart_pulldown_none_summary">Otvoriť Rýchle nastavenia ak nie sú žiadne oznámenia</string>
     <string name="smart_pulldown_off">Vypnuté</string>
     <string name="smart_pulldown_none">nie sú žiadne oznámenia</string>
     <string name="smart_pulldown_dismissable">nie sú odstrániteľné oznámenia</string>
@@ -458,7 +458,7 @@
     <string name="clock_date_left">Naľavo od hodín</string>
 
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Zobraziť menu Napájanie na obrazovke uzamknutia</string>
+    <string name="lockscreen_enable_power_menu_title">Napájanie na obrazovke uzamknutia</string>
     <string name="lockscreen_enable_power_menu_summary">Táto voľba zakáže menu Napájanie iba na zabezpečenej obrazovke uzamknutia</string>
 
     <!-- Lockscreen weather -->
@@ -485,7 +485,7 @@
     <string name="weather_hide_panel_auto_title">Automaticky</string>
     <string name="weather_hide_panel_custom_title">Vlstné nastavenie</string>
     <string name="weather_hide_panel_never_title">Nikdy</string>
-    <string name="weather_hide_panel_auto_summary">Panel počasia bude skrytý, keď sa počet oznámení na obrazovke uzamknutia dosiahne maximálnu hodnotu</string>
+    <string name="weather_hide_panel_auto_summary">Panel počasia bude skrytý, keď počet oznámení na obrazovke uzamknutia dosiahne maximálnu hodnotu</string>
     <string name="weather_hide_panel_custom_summary">Panel počasia bude skrytý, keď sa počet oznámení na obrazovke uzamknutia bude rovnať (%s)</string>
     <string name="weather_hide_panel_never_summary">Panel počasia nikdy nebude skrytý</string>
     <string name="weather_number_of_notifications_title">Počet oznámení</string>
@@ -495,7 +495,7 @@
     <string name="lockscreen_qs_disabled_summary">Vypnúť dlaždice rýchlych nastavení na obrazovke uzamknutia</string>
 
     <!-- Allow fake signature checkbox in developer settings -->
-    <string name="allow_signature_fake">povoliť falšovanie podpisu</string>
+    <string name="allow_signature_fake">Povoliť falšovanie podpisu</string>
     <string name="allow_signature_fake_summary">Umožňujú aplikáciám obísť bezpečnostný systém, vydávaním sa za inú aplikáciu</string>
 
     <!-- Lockscreen clock fonts -->
@@ -558,7 +558,7 @@
     <string name="immersive_recents_navbar">S navigačným panelom</string>
 
     <!-- Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Rolovanie Medzipamäte</string>
+    <string name="pref_scrollingcache_title">Rolovanie dočasnej pamäti</string>
     <string name="pref_scrollingcache_force_enable">Vynútene zapnúť</string>
     <string name="pref_scrollingcache_default_enable">Predvolene zapnuté</string>
     <string name="pref_scrollingcache_default_disable">Predvolene vypnuté</string>
@@ -592,10 +592,10 @@
     <!-- Optional screenshot type -->
     <string name="screenshot_type_title">Typ snímky obrazovky</string>
     <string name="screenshot_type_fullscreen">Celá obrazovka</string>
-    <string name="screenshot_type_partial">Snímok iba určitej časti obrazovky</string>
+    <string name="screenshot_type_partial">Iba určitá časť obrazovky</string>
 
     <!-- Wakelock blocker -->
-    <string name="wakelock_blocker_title">Blokovanie prebudenia</string>
+    <string name="wakelock_blocker_title">Blokovanie prebudení</string>
     <string name="wakelock_blocker_save">Uložiť</string>
     <string name="wakelock_blocker_summary">Blokovať prebudenie pri vypnutej obrazovke</string>
     <string name="wakelock_list_header">Dostupné prebudenia</string>
@@ -612,7 +612,7 @@
     <!-- Hide Apps from Recents -->
     <string name="hide_from_recents_add_app">Pridať aplikáciu</string>
     <string name="hide_apps_from_recents_title">Skryté aplikácie</string>
-    <string name="hide_apps_from_recents_summary">Vyberte aplikácie, ktoré nebudú zobrazené v zozname nedávnych.</string>
+    <string name="hide_apps_from_recents_summary">Vyberte aplikácie, ktoré sa nebudú zobrazovať v zozname nedávnych zplikácií.</string>
 
     <!-- Media art -->
     <string name="media_art_title">Zobrazenie obalu médií</string>
@@ -688,7 +688,7 @@
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">Akcie v pohotovostnom režime</string>
     <string name="screen_state_toggles_enable_title">Zapnúť</string>
-    <string name="screen_state_toggles_enable_summary">Akcie, ktoré sa vykonajú keď sa vypne obrazovka. Pri zapnutí obrazovky sa oboví predchádzajúci stav.</string>
+    <string name="screen_state_toggles_enable_summary">Akcie, ktoré sa vykonajú keď sa vypne obrazovka. Pri zapnutí obrazovky sa obnoví predchádzajúci stav.</string>
     <string name="screen_state_toggles_mobile_title">Mobilné siete</string>
     <string name="screen_state_toggles_location_title">Poloha</string>
     <string name="screen_state_toggles_twog">Prepnúť na 2G</string>
@@ -697,7 +697,7 @@
     <string name="screen_state_toggles_gps_summary">Nepoužívať GPS pri vypnutej obrazovke</string>
     <string name="screen_state_toggles_mobile_data">Vypnúť mobilné dáta</string>
     <string name="screen_state_toggles_mobile_data_summary">Nepoužívať mobilné dáta pri vypnutej obrazovke</string>
-    <string name="screen_state_off_delay_title">Oneskorenie pri vynutí obrazovky</string>
+    <string name="screen_state_off_delay_title">Oneskorenie pri vypnutí obrazovky</string>
     <string name="screen_state_off_delay_summary">Odložiť akcie pri vypnutí obrazovky o zadaný počet sekúnd</string>
     <string name="screen_state_on_delay_title">Oneskorenie pri zapnutí obrazovky</string>
     <string name="screen_state_on_delay_summary">Odložiť akcie pri zapnutí obrazovky o zadaný počet sekúnd</string>
@@ -715,7 +715,7 @@
     <string name="hardware_keys_action_one_handed_mode_right">Režim jednou rukou (vpravo)</string>
 
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Blokátor alarmov</string>
+    <string name="alarm_blocker">Blokovanie alarmov</string>
     <string name="alarm_blocker_title">Zapnuté</string>
     <string name="alarm_blocker_summary">Blokovať alarmy pri vypnutej obrazovke</string>
     <string name="alarm_blocker_save">uložiť</string>
@@ -725,8 +725,8 @@
     <string name="alarm_blocker_warning">Blokovanie alarmov môže spôsobovať nestabilitu, pády alebo stratu dát</string>
 
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Odblokovanie odtlačkom prsta</string>
-    <string name="fp_unlock_keystore_summary">Odomknutie zariadenia po reštarte bez PINu/hesla/vzoru\nUpozornenie: Použitie na vlastné riziko!</string>
+    <string name="fp_unlock_keystore_title">Odblokovanie iba odtlačkom prsta</string>
+    <string name="fp_unlock_keystore_summary">Odomknutie zariadenia po reštarte bez PINu/hesla/vzoru. Použitie na vlastné riziko!</string>
 
     <!-- Slim Recent panel -->
     <string name="slim_recents_title">Menu nedávnych aplikácií Slim</string>
