@@ -436,7 +436,7 @@
     <string name="status_bar_clock_style_center">Uprostřed</string>
     <string name="status_bar_clock_style_hidden">Nezobrazovat hodiny</string>
     <string name="status_bar_am_pm_title">Styl AM/PM</string>
-    <string name="status_bar_am_pm_info">Je zapnuté 24-hodinové zobrazení hodín</string>
+    <string name="status_bar_am_pm_info">Je zapnuté 24-hodinové zobrazení hodin</string>
     <string name="status_bar_am_pm_normal">Normalní</string>
     <string name="status_bar_am_pm_small">Malé</string>
     <string name="status_bar_am_pm_hidden">Nezobrazovat (předvolené)</string>
@@ -454,8 +454,8 @@
     <string name="clock_date_string_edittext_title">Musí být ve formátu např. MM/dd/rr</string>
     <string name="clock_date_string_edittext_summary">Zadejte řetězec</string>
     <string name="clock_date_position">Umístění datumu</string>
-    <string name="clock_date_right">Napravo od hodín</string>
-    <string name="clock_date_left">Nalevo od hodín</string>
+    <string name="clock_date_right">Napravo od hodin</string>
+    <string name="clock_date_left">Nalevo od hodin</string>
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Zobrazit menu Napájení na obrazovce uzamčení</string>
@@ -499,8 +499,8 @@
     <string name="allow_signature_fake_summary">Umožňují aplikacím obejít bezpečnostní systém vydáváním se za jinou aplikaci</string>
 
     <!-- Lockscreen clock fonts -->
-    <string name="lock_clock_font_title">Písmo hodín</string>
-    <string name="lock_clock_font_summary">Změnit písmo hodín na obrazovce uzamčení</string>
+    <string name="lock_clock_font_title">Písmo hodin</string>
+    <string name="lock_clock_font_summary">Změnit písmo hodin na obrazovce uzamčení</string>
     <string name="lock_clock_font_dialog_title">Vyberte písmo</string>
     <string name="lock_clock_font_normal">Obyčejné</string>
     <string name="lock_clock_font_bold">Tučné</string>
