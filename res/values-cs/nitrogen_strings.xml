@@ -495,7 +495,7 @@
     <string name="lockscreen_qs_disabled_summary">Vypnout dlaždice rychlých nastavení na obrazovke uzamčení</string>
 
     <!-- Allow fake signature checkbox in developer settings -->
-    <string name="allow_signature_fake">povolit falšování podpisu</string>
+    <string name="allow_signature_fake">Povolit falšování podpisu</string>
     <string name="allow_signature_fake_summary">Umožňují aplikacím obejít bezpečnostní systém vydáváním se za jinou aplikaci</string>
 
     <!-- Lockscreen clock fonts -->
