@@ -313,7 +313,7 @@
     <string name="fling_back_home_policy">\"Späť\" a \"Domov\" musia byť vždy nastavené. Ak chcete zmeniť nastavenia \"Back\" alebo \"Domov\", najprv nastavte nové priradenie</string>
     <string name="fling_split_bar_policy">Ak je priradená akcia iba vpravo alebo vľavo, vzťahuje sa na celý panel</string>
     <string name="fling_def_summary">Nie sú nastavené žiadne akcie</string>
-    <string name="fling_swipe_actions">Gestá posumu prsta</string>
+    <string name="fling_swipe_actions">Gestá posunutím prsta</string>
     <string name="fling_tap_actions">Dotykové gestá</string>
     <string name="fling_short_swipe_right">Krátky posun prsta vpravo</string>
     <string name="fling_short_swipe_left">Krátky posun prsta vľavo</string>
@@ -327,8 +327,8 @@
     <string name="fling_single_left_tap">Obyčajný klik vľavo</string>
     <string name="fling_double_left_tap">Dvojitý klik vľavo</string>
     <string name="fling_long_left_press">Dlhé stlačenie vľavo</string>
-    <string name="long_swipe_portrait_title">Portrét</string>
-    <string name="long_swipe_landscape_title">Krajina</string>
+    <string name="long_swipe_portrait_title">Na výšku</string>
+    <string name="long_swipe_landscape_title">Na šírku</string>
     <string name="landscape_right_swipe_title">Posun vpravo</string>
     <string name="landscape_left_swipe_title">Posun vľavo</string>
     <string name="vertical_up_swipe_title">Posun hore</string>
@@ -337,7 +337,7 @@
     <string name="fling_advanced">Rozšírené nastavenia</string>
     <string name="fling_long_swipe_title">Dĺžka posunu prsta</string>
     <string name="fling_long_swipe_summary">Doladenie posunu prsta je založené na na percentuálnom pomere na šírku alebo výšku rozhrania Fling</string>
-    <string name="fling_trails_enable_title">Aktivovať čiarové gestá</string>
+    <string name="fling_trails_enable_title">Aktivovať stopu gesta</string>
     <string name="fling_trails_enable_summary">Zobrazovať stopu pri gestách posunu prsta</string>
     <string name="fling_trails_color_title">Farba stopy</string>
     <string name="fling_trails_width_title">Šírka stopy</string>
@@ -390,8 +390,8 @@
     <string name="positive_done">Hotovo</string>
 
     <!-- SmartBar -->
-    <string name="smartbar_category">Smartbar</string>
-    <string name="smartbar_settings_title">nastavenia Smartbar</string>
+    <string name="smartbar_category">Inteligentná lišta</string>
+    <string name="smartbar_settings_title">Nastavenia inteligentnej lišty</string>
     <string name="smartbar_editor_title">Editačný režim</string>
     <string name="smartbar_editor_summary">Krátke podržanie tlačidla navigačného panelu pre zmenu jeho umiestnenia. Dlhé podržanie pre zobrazenie menu. Polohu tlačidla možno meniť pokiaľ je zobrazené menu.</string>
     <string name="smartbar_context_menu_position_title">Umiestnenie skratkových tlačidiel</string>
@@ -407,7 +407,7 @@
     <string name="smartbar_button_animation_pixel_home">Pixel (tlačidlo Domov)</string>
     <string name="smartbar_button_animation_pixel_home_ripple">Pixel (tlačidlo Domov) a Zavlnenie</string>
     <string name="smartbar_factory_reset_title">Reset na predvolené nastavenia</string>
-    <string name="smartbar_factory_reset_confirm">Ste si istí, že chcete obnoviť Smartbar na predvolené nastavenia?</string>
+    <string name="smartbar_factory_reset_confirm">Ste si istí, že chcete obnoviť inteligentnú lištu na predvolené nastavenia?</string>
     <string name="smartbar_ime_action_title">Nastavenia metódy vstupu</string>
     <string name="smartbar_ime_action_summary">Nastaviť, ktoré tlačidlá sa zobrazia pri zobrazení klávesnice</string>
     <string name="smartbar_ime_action_none">Nič</string>
@@ -415,13 +415,13 @@
     <string name="smartbar_ime_action_switcher">Prepínač klávesnice</string>
     <string name="smartbar_backup_current_config_title">Uložiť profil</string>
     <string name="smartbar_restore_config_title">Obnoviť profil</string>
-    <string name="smartbar_config_name_edit_dialog_title">Názov profilu Smartbar</string>
+    <string name="smartbar_config_name_edit_dialog_title">Názov profilu inteligentnej lišty</string>
     <string name="smartbar_config_name_edit_dialog_message">Zadajte názov alebo ponechajte prázdne</string>
-    <string name="smartbar_config_dialog_title">Profily Smartbar</string>
-    <string name="smartbar_config_backup_success_toast">Smartbar profil bol úspešne uložený</string>
-    <string name="smartbar_config_restore_success_toast">Smartbar profil bol úspešne obnovený</string>
-    <string name="smartbar_config_backup_error_toast">Chyba pri ukladaní profilu Smartbar</string>
-    <string name="smartbar_config_restore_error_toast">Chyba pri obnovení profilu Smartbar</string>
+    <string name="smartbar_config_dialog_title">Profily inteligentnej lišty</string>
+    <string name="smartbar_config_backup_success_toast">Profil inteligentnej lišty bol úspešne uložený</string>
+    <string name="smartbar_config_restore_success_toast">Profil inteligentnej lišty bol úspešne obnovený</string>
+    <string name="smartbar_config_backup_error_toast">Chyba pri ukladaní profilu inteligentnej lišty</string>
+    <string name="smartbar_config_restore_error_toast">Chyba pri obnovení profilu inteligentnej lišty</string>
     <string name="navbar_buttons_alpha_title">Priehľadnosť tlačidiel</string>
 
     <!-- statusbar notification count -->
