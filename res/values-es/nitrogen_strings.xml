@@ -276,14 +276,14 @@
 
     <!-- Tiles settings  -->
     <string name="qs_wifi_easy_toggle_title">WiFi toggle</string>
-    <string name="qs_wifi_easy_toggle_summary">Esto hace que con una sola pulsación en el toggle actives o desactives el WiFi</string>
+    <string name="qs_wifi_easy_toggle_summary">Esto hace que con una sola pulsación en el toggle, actives o desactives el WiFi</string>
 
     <string name="qs_bt_easy_toggle_title">Bluetooth toggle</string>
-    <string name="qs_bt_easy_toggle_summary">Esto hace que con una sola pulsación en el toggle actives o desactives el Bluetooth</string>
+    <string name="qs_bt_easy_toggle_summary">Esto hace que con una sola pulsación en el toggle, actives o desactives el Bluetooth</string>
 
     <!-- Advanced data tile -->
     <string name="qs_advanced_data_title">Data toogle</string>
-    <string name="qs_advanced_data_summary">Esto hace que con una sola pulsación en el toogle actives o desactives los datos móviles</string>
+    <string name="qs_advanced_data_summary">Esto hace que con una sola pulsación en el toogle, actives o desactives los datos móviles</string>
 
     <!-- Navigation Bar -->
     <string name="navbar_interface_title">Interfaz</string>
@@ -454,7 +454,7 @@
     <string name="status_bar_clock_style_title">Estilo del reloj</string>
     <string name="status_bar_clock_style_right">Derecha</string>
     <string name="status_bar_clock_style_left">Izquierda</string>
-    <string name="status_bar_clock_style_center">Centro</string>
+    <string name="status_bar_clock_style_center">Centrado</string>
     <string name="status_bar_clock_style_hidden">Oculto</string>
     <string name="status_bar_am_pm_title">Estilo AM/PM</string>
     <string name="status_bar_am_pm_info">El reloj 24h está activado</string>
@@ -554,7 +554,7 @@
     <string name="show_carrier_enabled">Pantalla de bloqueo &amp; barra de estado</string>
 
     <!-- Power notification controls -->
-    <string name="power_notification_title">Controles de energía de las notificaciones</string>
+    <string name="power_notification_title">Control de energía de las notificaciones</string>
 
     <!-- Volume down enter do not disturb -->
     <string name="volbtn_down_zen_title">Volumen abajo para No Molestar</string>
@@ -644,7 +644,7 @@
 
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Botón Limpiar Todo</string>
-    <string name="show_clear_all_recents_button_summary">Mostrar botón limpiar todo</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar botón Limpiar Todo</string>
     <string name="recents_clear_all_location_title">Localización del botón Limpiar Todo</string>
     <string name="recents_clear_all_location_top_right">Arriba a la derecha</string>
     <string name="recents_clear_all_location_top_left">Arriba a la izquierda</string>
@@ -679,8 +679,8 @@
     <string name="status_bar_battery_percentage_text_next">Al lado del icono</string>
     <string name="status_bar_battery_style_tile_title">Estilo de icono personalizado en los ajustes rápidos</string>
     <string name="status_bar_battery_style_tile_summary">Permite establecer el mismo estilo de icono elegido para la batería de la barra de estado</string>
-    <string name="status_bar_charge_color_title">Establecer color del icono de batera cuando se está cargando</string>
-    <string name="force_charge_battery_text_title">Mostrar el porcentaje al lado del icono cuando se está cargando</string>
+    <string name="status_bar_charge_color_title">Color del icono de batería cuando se está cargando</string>
+    <string name="force_charge_battery_text_title">Porcentaje al lado del icono cuando se está cargando</string>
     <string name="force_charge_battery_text_summary_on">Mostrar el porcentaje fuera del icono cuando se está cargando</string>
     <string name="force_charge_battery_text_summary_off">Mostrar el porcentaje dentro del icono cuando se está cargando</string>
     <string name="text_charging_symbol_title">Símbolo de cargando al lado del porcentaje</string>
@@ -696,7 +696,7 @@
     <string name="status_bar_custom_header_title">Imagen de encabezado personalizada</string>
     <string name="status_bar_custom_header_summary">Activar la imagen del encabezado del panel de notificaciones</string>
     <string name="daylight_header_pack_title">Paquete de imágenes del encabezado</string>
-    <string name="status_bar_custom_header_shadow_title">Imagen del encabezado de la sombra</string>
+    <string name="status_bar_custom_header_shadow_title">Sombra de la imagen del encabezado</string>
     <string name="status_bar_custom_header_shadow_summary">Para una mejor visibilidad en imágenes brillantes</string>
     <string name="unit_percent">\u0025</string>
     <string name="static_header_provider" translatable="false">static</string>
@@ -749,7 +749,7 @@
 
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Desbloqueo FP</string>
-    <string name="fp_unlock_keystore_summary">Desbloquear el dispositivo con la huella digital después de reiniciar sin PIN/Password/Pattern\nNota: ¡Bajo tu propio riesgo!</string>
+    <string name="fp_unlock_keystore_summary">Desbloquear el dispositivo con la huella digital después de reiniciar sin PIN/Contraseña/Patrón\nNota: ¡Bajo tu propio riesgo!</string>
 
     <!-- Slim Recent panel -->
     <string name="slim_recents_title">Panel de aplicaciones recientes Slim</string>
