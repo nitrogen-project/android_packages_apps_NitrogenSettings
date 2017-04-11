@@ -110,7 +110,7 @@
 
     <!-- MTP Dirty Hack -->
     <string name="enable_mtp_dirtyhack_title">MTP namiesto nabíjania</string>
-    <string name="enable_mtp_dirtyhack_summary">Zapnúť MTP režim namiesto nabíjania pri pripojení k PC</string>
+    <string name="enable_mtp_dirtyhack_summary">Pri pripojení telefónu k PC zapnúť režim MTP namiesto režimu nabíjanie</string>
 
     <!-- Heads up -->
     <string name="heads_up_notifications">Vyskakujúce oznámenia</string>
@@ -124,7 +124,7 @@
     <string name="dialog_delete_message">Vymazať vybranú položku?</string>
 
     <!-- Bluetooth battery -->
-    <string name="bluetooth_battery_title">Úroveň nabitia BT</string>
+    <string name="bluetooth_battery_title">Úroveň nabitia BT zariadení</string>
     <string name="bluetooth_battery_summary">Zobrazenie stavu nabíjania zariadení Bluetooth</string>
 
     <!-- Volume rocker wake -->
@@ -146,7 +146,7 @@
     <string name="wakeup_when_plugged_unplugged_summary">Prebudiť zariadenie pri pripojení/odpojení nabíjačky.</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Indikátor sieťovej prevádzky</string>
+    <string name="network_traffic_title">Monitor sieťovej prevádzky</string>
     <string name="show_network_traffic_state">Zobrazovať rýchlosť prenosu dát</string>
     <string name="show_network_traffic_unit">Jednotky merania</string>
     <string name="show_network_traffic_frequency">Obnovovacia frekvencia</string>
@@ -433,7 +433,7 @@
     <string name="status_bar_clock_style_right">Vpravo</string>
     <string name="status_bar_clock_style_left">Vľavo</string>
     <string name="status_bar_clock_style_center">V strede</string>
-    <string name="status_bar_clock_style_hidden">Nezobrazovať hodiny</string>
+    <string name="status_bar_clock_style_hidden">Nezobrazovať</string>
     <string name="status_bar_am_pm_title">Štýl AM/PM</string>
     <string name="status_bar_am_pm_info">Je zapnuté 24-hodinové zobrazenie hodín</string>
     <string name="status_bar_am_pm_normal">Normalne</string>
@@ -557,11 +557,11 @@
     <string name="immersive_recents_navbar">S navigačným panelom</string>
 
     <!-- Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Rolovanie dočasnej pamäti</string>
-    <string name="pref_scrollingcache_force_enable">Vynútene zapnúť</string>
+    <string name="pref_scrollingcache_title">Medzipamäť pre rolovanie</string>
+    <string name="pref_scrollingcache_force_enable">Vynútene zapnuté</string>
     <string name="pref_scrollingcache_default_enable">Predvolene zapnuté</string>
     <string name="pref_scrollingcache_default_disable">Predvolene vypnuté</string>
-    <string name="pref_scrollingcache_force_disable">Vynútene vypnúť</string>
+    <string name="pref_scrollingcache_force_disable">Vynútene vypnuté</string>
 
     <!-- Volume key controls media stream -->
     <string name="volume_keys_control_media_stream_title">Nastavenie médií</string>
@@ -659,7 +659,7 @@
     <string name="status_bar_battery_style_tile_title">Dlaždica batérie</string>
     <string name="status_bar_battery_style_tile_summary">Zobraziť dlaždicu batérie ako v stavovom riadku</string>
     <string name="status_bar_charge_color_title">Farba ikony batérie na nábíjaní</string>
-    <string name="force_charge_battery_text_title">Stav nabitia batérie</string>
+    <string name="force_charge_battery_text_title">Stav batérie pri nabíjaní</string>
     <string name="force_charge_battery_text_summary_on">Zobraziť stav nabitia batérie v percentách vedľa ikony</string>
     <string name="force_charge_battery_text_summary_off">Zobraziť stav nabitia batérie v percentách vo vnútri ikony</string>
     <string name="text_charging_symbol_title">Symbol nabíjania vedľa percenta nabitia</string>
