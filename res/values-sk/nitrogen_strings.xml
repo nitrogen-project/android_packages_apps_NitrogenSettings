@@ -583,6 +583,7 @@
     <string name="heads_up_snooze_summary">Potiahnite prstom nahor po vyskakujúcej správe a bude odložená o <xliff:g id="number">%d</xliff:g> minút</string>
     <string name="heads_up_snooze_disabled_summary">Vypnuté</string>
     <string name="heads_up_snooze_1min">1 minúta</string>
+    <string name="heads_up_snooze_3min">3 minúty</string>	
     <string name="heads_up_snooze_5min">5 minút</string>
     <string name="heads_up_snooze_10min">10 minút</string>
     <string name="heads_up_snooze_15min">15 minút</string>
