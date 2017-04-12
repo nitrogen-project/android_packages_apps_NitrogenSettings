@@ -86,7 +86,7 @@
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Časový limit podsvietenia tlačidiel</string>
     <string name="backlight_timeout_on">Vždy zapnuté</string>
-    <string name="backlight_timeout_3s">3 sekúnd</string>
+    <string name="backlight_timeout_3s">3 sekndy</string>
     <string name="backlight_timeout_default">5 sekúnd (predvolené)</string>
     <string name="backlight_timeout_10s">10 sekúnd</string>
     <string name="backlight_timeout_15s">15 sekúnd</string>
@@ -94,7 +94,7 @@
     <string name="backlight_timeout_30s">30 sekúnd</string>
 
     <!-- Whether to display IME switcher notifcation -->
-    <string name="ime_switcher_notify">Ikona zvolenia metódy zadávania</string>
+    <string name="ime_switcher_notify">Ikona výberu metódy zadávania</string>
     <string name="ime_switcher_notify_summary">Zobrazovať ikonu prepínača spôsobu zadávania pri zobrazení textových polí</string>
 
     <!-- Power Menu -->
@@ -117,7 +117,7 @@
     <string name="summary_heads_up_enabled">Zapnuté</string>
     <string name="summary_heads_up_disabled">Vypnuté</string>
     <string name="add_heads_up_package">Pridať aplikáciu</string>
-    <string name="add_heads_up_whitelist_summary">Zobraziť syskakujúce oznámenie z týchto aplikácií</string>
+    <string name="add_heads_up_whitelist_summary">Zobraziť vyskakujúce oznámenie u týchto aplikácií</string>
     <string name="heads_up_whitelist_title">Biela listina</string>
     <string name="profile_choose_app">Vybrať aplikáciu</string>
     <string name="dialog_delete_title">Vymazať</string>
@@ -161,10 +161,10 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Automatické skrývanie</string>
-    <string name="network_traffic_autohide_summary">Skryť indikátor sieťovej prevádzky, keď je  sieť neaktívna</string>
+    <string name="network_traffic_autohide_summary">Skryť monitor sieťovej prevádzky, keď je sieť neaktívna</string>
     <string name="network_traffic_autohide_threshold">Prah nečinnosti</string>
     <string name="network_traffic_hidearrow_title">Skryť šípky</string>
-    <string name="network_traffic_hidearrow_summary">Skryť šípky v indikátore sieťovej prevádzky</string>
+    <string name="network_traffic_hidearrow_summary">Skryť šípky na ikone monitora sieťovej prevádzky</string>
 
     <!-- Double Tap -->
     <string name="dtts_category_header">Prechod do režimu spánku</string>
@@ -208,7 +208,7 @@
     <string name="pulse_speed_very_slow">Velmi pomaly</string>
 	
     <!-- Battery light settings -->
-    <string name="battery_light_title">Indikácia batérie</string>
+    <string name="battery_light_title">LED Indikácia batérie</string>
     <string name="battery_low_pulse_title">Blikať pri nízkej úrovni nabitia</string>
     <string name="battery_light_list_title">Farby</string>
     <string name="battery_light_low_color_title">Vybitá batéria</string>
@@ -232,7 +232,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Udalosti LED</string>
     <string name="led_notification_text">LED zapnutá v nastaveniach</string>
-    <string name="notification_light_no_apps_summary">Ak chcete povoliť správu aplikácií, vrátane «%1$s» a kliknite na «\u002b» v možnostiach menu.</string>
+    <string name="notification_light_no_apps_summary">Ak chcete povoliť správu aplikácií vrátane «%1$s», kliknite na «\u002b» v možnostiach menu.</string>
     <string name="battery_light_settings">Indikácia batérie</string>
     <string name="battery_light_enable">Zapnuté</string>
 
@@ -262,7 +262,7 @@
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Ovládanie jasu</string>
-    <string name="qs_brightness_slider_summary">Zobraziť posuvný ovládač jasu v paneli Rýchlych nastavení</string>
+    <string name="qs_brightness_slider_summary">Zobraziť posuvný ovládač jasu na paneli Rýchlych nastavení</string>
 
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Ikona jasu</string>
@@ -358,7 +358,7 @@
 
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">O Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse je výborný zvukový grafický ekvalizér zobrazený v navigačnom paneli, pri prehrávaní hudby. Pulse nefunguje u niektorých zdrojov zvuku pri počúvaní cez reproduktor zariadenia</string>
+    <string name="pulse_help_policy_notice_summary">Pulse je výborný zvukový grafický ekvalizér zobrazený na navigačnom paneli, pri prehrávaní hudby. Pulse nefunguje u niektorých zdrojov zvuku pri počúvaní cez reproduktor zariadenia</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Grafický ekvalizér v navigačnej lište</string>
     <string name="fling_show_pulse_title">Zapnutie Pulse</string>
@@ -394,7 +394,7 @@
     <string name="smartbar_editor_title">Editačný režim</string>
     <string name="smartbar_editor_summary">Krátke podržanie tlačidla navigačného panelu pre zmenu jeho umiestnenia. Dlhé podržanie pre zobrazenie menu. Polohu tlačidla možno meniť pokiaľ je zobrazené menu.</string>
     <string name="smartbar_context_menu_position_title">Umiestnenie skratkových tlačidiel</string>
-    <string name="smartbar_context_menu_position_summary">Nastaviť umiestnenie kontextových tlačidiel, ako je menu a výber vstupnej metódy.</string>
+    <string name="smartbar_context_menu_position_summary">Nastaviť umiestnenie kontextových tlačidiel, ako je menu a výber metódy vstupu.</string>
     <string name="smartbar_right">Vpravo</string>
     <string name="smartbar_left">Vľavo</string>
     <string name="smartbar_button_animation_title">Animácia pri kliknutí na tlačidlo</string>
@@ -479,10 +479,10 @@
     <string name="position_right_title">Vpravo</string>
     <string name="position_centered_title">V strede</string>
     <string name="hidden_title">Skryté</string>
-    <string name="weather_hide_panel_title">Sktyť panel počasia</string>
+    <string name="weather_hide_panel_title">Skryť panel počasia</string>
     <string name="weather_hide_panel_dlg_title">Vyberte, kedy bude panel počasia ukrytý</string>
     <string name="weather_hide_panel_auto_title">Automaticky</string>
-    <string name="weather_hide_panel_custom_title">Vlstné nastavenie</string>
+    <string name="weather_hide_panel_custom_title">Vlastné nastavenie</string>
     <string name="weather_hide_panel_never_title">Nikdy</string>
     <string name="weather_hide_panel_auto_summary">Panel počasia bude skrytý, keď počet oznámení na obrazovke uzamknutia dosiahne maximálnu hodnotu</string>
     <string name="weather_hide_panel_custom_summary">Panel počasia bude skrytý, keď sa počet oznámení na obrazovke uzamknutia bude rovnať (%s)</string>
@@ -495,7 +495,7 @@
 
     <!-- Allow fake signature checkbox in developer settings -->
     <string name="allow_signature_fake">Povoliť falšovanie podpisu</string>
-    <string name="allow_signature_fake_summary">Umožňujú aplikáciám obísť bezpečnostný systém, vydávaním sa za inú aplikáciu</string>
+    <string name="allow_signature_fake_summary">Umožňuje aplikáciám obísť bezpečnostný systém vydávaním sa za inú aplikáciu</string>
 
     <!-- Lockscreen clock fonts -->
     <string name="lock_clock_font_title">Písmo hodín</string>
@@ -523,7 +523,7 @@
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Názov operátora</string>
     <string name="custom_carrier_label_title">Vlastný názov operátora</string>
-    <string name="custom_carrier_label_explain">Prosím, zadajte nový názov. Prázdne pole obnoví pôvodný názov.</string>
+    <string name="custom_carrier_label_explain">Prosím zadajte nový názov. Prázdne pole obnoví pôvodný názov.</string>
     <string name="custom_carrier_label_notset">Názov operátora nebol zadaný</string>
     <string name="show_carrier_title">Názov operátora</string>
     <string name="show_carrier_disabled">Vypnuté</string>
@@ -578,7 +578,7 @@
     <string name="heads_up_time_out_10sec">10 sekúnd</string>
 
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Časovač odloženia upozorení</string>
+    <string name="heads_up_snooze_title">Časovač odloženia upozornení</string>
     <string name="heads_up_snooze_summary_one_minute">Potiahnite prstom nahor po vyskakujúcej správe a bude odložená o 1 minútu</string>
     <string name="heads_up_snooze_summary">Potiahnite prstom nahor po vyskakujúcej správe a bude odložená o <xliff:g id="number">%d</xliff:g> minút</string>
     <string name="heads_up_snooze_disabled_summary">Vypnuté</string>
@@ -634,7 +634,7 @@
 
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Odtlačok prsta</string>
-    <string name="fprint_sucess_vib_summary">Vibrovať pri úspešnom rozpoznaní odtlačku prsta</string>
+    <string name="fprint_sucess_vib_summary">Zavibrovať po úspešnom rozpoznaní odtlačku prsta</string>
 
     <string name="nav_bar_dynamic_title">Dynamické farby</string>
     <string name="nav_bar_dynamic_summary">Zmeniť farbu navigačnej lišty aplikácie na tmavú. Pre zobrazenie efektu sa vyžaduje reštart aplikácie.</string>
@@ -687,7 +687,7 @@
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">Akcie v pohotovostnom režime</string>
     <string name="screen_state_toggles_enable_title">Zapnúť</string>
-    <string name="screen_state_toggles_enable_summary">Akcie, ktoré sa vykonajú keď sa vypne obrazovka. Pri zapnutí obrazovky sa obnoví predchádzajúci stav.</string>
+    <string name="screen_state_toggles_enable_summary">Akcie ktoré sa vykonajú, keď sa vypne obrazovka. Pri zapnutí obrazovky sa obnoví predchádzajúci stav.</string>
     <string name="screen_state_toggles_mobile_title">Mobilné siete</string>
     <string name="screen_state_toggles_location_title">Poloha</string>
     <string name="screen_state_toggles_twog">Prepnúť na 2G</string>
@@ -704,24 +704,24 @@
     <string name="dnd_when_call_title">Režim Nerušiť</string>
     <string name="dnd_when_call_summary">Povoliť režim Nerušiť počas hovoru</string>	
 	
-    <string name="smartbar_doubletap_sleep_title">Stavová lišta</string>
-    <string name="smartbar_doubletap_sleep_summary">Dvojklik na prázdne miesto stavovej lišty prepne zariadenie do režimu spánku</string>
+    <string name="smartbar_doubletap_sleep_title">Stavový riadok</string>
+    <string name="smartbar_doubletap_sleep_summary">Dvojklik na prázdne miesto stavového riadku prepne zariadenie do režimu spánku</string>
 	
     <string name="one_handed_mode_title">Režim jednou rukou</string>
-    <string name="one_handed_mode_summary">Zapnúť režim jednou rukou potiahnutím stavovej lište</string>
+    <string name="one_handed_mode_summary">Zapnúť režim jednou rukou potiahnutím po stavovej lište</string>
 
     <string name="hardware_keys_action_one_handed_mode_left">Režim jednou rukou (vľavo)</string>
     <string name="hardware_keys_action_one_handed_mode_right">Režim jednou rukou (vpravo)</string>
 
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Blokovanie alarmov</string>
+    <string name="alarm_blocker">Blokovanie výstrah</string>
     <string name="alarm_blocker_title">Zapnuté</string>
-    <string name="alarm_blocker_summary">Blokovať alarmy pri vypnutej obrazovke</string>
+    <string name="alarm_blocker_summary">Blokovať výstrahy pri vypnutej obrazovke</string>
     <string name="alarm_blocker_save">uložiť</string>
-    <string name="alarm_list_header">Dostupné alarmy</string>
+    <string name="alarm_list_header">Dostupné výstrahy</string>
     <string name="alarm_blocker_reload">Obnoviť</string>
     <string name="alarm_blocker_warning_title">Postupujte opatrne</string>
-    <string name="alarm_blocker_warning">Blokovanie alarmov môže spôsobovať nestabilitu, pády alebo stratu dát</string>
+    <string name="alarm_blocker_warning">Blokovanie výstrah môže spôsobovať nestabilitu, pády alebo stratu dát</string>
 
     <!-- Fingerprint unlock keystore -->
     <string name="fp_unlock_keystore_title">Odblokovanie iba odtlačkom prsta</string>
