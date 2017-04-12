@@ -320,6 +320,8 @@
     <string name="fling_single_left_tap">Короткое нажатие слева</string>
     <string name="fling_double_left_tap">Двойное нажатие слева</string>
     <string name="fling_long_left_press">Длительное нажатие слева</string>
+    <string name="portrait_right_swipe_title">Свайп справа (портретный режим)</string>
+    <string name="portrait_left_swipe_title">Свайп слева (портретный режим)</string>
     <string name="long_swipe_portrait_title">Портретная</string>
     <string name="long_swipe_landscape_title">Альбомная</string>
     <string name="landscape_right_swipe_title">Свайп вправо</string>
@@ -333,7 +335,7 @@
     <string name="fling_trails_enable_title">Включить жесты пера</string>
     <string name="fling_trails_enable_summary">Показать след от жестов свайпов</string>
     <string name="fling_trails_color_title">Цвет следа</string>
-    <string name="fling_trails_width_title">Trail width</string>
+    <string name="fling_trails_width_title">Ширина следа</string>
     <string name="fling_appearance">Вид</string>
     <string name="fling_show_logo_title">Показывать логотип Fling</string>
     <string name="fling_animate_logo_title">Анимация логотипа</string>
@@ -365,7 +367,7 @@
     <string name="pulse_advanced_category">Расширенные настройки</string>
     <string name="pulse_legacy_mode_advanced_category">Настройки затухающих блоков</string>
     <string name="pulse_custom_fudge_factor">Уровень чувствительности</string>
-    <string name="lavamp_solid_speed_title">Скорость    \"Лава Лампы\"</string>
+    <string name="lavamp_solid_speed_title">Скорость \"Лава Лампы\"</string>
     <string name="pulse_solid_dimen_category">Настройки сплошных линий</string>
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Ширина</string>
