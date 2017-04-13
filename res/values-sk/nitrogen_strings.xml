@@ -358,8 +358,8 @@
 
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">O Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse je výborný zvukový grafický ekvalizér zobrazený na navigačnom paneli, pri prehrávaní hudby. Pulse nefunguje u niektorých zdrojov zvuku pri počúvaní cez reproduktor zariadenia</string>
-    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse je výborný zvukový grafický ekvalizér zobrazený na navigačnom paneli pri prehrávaní hudby. Pulse nefunguje u niektorých zdrojov zvuku pri počúvaní hudby cez reproduktor zariadenia</string>
+    <string name="pulse_settings">Grafický ekvalizér Pulse</string>
     <string name="pulse_settings_summary">Grafický ekvalizér v navigačnej lište</string>
     <string name="fling_show_pulse_title">Zapnutie Pulse</string>
     <string name="fling_show_pulse_summary">Zapnúť audio vizualizáciu v navigačnej lište</string>
