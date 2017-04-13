@@ -359,7 +359,7 @@
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">O Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse je výborný zvukový grafický ekvalizér zobrazený v navigačním panelu při přehrávaní hudby. Pulse nefunguje u některých zdrojů zvuku při poslechu přes reproduktor zařízení</string>
-    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings">Grafický ekvalizér Pulse</string>
     <string name="pulse_settings_summary">Grafický ekvalizér v navigační liště</string>
     <string name="fling_show_pulse_title">Zapnutí Pulse</string>
     <string name="fling_show_pulse_summary">Zapnout audio vizualizaci v navigační liště</string>
@@ -457,7 +457,7 @@
     <string name="clock_date_left">Nalevo od hodin</string>
 
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Zobrazit menu Napájení na obrazovce uzamčení</string>
+    <string name="lockscreen_enable_power_menu_title">Zobrazit menu tlačítka Power na obrazovce uzamčení</string>
     <string name="lockscreen_enable_power_menu_summary">Tato volba zakáže menu Napájení jen na zabezpečené obrazovce uzamčení</string>
 
     <!-- Lockscreen weather -->
@@ -490,8 +490,8 @@
     <string name="weather_number_of_notifications_title">Počet oznámení</string>
 
     <!-- Disable QS on secure Lockscreen -->
-    <string name="lockscreen_qs_disabled_title">Na obrazovke uzamčení</string>
-    <string name="lockscreen_qs_disabled_summary">Vypnout dlaždice rychlých nastavení na obrazovke uzamčení</string>
+    <string name="lockscreen_qs_disabled_title">Na obrazovce uzamčení</string>
+    <string name="lockscreen_qs_disabled_summary">Vypnout dlaždice rychlých nastavení na obrazovce uzamčení</string>
 
     <!-- Allow fake signature checkbox in developer settings -->
     <string name="allow_signature_fake">Povolit falšování podpisu</string>
@@ -728,7 +728,7 @@
     <string name="fp_unlock_keystore_summary">Odemknutí zařízení po restartu bez hesla\nUpozornění: Použití na vlastní riziko!</string>
 
     <!-- Slim Recent panel -->
-    <string name="slim_recents_title">Menu nedávnych aplikací Slim</string>
+    <string name="slim_recents_title">Menu nedávných aplikací Slim</string>
     <string name="use_slim_recents_title">Nedávné aplikace Slim</string>
     <string name="use_slim_recents_summary">Zobrazit nabídku nedávných aplikací podle Slim</string>
     <string name="slim_recents_settings_title">Nastavení nedávných aplikací Slim</string>
