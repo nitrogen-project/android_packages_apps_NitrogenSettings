@@ -30,7 +30,7 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
         if (mVolumeKeyCursorControl != null) {
             mVolumeKeyCursorControl.setOnPreferenceChangeListener(this);
             int volumeRockerCursorControl = Settings.System.getInt(getContentResolver(),
-                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, 1);
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
             mVolumeKeyCursorControl.setValue(Integer.toString(volumeRockerCursorControl));
             mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
         }
