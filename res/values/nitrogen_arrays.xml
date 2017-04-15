@@ -559,6 +559,23 @@
         <item>4</item>
     </string-array>
 
+    <!-- Battery customizations -->
+    <string-array name="battery_tile_style_entries" translatable="false">
+        <item>@string/status_bar_battery_style_icon_portrait</item>
+        <item>@string/status_bar_battery_style_icon_landscape</item>
+        <item>@string/status_bar_battery_style_circle</item>
+        <item>@string/status_bar_battery_style_bigcircle</item>
+        <item>@string/status_bar_battery_style_circle_full</item>
+    </string-array>
+
+    <string-array name="battery_tile_style_values" translatable="false">
+        <item>0</item>
+        <item>5</item>
+        <item>2</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
     <string-array name="status_bar_battery_percentage_entries" translatable="false">
         <item>@string/status_bar_battery_percentage_default</item>
         <item>@string/status_bar_battery_percentage_text_inside</item>
