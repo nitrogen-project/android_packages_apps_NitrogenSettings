@@ -556,13 +556,6 @@
     <string name="immersive_recents_statusbar">Se stavovým řádkem</string>
     <string name="immersive_recents_navbar">S navigačním panelem</string>
 
-    <!-- Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Mezipaměť pro rolování</string>
-    <string name="pref_scrollingcache_force_enable">Vynuceně zapnuto</string>
-    <string name="pref_scrollingcache_default_enable">Předvoleně zapnuto</string>
-    <string name="pref_scrollingcache_default_disable">Předvoleně vypnuto</string>
-    <string name="pref_scrollingcache_force_disable">Vynuceně vypnuto</string>
-
     <!-- Volume key controls media stream -->
     <string name="volume_keys_control_media_stream_title">Nastavení médií</string>
     <string name="volume_keys_control_media_stream_summary">Tlačítka hlasitosti slouží pro nastavení hlasitosti multimédií</string>

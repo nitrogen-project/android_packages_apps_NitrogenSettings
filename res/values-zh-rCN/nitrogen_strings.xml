@@ -564,13 +564,6 @@
     <string name="immersive_recents_statusbar">仅状态栏</string>
     <string name="immersive_recents_navbar">仅导航栏</string>
 
-    <!-- Option to enable/disable scrolling cache -->
-    <string name="pref_scrollingcache_title">滚动缓存</string>
-    <string name="pref_scrollingcache_force_enable">强制启用</string>
-    <string name="pref_scrollingcache_default_enable">默认启用</string>
-    <string name="pref_scrollingcache_default_disable">默认禁用</string>
-    <string name="pref_scrollingcache_force_disable">强制禁用</string>
-
     <!-- Volume key controls media stream -->
     <string name="volume_keys_control_media_stream_title">音量键控制媒体音量</string>
     <string name="volume_keys_control_media_stream_summary">强制音量键控制媒体流</string>

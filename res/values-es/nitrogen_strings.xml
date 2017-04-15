@@ -565,13 +565,6 @@
     <string name="immersive_recents_statusbar">Solo barra de estado</string>
     <string name="immersive_recents_navbar">Solo barra de navegación</string>
 
-    <!-- Option to enable/disable scrolling cache -->
-    <string name="pref_scrollingcache_title">Scrolling cache</string>
-    <string name="pref_scrollingcache_force_enable">Forzar activo</string>
-    <string name="pref_scrollingcache_default_enable">Activado por defecto</string>
-    <string name="pref_scrollingcache_default_disable">Desactivado por defecto</string>
-    <string name="pref_scrollingcache_force_disable">Forzar desactivado</string>
-
     <!-- Volume key controls media stream -->
     <string name="volume_keys_control_media_stream_title">Controlar audio multimedia con teclas de volumen</string>
     <string name="volume_keys_control_media_stream_summary">Forzar a las teclas de volumen a controlar el contenido multimedia</string>

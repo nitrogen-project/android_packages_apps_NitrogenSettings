@@ -32,14 +32,9 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     private static final String KEY_LOCK_CLOCK = "lock_clock";
     private static final String KEY_LOCK_CLOCK_PACKAGE_NAME = "com.cyanogenmod.lockclock";
-    private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
-    private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
-    private static final String SCROLLINGCACHE_DEFAULT = "1";
     private static final String SCREENSHOT_TYPE = "screenshot_type";
 
-    private ListPreference mScrollingCachePref;
     private ListPreference mScreenshotType;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -52,12 +47,6 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             getPreferenceScreen().removePreference(findPreference(KEY_LOCK_CLOCK));
         }
 
-        mScrollingCachePref = (ListPreference) findPreference(SCROLLINGCACHE_PREF);
-        mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
-                SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
-        mScrollingCachePref.setSummary(mScrollingCachePref.getEntry());
-        mScrollingCachePref.setOnPreferenceChangeListener(this);
-
         mScreenshotType = (ListPreference) findPreference(SCREENSHOT_TYPE);
         int mScreenshotTypeValue = Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.SCREENSHOT_TYPE, 0);
@@ -68,17 +57,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        if (preference == mScrollingCachePref) {
-            if (objValue != null) {
-            String ScrollingCache = (String) objValue;
-            SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, ScrollingCache);
-            int ScrollingCacheIndex = mScrollingCachePref
-                    .findIndexOfValue(ScrollingCache);
-            mScrollingCachePref
-                    .setSummary(mScrollingCachePref.getEntries()[ScrollingCacheIndex]);
-            }
-            return true;
-        } else if  (preference == mScreenshotType) {
+        if  (preference == mScreenshotType) {
             int mScreenshotTypeValue = Integer.parseInt(((String) objValue).toString());
             mScreenshotType.setSummary(
                     mScreenshotType.getEntries()[mScreenshotTypeValue]);
@@ -87,6 +66,7 @@ public class MiscSettings extends SettingsPreferenceFragment implements
             mScreenshotType.setValue(String.valueOf(mScreenshotTypeValue));
             return true;
         }
+
         return false;
     }
 

@@ -509,12 +509,6 @@
   <string name="immersive_recents_fullscreen">Tela cheia</string>
   <string name="immersive_recents_statusbar">Apenas Barra de status</string>
   <string name="immersive_recents_navbar">Apenas Barra de navegação</string>
-  <!-- Option to enable/disable scrolling cache -->
-  <string name="pref_scrollingcache_title">Cache de rolagem</string>
-  <string name="pref_scrollingcache_force_enable">Forçar habilitação</string>
-  <string name="pref_scrollingcache_default_enable">Ativo por padrão</string>
-  <string name="pref_scrollingcache_default_disable">Desativado por padrão</string>
-  <string name="pref_scrollingcache_force_disable">Forçar desabilitação</string>
   <!-- Volume key controls media stream -->
   <string name="volume_keys_control_media_stream_title">Teclas de volume controlam o volume de mídia</string>
   <string name="volume_keys_control_media_stream_summary">Forçar as teclas de volume para controlar mídia</string>

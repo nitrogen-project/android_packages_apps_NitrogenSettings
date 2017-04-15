@@ -545,13 +545,6 @@
     <string name="immersive_recents_statusbar">Со строкой состояния</string>
     <string name="immersive_recents_navbar">С панелью навигации</string>
 
-    <!-- Scrolling Cache -->
-    <string name="pref_scrollingcache_title">Кэш прокрутки</string>
-    <string name="pref_scrollingcache_force_enable">Принудительно включить</string>
-    <string name="pref_scrollingcache_default_enable">Включить по умолчанию</string>
-    <string name="pref_scrollingcache_default_disable">Отключить по умолчанию</string>
-    <string name="pref_scrollingcache_force_disable">Принудительно отключить</string>
-
     <!-- Volume key controls media stream -->
     <string name="volume_keys_control_media_stream_title">Управление медиа</string>
     <string name="volume_keys_control_media_stream_summary">Кнопки громкости регулируют громкость мультимедиа</string>

@@ -47,13 +47,6 @@
             android:fragment="com.nitrogen.settings.fragments.ScreenStateToggles" />
 
         <ListPreference
-            android:key="pref_scrollingcache"
-            android:dialogTitle="@string/pref_scrollingcache_title"
-            android:title="@string/pref_scrollingcache_title"
-            android:entries="@array/entries_scrollingcache"
-            android:entryValues="@array/values_scrollingcache" />
-
-        <ListPreference
             android:entries="@array/screenshot_type_entries"
             android:entryValues="@array/screenshot_type_values"
             android:key="screenshot_type"
