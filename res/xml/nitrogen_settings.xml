@@ -50,7 +50,7 @@
             android:key="gestures_category"
             android:title="@string/gestures_title" 
             android:fragment="com.nitrogen.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
+            android:icon="@drawable/ic_settings_gesture"/>
 
         <!-- Lock Screen -->
         <PreferenceScreen
@@ -78,7 +78,7 @@
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.nitrogen.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
+            android:icon="@drawable/ic_settings_notification"/>
 
         <!-- Misc -->
         <PreferenceScreen
