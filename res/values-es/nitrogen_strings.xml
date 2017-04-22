@@ -32,7 +32,7 @@
     <string name="press_color_to_apply">Pulsa en un color para aplicar</string>
     <string name="hex">Hex:</string>
     <string name="hex_check_button_text">PREVISUALIZAR</string>
-    <string name="hex_reset_button_text">REINICIAR</string>
+    <string name="hex_reset_button_text">RESTABLECER</string>
     <string name="longpress_info">Pulsación larga en el cajón para guardar el color</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -41,7 +41,7 @@
 
     <!-- General strings -->
     <string name="ok">OK</string>
-    <string name="reset">Reiniciar</string>
+    <string name="reset">Restablecer</string>
     <string name="cancel">Cancelar</string>
     <string name="save">Guardar</string>
 
@@ -384,7 +384,10 @@
     <string name="pulse_legacy_mode_advanced_category">Ajustes del modo de bloques de desvanecimiento</string>
     <string name="pulse_custom_fudge_factor">Nivel de sanidad</string>
     <string name="lavamp_solid_speed_title">Velocidad de la lámpara de lava</string>
+    <string name="pulse_solid_units_count">Recuento de líneas</string>
+    <string name="pulse_solid_units_opacity">Opacidad de las líneas</string>
     <string name="pulse_solid_dimen_category">Ajustes del modo de líneas sólidas</string>
+    <string name="pulse_custom_buttons_opacity_title">Opacidad de los botones de la barra inteligente en Pulse</string>
 
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Ancho de la barra</string>
@@ -617,8 +620,8 @@
     <string name="hide_apps_from_recents_summary">Selecionar qué aplicaciones serán excluidas del panel de aplicaciones recientes</string>
 
     <!-- Media art -->
-    <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Activar media cover art en la pantalla de bloqueo</string>
+    <string name="media_art_title">Carátulas del reproductor</string>
+    <string name="media_art_summary">Activar carátulas del reproductor en la pantalla de bloqueo</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Información de carga del dispositivo</string>
@@ -647,7 +650,7 @@
 
     <!-- Battery customizations -->
     <string name="status_bar_battery_style_category">Batería</string>
-    <string name="status_bar_battery_style_title">Estilo del icono de batería</string>
+    <string name="status_bar_battery_style_title">Estilo del icono de batería en la barra de estado</string>
     <string name="status_bar_battery_style_icon_portrait">Vertical</string>
     <string name="status_bar_battery_style_icon_landscape">Horizontal</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
@@ -659,7 +662,7 @@
     <string name="status_bar_battery_percentage_default">Oculto</string>
     <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
     <string name="status_bar_battery_percentage_text_next">Al lado del icono</string>
-    <string name="status_bar_battery_style_tile_title">Estilo de icono personalizado en los ajustes rápidos</string>
+    <string name="battery_tile_style_title">Estilo de icono personalizado en los ajustes rápidos</string>
     <string name="status_bar_battery_style_tile_summary">Permite establecer el mismo estilo de icono elegido para la batería de la barra de estado</string>
     <string name="status_bar_charge_color_title">Color del icono de batería cuando se está cargando</string>
     <string name="force_charge_battery_text_title">Porcentaje al lado del icono cuando se está cargando</string>
