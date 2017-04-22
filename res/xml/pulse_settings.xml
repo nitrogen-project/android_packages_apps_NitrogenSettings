@@ -109,6 +109,14 @@
         android:title="@string/pulse_solid_dimen_category" >
 
         <com.nitrogen.settings.preferences.CustomSeekBarPreference
+            android:key="pulse_solid_units_count"
+            android:title="@string/pulse_solid_units_count"
+            android:max="128"
+            settings:interval="16"
+            settings:min="32"
+            android:dependency="pulse_2"/>
+
+        <com.nitrogen.settings.preferences.CustomSeekBarPreference
             android:key="pulse_solid_fudge_factor"
             android:title="@string/pulse_custom_fudge_factor"
             settings:max="7"
