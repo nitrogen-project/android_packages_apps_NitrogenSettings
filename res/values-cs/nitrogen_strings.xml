@@ -649,7 +649,7 @@
     <string name="status_bar_battery_percentage_default">Nezobrazovat (předvolené)</string>
     <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
     <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
-    <string name="status_bar_battery_style_tile_title">Dlaždice baterie</string>
+    <string name="battery_tile_style_title">Styl ikony baterie</string>	
     <string name="status_bar_battery_style_tile_summary">Zobrazit dlaždici baterie jako ve stavovém řádku</string>
     <string name="status_bar_charge_color_title">Barva ikony baterie při nabíjení</string>
     <string name="force_charge_battery_text_title">Stav nabití baterie</string>
