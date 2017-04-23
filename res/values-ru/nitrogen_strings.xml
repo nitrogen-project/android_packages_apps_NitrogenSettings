@@ -461,17 +461,6 @@
     <string name="weather_show_weather_summary">Включить отображение информации о погоде</string>
     <string name="weather_show_location_title">Показывать местоположение</string>
     <string name="weather_show_location_summary">Включить отображение местоположения</string>
-    <string name="weather_show_timestamp_title">Показывать время</string>
-    <string name="weather_show_timestamp_summary">Включить отображение времени</string>
-    <string name="weather_condition_icon_title">Стиль иконок</string>
-    <string name="weather_condition_icon_dlg_title">Выберете стиль иконок для отображения погоды</string>
-    <string name="weather_condition_icon_monochrome_title">Монохромные</string>
-    <string name="weather_condition_icon_colored_title">Цветные</string>
-    <string name="weather_condition_icon_vclouds_title">Объёмные</string>
-    <string name="icons_title">Иконки</string>
-    <string name="position_right_title">Справа</string>
-    <string name="position_centered_title">По центру</string>
-    <string name="hidden_title">Скрыть</string>
     <string name="weather_hide_panel_title">Скрыть панель погоды</string>
     <string name="weather_hide_panel_dlg_title">Выберите, когда панель погоды должна быть скрыта</string>
     <string name="weather_hide_panel_auto_title">Автоматически</string>
@@ -481,6 +470,8 @@
     <string name="weather_hide_panel_custom_summary">Панель погоды будет скрыта, когда количество уведомлений на экране блокировки будет равно (%s)</string>
     <string name="weather_hide_panel_never_summary">Панель погоды не будет скрыта</string>
     <string name="weather_number_of_notifications_title">Количество уведомлений</string>
+    <string name="weather_config_title">Настройки сервиса</string>
+    <string name="weather_icon_pack_title">Стиль иконок</string>
 
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">На экране блокировки</string>

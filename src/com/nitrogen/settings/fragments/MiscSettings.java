@@ -30,8 +30,6 @@ import com.android.settings.SettingsPreferenceFragment;
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    private static final String KEY_LOCK_CLOCK = "lock_clock";
-    private static final String KEY_LOCK_CLOCK_PACKAGE_NAME = "com.cyanogenmod.lockclock";
     private static final String SCREENSHOT_TYPE = "screenshot_type";
 
     private ListPreference mScreenshotType;
@@ -41,11 +39,6 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.nitrogen_settings_misc);
-
-        // mLockClock
-        if (!DevelopmentSettings.isPackageInstalled(getActivity(), KEY_LOCK_CLOCK_PACKAGE_NAME)) {
-            getPreferenceScreen().removePreference(findPreference(KEY_LOCK_CLOCK));
-        }
 
         mScreenshotType = (ListPreference) findPreference(SCREENSHOT_TYPE);
         int mScreenshotTypeValue = Settings.System.getInt(getActivity().getContentResolver(),

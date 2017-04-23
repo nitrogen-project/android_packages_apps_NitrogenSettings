@@ -19,18 +19,6 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
         <PreferenceScreen
-            android:key="lock_clock"
-            android:title="@string/lockclock_title"
-            android:summary="@string/lockclock_summary"
-            android:persistent="false">
-
-            <intent
-                android:action="android.intent.action.MAIN"
-                android:targetPackage="com.cyanogenmod.lockclock"
-                android:targetClass="com.cyanogenmod.lockclock.preference.Preferences" />
-        </PreferenceScreen>
-
-        <PreferenceScreen
              android:key="wakelock_blocker"
              android:fragment="com.nitrogen.settings.fragments.WakeLockBlocker"
              android:title="@string/wakelock_blocker_title" />
