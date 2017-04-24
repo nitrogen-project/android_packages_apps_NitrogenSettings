@@ -32,6 +32,7 @@
     <ListPreference
        android:key="weather_icon_pack"
        android:title="@string/weather_icon_pack_title"
+       android:dependency="lock_screen_show_weather"
        android:persistent="false" />
 
     <PreferenceCategory
@@ -60,6 +61,7 @@
     <PreferenceScreen
             android:key="omnijaws"
             android:title="@string/weather_config_title"
+            android:dependency="lock_screen_show_weather"
             android:persistent="false">
 
         <intent android:action="android.intent.action.MAIN"
