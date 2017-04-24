@@ -12,6 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
+	
     <string name="nitrogen_settings_title">Nastavení Nitrogenu</string>
 
     <!-- Categories -->
@@ -51,7 +52,6 @@
     <!-- Kill app long press back -->
     <string name="kill_app_longpress_back">Zavřít aplikaci</string>
     <string name="kill_app_longpress_back_summary">Zavření aplikace podržením tlačítka «Zpět»</string>
-
     <!-- long press back to kill configurable timeout -->
     <string name="kill_app_longpress_timeout_title">Časový limit dlouhého podržení tlačítka</string>
     <string name="timeout_3000">3 sekundy</string>
@@ -193,7 +193,6 @@
     <string name="custom_time">Vlastní</string>
     <string name="dialog_delete_title">Vymazat</string>
     <string name="dialog_delete_message">Vymazat vybranou položku?</string>
-
     <!-- Values for the notification light pulse spinners -->	
     <string name="pulse_length_always_on">Trvale zapnuto</string>
     <string name="pulse_length_very_short">Velmi krátce</string>
@@ -206,7 +205,6 @@
     <string name="pulse_speed_normal">Normálně</string>
     <string name="pulse_speed_slow">Pomalu</string>
     <string name="pulse_speed_very_slow">Velmi pomalu</string>
-	
     <!-- Battery light settings -->
     <string name="battery_light_title">Indikace baterie</string>
     <string name="battery_low_pulse_title">Blikat při nízké úrovni nabití</string>
@@ -218,7 +216,6 @@
     <string name="led_color_green">Zelená</string>
     <string name="led_color_red">Červená</string>
     <string name="led_color_yellow">Žlutá</string>
-	
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Světelná signalizace</string>
     <string name="notification_light_general_title">Všeobecné</string>
@@ -228,7 +225,6 @@
     <string name="notification_light_screen_on">LED i při zapnuté obrazovce</string>
     <string name="notification_light_zen_mode">LED i v režimu «Nerušit»</string>
     <string name="notification_light_use_multiple_leds">Vícero LED</string>
-
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Události LED</string>
     <string name="led_notification_text">LED zapnutá v nastaveních</string>
@@ -298,13 +294,11 @@
     <string name="icon_pack_picker_dialog_title">Sada ikon</string>
     <string name="image_exceeds_max_allowed_size">Obrázek nesmí být větší než 512x512</string>
     <string name="invalid_icon_from_uri">Nelze stáhnout obrázky od poskytovatele obsahu</string>
-
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Vyberte akci</string>
     <string name="action_entry_default_action">Výchozí nastavení</string>
     <string name="action_entry_select_app">Vyberte aplikaci</string>
     <string name="action_entry_custom_action">Vyberte uživatelskou akci</string>
-
     <!-- Fling -->
     <string name="fling_settings">Nastavení Fling</string>
     <string name="fling_interface">Fling</string>
@@ -355,7 +349,6 @@
     <string name="fling_longpress_timeout_label_right">Větší zpoždění</string>
     <string name="fling_longpress_title">Zpoždění při delším podržení</string>
     <string name="fling_longpress_summary">Zvýšit nebo snížit čas potřebný na dlouhý stisk</string>
-
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">O Pulse</string>
     <string name="pulse_help_policy_notice_summary">Pulse je výborný zvukový grafický ekvalizér zobrazený v navigačním panelu při přehrávaní hudby. Pulse nefunguje u některých zdrojů zvuku při poslechu přes reproduktor zařízení</string>
@@ -374,20 +367,20 @@
     <string name="pulse_custom_fudge_factor">Práh citlivosti</string>
     <string name="lavamp_solid_speed_title">Rychlost \"Lávové lampy\"</string>
     <string name="pulse_solid_dimen_category">Nastavení plných čar</string>
-
+    <string name="pulse_solid_units_opacity">Transparentnost plných čar</string>	
+    <string name="pulse_solid_dimen_category">Nastavení plných čar</string>
+	<string name="pulse_custom_buttons_opacity_title">Transparentnost tlačítek v režimu Pulse</string>	
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Šířka</string>
     <string name="pulse_custom_div">Interval</string>
     <string name="pulse_filled_block_size">Velikost bloků</string>
     <string name="pulse_empty_block_size">Vzdálenost mezi bloky</string>
-
     <!-- Navbar height -->
     <string name="navigation_bar_size_title">Velikost navigační lišty</string>
     <string name="portrait_title">Výška v režimu na výšku</string>
     <string name="land_vert_title">Šířka v režimu na šířku</string>
     <string name="land_hor_title">Výška v režimu na šířku</string>
     <string name="positive_done">Hotovo</string>
-
     <!-- SmartBar -->
     <string name="smartbar_category">Smartbar</string>
     <string name="smartbar_settings_title">Nastavení Smartbar</string>
@@ -468,17 +461,6 @@
     <string name="weather_show_weather_summary">Povolit zobrazení informací o počasí</string>
     <string name="weather_show_location_title">Zobrazit polohu</string>
     <string name="weather_show_location_summary">Povolit zobrazení polohy</string>
-    <string name="weather_show_timestamp_title">Zobrazit čas</string>
-    <string name="weather_show_timestamp_summary">Povolit zobrazení času</string>
-    <string name="weather_condition_icon_title">Styl ikon</string>
-    <string name="weather_condition_icon_dlg_title">Vyberte styl ikony pro zobrazení počasí</string>
-    <string name="weather_condition_icon_monochrome_title">Monochromatické</string>
-    <string name="weather_condition_icon_colored_title">Barevné</string>
-    <string name="weather_condition_icon_vclouds_title">Objemné</string>
-    <string name="icons_title">Ikony</string>
-    <string name="position_right_title">Vpravo</string>
-    <string name="position_centered_title">Uprostřed</string>
-    <string name="hidden_title">Skryté</string>
     <string name="weather_hide_panel_title">Skrýt panel počasí</string>
     <string name="weather_hide_panel_dlg_title">Vyberte, kdy bude panel počasí skrytý</string>
     <string name="weather_hide_panel_auto_title">Automaticky</string>
@@ -488,6 +470,8 @@
     <string name="weather_hide_panel_custom_summary">Panel počasí bude skrytý, pokud se počet oznámení na obrazovce uzamčení bude rovnat (%s)</string>
     <string name="weather_hide_panel_never_summary">Panel počasí nikdy nebude skrytý</string>
     <string name="weather_number_of_notifications_title">Počet oznámení</string>
+	<string name="weather_config_title">Nastavení služby</string>
+    <string name="weather_icon_pack_title">Styl ikon</string>	
 
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">Na obrazovce uzamčení</string>
@@ -533,7 +517,6 @@
 
     <!-- Power notification controls -->
     <string name="power_notification_title">Rozšířené možnosti oznámení</string>
-
     <!-- Volume down enter do not disturb -->
     <string name="volbtn_down_zen_title">Snížení hlasitosti pro \"režim Nerušit\"</string>
     <string name="volbtn_down_zen_summary">Zapnout režim \"Nerušit\" při snížení hlasitosti</string>
@@ -635,7 +618,7 @@
     <!--- Small tiles count -->
     <string name="sysui_qqs_count_title">Počet malých dlaždic</string>
 
-    <!-- Battery customizations -->
+    <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_category">Indikátor baterie</string>
     <string name="status_bar_battery_style_title">Vzhled ikony baterie</string>
     <string name="status_bar_battery_style_icon_portrait">Baterie na výšku</string>
@@ -650,7 +633,7 @@
     <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
     <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
     <string name="status_bar_battery_style_tile_title">Dlaždice baterie</string>
-    <string name="status_bar_battery_style_tile_summary">Zobrazit dlaždici baterie jako ve stavovém řádku</string>
+    <string name="battery_tile_style_title">Styl ikony baterie na panelu rychlých nastavení</string>
     <string name="status_bar_charge_color_title">Barva ikony baterie při nabíjení</string>
     <string name="force_charge_battery_text_title">Stav nabití baterie</string>
     <string name="force_charge_battery_text_summary_on">Zobrazit stav nabití baterie v procentech vedle ikony</string>
