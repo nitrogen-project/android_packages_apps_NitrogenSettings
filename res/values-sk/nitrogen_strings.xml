@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-	
+
     <string name="nitrogen_settings_title">Nastavenia Nitrogen</string>
 
     <!-- Categories -->
@@ -229,8 +229,8 @@
     <string name="led_notification_title">Udalosti LED</string>
     <string name="led_notification_text">LED zapnutá v nastaveniach</string>
     <string name="notification_light_no_apps_summary">Ak chcete povoliť správu aplikácií vrátane «%1$s», kliknite na «\u002b» v možnostiach menu.</string>
-    <string name="battery_light_settings">Indikácia batérie</string>
-    <string name="battery_light_enable">Zapnuté</string>
+    <string name="battery_light_settings">LED Indikácia batérie</string>
+    <string name="battery_light_enable">Zapnutá</string>
 
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Rýchly prístup</string>
@@ -282,7 +282,7 @@
     <!-- Navigation Bar -->
     <string name="navbar_interface_title">Rozhranie</string>
     <string name="navbar_size">Veľkosť navigačnej lišty</string>
-    <string name="navbar_mode">Štýl lišty</string>
+    <string name="navbar_mode">Typ lišty</string>
     <string name="navbar_visibility">Zapnúť navigačnú lištu</string>
     <string name="navigationbar_settings_title">Navigačná lišta</string>
     <string name="navigationbar_settings_summary">Prispôsobiť štýl a správanie lišty</string>
@@ -367,9 +367,9 @@
     <string name="pulse_custom_fudge_factor">Prah citlivosti</string>
     <string name="lavamp_solid_speed_title">Rýchlosť \"Lávovej lampy\"</string>
     <string name="pulse_solid_units_count">Počet plných čiar</string>
-    <string name="pulse_solid_units_opacity">Transparentnosť plných čiar</string>	
+    <string name="pulse_solid_units_opacity">Transparentnosť plných čiar</string>
     <string name="pulse_solid_dimen_category">Nastavenia plných čiar</string>
-	<string name="pulse_custom_buttons_opacity_title">Transparentnosť tlačidiel v režime Pulse</string>
+    <string name="pulse_custom_buttons_opacity_title">Transparentnosť tlačidiel v režime Pulse</string>
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Šírka</string>
     <string name="pulse_custom_div">Interval</string>
@@ -470,7 +470,7 @@
     <string name="weather_hide_panel_custom_summary">Panel počasia bude skrytý, keď sa počet oznámení na obrazovke uzamknutia bude rovnať (%s)</string>
     <string name="weather_hide_panel_never_summary">Panel počasia nikdy nebude skrytý</string>
     <string name="weather_number_of_notifications_title">Počet oznámení</string>
-	<string name="weather_config_title">Nastavenia služby</string>
+    <string name="weather_config_title">Nastavenia služby</string>
     <string name="weather_icon_pack_title">Štýl ikon</string>
 
     <!-- Disable QS on secure Lockscreen -->
@@ -540,7 +540,7 @@
     <string name="immersive_recents_navbar">S navigačným panelom</string>
 
     <!-- Volume key controls media stream -->
-    <string name="volume_keys_control_media_stream_title">Nastavenie médií</string>
+    <string name="volume_keys_control_media_stream_title">Nastavenie hlasitosti médií</string>
     <string name="volume_keys_control_media_stream_summary">Tlačidlá hlasitosti slúžia pre nastavenie hlasitosť multimédií</string>
 
     <!-- Heads up timeout -->
@@ -620,7 +620,7 @@
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_category">Indikátor batérie</string>
-    <string name="status_bar_battery_style_title">Vzhľad ikony batérie</string>
+    <string name="status_bar_battery_style_title">Zobrazenie ikony batérie v stavovom riadku</string>
     <string name="status_bar_battery_style_icon_portrait">Batéria na výšku</string>
     <string name="status_bar_battery_style_icon_landscape">Batéria na šírku</string>
     <string name="status_bar_battery_style_circle">Kruh</string>
@@ -628,12 +628,12 @@
     <string name="status_bar_battery_style_circle_full">Plný kruh</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Nezobrazovať ikonu</string>
-    <string name="status_bar_battery_percentage_title">Percentá batérie</string>
+    <string name="status_bar_battery_percentage_title">Zobrazenie percent batérie</string>
     <string name="status_bar_battery_percentage_default">Nezobrazovať (predvolené)</string>
     <string name="status_bar_battery_percentage_text_inside">Vo vnútri ikony</string>
     <string name="status_bar_battery_percentage_text_next">Vedľa ikony</string>
     <string name="status_bar_battery_style_tile_title">Dlaždica batérie</string>
-    <string name="battery_tile_style_title">Štýl ikony batérie na paneli rýchlych nastavení</string>	
+    <string name="battery_tile_style_title">Zobrazenie dlaždice batérie na paneli rýchl. nastavení</string>	
     <string name="status_bar_charge_color_title">Farba ikony batérie na nábíjaní</string>
     <string name="force_charge_battery_text_title">Stav batérie pri nabíjaní</string>
     <string name="force_charge_battery_text_summary_on">Zobraziť stav nabitia batérie v percentách vedľa ikony</string>
@@ -678,11 +678,11 @@
     <string name="screen_state_on_delay_summary">Odložiť akcie pri zapnutí obrazovky o zadaný počet sekúnd</string>
 
     <string name="dnd_when_call_title">Režim Nerušiť</string>
-    <string name="dnd_when_call_summary">Povoliť režim Nerušiť počas hovoru</string>	
-	
+    <string name="dnd_when_call_summary">Povoliť režim Nerušiť počas hovoru</string>
+
     <string name="smartbar_doubletap_sleep_title">Stavový riadok</string>
     <string name="smartbar_doubletap_sleep_summary">Dvojklik na prázdne miesto stavového riadku prepne zariadenie do režimu spánku</string>
-	
+
     <string name="one_handed_mode_title">Režim jednou rukou</string>
     <string name="one_handed_mode_summary">Zapnúť režim jednou rukou potiahnutím po stavovej lište</string>
 
