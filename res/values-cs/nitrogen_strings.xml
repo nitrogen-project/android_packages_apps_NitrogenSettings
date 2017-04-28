@@ -620,7 +620,7 @@
 
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_category">Indikátor baterie</string>
-    <string name="status_bar_battery_style_title">Vzhled ikony baterie</string>
+    <string name="status_bar_battery_style_title">Zobrazení ikony baterie na stavovém řádku</string>
     <string name="status_bar_battery_style_icon_portrait">Baterie na výšku</string>
     <string name="status_bar_battery_style_icon_landscape">Baterie na šířku</string>
     <string name="status_bar_battery_style_circle">Kruh</string>
@@ -633,7 +633,7 @@
     <string name="status_bar_battery_percentage_text_inside">Uvnitř ikony</string>
     <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
     <string name="status_bar_battery_style_tile_title">Dlaždice baterie</string>
-    <string name="battery_tile_style_title">Styl dlaždice baterie na panelu rychlých nastavení</string>
+    <string name="battery_tile_style_title">Zobrazení dlaždice baterie na panelu rychl. nastavení</string>
     <string name="status_bar_charge_color_title">Barva ikony baterie při nabíjení</string>
     <string name="force_charge_battery_text_title">Stav nabití baterie</string>
     <string name="force_charge_battery_text_summary_on">Zobrazit stav nabití baterie v procentech vedle ikony</string>
