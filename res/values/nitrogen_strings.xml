@@ -493,6 +493,19 @@
     <string name="weather_show_weather_summary">Enable to show weather information</string>
     <string name="weather_show_location_title">Show location</string>
     <string name="weather_show_location_summary">Enable to show the location</string>
+    <string name="weather_show_timestamp_title">Show timestamp</string>
+    <string name="weather_show_timestamp_summary">Enable to show the timestamp</string>
+    <string name="icons_title">Icons</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_condition_icon_title">Condition icon</string>
+    <string name="weather_condition_icon_dlg_title">Choose an icon for displaying the weather condition</string>
+    <string name="weather_condition_icon_monochrome_title">Monochrome</string>
+    <string name="weather_condition_icon_colored_title">Colored</string>
+    <string name="weather_condition_icon_vclouds_title">VClouds</string>
+    <string name="weather_config_title">Service settings</string>
+    <string name="position_right_title">Right</string>
+    <string name="position_centered_title">Centered</string>
+    <string name="hidden_title">Hidden</string>
     <string name="weather_hide_panel_title">Hide weather panel</string>
     <string name="weather_hide_panel_dlg_title">Choose when the weather panel should be hidden</string>
     <string name="weather_hide_panel_auto_title">Auto</string>
@@ -502,8 +515,6 @@
     <string name="weather_hide_panel_custom_summary">The weather panel will be hidden when the visible notifications will reach the chosen number of notifications</string>
     <string name="weather_hide_panel_never_summary">The weather panel won\`t be hidden</string>
     <string name="weather_number_of_notifications_title">Number of notifications</string>
-    <string name="weather_config_title">Service settings</string>
-    <string name="weather_icon_pack_title">Condition icon pack</string>
 
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">No QS when secured</string>
