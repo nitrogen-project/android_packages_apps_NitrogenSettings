@@ -482,17 +482,6 @@
     <string name="weather_show_weather_summary">Habilitar para mostrar información meteorológica</string>
     <string name="weather_show_location_title">Mostrar localización</string>
     <string name="weather_show_location_summary">Habilitar para mostrar la ubicación</string>
-    <string name="weather_show_timestamp_title">Mostrar marca de tiempo</string>
-    <string name="weather_show_timestamp_summary">Habilitar para mostrar la marca de tiempo</string>
-    <string name="weather_condition_icon_title">Icono del tiempo</string>
-    <string name="weather_condition_icon_dlg_title">Elegir un icono para mostrar el tiempo</string>
-    <string name="weather_condition_icon_monochrome_title">Monocromo</string>
-    <string name="weather_condition_icon_colored_title">Coloreado</string>
-    <string name="weather_condition_icon_vclouds_title">VClouds</string>
-    <string name="icons_title">Iconos</string>
-    <string name="position_right_title">Derecha</string>
-    <string name="position_centered_title">Centrado</string>
-    <string name="hidden_title">Oculto</string>
     <string name="weather_hide_panel_title">Ocultar panel del tiempo</string>
     <string name="weather_hide_panel_dlg_title">Elegir cuando el panel del tiempo debería estar oculto</string>
     <string name="weather_hide_panel_auto_title">Automático</string>
@@ -502,7 +491,6 @@
     <string name="weather_hide_panel_custom_summary">El panel del tiempo se oculta cuando las notificaciones visibles lleguen al número elegido de notificaciones</string>
     <string name="weather_hide_panel_never_summary">El panel del tiempo no estará oculto</string>
     <string name="weather_number_of_notifications_title">Número de notificaciones</string>
-
 
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">Desactivar Ajustes Rápidos</string>

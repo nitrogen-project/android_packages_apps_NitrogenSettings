@@ -479,17 +479,6 @@
     <string name="weather_show_weather_summary">启用显示天气信息</string>
     <string name="weather_show_location_title">显示位置</string>
     <string name="weather_show_location_summary">启用显示位置</string>
-    <string name="weather_show_timestamp_title">显示更新时间</string>
-    <string name="weather_show_timestamp_summary">启用显示更新时间</string>
-    <string name="weather_condition_icon_title">图标集</string>
-    <string name="weather_condition_icon_dlg_title">选择一个图标显示天气状况</string>
-    <string name="weather_condition_icon_monochrome_title">单色</string>
-    <string name="weather_condition_icon_colored_title">彩色</string>
-    <string name="weather_condition_icon_vclouds_title">VClouds</string>
-    <string name="icons_title">Icons</string>
-    <string name="position_right_title">右侧</string>
-    <string name="position_centered_title">居中</string>
-    <string name="hidden_title">隐藏</string>
     <string name="weather_hide_panel_title">隐藏天气面板</string>
     <string name="weather_hide_panel_dlg_title">选择以隐藏天气面板</string>
     <string name="weather_hide_panel_auto_title">自动</string>
