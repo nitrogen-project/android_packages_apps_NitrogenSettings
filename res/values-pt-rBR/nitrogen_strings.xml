@@ -580,7 +580,6 @@
   <string name="status_bar_battery_percentage_text_next">Ao lado do ícone</string>
   <string name="status_bar_battery_style_tile_title">Estilo personalizado da bateria nas configurações rápidas</string>
   <string name="status_bar_battery_style_tile_summary">Permitem definir o mesmo estilo de ícone escolhido para a barra de status da bateria</string>
-  <string name="status_bar_charge_color_title">Cor do ícone da bateria durante o carregamento</string>
   <string name="force_charge_battery_text_title">Porcentagem de carga da bateria</string>
   <string name="force_charge_battery_text_summary_on">Mostra a porcentagem da bateria fora o ícone durante o carregamento</string>
   <string name="force_charge_battery_text_summary_off">Mostra a porcentagem da bateria fora o ícone durante o carregamento</string>

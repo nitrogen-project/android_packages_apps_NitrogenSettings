@@ -636,7 +636,6 @@
     <string name="status_bar_battery_percentage_text_next">Рядом со значком</string>
     <string name="status_bar_battery_style_tile_title">Плитка батареи</string>
     <string name="battery_tile_style_title">Стиль значка батареи в панели быстрых настроек</string>
-    <string name="status_bar_charge_color_title">Цвет иконки батареи на зарядке</string>
     <string name="force_charge_battery_text_title">Состояние зарядки батареи</string>
     <string name="force_charge_battery_text_summary_on">Показывать состояние зарядки батареи вне значка</string>
     <string name="force_charge_battery_text_summary_off">Показывать состояние зарядки батареи в значке</string>

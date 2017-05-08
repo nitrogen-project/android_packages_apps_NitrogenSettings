@@ -654,7 +654,6 @@
     <string name="status_bar_battery_percentage_text_next">图标旁</string>
     <string name="status_bar_battery_style_tile_title">自定义电池磁贴风格</string>
     <string name="status_bar_battery_style_tile_summary">允许为状态栏的电池图标设定相同的图标样式</string>
-    <string name="status_bar_charge_color_title">设置电池图标充电颜色</string>
     <string name="force_charge_battery_text_title">电池图标充电百分比</string>
     <string name="force_charge_battery_text_summary_on">充电时百分比显示在电池图标外</string>
     <string name="force_charge_battery_text_summary_off">充电时百分比显示在电池图标内</string>

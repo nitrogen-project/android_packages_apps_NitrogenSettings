@@ -634,7 +634,6 @@
     <string name="status_bar_battery_percentage_text_next">Vedle ikony</string>
     <string name="status_bar_battery_style_tile_title">Dlaždice baterie</string>
     <string name="battery_tile_style_title">Dlaždice baterie na panelu rychlých nastavení</string>
-    <string name="status_bar_charge_color_title">Barva ikony baterie při nabíjení</string>
     <string name="force_charge_battery_text_title">Stav nabití baterie</string>
     <string name="force_charge_battery_text_summary_on">Zobrazit stav nabití baterie v procentech vedle ikony</string>
     <string name="force_charge_battery_text_summary_off">Zobrazit stav nabití baterie v procentech uvnitř ikony</string>

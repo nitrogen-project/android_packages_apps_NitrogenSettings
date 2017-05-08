@@ -665,7 +665,6 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
     <string name="battery_tile_style_title">Battery tile style</string>
     <string name="status_bar_battery_style_tile_summary">Allow to set the same icon style chosen for the statusbar battery</string>
-    <string name="status_bar_charge_color_title">Set statusbar battery icon color when charging</string>
     <string name="force_charge_battery_text_title">Show percentage near battery when charging</string>
     <string name="force_charge_battery_text_summary_on">Show the battery percentage outside the icon when charging</string>
     <string name="force_charge_battery_text_summary_off">Show the battery percentage inside the icon when charging</string>
