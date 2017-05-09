@@ -322,8 +322,10 @@
     <string name="fling_long_left_press">Длительное нажатие слева</string>
     <string name="long_swipe_portrait_title">Портретная</string>
     <string name="long_swipe_landscape_title">Альбомная</string>
-    <string name="landscape_right_swipe_title">Свайп вправо</string>
-    <string name="landscape_left_swipe_title">Свайп влево</string>
+    <string name="portrait_right_swipe_title">Свайп с правой стороны в портретном режиме</string>
+    <string name="portrait_left_swipe_title">Свайп с левой стороны в портретном режиме</string>
+    <string name="landscape_right_swipe_title">Свайп с правой стороны в ландшафтном режиме</string>
+    <string name="landscape_left_swipe_title">Свайп с левой стороны в ландшафтном режиме</string>
     <string name="vertical_up_swipe_title">Свайп вверх</string>
     <string name="vertical_down_swipe_title">Свайп вниз</string>
     <string name="long_swipe_reset">Сброс</string>
@@ -333,7 +335,7 @@
     <string name="fling_trails_enable_title">Включить жесты пера</string>
     <string name="fling_trails_enable_summary">Показать след от жестов свайпов</string>
     <string name="fling_trails_color_title">Цвет следа</string>
-    <string name="fling_trails_width_title">Trail width</string>
+    <string name="fling_trails_width_title">Ширина следа</string>
     <string name="fling_appearance">Вид</string>
     <string name="fling_show_logo_title">Показывать логотип Fling</string>
     <string name="fling_animate_logo_title">Анимация логотипа</string>
