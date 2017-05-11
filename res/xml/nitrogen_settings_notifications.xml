@@ -57,4 +57,24 @@
              android:title="@string/dnd_when_call_title"
              android:summary="@string/dnd_when_call_summary"
              android:defaultValue="true" />
+
+        <PreferenceCategory
+            android:key="incall_vib_options"
+            android:title="@string/incall_vibration_category" >
+
+            <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+                android:key="vibrate_on_connect"
+                android:title="@string/incall_vibrate_connect_title"
+                android:defaultValue="false" />
+
+            <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+                android:key="vibrate_on_callwaiting"
+                android:title="@string/incall_vibrate_call_wait_title"
+                android:defaultValue="false" />
+
+            <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+                android:key="vibrate_on_disconnect"
+                android:title="@string/incall_vibrate_disconnect_title"
+                android:defaultValue="false" />
+    </PreferenceCategory>
 </PreferenceScreen>

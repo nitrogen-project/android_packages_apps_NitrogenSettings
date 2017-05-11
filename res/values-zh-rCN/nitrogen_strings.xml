@@ -755,4 +755,10 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">显示在左侧边缘</string>
     <string name="recent_panel_lefty_mode_summary">在屏幕左侧边缘显示最近任务</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通话震动选项</string>
+    <string name="incall_vibrate_connect_title">接通时震动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时震动</string>
+    <string name="incall_vibrate_disconnect_title">通话断开时震动提醒</string>
 </resources>
