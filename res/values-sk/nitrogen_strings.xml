@@ -735,4 +735,10 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Nedávne aplikácie vľavo</string>
     <string name="recent_panel_lefty_mode_summary">Zobraziť panel nedávnych aplikácii vľavo</string>
+     
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Možnosti vibrácií pri hovore</string>
+    <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
+    <string name="incall_vibrate_call_wait_title">Vibrovať pri čakaní</string>
+    <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
 </resources>
