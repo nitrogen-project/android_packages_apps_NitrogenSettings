@@ -753,4 +753,10 @@
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">Mostrar en el borde izquierdo</string>
     <string name="recent_panel_lefty_mode_summary">Mostrar el panel de aplicaciones recientes en el borde izquierdo</string>
+     
+      <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Ajustes de vibración en llamadas</string>
+    <string name="incall_vibrate_connect_title">Vibrar al contestar</string>
+    <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
+    <string name="incall_vibrate_disconnect_title">Vibrar al colgar</string>
 </resources>
