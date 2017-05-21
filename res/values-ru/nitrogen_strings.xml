@@ -743,4 +743,8 @@
     <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
+
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Кнопка "Домой" при звонке</string>
+    <string name="allow_incall_home_summary">Разрешить использование кнопки "Домой" при входящем звонке</string>
 </resources>
