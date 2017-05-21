@@ -741,4 +741,8 @@
     <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
     <string name="incall_vibrate_call_wait_title">Vibrovať pri čakaní</string>
     <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
+     
+     <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Tlačidlo \"Domov\" pri zvonení</string>
+    <string name="allow_incall_home_summary">Umožniť použitie tlačidla \"Domov\" pri prichádzajúcom hovore</string>
 </resources>

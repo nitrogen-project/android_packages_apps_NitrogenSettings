@@ -62,7 +62,7 @@
     <string name="timeout_350">0,35 sekundy</string>
 
     <!-- Hardware keys -->
-    <string name="hardware_keys_home_key_title">Tlačítko \"Domov\"</string>
+    <string name="hardware_keys_home_key_title">Tlačítko \"Domů\"</string>
     <string name="hardware_keys_menu_key_title">Tlačítko \"Menu\"</string>
     <string name="hardware_keys_assist_key_title">Tlačítko \"Hledat\"</string>
     <string name="hardware_keys_appswitch_key_title">Tlačítko \"Nedávné aplikace\"</string>
@@ -303,7 +303,7 @@
     <string name="fling_settings">Nastavení Fling</string>
     <string name="fling_interface">Fling</string>
     <string name="fling_enable_title">Zapnout Fling</string>
-    <string name="fling_back_home_policy">\"Zpět\" a \"Domov\" musí být vždy nastaveny. Pokud chcete změnit nastavení \"Zpět\" nebo \"Domov\", nastavte nejdřív nové přiřazení</string>
+    <string name="fling_back_home_policy">\"Zpět\" a \"Domů\" musí být vždy nastaveny. Pokud chcete změnit nastavení \"Zpět\" nebo \"Domů\", nastavte nejdřív nové přiřazení</string>
     <string name="fling_split_bar_policy">Pokud je přiřazena akce jen vpravo nebo vlevo, vztahuje se na celý panel</string>
     <string name="fling_def_summary">Nejsou nastavené žádné akce</string>
     <string name="fling_swipe_actions">Gesta posunu prstu</string>
@@ -396,8 +396,8 @@
     <string name="smartbar_button_animation_spring">Odpružení</string>
     <string name="smartbar_button_animation_flip">Přetočení</string>
     <string name="smartbar_button_animation_pixel">Pixel (všechny tlačítka)</string>
-    <string name="smartbar_button_animation_pixel_home">Pixel (tlačítko Domov)</string>
-    <string name="smartbar_button_animation_pixel_home_ripple">Pixel (tlačítko Domov) a Zavlnění</string>
+    <string name="smartbar_button_animation_pixel_home">Pixel (tlačítko Domů)</string>
+    <string name="smartbar_button_animation_pixel_home_ripple">Pixel (tlačítko Domů) a Zavlnění</string>
     <string name="smartbar_factory_reset_title">Reset na předvolené nastavení</string>
     <string name="smartbar_factory_reset_confirm">Jste si jisti, že chcete obnovit Smartbar na předvolené nastavení?</string>
     <string name="smartbar_ime_action_title">Nastavení metody vstupu</string>
@@ -741,4 +741,8 @@
     <string name="incall_vibrate_connect_title">Vibrovat při připojení</string>
     <string name="incall_vibrate_call_wait_title">Vibrovat při čekání</string>
     <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
+     
+    <!-- Incall Home button behavior--> 
+    <string name="allow_incall_home_title">Tlačítko \"Domů\" při zvonění</string>
+    <string name="allow_incall_home_summary">Umožnit použití tlačítka \"Domů\" při příchozím hovoru</string>
 </resources>

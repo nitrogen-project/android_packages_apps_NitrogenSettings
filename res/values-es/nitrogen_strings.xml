@@ -754,9 +754,13 @@
     <string name="recent_panel_lefty_mode_title">Mostrar en el borde izquierdo</string>
     <string name="recent_panel_lefty_mode_summary">Mostrar el panel de aplicaciones recientes en el borde izquierdo</string>
      
-      <!-- Incall vibrate options -->
+    <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Ajustes de vibración en llamadas</string>
     <string name="incall_vibrate_connect_title">Vibrar al contestar</string>
     <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar al colgar</string>
+     
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Usar Botón de Inicio cuando llaman</string>
+    <string name="allow_incall_home_summary">Permite usar el Botón de Inicio cuando están llamando</string>
 </resources>
