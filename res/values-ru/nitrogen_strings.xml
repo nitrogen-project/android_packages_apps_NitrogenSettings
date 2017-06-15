@@ -90,4 +90,8 @@
     <string name="hardware_keys_enable_title">Включить</string>
     <string name="hardware_keys_wake_title">Пробудить устройство</string>
     <string name="hardware_keys_disable_title">Отключить аппаратные кнопки</string>
+
+    <!-- ANBI -->
+    <string name="anbi_title">Случайное нажатие</string>
+    <string name="anbi_summary">Отключать сенсорные клавиши при одновременном использовании с экраном</string>
 </resources>
