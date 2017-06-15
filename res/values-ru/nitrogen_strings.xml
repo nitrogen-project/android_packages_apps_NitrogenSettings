@@ -529,4 +529,8 @@
     <string name="smartbar_longpress_delay_normal">Нормально</string>
     <string name="smartbar_longpress_delay_long">Длительно</string>
     <string name="smartbar_custom_icon_size_title">Масштабирование значков</string>
+
+    <!-- ANBI -->
+    <string name="anbi_title">Случайное нажатие</string>
+    <string name="anbi_summary">Отключать сенсорные клавиши при одновременном использовании с экраном</string>
 </resources>
