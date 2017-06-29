@@ -744,4 +744,7 @@
     <!-- Incall Home button behavior--> 
     <string name="allow_incall_home_title">Tlačítko \"Domů\" při zvonění</string>
     <string name="allow_incall_home_summary">Umožnit použití tlačítka \"Domů\" při příchozím hovoru</string>
+    
+    <string name="button_backlight_on_touch_only_title">Podsvícení pouze při dotyku</string>
+    <string name="button_backlight_on_touch_only_summary">Zapnout podsvícení tlačítek s časovým limitem pouze při dotyku na tlačítko</string>
 </resources>
