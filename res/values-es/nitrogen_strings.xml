@@ -762,4 +762,7 @@
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Usar Botón de Inicio cuando llaman</string>
     <string name="allow_incall_home_summary">Permite usar el Botón de Inicio cuando están llamando</string>
+     
+     <string name="button_backlight_on_touch_only_title">Luces de botones capacitivos</string>
+     <string name="button_backlight_on_touch_only_summary">Encender la luz de los botones capacitivos sólo cuando éstos son pulsados</string>
 </resources>
