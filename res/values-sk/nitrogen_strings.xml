@@ -113,7 +113,7 @@
     <string name="enable_mtp_dirtyhack_summary">Pri pripojení telefónu k PC zapnúť režim MTP namiesto režimu nabíjanie</string>
 
     <!-- Heads up -->
-    <string name="heads_up_notifications">Vyskakujúce oznámenia</string>
+    <string name="heads_up_notifications">Vyskakujúce upozornenia</string>
     <string name="summary_heads_up_enabled">Zapnuté</string>
     <string name="summary_heads_up_disabled">Vypnuté</string>
     <string name="add_heads_up_package">Pridať aplikáciu</string>
@@ -206,10 +206,10 @@
     <string name="pulse_speed_slow">Pomaly</string>
     <string name="pulse_speed_very_slow">Velmi pomaly</string>
     <!-- Battery light settings -->
-    <string name="battery_light_title">LED Indikácia batérie</string>
+    <string name="battery_light_title">LED signalizácia batérie</string>
     <string name="battery_low_pulse_title">Blikať pri nízkej úrovni nabitia</string>
     <string name="battery_light_list_title">Farby</string>
-    <string name="battery_light_low_color_title">Vybitá batéria</string>
+    <string name="battery_light_low_color_title">Slabá batéria</string>
     <string name="battery_light_medium_color_title">Nabíjanie</string>
     <string name="battery_light_full_color_title">Nabitá (90%)</string>
     <string name="battery_light_really_full_color_title">Nabitá (100%)</string>
@@ -220,10 +220,10 @@
     <string name="notification_light_title">Nastavenia LED upozornení</string>
     <string name="notification_light_general_title">Všeobecné</string>
     <string name="notification_light_applist_title">Aplikácie</string>
-    <string name="notification_light_use_custom">Vlastné nastavenia</string>
+    <string name="notification_light_use_custom">Vlastné nastavenia aplikácií</string>
     <string name="notification_light_default_value">Predvolené</string>
     <string name="notification_light_screen_on">LED aj pri zapnutej obrazovke</string>
-    <string name="notification_light_zen_mode">LED aj v režime «Nerušiť»</string>
+    <string name="notification_light_zen_mode">LED aj v režime Nerušiť</string>
     <string name="notification_light_use_multiple_leds">Viaceré LEDs</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Udalosti LED</string>
@@ -516,7 +516,7 @@
     <string name="show_carrier_enabled">Na obrazovke uzamknutia aj v stavovom riadku</string>
 
     <!-- Power notification controls -->
-    <string name="power_notification_title">Rozšírené možnosti oznámení</string>
+    <string name="power_notification_title">Rozšírené možnosti upozornení</string>
     <!-- Volume down enter do not disturb -->
     <string name="volbtn_down_zen_title">Zníženie hlasitosti pre \"režim Nerušiť\"</string>
     <string name="volbtn_down_zen_summary">Zapnúť režim \"Nerušiť\" pri znížení hlasitosti</string>
