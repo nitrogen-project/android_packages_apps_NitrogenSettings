@@ -295,7 +295,7 @@
     <string name="navigation_bar_left_title">左手模式</string>
     <string name="navigation_bar_left_summary">横屏时在屏幕左侧显示虚拟键</string>
     <string name="info_pref_note_title">备注</string>
-    <string name="smartbar_interface">SmartBar</string>
+    <string name="smartbar_interface">Smart Bar</string>
     <string name="icon_pack_picker_dialog_title">图标包</string>
     <string name="image_exceeds_max_allowed_size">图片分辨率不得超过512x512</string>
     <string name="invalid_icon_from_uri">无法从内容提供器中加载图像</string>
@@ -403,8 +403,8 @@
     <string name="positive_done">完成</string>
 
     <!-- SmartBar -->
-    <string name="smartbar_category">Smartbar</string>
-    <string name="smartbar_settings_title">Smartbar 设置</string>
+    <string name="smartbar_category">Smart Bar</string>
+    <string name="smartbar_settings_title">Smart Bar 设置</string>
     <string name="smartbar_editor_title">切换按钮编辑器</string>
     <string name="smartbar_editor_summary">按住按钮并拖动以更改位置. 长按以显示编辑菜单. 虽然菜单会显示但按钮的位置可能会改变.</string>
     <string name="smartbar_context_menu_position_title">上下文按钮布局位置</string>
@@ -420,7 +420,7 @@
     <string name="smartbar_button_animation_pixel_home">Pixel (仅主页键)</string>
     <string name="smartbar_button_animation_pixel_home_ripple">Pixel (仅主屏键)和波纹</string>
     <string name="smartbar_factory_reset_title">恢复默认设置</string>
-    <string name="smartbar_factory_reset_confirm">你确定要重置 Smartbar 为原有设置？</string>
+    <string name="smartbar_factory_reset_confirm">你确定要重置 Smart Bar 为默认设置？</string>
     <string name="smartbar_ime_action_title">输入法和媒体行为</string>
     <string name="smartbar_ime_action_summary">设置在虚拟键盘显示或者播放音乐时所显示的按键</string>
     <string name="smartbar_ime_action_none">无</string>
@@ -428,13 +428,13 @@
     <string name="smartbar_ime_action_switcher">键盘切换器</string>
     <string name="smartbar_backup_current_config_title">保存配置文件</string>
     <string name="smartbar_restore_config_title">恢复配置文件</string>
-    <string name="smartbar_config_name_edit_dialog_title">Smartbar 配置文件名称</string>
+    <string name="smartbar_config_name_edit_dialog_title">Smart Bar 配置文件名称</string>
     <string name="smartbar_config_name_edit_dialog_message">请输入名称或留空</string>
-    <string name="smartbar_config_dialog_title">Smartbar 配置文件</string>
-    <string name="smartbar_config_backup_success_toast">Smartbar 配置文件已保存成功</string>
-    <string name="smartbar_config_restore_success_toast">Smartbar 配置文件已成功恢复</string>
-    <string name="smartbar_config_backup_error_toast">在保存 Smartbar 配置文件时出错</string>
-    <string name="smartbar_config_restore_error_toast">在恢复 Smartbar 配置文件时出错</string>
+    <string name="smartbar_config_dialog_title">Smart Bar 配置文件</string>
+    <string name="smartbar_config_backup_success_toast">Smart Bar 配置文件已保存成功</string>
+    <string name="smartbar_config_restore_success_toast">Smart Bar 配置文件已成功恢复</string>
+    <string name="smartbar_config_backup_error_toast">在保存 Smart Bar 配置文件时出错</string>
+    <string name="smartbar_config_restore_error_toast">在恢复 Smart Bar 配置文件时出错</string>
     <string name="navbar_buttons_alpha_title">按钮透明度</string>
 
     <!-- statusbar notification count -->
@@ -530,7 +530,7 @@
     <string name="custom_carrier_label_explain">请输入一个新的标签，留空将恢复至默认的运营商标签.</string>
     <string name="custom_carrier_label_notset">没有设置自定义运营商标签</string>
     <string name="show_carrier_title">运营商标签</string>
-    <string name="show_carrier_disabled">禁用</string>
+    <string name="show_carrier_disabled">未启用</string>
     <string name="show_carrier_keyguard">仅在锁屏界面时显示</string>
     <string name="show_carrier_statusbar">仅在状态栏显示</string>
     <string name="show_carrier_enabled">锁屏界面 &amp; 状态栏</string>
@@ -584,7 +584,7 @@
     <string name="heads_up_snooze_20min">20 分钟</string>
 
     <!-- Optional screenshot type -->
-    <string name="screenshot_type_title">截屏类型</string>
+    <string name="screenshot_type_title">屏幕截图类型</string>
     <string name="screenshot_type_fullscreen">全屏截图</string>
     <string name="screenshot_type_partial">拖动选定屏幕截图的区域</string>
 
@@ -683,19 +683,19 @@
     <string name="screen_state_toggles_summary">@null</string>
     <string name="screen_state_toggles_title">暂停动作</string>
     <string name="screen_state_toggles_enable_title">启用</string>
-    <string name="screen_state_toggles_enable_summary">屏幕关闭后执行以下动作，开启屏幕后恢复原状态。</string>
-    <string name="screen_state_toggles_mobile_title">移动数据</string>
-    <string name="screen_state_toggles_location_title">位置信息</string>
-    <string name="screen_state_toggles_twog">切换到2G</string>
-    <string name="screen_state_toggles_twog_summary">屏幕关闭后将切换至2G网络</string>
-    <string name="screen_state_toggles_gps">禁用GPS</string>
-    <string name="screen_state_toggles_gps_summary">屏幕关闭后GPS定位服务将禁用</string>
+    <string name="screen_state_toggles_enable_summary">操作将在屏幕关闭时执行。屏幕上的当前状态将会被还原。</string>
+    <string name="screen_state_toggles_mobile_title">移动网络</string>
+    <string name="screen_state_toggles_location_title">位置</string>
+    <string name="screen_state_toggles_twog">切换到 2G</string>
+    <string name="screen_state_toggles_twog_summary">网络将在屏幕关闭时切换至 2G</string>
+    <string name="screen_state_toggles_gps">禁用 GPS</string>
+    <string name="screen_state_toggles_gps_summary">GPS定位服务将在屏幕关闭后禁用</string>
     <string name="screen_state_toggles_mobile_data">禁用移动数据</string>
-    <string name="screen_state_toggles_mobile_data_summary">屏幕关闭后移动数据将禁用</string>
-    <string name="screen_state_off_delay_title">屏幕关闭动作延迟</string>
-    <string name="screen_state_off_delay_summary">在屏幕关闭后执行操作之前等待的秒数</string>
-    <string name="screen_state_on_delay_title">屏幕开启恢复延迟</string>
-    <string name="screen_state_on_delay_summary">在屏幕开启后恢复操作之前等待的秒数</string>
+    <string name="screen_state_toggles_mobile_data_summary">移动数据将在屏幕关闭后禁用</string>
+    <string name="screen_state_off_delay_title">屏幕关闭操作延迟</string>
+    <string name="screen_state_off_delay_summary">在屏幕关闭后执行操作前等待的秒数</string>
+    <string name="screen_state_on_delay_title">屏幕点亮操作延迟</string>
+    <string name="screen_state_on_delay_summary">在屏幕点亮后执行操作前等待的秒数</string>
 
     <string name="dnd_when_call_title">通话中请勿打扰</string>
     <string name="dnd_when_call_summary">自动在通话中启用请勿打扰</string>
@@ -723,7 +723,7 @@
     <string name="fp_unlock_keystore_title">指纹解锁</string>
     <string name="fp_unlock_keystore_summary">当设备重启后不需验证密码就可使用指纹解锁\n注意: 需要注意风险！</string>
 
-<!-- Slim Recent panel -->
+    <!-- Slim Recent panel -->
     <string name="slim_recents_title">Slim最近任务</string>
     <string name="use_slim_recents_title">使用Slim最近任务</string>
     <string name="use_slim_recents_summary">使用Slim最近任务而不是默认近期应用视图</string>
@@ -737,7 +737,7 @@
     <string name="recent_panel_expanded_mode_summary">最近任务扩展预览模式</string>
     <string name="recent_panel_expanded_mode_auto">自动(默认)</string>
     <string name="recent_panel_expanded_mode_always">始终</string>
-    <string name="recent_panel_expanded_mode_never">总不</string>
+    <string name="recent_panel_expanded_mode_never">从不</string>
     <string name="recent_panel_show_topmost_title">显示前台任务</string>
     <string name="recent_panel_show_topmost_summary">在最近任务列表中不排除前台应用</string>
     <string name="recent_panel_bg_color_title">面板背景颜色</string>
@@ -753,11 +753,18 @@
 
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">显示在左侧边缘</string>
-    <string name="recent_panel_lefty_mode_summary">在屏幕左侧边缘显示最近任务</string>
+    <string name="recent_panel_lefty_mode_summary">在左侧边缘显示最近任务</string>
 
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">通话震动选项</string>
-    <string name="incall_vibrate_connect_title">接通时震动</string>
-    <string name="incall_vibrate_call_wait_title">呼叫等待时震动</string>
-    <string name="incall_vibrate_disconnect_title">通话断开时震动提醒</string>
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
+
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">响铃时使用 Home 键</string>
+    <string name="allow_incall_home_summary">设备响铃时允许使用 Home 键</string>
+
+    <string name="button_backlight_on_touch_only_title">触摸按钮</string>
+    <string name="button_backlight_on_touch_only_summary">仅触摸按钮时启用背光超时</string>
 </resources>
