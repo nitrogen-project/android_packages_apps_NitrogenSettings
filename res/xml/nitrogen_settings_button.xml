@@ -48,10 +48,17 @@
             android:title="@string/backlight_timeout_title" />
 
         <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
-                android:key="button_backlight_on_touch_only"
-                android:title="@string/button_backlight_on_touch_only_title"
-                android:summary="@string/button_backlight_on_touch_only_summary"
-                android:defaultValue="false" />
+            android:key="button_backlight_on_touch_only"
+            android:title="@string/button_backlight_on_touch_only_title"
+            android:summary="@string/button_backlight_on_touch_only_summary"
+            android:defaultValue="false" />
+
+
+        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+            android:key="pocket_judge"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary"
+            android:defaultValue="false" />
 
     </PreferenceCategory>
 
