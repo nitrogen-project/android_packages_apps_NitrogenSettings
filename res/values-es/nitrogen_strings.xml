@@ -765,4 +765,9 @@
      
      <string name="button_backlight_on_touch_only_title">Luces de botones capacitivos</string>
      <string name="button_backlight_on_touch_only_summary">Encender la luz de los botones capacitivos sólo cuando éstos son pulsados</string>
+     
+      
++    <!-- Pocket judge --> 
++    <string name="pocket_judge_title">Detección de bolsillo</string> 
++    <string name="pocket_judge_summary">Bloquea la pantalla y los botones capacitivos cuando el dispositivo está en el bolsillo</string> 
 </resources>
