@@ -53,13 +53,6 @@
             android:summary="@string/button_backlight_on_touch_only_summary"
             android:defaultValue="false" />
 
-
-        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
-            android:key="pocket_judge"
-            android:title="@string/pocket_judge_title"
-            android:summary="@string/pocket_judge_summary"
-            android:defaultValue="false" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
