@@ -18,6 +18,11 @@
         android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <Preference
+             android:key="wakelock_blocker"
+             android:fragment="com.nitrogen.settings.fragments.WakeLockBlocker"
+             android:title="@string/wakelock_blocker_title" />
+
         <com.nitrogen.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wakeup_when_plugged_unplugged_title"
@@ -29,4 +34,5 @@
             android:title="@string/show_cpu_info"
             android:summary="@string/show_cpu_info_summary" 
             android:defaultValue="false" />
+
 </PreferenceScreen>
