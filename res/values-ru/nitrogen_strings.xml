@@ -302,4 +302,14 @@
     <string name="wakelock_blocker_reload">Сбросить</string>
     <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
     <string name="wakelock_blocker_warning">Блокировка *wakelocks* может вызвать нестабильную работу, краши и потерю данных</string>
+
+    <!-- Alarm blocker -->
+    <string name="alarm_blocker">Блокировка *alarms*</string>
+    <string name="alarm_blocker_title">Включено</string>
+    <string name="alarm_blocker_summary">Заблокировать *alarms* при выключенном экране</string>
+    <string name="alarm_blocker_save">Сохранить</string>
+    <string name="alarm_list_header">Доступные *alarms*</string>
+    <string name="alarm_blocker_reload">Перезагрузить</string>
+    <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="alarm_blocker_warning">Блокировка *alarms* может вызвать нестабильную работу, краши и потерю данных</string>
 </resources>

@@ -23,6 +23,11 @@
              android:fragment="com.nitrogen.settings.fragments.WakeLockBlocker"
              android:title="@string/wakelock_blocker_title" />
 
+        <Preference
+             android:id="@+id/alarm_blocker"
+             android:fragment="com.nitrogen.settings.fragments.AlarmBlocker"
+             android:title="@string/alarm_blocker" />
+
         <com.nitrogen.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wakeup_when_plugged_unplugged_title"
