@@ -47,4 +47,13 @@
     <!-- MTP Dirty Hack -->
     <string name="enable_mtp_dirtyhack_title">MTP вместо Зарядки</string>
     <string name="enable_mtp_dirtyhack_summary">Включить MTP вместо Зарядки при подключении к ПК</string>
+
+    <!-- Wakelock blocker -->
+    <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
+    <string name="wakelock_blocker_summary">Заблокировать *wakelocks* системы</string>
+    <string name="wakelock_blocker_save">Сохранить</string>
+    <string name="wakelock_list_header">Доступные *wakelocks*</string>
+    <string name="wakelock_blocker_reload">Сбросить</string>
+    <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
+    <string name="wakelock_blocker_warning">Блокировка *wakelocks* может вызвать нестабильную работу, краши и потерю данных</string>
 </resources>
