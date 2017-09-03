@@ -86,4 +86,10 @@
     <string name="battery_light_medium_color">Заряжается</string>
     <string name="battery_light_full_color">Заряжена (90%)</string>
     <string name="battery_light_reallyfull_color">Заряжена (100%)</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания (более медленный отклик на одно нажатие), отключает двойное нажатие кнопки питания для камеры.</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
 </resources>
