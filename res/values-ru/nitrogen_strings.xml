@@ -60,4 +60,10 @@
     <string name="volume_key_cursor_control_off">Выключено</string>
     <string name="volume_key_cursor_control_on">Кнопка "+" двигает курсор влево, "-" вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Кнопка "+" двигает курсор вправо, "-" влево</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания (более медленный отклик на одно нажатие), отключает двойное нажатие кнопки питания для камеры.</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
 </resources>
