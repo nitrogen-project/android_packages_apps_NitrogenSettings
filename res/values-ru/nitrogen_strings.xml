@@ -120,4 +120,10 @@
 
     <string name="ambient_wake_gestures_title">Черно-белый экран</string>
     <string name="ambient_wake_gestures_summary">Черно-белый экран вместо экрана блокировки</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Настройка вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
 </resources>
