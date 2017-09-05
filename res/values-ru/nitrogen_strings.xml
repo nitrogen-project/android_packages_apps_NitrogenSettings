@@ -145,4 +145,10 @@
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
     <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Настройка вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрировать при ответе</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрировать при отбое</string>
 </resources>
