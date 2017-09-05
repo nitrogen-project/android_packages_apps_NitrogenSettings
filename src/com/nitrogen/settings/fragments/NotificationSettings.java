@@ -11,9 +11,12 @@ import androidx.preference.PreferenceScreen;
 
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.nitrogen.settings.preferences.Utils;
+
 public class NotificationSettings extends SettingsPreferenceFragment {
 
     private Preference mChargingLeds;
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -28,6 +31,11 @@ public class NotificationSettings extends SettingsPreferenceFragment {
                 && !getResources().getBoolean(
                         com.android.internal.R.bool.config_intrusiveBatteryLed)) {
             prefScreen.removePreference(mChargingLeds);
+        }
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+            prefScreen.removePreference(incallVibCategory);
         }
     }
 
