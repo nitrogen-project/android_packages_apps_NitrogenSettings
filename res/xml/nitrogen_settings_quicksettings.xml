@@ -47,7 +47,13 @@
         android:key="quick_settings_vibrate"
         android:title="@string/quick_settings_vibrate_title"
         android:summary="@string/quick_settings_vibrate_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
+
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_footer_warnings"
+        android:title="@string/qs_footer_warnings_title"
+        android:summary="@string/qs_footer_warnings_summary"
+        android:defaultValue="true" />
 
     <ListPreference
         android:key="smart_pulldown"

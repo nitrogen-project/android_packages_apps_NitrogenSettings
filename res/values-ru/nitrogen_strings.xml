@@ -541,4 +541,8 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Вибрация при касании</string>
     <string name="quick_settings_vibrate_summary">Вибрировать при касании плиток</string>
+
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Предупреждение в нижней части</string>
+    <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней панели быстрых настроек, когда сеть контролируется приложениями или VPN</string>
 </resources>
