@@ -98,4 +98,11 @@
 
     <!-- Power notification controls -->
     <string name="power_notification_title">Расширенное управление уведомлениями</string>
+
+    <!-- Volume down enter do not disturb -->
+    <string name="volbtn_down_zen_title">Громкость вниз для \"Не беспокоить\"</string>
+    <string name="volbtn_down_zen_summary">Отключать режим \"Не беспокоить\" при уменьшении громкости</string>
+    <!-- Volume up exit do not disturb -->
+    <string name="volbtn_up_zen_title">Громкость вверх для \"Не беспокоить\"</string>
+    <string name="volbtn_up_zen_summary">Отключать режим \"Не беспокоить\" при увеличении громкости</string>
 </resources>
