@@ -112,4 +112,7 @@
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Ярлыки на экране блокировки</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Кнопки на панели навигации</string>
 </resources>
