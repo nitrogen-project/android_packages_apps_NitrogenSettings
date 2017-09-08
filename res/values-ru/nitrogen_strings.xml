@@ -88,4 +88,7 @@
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
     <string name="status_bar_battery_style_text">Текст</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Редактирование иконок</string>
 </resources>
