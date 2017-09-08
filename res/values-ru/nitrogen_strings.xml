@@ -109,4 +109,7 @@
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Регулятор яркости</string>
     <string name="qs_brightness_slider_summary">Показать регулятор яркости в панели быстрых настроек</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Ярлыки на экране блокировки</string>
 </resources>
