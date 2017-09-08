@@ -93,4 +93,6 @@
     <string name="weather_config_title">Настройки сервиса</string>
     <string name="weather_icon_pack_title">Стиль иконок</string>
 
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Редактирование иконок</string>
 </resources>

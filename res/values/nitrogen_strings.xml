@@ -91,4 +91,7 @@
     <string name="weather_show_location_summary">Enable to show the location</string>
     <string name="weather_config_title">Service settings</string>
     <string name="weather_icon_pack_title">Condition icon pack</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
 </resources>
