@@ -152,4 +152,11 @@
     <string name="torch_power_button_gesture_none">Выключено</string>
     <string name="torch_power_button_gesture_dt">Двойное нажатие при выключенном экране(добавляет задержку одного нажатия)</string>
     <string name="torch_power_button_gesture_lp">Удержание при выключенном экране</string>
+
+    <!-- QS rows and columns -->
+    <string name="qs_rows_columns_title">Ряды и столбцы</string>
+    <string name="qs_rows_portrait_title">Число плиток в ряду(портрет.)</string>
+    <string name="qs_rows_landscape_title">Число плиток в ряду(альбом.)</string>
+    <string name="qs_columns_portrait_title">Число плиток в столбце(портрет.)</string>
+    <string name="qs_columns_landscape_title">Число плиток в столбце(альбом.)</string>
 </resources>
