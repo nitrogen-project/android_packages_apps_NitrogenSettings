@@ -196,4 +196,9 @@
     <string name="powermenu_logout">Выход из системы</string>
     <string name="powermenu_torch">Фонарик</string>
 
+    <!-- Double Tap -->
+    <string name="dtts_category_header">Спящий режим</string>
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
 </resources>
