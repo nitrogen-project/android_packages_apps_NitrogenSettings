@@ -275,4 +275,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
     <string name="powermenu_lockscreen_summary">Включите, чтобы использовать меню питания на защищенном экране блокировки</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Медиа-обложка</string>
+    <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
 </resources>
