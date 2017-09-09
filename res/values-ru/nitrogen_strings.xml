@@ -201,4 +201,11 @@
     <string name="qs_show_brightness_summary">Показать регулятор яркости в панели быстрых настроек</string>
     <string name="qs_brightness_position_bottom_title">Регулятор яркости внизу</string>
     <string name="qs_brightness_position_bottom_summary">Показать регулятор яркости внизу панели быстрых настроек</string>
+
+    <!-- Double Tap -->
+    <string name="dtts_category_header">Спящий режим</string>
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь экрана блокировки для перевода устройства в спящий режим</string>
+
 </resources>
