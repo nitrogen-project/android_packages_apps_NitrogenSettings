@@ -96,4 +96,8 @@
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Управление плеером</string>
     <string name="volume_rocker_music_controls_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
+
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
+    <string name="volume_rocker_wake_summary">Вывести устройство из спящего режима нажатием кнопок громкости</string>
 </resources>
