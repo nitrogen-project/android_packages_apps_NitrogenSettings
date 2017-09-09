@@ -121,4 +121,8 @@
     <!-- Double tap-to-sleep -->
     <string name="double_tap_sleep_navbar">Панель навигации</string>
     <string name="double_tap_sleep_navbar_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим</string>
+
+    <!-- Volume button orientation based on current rotation -->
+    <string name="swap_volume_buttons_title">Автоповорот</string>
+    <string name="swap_volume_buttons_summary">Менять назначение кнопок регулировки громкости согласно ориентации экрана</string>
 </resources>
