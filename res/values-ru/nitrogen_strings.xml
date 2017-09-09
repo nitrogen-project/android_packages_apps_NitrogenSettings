@@ -104,4 +104,10 @@
     <string name="profile_choose_app">Выбрать приложение</string>
     <string name="dialog_delete_title">Удалить</string>
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+
+    <!-- Double Tap -->
+    <string name="dtts_category_header">Спящий режим</string>
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь экрана блокировки для перевода устройства в спящий режим</string>
 </resources>
