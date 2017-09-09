@@ -226,4 +226,8 @@
     <string name="show_cpu_info_summary">Экранное наложение, показывающее текущую информацию ЦП</string>
 
     <string name="notification_light_settings">Индикация уведомлений</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Управление плеером</string>
+    <string name="volume_rocker_music_controls_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
 </resources>
