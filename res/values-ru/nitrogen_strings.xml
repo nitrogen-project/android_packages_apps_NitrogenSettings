@@ -139,4 +139,8 @@
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Управление плеером</string>
     <string name="volume_rocker_music_controls_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
+
+    <!-- Media art -->
+    <string name="media_art_title">Медиа-обложка</string>
+    <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
 </resources>
