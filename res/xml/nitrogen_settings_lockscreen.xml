@@ -36,4 +36,10 @@
         android:title="@string/fprint_sucess_vib_title"
         android:summary="@string/fprint_sucess_vib_summary"
         android:persistent="false" />
+
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="show_lockscreen_media_art"
+        android:title="@string/media_art_title"
+        android:summary="@string/media_art_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>
