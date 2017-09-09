@@ -46,6 +46,12 @@
         android:title="@string/volume_rocker_music_controls_title"
         android:defaultValue="true" />
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_wake_screen"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake_title"
+        android:defaultValue="false" />
+
     <ListPreference
         android:dialogTitle="@string/volume_key_cursor_control_title"
         android:entries="@array/volume_key_cursor_control_entries"
