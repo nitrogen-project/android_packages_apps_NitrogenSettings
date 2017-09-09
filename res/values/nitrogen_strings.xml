@@ -130,4 +130,7 @@
     <!-- Volume key controls media stream -->
     <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
     <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+
+    <string name="status_bar_quick_qs_pulldown">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Pulldown statusbar from right side to show QS panel</string>
 </resources>

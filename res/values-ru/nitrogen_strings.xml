@@ -132,4 +132,7 @@
     <!-- Volume key controls media stream -->
     <string name="volume_keys_control_media_stream_title">Управление медиа</string>
     <string name="volume_keys_control_media_stream_summary">Кнопки громкости регулируют громкость мультимедиа</string>
+
+    <string name="status_bar_quick_qs_pulldown">Быстрый доступ</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Правый угол строки состояния открывает панель быстрых настроек</string>
 </resources>
