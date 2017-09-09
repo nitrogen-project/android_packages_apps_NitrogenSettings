@@ -24,4 +24,10 @@
         android:entryValues="@array/volume_key_cursor_control_values"
         android:key="volume_key_cursor_control"
         android:title="@string/volume_key_cursor_control_title" />
+
+     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:defaultValue="false" />
 </PreferenceScreen>

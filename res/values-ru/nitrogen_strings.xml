@@ -92,4 +92,8 @@
     <string name="torch_power_button_gesture_none">Отключено</string>
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания (более медленный отклик на одно нажатие), отключает двойное нажатие кнопки питания для камеры.</string>
     <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_rocker_music_controls_title">Управление плеером</string>
+    <string name="volume_rocker_music_controls_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
 </resources>
