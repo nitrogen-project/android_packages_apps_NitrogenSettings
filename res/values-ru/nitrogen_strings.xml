@@ -143,4 +143,10 @@
     <!-- Media art -->
     <string name="media_art_title">Медиа-обложка</string>
     <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
+    <string name="torch_power_button_gesture_none">Выключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие при выключенном экране(добавляет задержку одного нажатия)</string>
+    <string name="torch_power_button_gesture_lp">Удержание при выключенном экране</string>
 </resources>
