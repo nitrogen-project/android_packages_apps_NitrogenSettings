@@ -203,4 +203,10 @@
     <string name="radio_info_title">Radio info</string>
 
     <string name="navbar_visibility">Allow navigation bar</string>
+
+    <!-- Double Tap -->
+    <string name="dtts_category_header">Double tap to sleep</string>
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the lock screen to put the device to sleep</string>
 </resources>
