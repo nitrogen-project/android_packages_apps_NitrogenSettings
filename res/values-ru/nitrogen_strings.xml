@@ -124,6 +124,9 @@
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Строка состояния</string>
+    <string name="double_tap_to_sleep_summary">Дважды коснитесь строки состояния для перевода устройства в спящий режим</string>
 
     <!-- Volume button orientation based on current rotation -->
     <string name="swap_volume_buttons_title">Автоповорот</string>
