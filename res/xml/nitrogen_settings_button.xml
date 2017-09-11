@@ -23,4 +23,9 @@
         android:fragment="com.nitrogen.settings.fragments.VolumeRockerSettings"
         android:title="@string/volume_title" />
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="button_backlight_on_touch_only"
+        android:title="@string/button_backlight_on_touch_only_title"
+        android:summary="@string/button_backlight_on_touch_only_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>

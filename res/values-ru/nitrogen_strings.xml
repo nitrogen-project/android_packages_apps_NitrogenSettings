@@ -174,4 +174,7 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Пробуждение кнопками громкости</string>
     <string name="volume_rocker_wake_summary">Вывести устройство из спящего режима нажатием кнопок громкости</string>
+
+    <string name="button_backlight_on_touch_only_title">Подсветка при касании</string>
+    <string name="button_backlight_on_touch_only_summary">Включать подсветку клавиш только после касания</string>
 </resources>
