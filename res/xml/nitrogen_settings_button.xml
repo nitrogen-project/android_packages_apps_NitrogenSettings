@@ -28,4 +28,10 @@
         android:title="@string/button_backlight_on_touch_only_title"
         android:summary="@string/button_backlight_on_touch_only_summary"
         android:defaultValue="false" />
+
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="allow_incall_home"
+        android:title="@string/allow_incall_home_title"
+        android:summary="@string/allow_incall_home_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>

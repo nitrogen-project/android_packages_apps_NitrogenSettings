@@ -177,4 +177,8 @@
 
     <string name="button_backlight_on_touch_only_title">Подсветка при касании</string>
     <string name="button_backlight_on_touch_only_summary">Включать подсветку клавиш только после касания</string>
+
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Кнопка "Домой" при звонке</string>
+    <string name="allow_incall_home_summary">Разрешить использование кнопки "Домой" при входящем звонке</string>
 </resources>
