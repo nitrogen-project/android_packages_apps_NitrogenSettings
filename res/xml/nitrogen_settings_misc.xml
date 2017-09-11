@@ -34,4 +34,9 @@
             android:summary="@string/enable_mtp_dirtyhack_summary"
             android:defaultValue="true" />
 
+
+        <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
+            android:key="allow_signature_fake"
+            android:title="@string/allow_signature_fake"
+            android:summary="@string/allow_signature_fake_summary"/>
 </PreferenceScreen>
