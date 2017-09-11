@@ -44,4 +44,8 @@
     <string name="longpress_info">Удерживайте, чтобы сохранить цвет</string>
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
+
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Кнопка "Домой" при звонке</string>
+    <string name="allow_incall_home_summary">Разрешить использование кнопки "Домой" при входящем звонке</string>
 </resources>
