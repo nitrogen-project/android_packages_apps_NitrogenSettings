@@ -68,4 +68,8 @@
 
     <string name="face_auto_unlock_title">Автоматическая разблокировка</string>
     <string name="face_auto_unlock_summary">Скрыть экран блокировки при разблокировке лицом</string>
+
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Кнопка "Домой" при звонке</string>
+    <string name="allow_incall_home_summary">Разрешить использование кнопки "Домой" при входящем звонке</string>
 </resources>
