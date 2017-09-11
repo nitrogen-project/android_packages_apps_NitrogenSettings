@@ -78,4 +78,8 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Кнопки на панели навигации</string>
+
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Кнопка «Домой» при звонке</string>
+    <string name="allow_incall_home_summary">Разрешить использование кнопки «Домой» при входящем звонке</string>
 </resources>
