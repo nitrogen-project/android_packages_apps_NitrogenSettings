@@ -47,4 +47,8 @@
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертированная разметка</string>
+
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Пробуждение при зарядке</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать устройство при подключении/отключении зарядного устройства.</string>
 </resources>
