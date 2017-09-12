@@ -212,4 +212,9 @@
     <string name="immersive_recents_fullscreen">Полноэкранные</string>
     <string name="immersive_recents_statusbar">Со строкой состояния</string>
     <string name="immersive_recents_navbar">С панелью навигации</string>
+
+    <!-- Hide apps from recents -->
+    <string name="hide_from_recents_add_app">Добавить приложение</string>
+    <string name="hide_apps_from_recents_title">Скрытые приложения</string>
+    <string name="hide_apps_from_recents_summary">Выберите приложения, которые будут исключены из панели недавних.</string>
 </resources>
