@@ -27,6 +27,8 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
     private ListPreference mRecentsClearAllLocation;
     private SwitchPreference mRecentsClearAll;
+    private static final String IMMERSIVE_RECENTS = "immersive_recents";
+    private ListPreference mImmersiveRecents;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -44,6 +46,11 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntry());
         mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
 
+        mImmersiveRecents = (ListPreference) findPreference(IMMERSIVE_RECENTS);
+        mImmersiveRecents.setValue(String.valueOf(Settings.System.getInt(
+                resolver, Settings.System.IMMERSIVE_RECENTS, 0)));
+        mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
+        mImmersiveRecents.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -55,6 +62,12 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
                     Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
             mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
         return true;
+        } else if (preference == mImmersiveRecents) {
+            Settings.System.putInt(getContentResolver(), Settings.System.IMMERSIVE_RECENTS,
+                    Integer.valueOf((String) objValue));
+            mImmersiveRecents.setValue(String.valueOf(objValue));
+            mImmersiveRecents.setSummary(mImmersiveRecents.getEntry());
+            return true;
         }
     return false;
 

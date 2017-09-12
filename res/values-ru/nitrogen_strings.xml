@@ -203,4 +203,13 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Пробуждение при зарядке</string>
     <string name="wakeup_when_plugged_unplugged_summary">Пробуждать устройство при подключении/отключении зарядного устройства.</string>
+
+    <!-- Immersive Recents -->
+    <string name="immersive_recents_title">Недавние приложения</string>
+    <string name="immersive_recents_summary">Изменить вид недавних приложений</string>
+    <string name="immersive_recents_dialog_title">Выберите вид:</string>
+    <string name="immersive_recents_default">По умолчанию</string>
+    <string name="immersive_recents_fullscreen">Полноэкранные</string>
+    <string name="immersive_recents_statusbar">Со строкой состояния</string>
+    <string name="immersive_recents_navbar">С панелью навигации</string>
 </resources>
