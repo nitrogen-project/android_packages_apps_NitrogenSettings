@@ -219,4 +219,9 @@
     <!-- USB debugging notification -->
     <string name="adb_notify">Уведомление об отладке</string>
     <string name="adb_notify_summary">Показывать уведомление о включенном режиме отладки по USB или по сети</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Показать информацию о процессоре</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Экранное наложение, показывающее текущую информацию ЦП</string>
 </resources>

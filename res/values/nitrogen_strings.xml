@@ -224,4 +224,9 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">ADB notification</string>
     <string name="adb_notify_summary">Display a notification when android debugging is enabled</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Show CPU info</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 </resources>
