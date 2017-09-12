@@ -217,4 +217,9 @@
     <string name="hide_from_recents_add_app">Добавить приложение</string>
     <string name="hide_apps_from_recents_title">Скрытые приложения</string>
     <string name="hide_apps_from_recents_summary">Выберите приложения, которые будут исключены из панели недавних.</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Показать информацию о процессоре</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Экранное наложение, показывающее текущую информацию ЦП</string>
 </resources>
