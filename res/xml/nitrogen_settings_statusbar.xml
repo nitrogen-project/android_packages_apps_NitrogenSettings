@@ -30,4 +30,10 @@
             android:title="@string/ime_switcher_notify"
             android:summary="@string/ime_switcher_notify_summary"
             android:defaultValue="false" />
+
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+            android:key="battery_save_mode_color"
+            android:title="@string/battery_saver_color_title"
+            android:summary="@string/battery_saver_color_summary"
+            android:defaultValue="false" />
 </PreferenceScreen>

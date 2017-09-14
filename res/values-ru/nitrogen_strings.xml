@@ -246,4 +246,8 @@
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">Значок выбора метода ввода</string>
     <string name="ime_switcher_notify_summary">Отображать переключатель метода ввода при открытии текстовых полей</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_color_title">Цветовое оповещение</string>
+    <string name="battery_saver_color_summary">Окрашивать строку состояния и панель навигации, когда активирован режим энергосбережения</string>
 </resources>
