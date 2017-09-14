@@ -242,4 +242,8 @@
     <!-- Kill app long press back -->
     <string name="kill_app_longpress_back">Закрыть приложение</string>
     <string name="kill_app_longpress_back_summary">Закрыть приложение удержанием кнопки «Назад»</string>
+
+    <!-- Whether to display IME switcher notifcation -->
+    <string name="ime_switcher_notify">Значок выбора метода ввода</string>
+    <string name="ime_switcher_notify_summary">Отображать переключатель метода ввода при открытии текстовых полей</string>
 </resources>
