@@ -208,4 +208,7 @@
     <string name="double_tap_to_sleep_title">Строка состояния</string>
     <string name="double_tap_to_sleep_summary">Дважды коснитесь строки состояния для перевода устройства в спящий режим</string>
 
+    <!-- The volume keys answer -->
+    <string name="volume_answer_call_title">Ответ кнопками громкости</string>
+    <string name="volume_answer_call_summary">Снять трубку при нажатии кнопок громкости</string>
 </resources>
