@@ -23,33 +23,42 @@
         android:fragment="com.nitrogen.settings.fragments.VolumeRockerSettings"
         android:title="@string/volume_title" />
 
+    <SwitchPreference
+        android:key="enable_hw_keys"
+        android:title="@string/enable_hw_keys_title"
+        android:persistent="false" />
+
     <com.nitrogen.settings.preferences.CustomSeekBarPreference
-            android:key="button_brightness"
-            android:title="@string/button_brightness_title"
-            android:max="255"
-            settings:min="0"
-            settings:units=""
-            android:persistent="false" />
+        android:key="button_brightness"
+        android:title="@string/button_brightness_title"
+        android:max="255"
+        settings:min="0"
+        settings:units=""
+        android:persistent="false"
+        android:dependency="enable_hw_keys" />
 
     <ListPreference
-            android:dialogTitle="@string/backlight_timeout_title"
-            android:entries="@array/backlight_timeout_entries"
-            android:entryValues="@array/backlight_timeout_values"
-            android:key="backlight_timeout"
-            android:persistent="false"
-            android:title="@string/backlight_timeout_title" />
+        android:dialogTitle="@string/backlight_timeout_title"
+        android:entries="@array/backlight_timeout_entries"
+        android:entryValues="@array/backlight_timeout_values"
+        android:key="backlight_timeout"
+        android:persistent="false"
+        android:title="@string/backlight_timeout_title" 
+        android:dependency="enable_hw_keys" />
 
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="button_backlight_on_touch_only"
         android:title="@string/button_backlight_on_touch_only_title"
         android:summary="@string/button_backlight_on_touch_only_summary"
-        android:defaultValue="false" />
+        android:defaultValue="false"
+        android:dependency="enable_hw_keys" />
 
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="allow_incall_home"
         android:title="@string/allow_incall_home_title"
         android:summary="@string/allow_incall_home_summary"
-        android:defaultValue="true" />
+        android:defaultValue="true"
+        android:dependency="enable_hw_keys" />
 
     <PreferenceCategory
         android:key="home_key"
@@ -61,7 +70,8 @@
             android:title="@string/hardware_keys_long_press_title"
             android:entries="@array/hardware_keys_action_entries"
             android:entryValues="@array/hardware_keys_action_values"
-            android:persistent="false" />
+            android:persistent="false"
+            android:dependency="enable_hw_keys" />
 
         <ListPreference
             android:key="hardware_keys_home_double_tap"
@@ -69,7 +79,8 @@
             android:title="@string/hardware_keys_double_tap_title"
             android:entries="@array/hardware_keys_action_entries"
             android:entryValues="@array/hardware_keys_action_values"
-            android:persistent="false" />
+            android:persistent="false"
+            android:dependency="enable_hw_keys" />
 
     </PreferenceCategory>
 
@@ -83,7 +94,8 @@
             android:title="@string/hardware_keys_short_press_title"
             android:entries="@array/hardware_keys_action_entries"
             android:entryValues="@array/hardware_keys_action_values"
-            android:persistent="false" />
+            android:persistent="false"
+            android:dependency="enable_hw_keys" />
 
         <ListPreference
             android:key="hardware_keys_menu_long_press"
@@ -91,7 +103,8 @@
             android:title="@string/hardware_keys_long_press_title"
             android:entries="@array/hardware_keys_action_entries"
             android:entryValues="@array/hardware_keys_action_values"
-            android:persistent="false" />
+            android:persistent="false"
+            android:dependency="enable_hw_keys" />
 
     </PreferenceCategory>
 
@@ -103,7 +116,8 @@
             android:key="kill_app_longpress_back"
             android:title="@string/kill_app_longpress_back"
             android:summary="@string/kill_app_longpress_back_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true"
+            android:dependency="enable_hw_keys" />
     </PreferenceCategory>
 
 </PreferenceScreen>

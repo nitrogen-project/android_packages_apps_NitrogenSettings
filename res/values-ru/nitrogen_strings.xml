@@ -257,4 +257,7 @@
     <!-- The volume keys answer -->
     <string name="volume_answer_call_title">Ответ кнопками громкости</string>
     <string name="volume_answer_call_summary">Снять трубку при нажатии кнопок громкости</string>
+
+    <!-- Enable HW keys -->
+    <string name="enable_hw_keys_title">Включить сенсорные кнопки</string>
 </resources>

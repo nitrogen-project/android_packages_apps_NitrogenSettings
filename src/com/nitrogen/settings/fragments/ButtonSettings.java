@@ -60,6 +60,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String KEY_HOME_DOUBLE_TAP = "hardware_keys_home_double_tap";
     private static final String KEY_MENU_PRESS = "hardware_keys_menu_press";
     private static final String KEY_MENU_LONG_PRESS = "hardware_keys_menu_long_press";
+    private static final String KEY_ENABLE_HW_KEYS = "enable_hw_keys";
 
     // category keys
     private static final String CATEGORY_HOME = "home_key";
@@ -95,6 +96,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mMenuLongPressAction;
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
+    private SwitchPreference mEnableHwKeys;
 
     private Handler mHandler;
 
@@ -128,6 +130,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
         mButtonBrightness =
                 (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
+
+        mEnableHwKeys =
+                (SwitchPreference) findPreference(KEY_ENABLE_HW_KEYS);
 
         if (hasHomeKey) {
             int defaultLongPressAction = res.getInteger(
@@ -193,6 +198,15 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 mButtonBrightness.setValue(ButtonBrightness / 1);
                 mButtonBrightness.setOnPreferenceChangeListener(this);
             }
+            if (mEnableHwKeys != null) {
+                mEnableHwKeys.setChecked((Settings.System.getInt(getContentResolver(),
+                        Settings.System.ENABLE_HW_KEYS, 1) == 1));
+                mEnableHwKeys.setOnPreferenceChangeListener(this);
+            }
+        } else {
+            prefScreen.removePreference(mButtonBrightness);
+            prefScreen.removePreference(mBacklightTimeout);
+            prefScreen.removePreference(mEnableHwKeys);
         }
     }
 
@@ -244,6 +258,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
         } else if (preference == mMenuLongPressAction) {
             handleActionListChange(mMenuLongPressAction, newValue,
                     Settings.System.KEY_MENU_LONG_PRESS_ACTION);
+            return true;
+        } else if (preference == mEnableHwKeys) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.ENABLE_HW_KEYS, value ? 1 : 0);
             return true;
         }
         return false;
