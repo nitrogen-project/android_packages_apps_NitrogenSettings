@@ -289,4 +289,8 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Вибрация при касании</string>
     <string name="quick_settings_vibrate_summary">Вибрировать при касании плиток</string>
+
+    <!-- The volume keys answer -->
+    <string name="volume_answer_call_title">Ответ кнопками громкости</string>
+    <string name="volume_answer_call_summary">Снять трубку при нажатии кнопок громкости</string>
 </resources>
