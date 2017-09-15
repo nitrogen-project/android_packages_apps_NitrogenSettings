@@ -253,4 +253,8 @@
     <!-- Battery saver color -->
     <string name="battery_saver_color_title">Цветовое оповещение</string>
     <string name="battery_saver_color_summary">Окрашивать строку состояния и панель навигации, когда активирован режим энергосбережения</string>
+
+    <!-- The volume keys answer -->
+    <string name="volume_answer_call_title">Ответ кнопками громкости</string>
+    <string name="volume_answer_call_summary">Снять трубку при нажатии кнопок громкости</string>
 </resources>
