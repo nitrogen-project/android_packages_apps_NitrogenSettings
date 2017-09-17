@@ -18,6 +18,11 @@
     android:title="@string/notifications_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="charging_light"
+        android:fragment="com.nitrogen.settings.BatteryLightSettings"
+        android:title="@string/battery_light_settings" />
+
     <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
