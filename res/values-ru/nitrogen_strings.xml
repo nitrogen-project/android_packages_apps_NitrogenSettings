@@ -180,4 +180,15 @@
     <string name="heads_up_snooze_10min">10 минут</string>
     <string name="heads_up_snooze_15min">15 минут</string>
     <string name="heads_up_snooze_20min">20 минут</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Индикация батареи</string>
+    <string name="battery_light_enable">Включена</string>
+    <string name="battery_light_allow_on_dnd_title">Включить светодиод в режиме «Не беспокоить»</string>
+    <string name="battery_light_low_blinking_title">Мигать светодиодом при низком уровне заряда</string>
+    <string name="battery_light_cat">Цвет светодиода во время зарядки</string>
+    <string name="battery_light_low_color">Батарея разряжена</string>
+    <string name="battery_light_medium_color">Заряжается</string>
+    <string name="battery_light_full_color">Заряжена (90%)</string>
+    <string name="battery_light_reallyfull_color">Заряжена (100%)</string>
 </resources>
