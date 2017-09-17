@@ -281,4 +281,6 @@
     <string name="smart_pulldown_none">без уведомлений</string>
     <string name="smart_pulldown_dismissable">без удаляемых</string>
     <string name="smart_pulldown_ongoing">без постоянных</string>
+
+    <string name="notification_light_settings">Индикация уведомлений</string>
 </resources>
