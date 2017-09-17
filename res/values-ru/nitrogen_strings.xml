@@ -122,4 +122,15 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Пробуждение при зарядке</string>
     <string name="wakeup_when_plugged_unplugged_summary">Пробуждать устройство при подключении/отключении зарядного устройства.</string>
+
+    <!-- Battery light -->
+    <string name="battery_light_settings">Индикация батареи</string>
+    <string name="battery_light_enable">Включена</string>
+    <string name="battery_light_allow_on_dnd_title">Включить светодиод в режиме «Не беспокоить»</string>
+    <string name="battery_light_low_blinking_title">Мигать светодиодом при низком уровне заряда</string>
+    <string name="battery_light_cat">Цвет светодиода во время зарядки</string>
+    <string name="battery_light_low_color">Батарея разряжена</string>
+    <string name="battery_light_medium_color">Заряжается</string>
+    <string name="battery_light_full_color">Заряжена (90%)</string>
+    <string name="battery_light_reallyfull_color">Заряжена (100%)</string>
 </resources>
