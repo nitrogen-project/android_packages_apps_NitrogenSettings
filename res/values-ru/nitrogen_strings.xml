@@ -210,4 +210,9 @@
     <string name="battery_style_dotted_circle">Точечный круг</string>
     <string name="status_bar_battery_style_text">Текст</string>
     <string name="status_bar_battery_style_hidden">Нет</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Индикатор сетевого трафика</string>
+    <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
+    <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
 </resources>
