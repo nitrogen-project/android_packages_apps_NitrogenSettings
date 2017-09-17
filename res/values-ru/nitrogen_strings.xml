@@ -272,4 +272,13 @@
     <string name="network_traffic_state_title">Индикатор сетевого трафика</string>
     <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
     <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">\"Умная\" панель уведомлений</string>
+    <string name="smart_pulldown_summary">Открыть быстрые настройки %1$s уведомлений</string>
+    <string name="smart_pulldown_none_summary">Открыть быстрые настройки без уведомлений</string>
+    <string name="smart_pulldown_off">выключено</string>
+    <string name="smart_pulldown_none">без уведомлений</string>
+    <string name="smart_pulldown_dismissable">без удаляемых</string>
+    <string name="smart_pulldown_ongoing">без постоянных</string>
 </resources>
