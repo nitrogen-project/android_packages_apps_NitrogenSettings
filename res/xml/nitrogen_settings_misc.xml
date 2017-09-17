@@ -15,7 +15,7 @@
 -->
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
-	android:title="@string/misc_title"
+        android:title="@string/misc_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
         <Preference
@@ -33,12 +33,6 @@
             android:title="@string/enable_mtp_dirtyhack_title"
             android:summary="@string/enable_mtp_dirtyhack_summary"
             android:defaultValue="true" />
-
-
-        <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
-            android:key="allow_signature_fake"
-            android:title="@string/allow_signature_fake"
-            android:summary="@string/allow_signature_fake_summary"/>
 
         <com.nitrogen.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
