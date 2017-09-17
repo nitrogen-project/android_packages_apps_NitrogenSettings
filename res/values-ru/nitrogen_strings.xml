@@ -176,4 +176,9 @@
 
     <string name="face_auto_unlock_title">Автоматическая разблокировка</string>
     <string name="face_auto_unlock_summary">Скрыть экран блокировки при разблокировке лицом</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Индикатор сетевого трафика</string>
+    <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
+    <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
 </resources>
