@@ -283,4 +283,8 @@
     <string name="smart_pulldown_ongoing">без постоянных</string>
 
     <string name="notification_light_settings">Индикация уведомлений</string>
+
+    <!-- USB debugging notification -->
+    <string name="adb_notify">Уведомление об отладке</string>
+    <string name="adb_notify_summary">Показывать уведомление о включенном режиме отладки по USB или по сети</string>
 </resources>
