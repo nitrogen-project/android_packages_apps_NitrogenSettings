@@ -38,6 +38,11 @@
             android:title="@string/powermenu_screenshot"
             android:defaultValue="false" />
 
+         <SwitchPreference
+            android:key="powermenu_torch"
+            android:title="@string/powermenu_torch"
+            android:persistent="false" />
+
          <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
             android:key="powermenu_airplane"
             android:title="@string/powermenu_airplane"
@@ -54,12 +59,12 @@
             android:defaultValue="false" />
 
          <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
-            android:key="powermenu_soundpanel"
-            android:title="@string/powermenu_soundpanel"
+            android:key="powermenu_users"
+            android:title="@string/powermenu_users"
             android:defaultValue="false" />
 
          <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
-            android:key="powermenu_users"
-            android:title="@string/powermenu_users"
+            android:key="powermenu_soundpanel"
+            android:title="@string/powermenu_soundpanel"
             android:defaultValue="false" />
 </PreferenceScreen>

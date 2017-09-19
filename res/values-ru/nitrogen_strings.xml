@@ -298,4 +298,5 @@
     <string name="powermenu_lockdown">Блокировка устройства</string>
     <string name="powermenu_soundpanel">Звуковая панель</string>
     <string name="powermenu_users">Пользователь</string>
+    <string name="powermenu_torch">Фонарик</string>
 </resources>
