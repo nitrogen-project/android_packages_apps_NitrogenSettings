@@ -215,4 +215,8 @@
     <string name="network_traffic_state_title">Индикатор сетевого трафика</string>
     <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
     <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
+
+    <!-- USB debugging notification -->
+    <string name="adb_notify">Уведомление об отладке</string>
+    <string name="adb_notify_summary">Показывать уведомление о включенном режиме отладки по USB или по сети</string>
 </resources>

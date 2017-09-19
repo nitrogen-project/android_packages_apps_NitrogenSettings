@@ -30,6 +30,12 @@
             android:title="@string/battery_style_category_title"
             android:fragment="com.nitrogen.settings.fragments.StatusBarBattery" />
 
+    <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
+            android:key="adb_notify"
+            android:title="@string/adb_notify"
+            android:summary="@string/adb_notify_summary"
+            android:defaultValue="true" />
+
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
