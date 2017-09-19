@@ -44,4 +44,17 @@
     <string name="longpress_info">Удерживайте, чтобы сохранить цвет</string>
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
+
+    <!-- Power Menu -->
+    <string name="powermenu_screenshot">Снимок экрана</string>
+    <string name="powermenu_power">Выключение</string>
+    <string name="powermenu_restart">Перезагрузка</string>
+    <string name="powermenu_restart_recovery">Расширенная перезагрузка</string>
+    <string name="powermenu_airplane">Режим полета</string>
+    <string name="powermenu_settings">Ярлык настроек</string>
+    <string name="powermenu_lockdown">Блокировка устройства</string>
+    <string name="powermenu_soundpanel">Звуковая панель</string>
+    <string name="powermenu_users">Пользователь</string>
+    <string name="powermenu_logout">Выход из системы</string>
+
 </resources>
