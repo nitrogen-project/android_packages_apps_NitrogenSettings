@@ -1,24 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2015 Nitrogen Project
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-         http://www.apache.org/licenses/LICENSE-2.0
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-
-    <path
-        android:fillColor="?android:attr/colorControlNormal"
-        android:pathData="M18,20H6V8h12V20Z
-M18,2H6C4.9,2,4,2.9,4,4v16c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2V4C20,2.9,19.1,2,18,2L18,2z" />
+<vector android:height="24dp" android:viewportHeight="2400.0"
+    android:viewportWidth="2400.0" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?android:attr/colorControlNormal"
+        android:pathData="M940,2365c-106,-24 -159,-43 -275,-100 -289,-143 -498,-382 -604,-691 -40,-118 -55,-257 -48,-449 7,-205 50,-366 135,-504 18,-28 32,-54 32,-57 0,-16 128,-170 196,-234 195,-186 424,-291 682,-312 396,-33 692,68 960,326 263,254 388,596 354,970 -44,488 -381,890 -872,1038 -88,27 -460,35 -560,13zM1425,2180c359,-94 620,-345 731,-705 26,-84 28,-102 29,-270 0,-156 -3,-191 -23,-265 -84,-318 -319,-578 -622,-690 -373,-137 -791,-44 -1068,239 -306,313 -374,807 -165,1191 160,292 429,474 778,524 67,10 262,-4 340,-24z" android:strokeColor="#00000000"/>
+    <path android:fillColor="?android:attr/colorControlNormal"
+        android:pathData="M670,1928c-18,-13 -43,-36 -54,-51 -21,-28 -21,-35 -21,-685l0,-657 24,-32c13,-18 44,-41 68,-53 41,-19 61,-20 504,-20 324,0 473,3 501,12 48,14 93,64 108,118 7,26 10,241 8,657l-3,618 -23,37c-12,20 -39,46 -58,57 -34,21 -47,21 -528,21l-493,0 -33,-22zM1644,1759c8,-40 8,-807 0,-836l-6,-23 -444,0 -444,0 0,445 0,445 444,0 444,0 6,-31z" android:strokeColor="#00000000"/>
 </vector>
