@@ -41,28 +41,28 @@
         <!-- Navigation Bar -->
         <Preference
             android:key="navigationbar_category"
-            android:title="@string/navbar_title" 
+            android:title="@string/navbar_title"
             android:fragment="com.nitrogen.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 
         <!-- Gestures -->
         <Preference
             android:key="gestures_category"
-            android:title="@string/gestures_title" 
+            android:title="@string/gestures_title"
             android:fragment="com.nitrogen.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
+            android:icon="@drawable/ic_settings_gesture"/>
 
         <!-- Lock Screen -->
         <Preference
             android:key="lockscreen_category"
-            android:title="@string/lockscreen_title" 
+            android:title="@string/lockscreen_title"
             android:fragment="com.nitrogen.settings.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
         <!-- Power Menu -->
         <Preference
             android:key="powermenu__category"
-            android:title="@string/powermenu_title" 
+            android:title="@string/powermenu_title"
             android:fragment="com.nitrogen.settings.fragments.PowerMenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
@@ -78,12 +78,12 @@
             android:key="notifications_category"
             android:title="@string/notifications_title"
             android:fragment="com.nitrogen.settings.fragments.NotificationSettings"
-            android:icon="@drawable/ic_settings_notifications"/>
+            android:icon="@drawable/ic_settings_notification"/>
 
         <!-- Misc -->
         <Preference
             android:key="misc_category"
-            android:title="@string/misc_title" 
+            android:title="@string/misc_title"
             android:fragment="com.nitrogen.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 

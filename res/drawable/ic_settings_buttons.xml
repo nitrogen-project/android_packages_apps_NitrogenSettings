@@ -1,23 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2015 Nitrogen Project
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-         http://www.apache.org/licenses/LICENSE-2.0
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
--->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="24dp"
-    android:height="24dp"
-    android:viewportWidth="24"
-    android:viewportHeight="24">
-
-    <path
-        android:fillColor="?android:attr/colorControlNormal"
-        android:pathData="M19,3H5C3.895,3,3,3.895,3,5v14c0,1.105,0.895,2,2,2h14c1.105,0,2-0.895,2-2V5C21,3.895,20.105,3,19,3Z M11.678,9.989H8.45v1.958h2.729v1.099H8.45V16H7.024V8.891h4.653V9.989z M17.059,16h-1.431v-3.232c0-0.377-0.065-0.646-0.198-0.803 c-0.131-0.158-0.329-0.237-0.593-0.237c-0.212,0-0.397,0.04-0.56,0.12c-0.16,0.079-0.293,0.189-0.397,0.329V16h-1.426v-5.283h1.328 l0.063,0.757c0.176-0.271,0.393-0.479,0.649-0.63s0.545-0.225,0.864-0.225c0.534,0,0.95,0.172,1.25,0.516 c0.3,0.343,0.449,0.886,0.449,1.628V16z" />
+<vector android:height="24dp" android:viewportHeight="2400.0"
+    android:viewportWidth="2400.0" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?android:attr/colorControlNormal"
+        android:pathData="M940,2365c-106,-24 -159,-43 -275,-100 -289,-143 -498,-382 -604,-691 -40,-118 -55,-257 -48,-449 7,-205 50,-366 135,-504 18,-28 32,-54 32,-57 0,-16 128,-170 196,-234 195,-186 424,-291 682,-312 396,-33 692,68 960,326 263,254 388,596 354,970 -44,488 -381,890 -872,1038 -88,27 -460,35 -560,13zM1425,2180c359,-94 620,-345 731,-705 26,-84 28,-102 29,-270 0,-156 -3,-191 -23,-265 -84,-318 -319,-578 -622,-690 -373,-137 -791,-44 -1068,239 -306,313 -374,807 -165,1191 160,292 429,474 778,524 67,10 262,-4 340,-24z" android:strokeColor="#00000000"/>
+    <path android:fillColor="?android:attr/colorControlNormal"
+        android:pathData="M1005,2050c-209,-48 -376,-156 -509,-329 -53,-69 -98,-156 -132,-258 -23,-67 -27,-100 -31,-233 -4,-133 -2,-167 15,-241 75,-313 309,-551 629,-640 112,-32 324,-32 440,-1 254,68 460,238 569,467 65,138 79,204 79,380 0,162 -12,230 -63,348 -59,141 -190,300 -313,380 -198,130 -460,178 -684,127zM972,1644c55,-28 96,-114 82,-171 -18,-72 -89,-133 -155,-133 -128,0 -209,131 -148,239 47,82 136,108 221,65zM1580,1645c117,-60 116,-227 -2,-284 -78,-37 -155,-20 -205,45 -102,135 55,317 207,239zM967,1033c85,-40 114,-155 57,-234 -39,-55 -108,-84 -164,-69 -114,31 -165,152 -103,247 14,22 40,48 57,56 41,21 110,21 153,0zM1601,1018c77,-59 88,-145 29,-226 -21,-29 -42,-44 -77,-56 -45,-15 -53,-15 -93,-1 -137,48 -162,203 -47,286 32,23 50,29 93,29 44,0 59,-5 95,-32z" android:strokeColor="#00000000"/>
 </vector>
