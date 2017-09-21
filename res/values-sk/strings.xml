@@ -247,7 +247,7 @@
     <string name="ime_switcher_notify_summary">Zobrazovať ikonu prepínača spôsobu zadávania pri zobrazení textových polí</string>
 
     <!-- Battery saver color -->
-    <string name="battery_saver_color_title">Farbné upozornenie</string>
+    <string name="battery_saver_color_title">Farebné upozornenie</string>
     <string name="battery_saver_color_summary">Ofarbiť stavový riadok a navigačnú lištu, keď je aktivovaný režim úspory energie</string>
 
     <!-- The volume key answer -->
