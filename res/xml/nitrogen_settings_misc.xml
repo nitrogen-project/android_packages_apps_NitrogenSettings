@@ -28,6 +28,10 @@
              android:fragment="com.nitrogen.settings.fragments.AlarmBlocker"
              android:title="@string/alarm_blocker" />
 
+        <Preference
+            android:title="@string/app_ops_settings"
+            android:fragment="com.android.settings.applications.AppOpsSummary"/>
+
         <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
             android:key="mtp_dirty_hack"
             android:title="@string/enable_mtp_dirtyhack_title"
