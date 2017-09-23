@@ -66,4 +66,8 @@
     <string name="torch_power_button_gesture_none">Отключено</string>
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания (более медленный отклик на одно нажатие), отключает двойное нажатие кнопки питания для камеры.</string>
     <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Отпечаток пальца</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальца</string>
 </resources>
