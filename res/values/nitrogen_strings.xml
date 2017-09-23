@@ -301,4 +301,8 @@
 
     <!-- Show navbar -->
     <string name="navigation_bar_enabled_title">Enable</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Power menu when locked</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
 </resources>

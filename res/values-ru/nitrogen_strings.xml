@@ -302,4 +302,8 @@
 
     <!-- Show navbar -->
     <string name="navigation_bar_enabled_title">Включить</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Меню питания при блокировке</string>
+    <string name="lockscreen_power_menu_disabled_summary">Отключить меню питания на защищенном экране блокировки</string>
 </resources>
