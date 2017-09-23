@@ -164,4 +164,8 @@
     <string name="profile_choose_app">Выбрать приложение</string>
     <string name="dialog_delete_title">Удалить</string>
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Отпечаток пальца</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальца</string>
 </resources>
