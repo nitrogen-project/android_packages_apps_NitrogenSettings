@@ -131,4 +131,8 @@
     <string name="network_traffic_state_title">Индикатор сетевого трафика</string>
     <string name="network_traffic_state_summary">Показывать скорость передачи данных</string>
     <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
+
+    <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Отпечаток пальца</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальца</string>
 </resources>
