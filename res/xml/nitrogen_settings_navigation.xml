@@ -18,6 +18,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+            android:key="navigation_bar_show"
+            android:title="@string/navigation_bar_enabled_title"
+            android:defaultValue="false" />
+
     <Preference
             android:title="@string/navbar_tuner_title" >
             <intent android:action="android.intent.action.MAIN"

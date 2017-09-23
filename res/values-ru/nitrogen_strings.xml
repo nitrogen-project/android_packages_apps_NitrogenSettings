@@ -299,4 +299,7 @@
     <string name="powermenu_soundpanel">Звуковая панель</string>
     <string name="powermenu_users">Пользователь</string>
     <string name="powermenu_torch">Фонарик</string>
+
+    <!-- Show navbar -->
+    <string name="navigation_bar_enabled_title">Включить</string>
 </resources>

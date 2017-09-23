@@ -298,4 +298,7 @@
     <string name="powermenu_soundpanel">Sound Panel</string>
     <string name="powermenu_users">Users</string>
     <string name="powermenu_torch">Flashlight</string>
+
+    <!-- Show navbar -->
+    <string name="navigation_bar_enabled_title">Enable</string>
 </resources>
