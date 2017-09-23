@@ -306,4 +306,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Меню питания при блокировке</string>
     <string name="lockscreen_power_menu_disabled_summary">Отключить меню питания на защищенном экране блокировки</string>
+
+    <!-- fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Отпечаток пальца</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальца</string>
 </resources>
