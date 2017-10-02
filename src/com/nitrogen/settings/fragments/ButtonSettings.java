@@ -55,6 +55,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
     //Keys
     private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
+    private static final String KEY_BUTTON_BRIGHTNESS_SW = "button_brightness_sw";
     private static final String KEY_BACKLIGHT_TIMEOUT = "backlight_timeout";
     private static final String KEY_HOME_LONG_PRESS = "hardware_keys_home_long_press";
     private static final String KEY_HOME_DOUBLE_TAP = "hardware_keys_home_double_tap";
@@ -96,6 +97,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private ListPreference mMenuLongPressAction;
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
+    private SwitchPreference mButtonBrightness_sw;
     private SwitchPreference mEnableHwKeys;
 
     private Handler mHandler;
@@ -111,6 +113,9 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         final int deviceKeys = getResources().getInteger(
                 com.android.internal.R.integer.config_deviceHardwareKeys);
+
+        final boolean variableBrightness = getResources().getBoolean(
+                com.android.internal.R.bool.config_deviceHasVariableButtonBrightness);
 
         final boolean hasHomeKey = (deviceKeys & KEY_MASK_HOME) != 0;
         final boolean hasMenuKey = (deviceKeys & KEY_MASK_MENU) != 0;
@@ -128,8 +133,12 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
 
         mBacklightTimeout =
                 (ListPreference) findPreference(KEY_BACKLIGHT_TIMEOUT);
+
         mButtonBrightness =
                 (CustomSeekBarPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
+
+        mButtonBrightness_sw =
+                (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS_SW);
 
         mEnableHwKeys =
                 (SwitchPreference) findPreference(KEY_ENABLE_HW_KEYS);
@@ -192,11 +201,21 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
                 mBacklightTimeout.setSummary(mBacklightTimeout.getEntry());
             }
 
-            if (mButtonBrightness != null) {
-                int ButtonBrightness = Settings.System.getInt(getContentResolver(),
-                        Settings.System.BUTTON_BRIGHTNESS, 255);
-                mButtonBrightness.setValue(ButtonBrightness / 1);
-                mButtonBrightness.setOnPreferenceChangeListener(this);
+            if (variableBrightness) {
+                prefScreen.removePreference(mButtonBrightness_sw);
+                if (mButtonBrightness != null) {
+                    int ButtonBrightness = Settings.System.getInt(getContentResolver(),
+                            Settings.System.BUTTON_BRIGHTNESS, 255);
+                    mButtonBrightness.setValue(ButtonBrightness / 1);
+                    mButtonBrightness.setOnPreferenceChangeListener(this);
+                }
+            } else {
+                prefScreen.removePreference(mButtonBrightness);
+                if (mButtonBrightness_sw != null) {
+                    mButtonBrightness_sw.setChecked((Settings.System.getInt(getContentResolver(),
+                            Settings.System.BUTTON_BRIGHTNESS, 1) == 1));
+                    mButtonBrightness_sw.setOnPreferenceChangeListener(this);
+                }
             }
             if (mEnableHwKeys != null) {
                 mEnableHwKeys.setChecked((Settings.System.getInt(getContentResolver(),
@@ -205,6 +224,7 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             }
         } else {
             prefScreen.removePreference(mButtonBrightness);
+            prefScreen.removePreference(mButtonBrightness_sw);
             prefScreen.removePreference(mBacklightTimeout);
             prefScreen.removePreference(mEnableHwKeys);
         }
@@ -242,6 +262,11 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             int value = (Integer) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.BUTTON_BRIGHTNESS, value * 1);
+            return true;
+        } else if (preference == mButtonBrightness_sw) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.BUTTON_BRIGHTNESS, value ? 1 : 0);
             return true;
         } else if (preference == mHomeLongPressAction) {
             handleActionListChange(mHomeLongPressAction, newValue,

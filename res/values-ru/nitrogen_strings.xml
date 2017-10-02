@@ -256,6 +256,8 @@
 
     <!-- Enable HW keys -->
     <string name="enable_hw_keys_title">Включить сенсорные кнопки</string>
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_sw_title">Включить подсветку</string>
 
     <!-- Battery light -->
     <string name="battery_light_settings">Индикация батареи</string>
