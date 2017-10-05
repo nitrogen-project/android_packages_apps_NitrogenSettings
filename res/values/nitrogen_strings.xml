@@ -118,13 +118,13 @@
     <!-- Double Tap -->
     <string name="dtts_category_header">Double tap to sleep</string>
     <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
-    <string name="double_tap_sleep_navbar_summary">Double-tap status bar to put the device to sleep</string>
+    <string name="double_tap_sleep_navbar_summary">Double tap on navigation bar to put the device to sleep</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Status bar</string>
-    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap on status bar to put the device to sleep</string>
 
     <!-- Volume button orientation based on current rotation -->
     <string name="swap_volume_buttons_title">Swap volume rocker orientation</string>
