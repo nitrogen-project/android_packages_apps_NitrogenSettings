@@ -33,13 +33,13 @@
         android:key="swap_volume_buttons"
         android:title="@string/swap_volume_buttons_title"
         android:summary="@string/swap_volume_buttons_summary" 
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_keys_control_media_stream"
         android:title="@string/volume_keys_control_media_stream_title"
         android:summary="@string/volume_keys_control_media_stream_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
      <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
