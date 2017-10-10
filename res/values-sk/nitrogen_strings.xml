@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-	
+
     <string name="nitrogen_settings_title">Nastavenia Nitrogen</string>
 
     <!-- Categories -->
@@ -33,7 +33,7 @@
     <string name="reset">Resetovať</string>
     <string name="cancel">Zrušiť</string>
     <string name="save">Uložiť</string>
-	
+
     <!-- Color picker -->
     <string name="dialog_color_picker">Výber farby</string>
     <string name="press_color_to_apply">Aplikujete kliknutím na farbu</string>
@@ -82,7 +82,7 @@
     <string name="incall_vibration_category">Možnosti vibrácií pri hovore</string>
     <string name="incall_vibrate_connect_title">Vibrovať pri pripojení</string>
     <string name="incall_vibrate_call_wait_title">Vibrovať pri čakaní</string>
-    <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>	
+    <string name="incall_vibrate_disconnect_title">Vibrovať pri odpojení</string>
 
     <!-- Lockscreen weather -->
     <string name="lock_screen_weather_settings_title">Počasie na obrazovke uzamknutia</string>
@@ -94,18 +94,18 @@
     <string name="weather_icon_pack_title">Štýl ikon</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Ikony na zobrazenie</string>	
+    <string name="statusbar_items_title">Ikony na zobrazenie</string>
 
     <!-- Power notification controls -->
-    <string name="power_notification_title">Rozšírené možnosti upozornení</string>	
+    <string name="power_notification_title">Rozšírené možnosti upozornení</string>
 
     <!-- Volume down enter do not disturb -->
-    <string name="volbtn_down_zen_title">Stlačenie Hlasitosť- v režime Nerušiť</string>
-    <string name="volbtn_down_zen_summary">Zapnúť režim Nerušiť pri stlačení Hlasitosť-</string>
+    <string name="volbtn_down_zen_title">Hlasitosť- v režime Nerušiť</string>
+    <string name="volbtn_down_zen_summary">Stlačenie Hlasitosť- zapne režim Nerušiť</string>
     <!-- Volume up exit do not disturb -->
-    <string name="volbtn_up_zen_title">Stlačenie Hlasitosť+ v režime Nerušiť</string>
-    <string name="volbtn_up_zen_summary">Vypnúť režim Nerušiť pri stlačení Hlasitosť+</string>
-	
+    <string name="volbtn_up_zen_title">Hlasitosť+ v režime Nerušiť</string>
+    <string name="volbtn_up_zen_summary">Stlačenie Hlasitosť+ vypne režim Nerušiť</string>
+
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Ovládanie jasu</string>
     <string name="qs_brightness_slider_summary">Zobraziť posuvný ovládač jasu na paneli Rýchlych nastavení</string>
@@ -118,7 +118,7 @@
 
     <!-- Double Tap -->
     <string name="dtts_category_header">Prechod do režimu spánku</string>
-    <!-- Double tap-to-sleep -->	
+    <!-- Double tap-to-sleep -->
     <string name="double_tap_sleep_navbar">Navigačný panel</string>
     <string name="double_tap_sleep_navbar_summary">Dvojitým kliknutím na navigačný panel prepnúť zariadenie do režimu spánku</string>
     <!-- Double Tap Lockscreen to Sleep -->
@@ -177,11 +177,11 @@
 
     <string name="button_backlight_on_touch_only_title">Podsvietenie iba pri dotyku</string>
     <string name="button_backlight_on_touch_only_summary">Zapnúť podsvietenie tlačidiel s časovým limitom iba pri dotyku na tlačidlo</string> 	
-		
+
      <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Tlačidlo Domov počas hovoru</string>
     <string name="allow_incall_home_summary">Umožniť použitie tlačidla Domov pri prichádzajúcom hovore</string>
-     
+
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Časový limit podsvietenia tlačidiel</string>
     <string name="backlight_timeout_on">Vždy zapnuté</string>
@@ -193,7 +193,7 @@
     <string name="backlight_timeout_30s">30 sekúnd</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Podsvietenie</string>
-	
+
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Prebudenie pri nabíjaní</string>
     <string name="wakeup_when_plugged_unplugged_summary">Prebudiť zariadenie pri pripojení/odpojení nabíjačky.</string>
@@ -253,7 +253,7 @@
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Hovor tlačidlami hlasitosti</string>
     <string name="volume_answer_call_summary">Prijať hovor stlačením tlačidiel hlasitosti</string>
-	
+
     <!-- Enabble HW keys -->
     <string name="enable_hw_keys_title">Zapnúť dotykové tlačidlá</string>
     <!-- Enable keys backlight-->
@@ -265,11 +265,11 @@
     <string name="battery_light_allow_on_dnd_title">Používať LED diódu v režime "Nerušit"</string>
     <string name="battery_light_low_blinking_title">LED bliká pri nízkej úrovni nabitia</string>
     <string name="battery_light_cat">Farba LED pri nabíjaní</string>
-    <string name="battery_light_low_color_title">Nízka úroveň</string>
-    <string name="battery_light_medium_color_title">Stredná úroveň</string>
-    <string name="battery_light_full_color_title">Skoro nabitá (90%)</string>
-    <string name="battery_light_really_full_color_title">Úplne nabitá (100%)</string>
-	
+    <string name="battery_light_low_color">Nízka úroveň</string>
+    <string name="battery_light_medium_color">Stredná úroveň</string>
+    <string name="battery_light_full_color">Skoro nabitá (90%)</string>
+    <string name="battery_light_really_fullcolor">Úplne nabitá (100%)</string>
+
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Monitor sieťovej prevádzky</string>
     <string name="network_traffic_state_summary">Zobrazovať rýchlosť prenosu dát v stavovom riadku</string>
@@ -283,19 +283,19 @@
     <string name="smart_pulldown_none">Nie sú žiadne upozornenia</string>
     <string name="smart_pulldown_dismissable">Nie sú odstrániteľné upozornenia</string>
     <string name="smart_pulldown_ongoing">Nie sú trvalé upozornenia</string>
-	
+
     <string name="notification_light_settings">LED signalizácia upozornení</string>
 
     <!-- USB debugging notification -->
     <string name="adb_notify">Upozornenie na ADB ladenie</string>
     <string name="adb_notify_summary">Zobraziť upozornenie na povolený režim ladenia cez USB alebo cez sieť</string>
-	
+
     <!-- Power Menu -->
     <string name="powermenu_screenshot">Fotka obrazovky</string>
-    <string name="powermenu_screenrecord">Nahrávanie obrazovky</string>	
+    <string name="powermenu_screenrecord">Záznam obrazovky</string>
     <string name="powermenu_power">Vypnúť</string>
     <string name="powermenu_restart">Reštartovať</string>
-    <string name="powermenu_restart_recovery">Rozšírený reštart</string>	
+    <string name="powermenu_restart_recovery">Rozšírený reštart</string>
     <string name="powermenu_airplane">Režim v lietadle</string>
     <string name="powermenu_settings">Nastavenia</string>
     <string name="powermenu_lockdown">Uzamknúť</string>
@@ -315,7 +315,7 @@
     <string name="fprint_sucess_vib_summary">Zavibrovať po úspešnom rozpoznaní odtlačku prsta</string>
 
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Odblokovať iba odtlačkom prsta</string>
+    <string name="fp_unlock_keystore_title">Odblokovať iba odtlačkom</string>
     <string name="fp_unlock_keystore_summary">Odomknúť zariadenie po reštarte bez PINu/hesla/vzoru. Použitie na vlastné riziko!</string>
 
     <!-- Heads up -->
@@ -326,7 +326,7 @@
     <string name="add_heads_up_stoplist_summary">Nepovoliť vyskakujúce upozornenia keď sú tieto aplikácie spustené</string>
     <string name="add_heads_up_blacklist_summary">Nepovoliť vyskakujúce upozornenia z týchto aplikácií</string>
     <string name="heads_up_stoplist_title">Zoznam aplikácií</string>
-    <string name="heads_up_blacklist_title">Čierny zoznam</string>	
+    <string name="heads_up_blacklist_title">Čierny zoznam</string>
     <string name="profile_choose_app">Vybrať aplikáciu</string>
     <string name="dialog_delete_title">Vymazať</string>
     <string name="dialog_delete_message">Vymazať vybranú položku?</string>
@@ -367,7 +367,7 @@
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">Na obrazovke uzamknutia</string>
     <string name="lockscreen_qs_disabled_summary">Zakázať dlaždice rýchlych nastavení na zabezpečenej obrazovke uzamknutia</string>
-	
+
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Režim Vo vrecku</string>
     <string name="pocket_judge_summary">Zablokovať obrazovku a tlačidlá, aby sa zabránilo nechcenému stlačeniu vo vrecku</string>

@@ -12,6 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
+
     <string name="nitrogen_settings_title">Nastavení Nitrogenu</string>
 
     <!-- Categories -->
@@ -27,12 +28,12 @@
     <string name="volume_title">Tlačítka hlasitosti</string>
     <string name="notifications_title">Oznámení</string>
 
-	    <!-- General strings -->
+    <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Resetovat</string>
     <string name="cancel">Zrušit</string>
     <string name="save">Uložit</string>
-	
+
     <!-- Color picker -->
     <string name="dialog_color_picker">Výběr barvy</string>
     <string name="press_color_to_apply">Aplikujete kliknutím na barvu</string>
@@ -55,7 +56,7 @@
     <string name="wakelock_blocker_reload">Znovu načítat</string>
     <string name="wakelock_blocker_warning_title">Postupujte opatrně</string>
     <string name="wakelock_blocker_warning">Blokování probuzení může potencionálně způsobovat nestabilitu, pády nebo ztrátu dat</string>
-	
+
     <!-- Alarm blocker -->
     <string name="alarm_blocker">Blokátor alarmů</string>
     <string name="alarm_blocker_title">Zapnuto</string>
@@ -78,7 +79,7 @@
     <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
 
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Možnosti vibrací při volání</string>
+    <string name="incall_vibration_category">Možnosti vibrací při hovoru</string>
     <string name="incall_vibrate_connect_title">Vibrovat při připojení</string>
     <string name="incall_vibrate_call_wait_title">Vibrovat při čekání</string>
     <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
@@ -94,16 +95,16 @@
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Ikony k zobrazení</string>
-	
-    <!-- Power notification controls -->
-    <string name="power_notification_title">Rozšířené možnosti oznámení</string>	
 
-	    <!-- Volume down enter do not disturb -->
-    <string name="volbtn_down_zen_title">Stisknutí Hlasitost- v režimu Nerušit</string>
-    <string name="volbtn_down_zen_summary">Zapnout režim Nerušit při stlačení Hlasitost-</string>
+    <!-- Power notification controls -->
+    <string name="power_notification_title">Rozšířené možnosti oznámení</string>
+
+    <!-- Volume down enter do not disturb -->
+    <string name="volbtn_down_zen_title">Hlasitost- v režimu Nerušit</string>
+    <string name="volbtn_down_zen_summary">Stisknutí Hlasitost- zapne režim Nerušit</string>
     <!-- Volume up exit do not disturb -->
-    <string name="volbtn_up_zen_title">Stisknutí Hlasitost+ v režimu Nerušit</string>
-    <string name="volbtn_up_zen_summary">Vypnout režim Nerušit při stlačení Hlasitost+</string>
+    <string name="volbtn_up_zen_title">Hlasitost+ v režimu Nerušit</string>
+    <string name="volbtn_up_zen_summary">Stisknutí Hlasitost+ vypne režim Nerušit</string>
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">Ovládání jasu</string>
@@ -111,7 +112,7 @@
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Odkazy na obrazovce uzamčení</string>
-	
+
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Tlačítka na navigační liště</string>
 
@@ -237,7 +238,7 @@
     <string name="hardware_keys_action_partial_screenshot">Částečná snímka obraz.</string>
     <string name="hardware_keys_action_pip">Obraz v obraze (PIP)</string>
 
-	    <!-- Kill app long press back -->
+    <!-- Kill app long press back -->
     <string name="kill_app_longpress_back">Zavřít aplikaci</string>
     <string name="kill_app_longpress_back_summary">Zavření aplikace podržením tlačítka Zpět</string>
 
@@ -248,7 +249,7 @@
     <!-- Battery saver color -->
     <string name="battery_saver_color_title">Barevná výstraha</string>
     <string name="battery_saver_color_summary">Obarvení stavového řádku a navigačního panelu, když je aktivován úsporný režim</string>
-	
+
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Hovor tlačítky hlasitosti</string>
     <string name="volume_answer_call_summary">Přijmout hovor stiskem tlačítek hlasitosti</string>
@@ -257,17 +258,17 @@
     <string name="enable_hw_keys_title">Zapnout dotyková tlačítka</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_sw_title">Zapnout podsvícení</string>
-	
+
     <!-- Battery light -->
-    <string name="battery_light_settings">LED signalizace baterie</string>	
+    <string name="battery_light_settings">LED signalizace baterie</string>
     <string name="battery_light_enable">Zapnutá</string>
     <string name="battery_light_allow_on_dnd_title">Používat LED diodu v režimu "Nerušit"</string>
     <string name="battery_light_low_blinking_title">LED bliká při nízké úrovni nabití baterie</string>
     <string name="battery_light_cat">Barba LED při nabíjení</string>
-    <string name="battery_light_low_color">Nízká úroveň</string>	
+    <string name="battery_light_low_color">Nízká úroveň</string>
     <string name="battery_light_medium_color">Střední úroveň</string>
     <string name="battery_light_full_color">Téměř nabitá (90%)</string>
-    <string name="battery_light_really_full_color">Plně nabitá (100%)</string>
+    <string name="battery_light_reallyfull_color">Plně nabitá (100%)</string>
 
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Monitor síťového provozu</string>
@@ -291,7 +292,7 @@
 
     <!-- Power Menu -->
     <string name="powermenu_screenshot">Snímek obrazovky</string>
-    <string name="powermenu_screenrecord">Nahrávání obrazovky</string>		
+    <string name="powermenu_screenrecord">Záznam obrazovky</string>
     <string name="powermenu_power">Vypnout</string>
     <string name="powermenu_reboot">Restartovat</string>
     <string name="powermenu_restart_recovery">Rozšířený restart</string>
@@ -299,9 +300,9 @@
     <string name="powermenu_settings">Nastavení</string>
     <string name="powermenu_lockdown">Uzamknout</string>
     <string name="powermenu_soundpanel">Nastavení zvuku</string>
-    <string name="powermenu_users">Vlastník</string>	
+    <string name="powermenu_users">Vlastník</string>
     <string name="powermenu_torch">Svítilna</string>
-	
+
     <!-- Show navbar -->
     <string name="navigation_bar_enabled_title">Povolit</string>
 
@@ -318,7 +319,7 @@
     <string name="fp_unlock_keystore_summary">Odemknout zařízení po restartu bez PINu/hesla/vzoru. Použití na vlastní riziko!</string>
 
     <!-- Heads up -->
-    <string name="heads_up_notifications">Vyskakující oznámení</string>
+    <string name="heads_up_notifications">Vyskakujícím oznámení</string>
     <string name="summary_heads_up_enabled">Zapnuto</string>
     <string name="summary_heads_up_disabled">Vypnuto</string>
     <string name="add_heads_up_package">Přidat aplikaci</string>
@@ -366,7 +367,7 @@
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">Na obrazovce uzamknutí</string>
     <string name="lockscreen_qs_disabled_summary">Zakázat dlaždice rychlých nastavení na zabezpečené obrazovce uzamknutí</string>
-	
+
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Režim V kapse</string>
     <string name="pocket_judge_summary">Zablokovat obrazovku a tlačítka, aby se zabránilo nechtěnému stisknutí v kapse</string>
