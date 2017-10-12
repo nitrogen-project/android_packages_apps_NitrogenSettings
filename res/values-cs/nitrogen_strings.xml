@@ -361,7 +361,7 @@
     <string name="heads_up_snooze_20min">20 minut</string>
 
     <!-- Toast app icon -->
-    <string name="toast_icon_title">Ikona ve vyskakující upozornění</string>
+    <string name="toast_icon_title">Ikona ve vyskakujícím upozornění</string>
     <string name="toast_icon_summary">Zobrazit ikonu aplikace ve vyskakujícím upozornění</string>
 
     <!-- Disable QS on secure Lockscreen -->

@@ -268,7 +268,7 @@
     <string name="battery_light_low_color">Nízka úroveň</string>
     <string name="battery_light_medium_color">Stredná úroveň</string>
     <string name="battery_light_full_color">Skoro nabitá (90%)</string>
-    <string name="battery_light_really_fullcolor">Úplne nabitá (100%)</string>
+    <string name="battery_light_reallyfull_color">Úplne nabitá (100%)</string>
 
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Monitor sieťovej prevádzky</string>
