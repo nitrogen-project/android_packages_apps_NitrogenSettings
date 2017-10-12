@@ -17,6 +17,16 @@
     android:title="@string/lock_screen_weather_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
 
+    <Preference
+            android:key="omnijaws"
+            android:title="@string/weather_config_title"
+            android:persistent="false">
+
+        <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="org.omnirom.omnijaws"
+                android:targetClass="org.omnirom.omnijaws.SettingsActivityService" />
+    </Preference>
+
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="lock_screen_show_weather"
         android:title="@string/weather_show_weather_title"
@@ -35,16 +45,5 @@
        android:title="@string/weather_icon_pack_title"
        android:dependency="lock_screen_show_weather"
        android:persistent="false" />
-
-    <Preference
-            android:key="omnijaws"
-            android:title="@string/weather_config_title"
-            android:dependency="lock_screen_show_weather"
-            android:persistent="false">
-
-        <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="org.omnirom.omnijaws"
-                android:targetClass="org.omnirom.omnijaws.SettingsActivityService" />
-    </Preference>
 
 </PreferenceScreen>
