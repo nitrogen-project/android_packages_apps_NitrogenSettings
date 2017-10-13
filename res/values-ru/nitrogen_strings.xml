@@ -314,10 +314,6 @@
     <string name="fprint_sucess_vib_title">Отпечаток пальца</string>
     <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальца</string>
 
-    <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Разблокировка отпечатком</string>
-    <string name="fp_unlock_keystore_summary">Разблокировать устройство после перезагрузки без PIN/Пароля/Граф. ключа\nПрим.: Используйте на свой страх и риск!</string>
-
     <!-- Heads up -->
     <string name="heads_up_notifications">Всплывающие уведомления</string>
     <string name="summary_heads_up_enabled">Включены</string>
