@@ -32,7 +32,7 @@
 
     <!-- Categories -->
 
-    <string name="button_title">Butones</string>
+    <string name="button_title">Botones</string>
 
     <string name="gestures_title">Gestos</string>
 
@@ -42,7 +42,7 @@
 
     <string name="navbar_title">Barra de Navegación</string>
 
-    <string name="powermenu_title">Manú de Encendido</string>
+    <string name="powermenu_title">Menú de Encendido</string>
 
     <string name="quicksettings_title">Ajustes Rápidos</string>
 
@@ -235,22 +235,22 @@
 
     <string name="dtts_category_header">Doble toque para dormir</string>
 
-    <string name="double_tap_sleep_navbar">Toca dos veces para dormir en la barra de navegación</string>
+    <string name="double_tap_sleep_navbar">Doble toque en la barra de navegación</string>
 
-    <string name="double_tap_sleep_navbar_summary">Toca dos veces en la barra de navegación para poner el dispositivo a dormir</string>
+    <string name="double_tap_sleep_navbar_summary">Doble toque en la barra de estado para bloquear el dispositivo</string>
 
     <!-- Double Tap Lockscreen to Sleep -->
 
     <string name="double_tap_to_sleep_lockscreen_title">Pantalla de bloqueo</string>
 
-    <string name="double_tap_to_sleep_lockscreen_summary">Doble pulsación en el límite superior de la pantalla de bloqueo para apagar la pantalla</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Doble toque en la parte superior de la pantalla de bloqueo para que esta se apague</string>
 
    
    <!-- Double tap-to-sleep -->
 
     <string name="double_tap_to_sleep_title">Barra de estado</string>
 
-    <string name="double_tap_to_sleep_summary">Toca dos veces en la barra de estado para poner el dispositivo en reposo</string>
+    <string name="double_tap_to_sleep_summary">Doble toque en la barra de estado para bloquear el dispositivo</string>
 
 
 
@@ -521,7 +521,7 @@
 
     <!-- Battery light -->
 
-    <string name="battery_light_settings">Luz de carga de la batería</string>
+    <string name="battery_light_settings">Luz de carga de batería</string>
 
     <string name="battery_light_enable">Activar</string>
 
@@ -537,7 +537,7 @@
 
     <string name="battery_light_full_color">Cargando (90%)</string>
 
-    <string name="battery_light_reallyfull_color">Batería cargada</string>
+    <string name="battery_light_reallyfull_color">Batería cargada (100%)</string>
 
 
 
@@ -615,7 +615,7 @@
 
     <!-- Power menu on secure lockscreen -->
 
-    <string name="lockscreen_power_menu_disabled_title">Menú de apagado cuando esté bloqueado</string>
+    <string name="lockscreen_power_menu_disabled_title">Menú de apagado en pantalla de bloqueo</string>
 
     <string name="lockscreen_power_menu_disabled_summary">Desactiva el menú de apagado en la pantalla de bloqueo</string>
 
@@ -723,7 +723,7 @@
 
     <!-- Disable QS on secure Lockscreen -->
 
-    <string name="lockscreen_qs_disabled_title">QS desactivados cuando esté bloqueado</string>
+    <string name="lockscreen_qs_disabled_title">Ajustes rápidos en pantalla de bloqueo</string>
 
     <string name="lockscreen_qs_disabled_summary">Desactiva los ajustes rápidos cuando el dispositivo esté bloqueado</string>
 
@@ -733,6 +733,6 @@
 
     <string name="pocket_judge_title">Detección de bolsillo</string>
 
-    <string name="pocket_judge_summary">Bloquea las entradas en pantalla y botones cuando el dispositivo esté en el bolsillo, evitando toques accidentales</string>
+    <string name="pocket_judge_summary">Bloquear pantalla y botones cuando el dispositivo esté en el bolsillo</string>
 
 </resources>
