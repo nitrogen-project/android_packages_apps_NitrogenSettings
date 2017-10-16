@@ -313,10 +313,6 @@
   <string name="fprint_sucess_vib_title">Vibrar após impressão digital</string>
   <string name="fprint_sucess_vib_summary">Vibrar quando a autenticação pela impressão digital for bem sucedida</string>
   
-  <!-- Fingerprint unlock keystore -->
-  <string name="fp_unlock_keystore_title">Desbloqueio por impressão digital</string>
-  <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo pela impressão digital após a reinicialização sem pedir o PIN, senha ou padrão.\nAtenção: Método inseguro, use por sua conta em risco!</string>
-  
   <!-- Heads up -->
   <string name="heads_up_notifications">Notificações</string>
   <string name="summary_heads_up_enabled">As notificações flutuantes estão ativadas</string>
