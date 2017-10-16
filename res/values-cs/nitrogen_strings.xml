@@ -314,10 +314,6 @@
     <string name="fprint_sucess_vib_title">Otisk prstu</string>
     <string name="fprint_sucess_vib_summary">Vibrovat při úspěšném rozpoznání otisku prstu</string>
 
-    <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">Odblokovat pouze otiskem</string>
-    <string name="fp_unlock_keystore_summary">Odemknout zařízení po restartu bez PINu/hesla/vzoru. Použití na vlastní riziko!</string>
-
     <!-- Heads up -->
     <string name="heads_up_notifications">Vyskakujícím oznámení</string>
     <string name="summary_heads_up_enabled">Zapnuto</string>
