@@ -367,4 +367,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Режим в "Кармане"</string>
     <string name="pocket_judge_summary">Блокировать экран и кнопки от случайного нажатия в кармане</string>
+
+    <string name="gesture_preference_nos">Жесты AOSP</string>
 </resources>
