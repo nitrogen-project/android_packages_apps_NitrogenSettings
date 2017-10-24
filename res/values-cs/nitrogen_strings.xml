@@ -66,8 +66,8 @@
     <string name="alarm_blocker_reload">Obnovit</string>
     <string name="alarm_blocker_warning_title">Postupujte opatrně</string>
     <string name="alarm_blocker_warning">Blokování alarmů může způsobovat nestabilitu, pády nebo ztrátu dát</string>
-	
-	    <!-- Recents panel settings -->
+
+    <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Zobrazit tlačítko Vymazat vše</string>
     <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko Vymazat vše na obrazovce seznamu nedávných aplikací</string>
     <string name="recents_clear_all_location_title">Umístění tlačítka Vymazat vše</string>
@@ -137,8 +137,8 @@
     <string name="volume_keys_control_media_stream_summary">Tlačítka hlasitosti slouží pro nastavení hlasitosti multimédií</string>
 
     <string name="status_bar_quick_qs_pulldown">Rychlý přístup</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Zatáhněte stavový řádek napravo a otevřete se panel Rychlých nastavení</string>
-	
+    <string name="status_bar_quick_qs_pulldown_summary">Zatáhněte stavový řádek napravo a otevřete se panel rychlých nastavení</string>
+
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Ovládání přehrávače</string>
     <string name="volume_rocker_music_controls_summary">Pokud je vypnutá obrazovka, přepínat skladby dlouhým stiskem tlačítek pro ovládání hlasitosti</string>
@@ -234,8 +234,8 @@
     <string name="hardware_keys_action_sleep">Vypnutí obrazovky</string>
     <string name="hardware_keys_action_last_app">Poslední aplikace</string>
     <string name="hardware_keys_action_split_screen">Rozdelení obrazovky</string>
-    <string name="hardware_keys_action_screenshot">Snímka obrazovky</string>
-    <string name="hardware_keys_action_partial_screenshot">Částečná snímka obraz.</string>
+    <string name="hardware_keys_action_screenshot">Snímek obrazovky</string>
+    <string name="hardware_keys_action_partial_screenshot">Částečný snímek obraz.</string>
     <string name="hardware_keys_action_pip">Obraz v obraze (PIP)</string>
 
     <!-- Kill app long press back -->
@@ -273,16 +273,16 @@
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Monitor síťového provozu</string>
     <string name="network_traffic_state_summary">Zobrazit rychlost přenosu dat ve stavovém řádku</string>
-    <string name="network_traffic_autohide_threshold_title">Skrýt při hodnote provozu (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">Skrýt při rychlosti dat (KB/s)</string>
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Inteligentní stavový řádek</string>
     <string name="smart_pulldown_summary">Otevřít Rychlé nastavení pokud %1$s</string>
     <string name="smart_pulldown_none_summary">Otevřít Rychlé nastavení pokud v řádku nejsou žádná oznámení</string>
     <string name="smart_pulldown_off">Vypnutý</string>
-    <string name="smart_pulldown_none">Nejsou žádná oznámení</string>
-    <string name="smart_pulldown_dismissable">Nejsou odstranitelná oznámení</string>
-    <string name="smart_pulldown_ongoing">Nejsou trvalá oznámení</string>
+    <string name="smart_pulldown_none">Žádná oznámení</string>
+    <string name="smart_pulldown_dismissable">Žádné odvolatelné</string>
+    <string name="smart_pulldown_ongoing">Žádné probíhající</string>
 
     <string name="notification_light_settings">LED signalizace upozornění</string>
 
@@ -347,8 +347,8 @@
 
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Časovač odložení</string>
-    <string name="heads_up_snooze_summary_one_minute">Potažení prstem nahoru po upozornění odloží vyskakující upozornění z této aplikace o 1 minutu</string>
-    <string name="heads_up_snooze_summary">Potažení prstem nahoru po upozornění odloží vyskakující upozornění z této aplikace o <xliff:g id="number">%d</xliff:g> minut</string>
+    <string name="heads_up_snooze_summary_one_minute">Potažení prstem nahoru po upozornění odloží vyskakující upozornění aplikace o 1 minutu</string>
+    <string name="heads_up_snooze_summary">Potažení prstem nahoru po upozornění odloží vyskakující upozornění aplikace o <xliff:g id="number">%d</xliff:g> minut</string>
     <string name="heads_up_snooze_disabled_summary">Vypnuto</string>
     <string name="heads_up_snooze_1min">1 minuta</string>
     <string name="heads_up_snooze_5min">5 minut</string>
@@ -367,4 +367,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Režim V kapse</string>
     <string name="pocket_judge_summary">Zablokovat obrazovku a tlačítka, aby se zabránilo nechtěnému stisknutí v kapse</string>
+
+    <string name="gesture_preference_nos">Gesta AOSP</string>
 </resources>

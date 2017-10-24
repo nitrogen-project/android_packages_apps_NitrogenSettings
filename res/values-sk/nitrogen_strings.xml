@@ -120,7 +120,7 @@
     <string name="dtts_category_header">Prechod do režimu spánku</string>
     <!-- Double tap-to-sleep -->
     <string name="double_tap_sleep_navbar">Navigačný panel</string>
-    <string name="double_tap_sleep_navbar_summary">Dvojitým kliknutím na navigačný panel prepnúť zariadenie do režimu spánku</string>
+    <string name="double_tap_sleep_navbar_summary">Dvojklikom na navigačný panel prepnúť zariadenie do režimu spánku</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Obrazovka uzamknutia</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Uspať zariadenie dvojklikom v spodnej časti obrazovky uzamknutia</string>
@@ -137,7 +137,7 @@
     <string name="volume_keys_control_media_stream_summary">Tlačidlá hlasitosti slúžia pre nastavenie hlasitosť multimédií</string>
 
     <string name="status_bar_quick_qs_pulldown">Rýchly prístup</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Potiahnutie stavového riadku na pravej strane otvorí panel Rýchlych nastavení</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Potiahnutie stavového riadku na pravej strane otvorí panel rýchlych nastavení</string>
 
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Ovládanie prehrávača</string>
@@ -234,7 +234,7 @@
     <string name="hardware_keys_action_sleep">Vypnutie obrazovky</string>
     <string name="hardware_keys_action_last_app">Posledná aplikácia</string>
     <string name="hardware_keys_action_split_screen">Rozdelenie obrazovky</string>
-    <string name="hardware_keys_action_screenshot">Fotka obrazovky</string>
+    <string name="hardware_keys_action_screenshot">Snímka obrazovky</string>
     <string name="hardware_keys_action_partial_screenshot">Čiastočná fotka obraz.</string>
     <string name="hardware_keys_action_pip">Obraz v obraze (PIP)</string>
 
@@ -273,16 +273,16 @@
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Monitor sieťovej prevádzky</string>
     <string name="network_traffic_state_summary">Zobrazovať rýchlosť prenosu dát v stavovom riadku</string>
-    <string name="network_traffic_autohide_threshold_title">Skryť pri hodnote prevádzky (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">Skryť pri rýchlosti dát (KB/s)</string>
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Inteligentný stavový riadok</string>
     <string name="smart_pulldown_summary">Otvoriť Rýchle nastavenia ak %1$s</string>
     <string name="smart_pulldown_none_summary">Otvoriť Rýchle nastavenia ak nie sú žiadne upozornenia</string>
     <string name="smart_pulldown_off">Vypnutý</string>
-    <string name="smart_pulldown_none">Nie sú žiadne upozornenia</string>
-    <string name="smart_pulldown_dismissable">Nie sú odstrániteľné upozornenia</string>
-    <string name="smart_pulldown_ongoing">Nie sú trvalé upozornenia</string>
+    <string name="smart_pulldown_none">Žiadne upozornenia</string>
+    <string name="smart_pulldown_dismissable">Žiadne zrušiteľné</string>
+    <string name="smart_pulldown_ongoing">Žiadne prebiehajúce</string>
 
     <string name="notification_light_settings">LED signalizácia upozornení</string>
 
@@ -291,7 +291,7 @@
     <string name="adb_notify_summary">Zobraziť upozornenie na povolený režim ladenia cez USB alebo cez sieť</string>
 
     <!-- Power Menu -->
-    <string name="powermenu_screenshot">Fotka obrazovky</string>
+    <string name="powermenu_screenshot">Snímka obrazovky</string>
     <string name="powermenu_screenrecord">Záznam obrazovky</string>
     <string name="powermenu_power">Vypnúť</string>
     <string name="powermenu_restart">Reštartovať</string>
@@ -347,8 +347,8 @@
 
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Časovač odloženia</string>
-    <string name="heads_up_snooze_summary_one_minute">Potiahnutie prstom nahor po upozornení odloží vyskakujúce upozornenie z tejto aplikácie o 1 minútu</string>
-    <string name="heads_up_snooze_summary">Potiahnutie prstom nahor po upozornení odloží vyskakujúce upozornenie z tejto aplikácie o <xliff:g id="number">%d</xliff:g> minút</string>
+    <string name="heads_up_snooze_summary_one_minute">Potiahnutie prstom nahor po upozornení odloží vyskakujúce upozornenie aplikácie o 1 minútu</string>
+    <string name="heads_up_snooze_summary">Potiahnutie prstom nahor po upozornení odloží vyskakujúce upozornenie aplikácie o <xliff:g id="number">%d</xliff:g> minút</string>
     <string name="heads_up_snooze_disabled_summary">Vypnuté</string>
     <string name="heads_up_snooze_1min">1 minúta</string>
     <string name="heads_up_snooze_5min">5 minút</string>
@@ -367,4 +367,6 @@
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Režim Vo vrecku</string>
     <string name="pocket_judge_summary">Zablokovať obrazovku a tlačidlá, aby sa zabránilo nechcenému stlačeniu vo vrecku</string>
+
+    <string name="gesture_preference_nos">Gestá AOSP</string>
 </resources>
