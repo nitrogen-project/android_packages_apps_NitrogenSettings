@@ -27,6 +27,7 @@
     <string name="statusbar_title">Строка состояния</string>
     <string name="volume_title">Кнопки громкости</string>
     <string name="notifications_title">Уведомления</string>
+    <string name="device_part_title">Настройки устройства</string>
 
     <!-- General strings -->
     <string name="ok">Ок</string>
