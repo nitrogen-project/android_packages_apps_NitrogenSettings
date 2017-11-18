@@ -26,6 +26,7 @@
     <string name="statusbar_title">Status bar</string>
     <string name="volume_title">Volume rockers</string>
     <string name="notifications_title">Notifications</string>
+    <string name="device_part_title">Device features</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
