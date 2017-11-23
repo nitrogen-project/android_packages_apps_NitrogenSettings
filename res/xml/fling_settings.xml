@@ -144,27 +144,6 @@
             alphaSlider="true"
             android:dependency="eos_fling_show_ripple" />
 
-        <SwitchPreference
-            android:key="eos_fling_trails_enable"
-            android:title="@string/fling_trails_enable_title"
-            android:summary="@string/fling_trails_enable_summary" />
-
-        <net.margaritov.preference.colorpicker.ColorPickerPreference
-            android:key="eos_fling_trails_color"
-            android:title="@string/fling_trails_color_title"
-            android:defaultValue="0xffffff"
-            alphaSlider="true"
-            android:dependency="eos_fling_trails_enable" />
-
-        <com.nitrogen.settings.preferences.CustomSeekBarPreference
-            android:key="du_fling_trails_width"
-            android:title="@string/fling_trails_width_title"
-            android:defaultValue="15"
-            android:max="25"
-            settings:min="1"
-            settings:units="dp"
-            android:dependency="eos_fling_trails_enable"
-            android:persistent="false" />
      </PreferenceCategory>
 
     <PreferenceCategory

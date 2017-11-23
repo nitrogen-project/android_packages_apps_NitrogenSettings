@@ -421,10 +421,6 @@
     <string name="fling_advanced">Advanced</string>
     <string name="fling_long_swipe_title">Long swipe thresholds</string>
     <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
-    <string name="fling_trails_enable_title">Enable gesture trails</string>
-    <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
-    <string name="fling_trails_color_title">Trail color</string>
-    <string name="fling_trails_width_title">Trail width</string>
     <string name="fling_appearance">Appearance</string>
     <string name="fling_show_logo_title">Show Fling logo</string>
     <string name="fling_animate_logo_title">Animate logo</string>
@@ -493,7 +489,6 @@
     <string name="smartbar_button_animation_title">Button touch animation</string>
     <string name="smartbar_button_animation_summary">Set the animation style of the primary buttons when they are pressed</string>
     <string name="smartbar_button_animation_ripple">Ripple</string>
-    <string name="smartbar_button_animation_spring">Spring</string>
     <string name="smartbar_button_animation_flip">Flip</string>
     <string name="smartbar_button_animation_pixel">Pixel (all buttons)</string>
     <string name="smartbar_button_animation_pixel_home">Pixel (Home button only)</string>

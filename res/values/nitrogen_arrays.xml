@@ -192,7 +192,6 @@
 
     <string-array name="smartbar_button_animation_entries">
         <item>@string/smartbar_button_animation_ripple</item>
-        <item>@string/smartbar_button_animation_spring</item>
         <item>@string/smartbar_button_animation_flip</item>
         <item>@string/smartbar_button_animation_pixel</item>
         <item>@string/smartbar_button_animation_pixel_home</item>
@@ -201,7 +200,6 @@
 
     <string-array name="smartbar_button_animation_values" translatable="false">
         <item>0</item>
-        <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>

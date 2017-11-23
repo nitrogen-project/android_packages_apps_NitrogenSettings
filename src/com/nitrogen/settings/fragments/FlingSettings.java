@@ -57,12 +57,10 @@ public class FlingSettings extends ActionFragment implements
     SwitchPreference mShowLogo;
     SwitchPreference mAnimateLogo;
     SwitchPreference mShowRipple;
-    SwitchPreference mTrailsEnabled;
     SwitchPreference mKbCursors;
 
     CustomSeekBarPreference mLogoOpacity;
 
-    CustomSeekBarPreference mTrailsWidth;
     CustomSeekBarPreference mLongPressTimeout;
 
     CustomSeekBarPreference mSwipePortRight;
@@ -73,7 +71,6 @@ public class FlingSettings extends ActionFragment implements
     CustomSeekBarPreference mSwipeVertDown;
 
     ColorPickerPreference mRippleColor;
-    ColorPickerPreference mTrailsColor;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -105,23 +102,6 @@ public class FlingSettings extends ActionFragment implements
         mRippleColor = (ColorPickerPreference) findPreference("eos_fling_ripple_color");
         mRippleColor.setNewPreviewColor(rippleColor);
         mRippleColor.setOnPreferenceChangeListener(this);
-
-        mTrailsEnabled = (SwitchPreference) findPreference("eos_fling_trails_enable");
-        mTrailsEnabled.setChecked(Settings.Secure.getInt(getContentResolver(),
-                Settings.Secure.FLING_TRAILS_ENABLED, 1) == 1);
-        mTrailsEnabled.setOnPreferenceChangeListener(this);
-
-        int trailsColor = Settings.Secure.getIntForUser(getContentResolver(),
-                Settings.Secure.FLING_TRAILS_COLOR, Color.WHITE, UserHandle.USER_CURRENT);
-        mTrailsColor = (ColorPickerPreference) findPreference("eos_fling_trails_color");
-        mTrailsColor.setNewPreviewColor(trailsColor);
-        mTrailsColor.setOnPreferenceChangeListener(this);
-
-        mTrailsWidth = (CustomSeekBarPreference) findPreference("du_fling_trails_width");
-        int width = Settings.Secure.getIntForUser(getContentResolver(),
-                Settings.Secure.FLING_TRAILS_WIDTH, 15, UserHandle.USER_CURRENT);
-        mTrailsWidth.setValue(width);
-        mTrailsWidth.setOnPreferenceChangeListener(this);
 
         // NOTE: we display to the user actual timeouts starting from touch event
         // but framework wants the value less tap timeout, which is 100ms
@@ -269,21 +249,6 @@ public class FlingSettings extends ActionFragment implements
             int color = ((Integer) newValue).intValue();
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.FLING_RIPPLE_COLOR, color);
-            return true;
-        } else if (preference.equals(mTrailsEnabled)) {
-            boolean enabled = ((Boolean) newValue).booleanValue();
-            Settings.Secure.putInt(getContentResolver(),
-                    Settings.Secure.FLING_TRAILS_ENABLED, enabled ? 1 : 0);
-            return true;
-        } else if (preference.equals(mTrailsColor)) {
-            int color = ((Integer) newValue).intValue();
-            Settings.Secure.putInt(getContentResolver(),
-                    Settings.Secure.FLING_TRAILS_COLOR, color);
-            return true;
-        } else if (preference == mTrailsWidth) {
-            int val = (Integer) newValue;
-            Settings.Secure.putIntForUser(getContentResolver(),
-                    Settings.Secure.FLING_TRAILS_WIDTH, val, UserHandle.USER_CURRENT);
             return true;
         } else if (preference == mLongPressTimeout) {
             int val = (Integer) newValue;
