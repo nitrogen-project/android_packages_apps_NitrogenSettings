@@ -119,9 +119,6 @@
 
     <!-- Double Tap -->
     <string name="dtts_category_header">Спящий режим</string>
-    <!-- Double tap-to-sleep -->
-    <string name="double_tap_sleep_navbar">Панель навигации</string>
-    <string name="double_tap_sleep_navbar_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Экран блокировки</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Дважды коснитесь нижней части экрана блокировки для перевода устройства в спящий режим</string>
@@ -529,6 +526,8 @@
     <string name="smartbar_longpress_delay_normal">Нормально</string>
     <string name="smartbar_longpress_delay_long">Длительно</string>
     <string name="smartbar_custom_icon_size_title">Масштабирование значков</string>
+    <string name="smartbar_double_tap_sleep_title">Спящий режим</string>
+    <string name="smartbar_double_tap_sleep_summary">Дважды коснитесь панели навигации для перевода устройства в спящий режим</string>
 
     <!-- ANBI -->
     <string name="anbi_title">Случайное нажатие</string>

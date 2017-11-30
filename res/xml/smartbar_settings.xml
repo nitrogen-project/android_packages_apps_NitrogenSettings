@@ -67,4 +67,9 @@
         settings:units="%"
         android:persistent="false" />
 
+    <com.nitrogen.settings.preferences.SecureSettingSwitchPreference
+        android:key="smartbar_doubletap_sleep"
+        android:title="@string/smartbar_double_tap_sleep_title"
+        android:summary="@string/smartbar_double_tap_sleep_summary"
+        android:defaultValue="true" />
 </PreferenceScreen>
