@@ -29,7 +29,7 @@
     <string name="device_part_title">Funkcje urządzenia</string>
 
     <!-- General strings -->
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="reset">Resetuj</string>
     <string name="cancel">Anuluj</string>
     <string name="save">Zapisz</string>
@@ -74,12 +74,12 @@
     <string name="recents_clear_all_location_top_right">Prawy góry róg</string>
     <string name="recents_clear_all_location_top_left">Lewy górny róg</string>
     <string name="recents_clear_all_location_top_center">U góry po środku</string>
-    <string name="recents_clear_all_location_bottom_right">Dolny prawy róg</string>
-    <string name="recents_clear_all_location_bottom_left">Dolny lewy róg</string>
+    <string name="recents_clear_all_location_bottom_right">Prawy dolny róg</string>
+    <string name="recents_clear_all_location_bottom_left">Lewy dolny róg</string>
     <string name="recents_clear_all_location_bottom_center">U dołu po środku</string>
 
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Opcji wibracji w trakcie rozmowy</string>
+    <string name="incall_vibration_category">Opcje wibracji w trakcie rozmowy</string>
     <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
     <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
     <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
@@ -131,7 +131,7 @@
     <string name="volume_keys_control_media_stream_summary">Wymuś, aby klawisze głośności sterowały strumieniem multimediów</string>
 
     <string name="status_bar_quick_qs_pulldown">Szybkie rozwijanie</string>
-    <string name="status_bar_quick_qs_pulldown_summary">%1$s krawędzi paska statusu rozwija szybkie ustawienia</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Rozwiń pasek stanu z prawej strony, aby pokazać panel szybkich ustawień</string>
 
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Sterowanie odtwarzaniem</string>
@@ -145,12 +145,12 @@
     <string name="torch_power_button_gesture_title">Latarka na wyłączonym ekranie przy użyciu klawisza zasilania</string>
     <string name="torch_power_button_gesture_none">Wyłączona</string>
     <string name="torch_power_button_gesture_dt">Kliknij dwukrotnie przycisk zasilania, aby włączyć latarkę (powinno być małe opóźnienie dla pojedynczego wciśnięcia)</string>
-    <string name="torch_power_button_gesture_lp">Długie naciśnięcie przycisku zasilania, aby włączyć latarkę</string>
+    <string name="torch_power_button_gesture_lp">Długo wciśnij przycisk zasilania, aby włączyć latarkę</string>
 
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">Rzędy i kolumny przełączników</string>
-    <string name="qs_rows_portrait_title">Wiersze (pion)</string>
-    <string name="qs_rows_landscape_title">Wiersze (poziom)</string>
+    <string name="qs_rows_portrait_title">Wiersze przełączników w pionie</string>
+    <string name="qs_rows_landscape_title">Wiersze przełączników w poziomie</string>
     <string name="qs_columns_portrait_title">Kolumny przełączników w pionie</string>
     <string name="qs_columns_landscape_title">Kolumny przełączników w poziomie</string>
 
@@ -194,7 +194,7 @@
     <string name="wakeup_when_plugged_unplugged_summary">Obudź urządzenie, jeśli ładowarka jest podłączona/odłączona.</string>
 
     <!-- Immersive Recents -->
-    <string name="immersive_recents_title">Pełnoekranowe ostatnio uruchomione</string>
+    <string name="immersive_recents_title">Pełnoekranowy panel ostatnich aplikacji</string>
     <string name="immersive_recents_summary">Zmiana widoku ekranu ostatnich aplikacji</string>
     <string name="immersive_recents_dialog_title">Wybierz widok ostatnich aplikacji</string>
     <string name="immersive_recents_default">Domyślne</string>
@@ -353,7 +353,7 @@
     <string name="navbar_general_title">Zaawansowane</string>
     <string name="navigation_bar_left_title">Tryb leworęczny</string>
     <string name="navigation_bar_left_summary">Umieść pasek nawigacji z lewej strony ekranu w trybie poziomym</string>
-    <string name="smartbar_interface">SmartBar</string>
+    <string name="smartbar_interface">Inteligentny pasek</string>
     <string name="icon_pack_picker_dialog_title">Paczki ikon</string>
     <string name="image_exceeds_max_allowed_size">Obraz nie może przekraczać 512x512</string>
     <string name="invalid_icon_from_uri">Nie można wczytać obrazu od dostawcy zawartości</string>
@@ -376,7 +376,7 @@
     <string name="fling_interface">Gesty</string>
     <string name="fling_enable_title">Włącz gesty</string>
     <string name="fling_back_home_policy">Wstecz i Home muszą być ustawione. Aby zmienić przypisanie Wstecz lub Home, ustaw najpierw wymagane przypisanie</string>
-    <string name="fling_split_bar_policy">Gdy akcja jest przypisana tylko do prawej lub lewej to odnosi się ona do całego paska</string>
+    <string name="fling_split_bar_policy">Jeśli akcja jest przypisana tylko do prawej lub lewej, to odnosi się ona do całego paska</string>
     <string name="fling_def_summary">Nie wybrano akcji</string>
     <string name="fling_swipe_actions">Gesty przeciągania</string>
     <string name="fling_tap_actions">Gesty dotykania</string>
@@ -426,7 +426,7 @@
     <string name="fling_logo_opacity_title">Nieprzeźroczystość logo</string>
 
     <!-- Pulse navigation bar music visualizer -->
-    <string name="pulse_help_policy_notice_summary">Pulse jest genialną wizualizacją odtwarzanego dźwięku na pasku nawigacji. Pulse nie działa z niektórymi odtwarzaczami podczas odtwarzania przez głośnik urządzenia</string>
+    <string name="pulse_help_policy_notice_summary">Pulse nie działa z niektórymi odtwarzaczami podczas odtwarzania przez głośnik urządzenia</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Wizualizacja audio na pasku nawigacji</string>
     <string name="fling_show_pulse_title">Pokaż Pulse</string>
@@ -461,11 +461,11 @@
     <string name="positive_done">Ustaw</string>
 
     <!-- SmartBar -->
-    <string name="smartbar_category">SmartBar</string>
-    <string name="smartbar_settings_title">Ustawienia SmartBar</string>
+    <string name="smartbar_category">Inteligentny pasek</string>
+    <string name="smartbar_settings_title">Ustawienia inteligentnego paska</string>
     <string name="smartbar_settings_summary">W pełni konfigurowalny pasek nawigacyjny</string>
     <string name="smartbar_editor_title">Edytor przełączników</string>
-    <string name="smartbar_editor_summary">Naciśnij i przeciągnij, aby przenieść. Przytrzymaj, aby otworzyć menu edycji. Pozycje przycisków mogą być zmienione, kiedy menu jest wyświetlane.</string>
+    <string name="smartbar_editor_summary">Otwórz edytor przycisków inteligentnego paska</string>
     <string name="smartbar_help_policy_notice_summary">W trybie edytora naciśnij średnio i przeciągnij przycisk, aby zmienić jego pozycję lub naciśnij długo przycisk, aby wyświetlić menu edycji. Pozycja przycisku może być zmieniana, gdy menu jest wyświetlane.\n\nUstawienie podwójnego dotknięcia spowoduje opóźnienie jednego kliknięcia.</string>
     <string name="smartbar_context_menu_position_title">Pozycja przycisków kontekstowych</string>
     <string name="smartbar_context_menu_position_summary">Ustaw położenie przycisków kontekstowych takich jak menu lub przełącznik klawiatur</string>
@@ -491,13 +491,13 @@
     <string name="smartbar_config_name_edit_dialog_title">Nazwa profilu</string>
     <string name="smartbar_config_name_edit_dialog_message">Wprowadź nazwę lub pozostaw puste</string>
     <string name="smartbar_config_dialog_title">Profile SmartBar</string>
-    <string name="smartbar_config_backup_success_toast">Ustawienia SmartBar zapisane pomyślnie</string>
-    <string name="smartbar_config_restore_success_toast">Ustawienia SmartBar przywrócone pomyślnie</string>
-    <string name="smartbar_config_backup_error_toast">Wystąpił błąd podczas zapisywania ustawień SmartBar</string>
-    <string name="smartbar_config_restore_error_toast">Wystąpił błąd podczas przywracania ustawień SmartBar</string>
+    <string name="smartbar_config_backup_success_toast">Ustawienia inteligentnego paska zapisane pomyślnie</string>
+    <string name="smartbar_config_restore_success_toast">Ustawienia inteligentnego paska przywrócone pomyślnie</string>
+    <string name="smartbar_config_backup_error_toast">Wystąpił błąd podczas zapisywania ustawień inteligentnego paska</string>
+    <string name="smartbar_config_restore_error_toast">Wystąpił błąd podczas przywracania ustawień inteligentnego paska</string>
     <string name="navbar_buttons_alpha_title">Przezroczystość przyciksów</string>
     <string name="smartbar_longpress_delay_title">Opóźnienie przytrzymania przycisku</string>
-    <string name="smartbar_longpress_delay_summary">Ustawić, jak długo system będzie czekać przed wyzwalającego akcja longpress</string>
+    <string name="smartbar_longpress_delay_summary">Ustaw, jak długo system ma czekać przed wyzwoleniem akcji długiego naciśnięcia</string>
     <string name="smartbar_longpress_delay_default">Domyślne opóźnienie (szybko)</string>
     <string name="smartbar_longpress_delay_normal">Normalne opóźnienie</string>
     <string name="smartbar_longpress_delay_long">Długie opóźnienie</string>
