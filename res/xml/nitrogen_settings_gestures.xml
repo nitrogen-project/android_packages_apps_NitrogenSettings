@@ -18,10 +18,10 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <Preference
+    <!--<Preference
         android:key="gestures_dashboard"
         android:title="@string/gesture_preference_nos"
-        android:fragment="com.android.settings.system.GesturesFragment" />
+        android:fragment="com.android.settings.system.GesturesFragment" />-->
 
     <PreferenceCategory
         android:key="dtts_category"
@@ -40,12 +40,6 @@
         android:defaultValue="true" />
 
     </PreferenceCategory>
-
-    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
-        android:key="pocket_judge"
-        android:title="@string/pocket_judge_title"
-        android:summary="@string/pocket_judge_summary"
-        android:defaultValue="false" />
 
     <ListPreference
         android:key="torch_power_button_gesture"
