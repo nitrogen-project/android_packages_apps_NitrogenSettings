@@ -74,8 +74,8 @@
             android:title="@string/powermenu_users"
             android:defaultValue="false" />
 
-         <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+         <!--<com.nitrogen.settings.preferences.SystemSettingSwitchPreference
             android:key="powermenu_soundpanel"
             android:title="@string/powermenu_soundpanel"
-            android:defaultValue="false" />
+            android:defaultValue="false" />-->
 </PreferenceScreen>
