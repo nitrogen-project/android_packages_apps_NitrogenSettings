@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="nitrogen_settings_title">Ustawienia Nitrogen</string>
+    <string name="nitrogen_settings_title">Personalizacja</string>
 
     <!-- Categories -->
     <string name="button_title">Przyciski</string>
@@ -46,7 +46,7 @@
 
     <!-- MTP Dirty Hack -->
     <string name="enable_mtp_dirtyhack_title">MTP zamiast Ładowanie</string>
-    <string name="enable_mtp_dirtyhack_summary">Włącz MTP zamiast Ładowania po podłączeniu do PC</string>
+    <string name="enable_mtp_dirtyhack_summary">Włącz MTP zamiast Ładowanie po podłączeniu urządzenia do komputera</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Blokada wybudzeń</string>
@@ -60,7 +60,7 @@
     <!-- Alarm blocker -->
     <string name="alarm_blocker">Blokada alarmów</string>
     <string name="alarm_blocker_title">Włącz</string>
-    <string name="alarm_blocker_summary">Blokuj alarmy, kiedy ekran jest wyłączony</string>
+    <string name="alarm_blocker_summary">Blokuj alarmy, gdy ekran jest wyłączony</string>
     <string name="alarm_blocker_save">Zapisz</string>
     <string name="alarm_list_header">Dostępne alarmy</string>
     <string name="alarm_blocker_reload">Odśwież</string>
@@ -144,7 +144,7 @@
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Latarka na wyłączonym ekranie przy użyciu klawisza zasilania</string>
     <string name="torch_power_button_gesture_none">Wyłączona</string>
-    <string name="torch_power_button_gesture_dt">Kliknij dwukrotnie przycisk zasilania, aby włączyć latarkę (powinno być małe opóźnienie dla pojedynczego wciśnięcia)</string>
+    <string name="torch_power_button_gesture_dt">Szybko dwukrotnie wciśnij przycisk zasilania, aby włączyć latarkę</string>
     <string name="torch_power_button_gesture_lp">Długo wciśnij przycisk zasilania, aby włączyć latarkę</string>
 
     <!-- QS rows and columns -->
@@ -218,7 +218,7 @@
 
     <!-- Battery saver color -->
     <string name="battery_saver_color_title">Kolor ostrzeżenia</string>
-    <string name="battery_saver_color_summary">Włącz pomarańczowy pasek stanu i nawigacyjny kiedy uruchomione jest oszczędzanie baterii</string>
+    <string name="battery_saver_color_summary">Włącz pomarańczowy pasek stanu i nawigacyjny, gdy uruchomione jest oszczędzanie baterii</string>
 
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Odbieranie połączeń</string>
@@ -241,12 +241,12 @@
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Monitor transmisji danych</string>
     <string name="network_traffic_state_summary">Pokaż monitor transmisji danych na pasku stanu</string>
-    <string name="network_traffic_autohide_threshold_title">Próg automatycznego ukrywania monitora transmisji danych (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">Próg auto ukrywania MTD (KB/s)</string>
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
     <string name="smart_pulldown_summary">Otwórz szybkie ustawienia, gdy jest %1$s powiadomień</string>
-    <string name="smart_pulldown_none_summary">Otwórz szybkie ustawienia gdy nie ma powiadomień</string>
+    <string name="smart_pulldown_none_summary">Otwórz szybkie ustawienia, gdy nie ma powiadomień</string>
     <string name="smart_pulldown_off">Wyłączone</string>
     <string name="smart_pulldown_none">Brak powiadomień</string>
     <string name="smart_pulldown_dismissable">Nie ma usuwalnych</string>
@@ -370,7 +370,8 @@
     <string name="action_entry_default_action">Ustawienia domyślne</string>
     <string name="action_entry_select_app">Wybierz aplikację</string>
     <string name="action_entry_custom_action">Wybierz własną akcję</string>
-    <!-- Fling -->
+    
+	<!-- Fling -->
     <string name="fling_settings">Ustawienia gestów</string>
     <string name="fling_settings_summary">Bardzo unikalny i w pełni konfigurowalny pasek nawigacyjny oparty na gestach</string>
     <string name="fling_interface">Gesty</string>
@@ -504,6 +505,8 @@
     <string name="smartbar_custom_icon_size_title">Niestandardowe skalowanie ikon</string>
     <string name="one_handed_mode_title">Tryb jednoręczny</string>
     <string name="one_handed_mode_summary">Umożliwia przesuwanie na pasku nawigacyjnym, aby włączyć tryb jednoręczny</string>
+	<string name="smartbar_double_tap_sleep_title">Dotknij dwukrotnie, aby uśpić</string>
+    <string name="smartbar_double_tap_sleep_summary">Dotknij dwukrotnie pusty obszar paska nawigacyjnego, aby uśpić</string>
 
     <!-- Hardware keys -->
     <string name="hardware_keys_home_key_title">Przycisk Home</string>
