@@ -12,7 +12,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- App Title -->
-  <string name="nitrogen_settings_title">Nitrogen OS</string>
+  <string name="nitrogen_settings_title">Configurações Nitrogen</string>
   
   <!-- Categories -->
   <string name="button_title">Botões</string>
@@ -26,16 +26,17 @@
   <string name="statusbar_title">Barra de status</string>
   <string name="volume_title">Botões de volume</string>
   <string name="notifications_title">Notificações</string>
+  <string name="device_part_title">Personalização do dispositivo</string>
   
   <!-- General strings -->
-  <string name="ok">Concluído</string>
+  <string name="ok">OK</string>
   <string name="reset">Redefinir</string>
   <string name="cancel">Cancelar</string>
   <string name="save">Salvar</string>
   
   <!-- Color Picker -->
   <string name="dialog_color_picker">Seletor de cor</string>
-  <string name="press_color_to_apply">Selecione a cor abaixo para aplicar</string>
+  <string name="press_color_to_apply">Pressione a cor abaixo para aplicar</string>
   <string name="arrow_right">→</string>
   <string name="arrow_down">↓</string>
   <string name="hex">Hex:</string>
@@ -45,7 +46,7 @@
   
   <!-- MTP Dirty Hack -->
   <string name="enable_mtp_dirtyhack_title">USB para transferência de arquivos</string>
-  <string name="enable_mtp_dirtyhack_summary">Habilita a transferência de arquivos após se conectar ao computador, em vez de somente carregamento </string>
+  <string name="enable_mtp_dirtyhack_summary">Habilita a transferência de arquivos ao conectar ao PC em vez de carregar</string>
   
   <!-- Wakelock blocker -->
   <string name="wakelock_blocker_title">Bloqueador de Wakelock</string>
@@ -64,7 +65,7 @@
   <string name="alarm_list_header">Alarmes disponíveis</string>
   <string name="alarm_blocker_reload">Atualizar</string>
   <string name="alarm_blocker_warning_title">Prossiga com cautela</string>
-  <string name="alarm_blocker_warning">O bloqueio dos alarmes pode causar instabilidade, falhas ou perdas de dados.</string>
+  <string name="alarm_blocker_warning">Bloquear alarmes pode causar instabilidade, falhas ou perdas de dados.</string>
   
   <!-- Recents panel settings -->
   <string name="show_clear_all_recents_button_title">Botão de Limpar Tudo</string>
@@ -112,13 +113,8 @@
   <!-- Lockscreen icons -->
   <string name="lockscreen_tuner_title">Atalhos na tela de Bloqueio</string>
   
-  <!-- Navbar tuner -->
-  <string name="navbar_tuner_title">Botões da barra de navegação</string>
-  
   <!-- Double Tap -->
   <string name="dtts_category_header">Toque duplo para desligar a tela</string>
-  <string name="double_tap_sleep_navbar">Barra de navegação</string>
-  <string name="double_tap_sleep_navbar_summary">Toque duas vezes na barra de navegação para desligar a tela</string>
   <!-- Double Tap Lockscreen to Sleep -->
   <string name="double_tap_to_sleep_lockscreen_title">Tela de bloqueio</string>
   <string name="double_tap_to_sleep_lockscreen_summary">Toque duas vezes na área superior ou inferior da tela de bloqueio para desligar a tela</string>
@@ -178,7 +174,7 @@
   
   <!-- Incall Home button behavior-->
   <string name="allow_incall_home_title">Botão Home na chamada telefônica</string>
-  <string name="allow_incall_home_summary">Permitir usar o botão Home quando estiver tocando</string>
+  <string name="allow_incall_home_summary">Permitir usar o botão Home quando aparelho estiver tocando</string>
   
   <!-- Buttons backlight timeout -->
   <string name="backlight_timeout_title">Tempo de retroiluminação dos botões</string>
@@ -228,8 +224,6 @@
   <string name="volume_answer_call_title">Atender com os botões de volume</string>
   <string name="volume_answer_call_summary">Atender a chamada, quando pressionado os botões de volume</string>
   
-  <!-- Enabble HW keys -->
-  <string name="enable_hw_keys_title">Ativar as teclas físicas</string>
   <!-- Enable keys backlight-->
   <string name="button_brightness_sw_title">Habilitar retroiluminação</string>
   
@@ -277,9 +271,6 @@
   <string name="powermenu_users">Usuários</string>
   <string name="powermenu_torch">Lanterna</string>
   
-  <!-- Show navbar -->
-  <string name="navigation_bar_enabled_title">Ativar</string>
-  
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_power_menu_disabled_title">Menu de energia na tela de bloqueio</string>
   <string name="lockscreen_power_menu_disabled_summary">Desativar o menu de energia na tela de bloqueio segura</string>
@@ -308,7 +299,7 @@
   <!-- Quick Settings brightness icon -->
   <string name="brightness_icon_title">Ícone de brilho</string>
   <string name="brightness_icon_summary">Mostrar o ícone de brilho a esquerda do controle de brilho para ajustar o brilho automático</string>
-
+  
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Tempo limite</string>
   <string name="heads_up_time_out_summary">As notificações seram exibidas por <xliff:g id="number">%d</xliff:g> segundos</string>
@@ -318,7 +309,7 @@
   <string name="heads_up_time_out_6sec">6 segundos</string>
   <string name="heads_up_time_out_8sec">8 segundos</string>
   <string name="heads_up_time_out_10sec">10 segundos</string>
-
+  
   <!-- Heads up snooze -->
   <string name="heads_up_snooze_title">Silenciar as notificações</string>
   <string name="heads_up_snooze_summary_one_minute">Deslizar sobre alguma notificação flutuante vai silenciar as notificações desse aplicativo por 1 minuto</string>
@@ -329,16 +320,219 @@
   <string name="heads_up_snooze_10min">10 minutos</string>
   <string name="heads_up_snooze_15min">15 minutos</string>
   <string name="heads_up_snooze_20min">20 minutos</string>
-
+  
   <!-- Toast app icon -->
   <string name="toast_icon_title">Notificação Toast</string>
   <string name="toast_icon_summary">Exibir o ícone do aplicativo correspondente na notificação toast</string>
-
+  
   <!-- Disable QS on secure Lockscreen -->
   <string name="lockscreen_qs_disabled_title">Configurações rápidas na tela de bloqueio</string>
   <string name="lockscreen_qs_disabled_summary">Desativar atalhos das configurações rápidas na tela de bloqueio segura</string>
-
+  
   <!-- Pocket judge -->
   <string name="pocket_judge_title">Detectar bolso</string>
   <string name="pocket_judge_summary">Bloquear toques acidentais na tela ou botões quando o dispositivo estiver no bolso</string>
+  
+  <string name="gesture_preference_nos">Gestos AOSP</string>
+  
+  <!-- Navigation -->
+  <string name="navigationbar_title">Barra de navegação</string>
+  <string name="navigationbar_summary">Configurar smartbar, fling ou pulse</string>
+  <string name="navbar_buttons_title">Botões da barra de navegação</string>
+  <string name="navbar_buttons_summary">Layout da barra de navegação e botões personalizados</string>
+  
+  <!-- DUI -->
+  <string name="navbar_interface_title">Interface</string>
+  <string name="navbar_size">Tamanho da barra</string>
+  <string name="navbar_mode">Modo de navegação</string>
+  <string name="navbar_mode_summary">Selecione qual modo de navegação usar no seu dispositivo</string>
+  <string name="navbar_visibility">Ativar barra de navegação virtual</string>
+  <string name="navigationbar_settings_title">Barra de navegação</string>
+  <string name="bottom_nav_navigation_title">Barra de navegação</string>
+  <string name="navigationbar_settings_summary">Personalizar comportamento e estilo de navegação</string>
+  <string name="navbar_general_title">Avançado</string>
+  <string name="navigation_bar_left_title">Modo canhoto</string>
+  <string name="navigation_bar_left_summary">Coloca a barra de navegação no lado esquerdo da tela no modo paisagem</string>
+  <string name="smartbar_interface">SmartBar</string>
+  <string name="icon_pack_picker_dialog_title">Pacotes de ícone</string>
+  <string name="image_exceeds_max_allowed_size">Imagem não deve exceder 512x512</string>
+  <string name="invalid_icon_from_uri">Não é possível carregar a imagem do provedor de conteúdo</string>
+  <string name="picker_activities">Atividades</string>
+  <string name="select_custom_app_title">Selecionar aplicativo personalizado</string>
+  <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
+  <string name="profile_applist_title">Aplicações</string>
+  <string name="default_string">Padrão</string>
+  <string name="default_settings">Configurações padrão</string>
+  <string name="default_settings_summary">Barra de navegação padrão AOSP</string>
+  
+  <!-- Actions dialog and default task values set in ActionPreference xml-->
+  <string name="choose_action_title">Selecione a ação</string>
+  <string name="action_entry_default_action">Configurações padrão</string>
+  <string name="action_entry_select_app">Selecionar aplicativo</string>
+  <string name="action_entry_custom_action">Selecionar ação personalizada</string>
+    <string name="action_value_default_action" translatable="false">default</string>
+    <string name="action_value_select_app" translatable="false">app</string>
+    <string name="action_value_custom_action" translatable="false">custom</string>
+    <string name="action_value_back" translatable="false">task_back</string>
+    <string name="action_value_home" translatable="false">task_home</string>
+    <string name="action_value_search_assist" translatable="false">task_assist</string>
+    <string name="action_value_recent_apps" translatable="false">task_recents</string>
+    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
+    <string name="action_value_menu" translatable="false">task_menu</string>
+  
+  <!-- Fling -->
+  <string name="fling_settings">Configurações de Fling</string>
+  <string name="fling_settings_summary">Uma barra de navegação exclusiva baseada em gestos e totalmente customizável</string>
+  <string name="fling_interface">Fling</string>
+  <string name="fling_enable_title">Ativar Fling</string>
+  <string name="fling_back_home_policy">Botões Voltar e Home são requisitados a ser aplicados a todo momento. Para alterar uma atribuição de Voltar ou Home, primeiro defina a atribuição desejada.\n\nAlém disso, definir uma ação de toque duplo irá atrasar um pouco o toque único.</string>
+  <string name="fling_split_bar_policy">Quando apenas uma ação de direta ou esquerda é atribuída, a ação aplica-se à barra completa.</string>
+  <string name="fling_def_summary">Nenhum conjunto de ação</string>
+  <string name="fling_swipe_actions">Gestos de deslizar</string>
+  <string name="fling_tap_actions">Gestos de tocar</string>
+  <string name="fling_short_swipe_right">Deslize curto para a direita</string>
+  <string name="fling_short_swipe_left">Deslize curto para a esquerda</string>
+  <string name="fling_long_swipe_right">Deslize longo para a direita</string>
+  <string name="fling_long_swipe_left">Deslize longo para a esquerda</string>
+  <string name="fling_right_up_swipe">Deslizar para cima no lado direito</string>
+  <string name="fling_left_up_swipe">Deslizar para cima no lado esquerdo</string>
+  <string name="fling_single_tap">Toque único à direita</string>
+  <string name="fling_double_tap">Toque duplo à direita</string>
+  <string name="fling_long_press">Pressão longa à direita</string>
+  <string name="fling_single_left_tap">Toque único à esquerda</string>
+  <string name="fling_double_left_tap">Toque duplo à esquerda</string>
+  <string name="fling_long_left_press">Pressão longa à esquerda</string>
+  <string name="long_swipe_portrait_title">Retrato</string>
+  <string name="long_swipe_landscape_title">Paisagem</string>
+  <string name="portrait_right_swipe_title">Deslize à direta no modo retrato</string>
+  <string name="portrait_left_swipe_title">Deslize à esquerda no modo retrato</string>
+  <string name="landscape_right_swipe_title">Deslize à direita no modo paisagem</string>
+  <string name="landscape_left_swipe_title">Deslize à esquerda no modo paisagem</string>
+  <string name="vertical_up_swipe_title">Deslize para cima na vertical</string>
+  <string name="vertical_down_swipe_title">Deslize para baixo na vertical</string>
+  <string name="up_swipe_title">Deslize para cima</string>
+  <string name="down_swipe_title">Deslize para baixo</string>
+  <string name="long_swipe_reset">Redefinir</string>
+  <string name="fling_advanced">Avançado</string>
+  <string name="fling_long_swipe_title">Limiares longos de deslize</string>
+  <string name="fling_long_swipe_summary">Sintonize os limiares de deslize longos com base em uma porcentagem da largura ou altura da interface Fling</string>
+  <string name="fling_appearance">Aparência</string>
+  <string name="fling_show_logo_title">Mostrar logotipo Fling</string>
+  <string name="fling_animate_logo_title">Animar o logotipo</string>
+  <string name="fling_animate_logo_summary">Anima o logotipo em eventos de toque</string>
+  <string name="fling_logo_color">Cor do logotipo</string>
+  <string name="fling_logo_custom_logo_pick_title">Ícone de logotipo personalizado</string>
+  <string name="fling_logo_custom_logo_image_pick_title">Imagem de logotipo personalizada</string>
+  <string name="fling_logo_custom_logo_reset_title">Restaurar o ícone do logotipo</string>
+  <string name="fling_show_ripple_title">Mostrar flutuação</string>
+  <string name="fling_show_ripple_summary">Efeito de flutuação em eventos de toque</string>
+  <string name="fling_ripple_color">Cor de flutuação</string>
+  <string name="fling_longpress_timeout_label_left">Menos atraso</string>
+  <string name="fling_longpress_timeout_label_right">Mais atraso</string>
+  <string name="fling_longpress_title">Demora da pressão longa</string>
+  <string name="fling_longpress_summary">Aumentar ou diminuir o tempo que leva para executar uma pressão longa</string>
+  <string name="fling_keyboard_cursors_title">Ação de cursores do teclado dinâmico</string>
+  <string name="fling_keyboard_cursors_summary">Ações de toque duplo para esquerda e direita torna-se ações de cursor do teclado para esquerda e direita se o teclado estiver aberto</string>
+  <string name="fling_logo_opacity_title">Opacidade do logotipo Fling</string>
+  
+  <!-- Pulse navigation bar music visualizer -->
+  <string name="pulse_help_policy_notice_summary">Pulse não funciona com algumas fontes de áudio quando estiver ouvindo no alto falante do dispositivo</string>
+  <string name="pulse_settings">Pulse</string>
+  <string name="pulse_settings_summary">Equalizador gráfico de áudio na barra de navegação</string>
+  <string name="fling_show_pulse_title">Ativar Pulse</string>
+  <string name="fling_show_pulse_summary">Equalizador gráfico de áudio na barra de navegação</string>
+  <string name="pulse_render_mode_title">Modo de renderização</string>
+  <string name="pulse_render_mode_fading_bars">Blocos desvanecentes</string>
+  <string name="pulse_render_mode_solid_lines">Linhas sólidas</string>
+  <string name="fling_pulse_color">Cor do Pulse</string>
+  <string name="eos_fling_lavalamp_title">Ligar Lâmpada de Lava</string>
+  <string name="eos_fling_lavalamp_summary">Uma mistura de cor suave estilo lâmpada de lava anima o Pulse</string>
+  <string name="pulse_advanced_category">Avançado</string>
+  <string name="pulse_legacy_mode_advanced_category">Configurações do modo de blocos desvanecentes</string>
+  <string name="pulse_custom_fudge_factor">Nível de sanidade</string>
+  <string name="lavamp_solid_speed_title">Velocidade da lâmpada de lava</string>
+  <string name="pulse_solid_units_count">Número da linhas sólidas</string>
+  <string name="pulse_solid_lines_count">Número de linhas sólidas</string>
+  <string name="pulse_solid_units_opacity">Opacidade de linhas sólidas</string>
+  <string name="pulse_solid_dimen_category">Configurações do modo de linhas sólidas</string>
+  <string name="pulse_custom_buttons_opacity_title">Opacidade de botões SmartBar no Pulse</string>
+  
+  <!-- Pulse config -->
+  <string name="pulse_custom_dimen">Largura da barra</string>
+  <string name="pulse_custom_div">Espaçamento entre barras</string>
+  <string name="pulse_filled_block_size">Tamanho do bloco</string>
+  <string name="pulse_empty_block_size">Espaçamento entre blocos</string>
+  
+  <!-- Navbar height -->
+  <string name="navigation_bar_size_title">Tamanho da barra</string>
+  <string name="portrait_title">Altura no modo retrato</string>
+  <string name="land_vert_title">Largura no modo paisagem</string>
+  <string name="land_hor_title">Altura no modo paisagem</string>
+  <string name="positive_done">Feito</string>
+  
+  <!-- SmartBar -->
+  <string name="smartbar_category">Smartbar</string>
+  <string name="smartbar_settings_title">Configurações da Smartbar</string>
+  <string name="smartbar_settings_summary">Barra de navegação totalmente personalizável</string>
+  <string name="smartbar_editor_title">Iniciar o modo de edição</string>
+  <string name="smartbar_editor_summary">Abrir editor de botões da smartbar</string>
+  <string name="smartbar_help_policy_notice_summary">Quando no modo de edição, pressione por um tempo e arraste um botão para alterar a sua posição ou pressione de forma demorada para mostrar o menu de edição. A posição do botão pode ser alterada enquanto o menu é mostrado.\n\nAplicar uma ação de toque duplo irá atrasar um pouco a ação de toque único.</string>
+  <string name="smartbar_context_menu_position_title">Posição de layout dos botões de contexto</string>
+  <string name="smartbar_context_menu_position_summary">Definir a posição dos botões contextuais, tal como menu e seletor de teclado</string>
+  <string name="smartbar_right">Direita</string>
+  <string name="smartbar_left">Esquerda</string>
+  <string name="smartbar_button_animation_title">Animação de toque no botão</string>
+  <string name="smartbar_button_animation_summary">Definir o estilo de animação dos botões primários quando são pressionados</string>
+  <string name="smartbar_button_animation_ripple">Ondulação</string>
+  <string name="smartbar_button_animation_flip">Giro</string>
+  <string name="smartbar_button_animation_pixel">Estilo Pixel (todos os botões)</string>
+  <string name="smartbar_button_animation_pixel_home">Estilo Pixel (somente botão Home)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Estilo Pixel (somente botão Home) e Ondulação</string>
+  <string name="smartbar_factory_reset_title">Redefinir para o padrão</string>
+  <string name="smartbar_factory_reset_confirm">Tem certeza de que deseja redefinir a Smartbar para as configurações padrão?</string>
+  <string name="smartbar_ime_action_title">Método de entrada e ações de mídia</string>
+  <string name="smartbar_ime_action_summary">Definir quais botões mostrar quando um teclado na tela está sendo exibido ou há música tocando</string>
+  <string name="smartbar_ime_action_none">Nenhum</string>
+  <string name="smartbar_ime_action_arrows">Setas de entrada</string>
+  <string name="smartbar_ime_action_switcher">Alternador de teclado</string>
+  <string name="smartbar_ime_action_dynamic">Setas de entrada/mídia</string>
+  <string name="smartbar_backup_current_config_title">Salvar perfil</string>
+  <string name="smartbar_restore_config_title">Restaurar perfil</string>
+  <string name="smartbar_config_name_edit_dialog_title">Nome do perfil de Smartbar</string>
+  <string name="smartbar_config_name_edit_dialog_message">Digite o nome ou deixe em branco</string>
+  <string name="smartbar_config_dialog_title">Perfis de smartbar</string>
+  <string name="smartbar_config_backup_success_toast">Perfil de smartbar salvo com sucesso</string>
+  <string name="smartbar_config_restore_success_toast">Perfil de smartbar restaurado com sucesso</string>
+  <string name="smartbar_config_backup_error_toast">Erro ao salvar perfil de smartbar</string>
+  <string name="smartbar_config_restore_error_toast">Erro ao restaurar perfil de smartbar</string>
+  <string name="navbar_buttons_alpha_title">Transparência de botão</string>
+  <string name="smartbar_longpress_delay_title">Atraso de toque longo de botão</string>
+  <string name="smartbar_longpress_delay_summary">Definir quanto tempo o sistema aguardará antes de acionar uma ação de toque longo</string>
+  <string name="smartbar_longpress_delay_default">Atraso padrão (rápido)</string>
+  <string name="smartbar_longpress_delay_normal">Atraso normal</string>
+  <string name="smartbar_longpress_delay_long">Atraso longo</string>
+  <string name="smartbar_custom_icon_size_title">Dimensionamento de ícone personalizado</string>
+  <string name="one_handed_mode_title">Modo uma mão</string>
+  <string name="one_handed_mode_summary">Permitir deslizar na barra de navegação para ativar modo uma mão</string>
+  <string name="smartbar_double_tap_sleep_title">Toque duplo para desligar</string>
+  <string name="smartbar_double_tap_sleep_summary">Duplo toque em áreas vazias na barra de navegação para desligar a tela</string>
+  
+  <!-- Hardware keys -->
+  <string name="hardware_keys_home_key_title">Botão Home</string>
+  <string name="hardware_keys_menu_key_title">Botão menu</string>
+  <string name="hardware_keys_assist_key_title">Botão de pesquisa</string>
+  <string name="hardware_keys_appswitch_key_title">Botão de visão geral</string>
+  <string name="hardware_keys_back_key_title">Botão voltar</string>
+  <string name="hardware_keys_double_tap_summary">Definir ação de toque duplo</string>
+  <string name="hardware_keys_single_tap_summary">Definir ação de toque único</string>
+  <string name="hardware_keys_long_press_summary">Definir ação de pressão longa</string>
+  <string name="hardware_keys_single_tap_title">Ação de toque único</string>
+  <string name="hardware_keys_long_press_title">Ação de pressão longa</string>
+  <string name="hardware_keys_double_tap_title">Ação de toque duplo</string>
+  <string name="hardware_keys_category">Teclas físicas</string>
+  <string name="hardware_keys_disable_title">Desabilitar teclas</string>
+  
+  <!-- ANBI -->
+  <string name="anbi_title">Toque acidental</string>
+  <string name="anbi_summary">Evitar interação com botões de navegação enquanto a tela está sendo tocada.</string>
 </resources>
