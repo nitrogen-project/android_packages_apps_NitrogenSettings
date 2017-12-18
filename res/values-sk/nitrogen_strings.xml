@@ -119,9 +119,6 @@
 
     <!-- Double Tap -->
     <string name="dtts_category_header">Prechod do režimu spánku</string>
-    <!-- Double tap-to-sleep -->
-    <string name="double_tap_sleep_navbar">Navigačný panel</string>
-    <string name="double_tap_sleep_navbar_summary">Dvojklikom na navigačný panel prepnúť zariadenie do režimu spánku</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Obrazovka uzamknutia</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Uspať zariadenie dvojklikom v spodnej časti obrazovky uzamknutia</string>
@@ -155,7 +152,7 @@
     <string name="torch_power_button_gesture_lp">Dlhé stlačenie, keď je obrazovka vypnutá</string>
 
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">Dlaždice rýchlych nastavení</string>
+    <string name="qs_rows_columns_title">Mriežka dlaždíc rýchl. nastavení</string>
     <string name="qs_rows_portrait_title">Počet riadkov na výšku</string>
     <string name="qs_rows_landscape_title">Počet riadkov na šírku</string>
     <string name="qs_columns_portrait_title">Počet stĺpcov na výšku</string>
@@ -529,8 +526,19 @@
     <string name="smartbar_longpress_delay_normal">Normálne</string>
     <string name="smartbar_longpress_delay_long">Dlhé</string>
     <string name="smartbar_custom_icon_size_title">Veľkosť ikon</string>
+    <string name="smartbar_double_tap_sleep_title">Režim spánku</string>
+    <string name="smartbar_double_tap_sleep_summary">Dvojklikom na navigačnú lištu prepnete zariadenie do režimu spánku</string>
 
     <!-- ANBI -->
     <string name="anbi_title">Náhodný dotyk</string>
     <string name="anbi_summary">Vypnúť dotykové tlačidlá pri použití súčasne s obrazovkou</string>
+
+    <string name="systemui_theme_style_title">Štýl rozhrania</string>
+    <string name="systemui_theme_style_auto">Auto (podľa tapety)</string>
+    <string name="systemui_theme_style_light">Svetlý</string>
+    <string name="systemui_theme_style_dark">Tmavý</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrácie pri dotyku</string>
+    <string name="quick_settings_vibrate_summary">Vibrovať pri dotyku na dlaždice rýchlych nastavení</string>
 </resources>

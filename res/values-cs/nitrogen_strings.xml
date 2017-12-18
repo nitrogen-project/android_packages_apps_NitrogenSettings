@@ -86,13 +86,13 @@
     <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
 
     <!-- Lockscreen weather -->
-    <string name="lock_screen_weather_settings_title">Počasí</string>	
+    <string name="lock_screen_weather_settings_title">Počasí</string>
     <string name="weather_show_weather_title">Zobrazit počasí</string>
     <string name="weather_show_weather_summary">Povolit zobrazení informací o počasí</string>
     <string name="weather_show_location_title">Zobrazit polohu</string>
     <string name="weather_show_location_summary">Povolit zobrazení polohy</string>
     <string name="weather_config_title">Nastavení služby</string>
-    <string name="weather_icon_pack_title">Styl ikon</string>	
+    <string name="weather_icon_pack_title">Styl ikon</string>
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Ikony k zobrazení</string>
@@ -119,13 +119,10 @@
 
     <!-- Double Tap -->
     <string name="dtts_category_header">Přechod do režimu spánku</string>
-    <!-- Double tap-to-sleep -->
-    <string name="double_tap_sleep_navbar">Navigační panel</string>
-    <string name="double_tap_sleep_navbar_summary">Poklepáním na navigační lištu přepněte přístroj do režimu spánku</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Obrazovka uzamčení</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Uspat zařízení dvojklikem ve spodní části obrazovky uzamčení</string>
-    <!-- Double tap-to-sleep -->	
+    <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Stavový řádek</string>
     <string name="double_tap_to_sleep_summary">Uspat zařízení dvojklikem na stavový řádek</string>
 
@@ -155,7 +152,7 @@
     <string name="torch_power_button_gesture_lp">Dlouhé stisknutí, když je obrazovka vypnutá</string>
 
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">Dlaždice rychlých nastavení</string>
+    <string name="qs_rows_columns_title">Mřížka dlaždic rychl. nastavení</string>
     <string name="qs_rows_portrait_title">Počet řádků na výšku</string>
     <string name="qs_rows_landscape_title">Počet řádků na šířku</string>
     <string name="qs_columns_portrait_title">Počet sloupců na výšku</string>
@@ -296,7 +293,7 @@
     <string name="summary_heads_up_disabled">Vypnuto</string>
     <string name="add_heads_up_package">Přidat aplikaci</string>
     <string name="add_heads_up_stoplist_summary">Nepovolit vyskakující upozornění, když jsou tyto aplikace spuštěny</string>
-    <string name="add_heads_up_blacklist_summary">Nepovolit vyskakující upozornění z těchto aplikací</string>	
+    <string name="add_heads_up_blacklist_summary">Nepovolit vyskakující upozornění z těchto aplikací</string>
     <string name="heads_up_stoplist_title">Seznam aplikací</string>
     <string name="heads_up_blacklist_title">Černá listina</string>
     <string name="profile_choose_app">Vybrat aplikaci</string>
@@ -529,8 +526,19 @@
     <string name="smartbar_longpress_delay_normal">Normální</string>
     <string name="smartbar_longpress_delay_long">Dlоuhé</string>
     <string name="smartbar_custom_icon_size_title">Velikost ikon</string>
+    <string name="smartbar_double_tap_sleep_title">Režim spánku</string>
+    <string name="smartbar_double_tap_sleep_summary">Dvojklikem na navigační lištu přepnete zařízení do režimu spánku</string>
 
     <!-- ANBI -->
     <string name="anbi_title">Náhodný dotek</string>
     <string name="anbi_summary">Vypnout dotyková tlačítka při použití současně s obrazovkou</string>
+
+    <string name="systemui_theme_style_title">Styl rozhraní</string>
+    <string name="systemui_theme_style_auto">Auto (podle tapety)</string>
+    <string name="systemui_theme_style_light">Světlý</string>
+    <string name="systemui_theme_style_dark">Tmavý</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Vibrace při dotyku</string>
+    <string name="quick_settings_vibrate_summary">Vibrovat při dotyku na dlaždice rychlých nastavení</string>
 </resources>
