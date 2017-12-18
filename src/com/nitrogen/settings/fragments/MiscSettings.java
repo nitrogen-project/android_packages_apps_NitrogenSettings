@@ -29,17 +29,41 @@ import com.android.settings.SettingsPreferenceFragment;
 public class MiscSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private static final String SYSTEMUI_THEME_STYLE = "systemui_theme_style";
+
+    private ListPreference mSystemUIThemeStyle;
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
         addPreferencesFromResource(R.xml.nitrogen_settings_misc);
 
+        PreferenceScreen prefScreen = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        mSystemUIThemeStyle = (ListPreference) findPreference(SYSTEMUI_THEME_STYLE);
+        int systemUIThemeStyle = Settings.System.getInt(resolver,
+                Settings.System.SYSTEM_UI_THEME, 0);
+        int valueIndex = mSystemUIThemeStyle.findIndexOfValue(String.valueOf(systemUIThemeStyle));
+        mSystemUIThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+        mSystemUIThemeStyle.setSummary(mSystemUIThemeStyle.getEntry());
+        mSystemUIThemeStyle.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
 
+        if (preference == mSystemUIThemeStyle) {
+            String value = (String) objValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.SYSTEM_UI_THEME, Integer.valueOf(value));
+            int valueIndex = mSystemUIThemeStyle.findIndexOfValue(value);
+            mSystemUIThemeStyle.setSummary(mSystemUIThemeStyle.getEntries()[valueIndex]);
+            return true;
+        }
         return false;
     }
 
