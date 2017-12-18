@@ -371,7 +371,7 @@
     <string name="action_entry_select_app">Wybierz aplikację</string>
     <string name="action_entry_custom_action">Wybierz własną akcję</string>
     
-	<!-- Fling -->
+    <!-- Fling -->
     <string name="fling_settings">Ustawienia gestów</string>
     <string name="fling_settings_summary">Bardzo unikalny i w pełni konfigurowalny pasek nawigacyjny oparty na gestach</string>
     <string name="fling_interface">Gesty</string>
@@ -505,7 +505,7 @@
     <string name="smartbar_custom_icon_size_title">Niestandardowe skalowanie ikon</string>
     <string name="one_handed_mode_title">Tryb jednoręczny</string>
     <string name="one_handed_mode_summary">Umożliwia przesuwanie na pasku nawigacyjnym, aby włączyć tryb jednoręczny</string>
-	<string name="smartbar_double_tap_sleep_title">Dotknij dwukrotnie, aby uśpić</string>
+    <string name="smartbar_double_tap_sleep_title">Dotknij dwukrotnie, aby uśpić</string>
     <string name="smartbar_double_tap_sleep_summary">Dotknij dwukrotnie pusty obszar paska nawigacyjnego, aby uśpić</string>
 
     <!-- Hardware keys -->
@@ -526,4 +526,13 @@
     <!-- ANBI -->
     <string name="anbi_title">Przypadkowe dotknięcie</string>
     <string name="anbi_summary">Zapobiegaj przypadkowemu użyciu przycisków nawigacyjnych, gdy dotykasz ekranu</string>
+	
+    <string name="systemui_theme_style_title">Styl interfejsu użytkownika</string>
+    <string name="systemui_theme_style_auto">Oparty na tapecie</string>
+    <string name="systemui_theme_style_light">Jasny styl</string>
+    <string name="systemui_theme_style_dark">Ciemny styl</string>
+    
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Wibracja przy dotknięciu</string>
+    <string name="quick_settings_vibrate_summary">Wibruj po dotknięciu przełącznika w szybkich ustawieniach</string>
 </resources>
