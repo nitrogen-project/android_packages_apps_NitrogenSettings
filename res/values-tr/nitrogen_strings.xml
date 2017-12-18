@@ -535,4 +535,13 @@
     <!-- ANBI -->
     <string name="anbi_title">Yanlış dokunmalar</string>
     <string name="anbi_summary">Ekrana dokunduğunuzda gezinme tuşları ile etkileşimi önleyin</string>
+	
+	<string name="systemui_theme_style_title">Kullanıcı arayüzü stili</string>
+    <string name="systemui_theme_style_auto">Duvar kağıdı tabanlı</string>
+    <string name="systemui_theme_style_light">Açık renk</string>
+    <string name="systemui_theme_style_dark">Koyu renk</string>
+
+    <!-- QuickSettings haptic feedback -->
+    <string name="quick_settings_vibrate_title">Dokunulduğunda titre</string>
+    <string name="quick_settings_vibrate_summary">Hızlı Ayarlar karelerine dokunulduğunda titret</string>
 </resources>
