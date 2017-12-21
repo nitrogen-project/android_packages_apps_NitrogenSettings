@@ -27,7 +27,7 @@
     <string name="statusbar_title">Stavový řádek</string>
     <string name="volume_title">Tlačítka hlasitosti</string>
     <string name="notifications_title">Oznámení</string>
-    <string name="device_part_title">Nastavení zařízení</string>
+    <string name="device_part_title">Funkce zařízení</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -531,7 +531,7 @@
 
     <!-- ANBI -->
     <string name="anbi_title">Náhodný dotek</string>
-    <string name="anbi_summary">Vypnout dotyková tlačítka při použití současně s obrazovkou</string>
+    <string name="anbi_summary">Vypnout dotyková tlačítka při současném použití s obrazovkou</string>
 
     <string name="systemui_theme_style_title">Styl rozhraní</string>
     <string name="systemui_theme_style_auto">Auto (podle tapety)</string>
