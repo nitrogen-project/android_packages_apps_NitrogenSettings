@@ -110,7 +110,7 @@ public class IconPickerActivity extends Activity implements DialogInterface.OnCa
                 String packageName = info.activityInfo.packageName;
                 Intent intent = new Intent();
                 intent.setClassName("com.android.settings",
-                        "com.nitrogen.settings.IconPackGridActivity");
+                        "com.nitrogen.settings.preferences.IconPackGridActivity");
                 intent.putExtra("icon_package_name", packageName);
                 dialog.dismiss();
                 startActivityForResult(intent, ICON_PACK_ICON_RESULT);
