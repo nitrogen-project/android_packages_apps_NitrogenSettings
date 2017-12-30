@@ -271,4 +271,8 @@
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Предупреждение в нижней части</string>
     <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней панели быстрых настроек, когда сеть контролируется приложениями или VPN</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
+    <string name="powermenu_lockscreen_summary">Включите, чтобы использовать меню питания на защищенном экране блокировки</string>
 </resources>

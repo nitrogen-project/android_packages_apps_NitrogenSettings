@@ -276,4 +276,8 @@
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">QS footer warnings</string>
     <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+
+    <!-- Power menu on secure lockscreen -->
+    <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
+    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
 </resources>
