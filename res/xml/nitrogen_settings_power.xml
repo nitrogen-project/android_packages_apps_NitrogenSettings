@@ -18,4 +18,10 @@
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_lockscreen"
+        android:title="@string/powermenu_lockscreen_title"
+        android:summary="@string/powermenu_lockscreen_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
