@@ -298,7 +298,7 @@
 
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">亮度图标</string>
-    <string name="brightness_icon_summary">在亮度滑块左侧显示自动亮度图标</string>
+    <string name="brightness_icon_summary">在亮度滑块右侧显示自动亮度图标</string>
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">超时</string>
@@ -534,14 +534,18 @@
 
     <!-- ANBI -->
     <string name="anbi_title">防误触</string>
-    <string name="anbi_summary">触摸屏幕时防止和导航栏交互</string>
+    <string name="anbi_summary">防止触摸屏幕时和导航栏交互</string>
     
-    <string name="systemui_theme_style_title">界面样式</string>
-    <string name="systemui_theme_style_auto">全局壁纸</string>
-    <string name="systemui_theme_style_light">白色样式</string>
-    <string name="systemui_theme_style_dark">黑色样式</string>
+    <string name="systemui_theme_style_title">UI 样式</string>
+    <string name="systemui_theme_style_auto">跟随壁纸</string>
+    <string name="systemui_theme_style_light">亮色样式</string>
+    <string name="systemui_theme_style_dark">暗色样式</string>
     
     <!-- QuickSettings haptic feedback -->
-    <string name="quick_settings_vibrate_title">触摸振动</string>
+    <string name="quick_settings_vibrate_title">点按振动</string>
     <string name="quick_settings_vibrate_summary">触摸QS磁贴时震动</string>
+    
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS面板底部警告</string>
+    <string name="qs_footer_warnings_summary">当外部应用程序或VPN监控网络时，在QS面板的底部显示警告</string>
 </resources>
