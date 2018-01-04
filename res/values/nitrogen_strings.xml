@@ -219,4 +219,8 @@
     <!-- The volume key answer -->
     <string name="volume_answer_call_title">Volume keys answer</string>
     <string name="volume_answer_call_summary">Answer the call when volume keys pressed</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
