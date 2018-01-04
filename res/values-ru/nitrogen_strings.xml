@@ -326,4 +326,9 @@
     <string name="smart_pixels_shift_times_20min">20 минут</string>
     <string name="smart_pixels_shift_times_30min">30 минут</string>
     <string name="smart_pixels_shift_times_1h">1 час</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
 </resources>
+

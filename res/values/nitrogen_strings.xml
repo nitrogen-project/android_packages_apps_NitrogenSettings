@@ -337,4 +337,8 @@
     <string name="smart_pixels_shift_times_20min">20 minutes</string>
     <string name="smart_pixels_shift_times_30min">30 minutes</string>
     <string name="smart_pixels_shift_times_1h">1 hour</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 </resources>
