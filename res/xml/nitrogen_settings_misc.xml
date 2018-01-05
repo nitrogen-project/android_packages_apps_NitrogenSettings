@@ -32,13 +32,6 @@
             android:title="@string/app_ops_settings"
             android:fragment="com.android.settings.applications.AppOpsSummary"/>
 
-        <ListPreference
-            android:key="systemui_theme_style"
-            android:title="@string/systemui_theme_style_title"
-            android:persistent="false"
-            android:entries="@array/systemui_theme_style_entries"
-            android:entryValues="@array/systemui_theme_style_values" />
-
         <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
             android:key="mtp_dirty_hack"
             android:title="@string/enable_mtp_dirtyhack_title"
