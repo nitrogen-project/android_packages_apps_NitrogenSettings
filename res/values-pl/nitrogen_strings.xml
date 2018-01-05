@@ -362,8 +362,6 @@
     <string name="select_custom_activity_title">Wybierz własną aktywność</string>
     <string name="profile_applist_title">Aplikacje</string>
     <string name="default_string">Domyślne</string>
-    <string name="default_settings">Domyślne ustawienia</string>
-    <string name="default_settings_summary">Pasek nawigacji AOSP</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Wybierz akcję</string>

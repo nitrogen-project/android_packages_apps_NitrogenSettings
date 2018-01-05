@@ -306,7 +306,7 @@
 
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Значок яркости</string>
-    <string name="brightness_icon_summary">Показать значок включения автояркости слева от регулятора</string>
+    <string name="brightness_icon_summary">Показать значок включения автояркости справа от регулятора</string>
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Длительность</string>
@@ -370,8 +370,6 @@
     <string name="select_custom_activity_title">Выбрать пользовательское действие</string>
     <string name="profile_applist_title">Приложения</string>
     <string name="default_string">По умолчанию</string>
-    <string name="default_settings">Stock settings</string>
-    <string name="default_settings_summary">Stock AOSP navigation bar</string>
 
     <!-- Hardware button navigation -->
     <string name="hardware_keys_home_key_title">Кнопка \"Домой\"</string>

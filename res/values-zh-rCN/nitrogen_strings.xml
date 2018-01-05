@@ -362,8 +362,6 @@
     <string name="select_custom_activity_title">选择自定义活动</string>
     <string name="profile_applist_title">应用</string>
     <string name="default_string">默认</string>
-    <string name="default_settings">默认设置</string>
-    <string name="default_settings_summary">默认 AOSP 导航栏</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">选择活动</string>

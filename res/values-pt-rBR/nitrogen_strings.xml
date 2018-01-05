@@ -362,8 +362,6 @@
   <string name="select_custom_activity_title">Selecionar atividade personalizada</string>
   <string name="profile_applist_title">Aplicações</string>
   <string name="default_string">Padrão</string>
-  <string name="default_settings">Configurações padrão</string>
-  <string name="default_settings_summary">Barra de navegação padrão AOSP</string>
   
   <!-- Actions dialog and default task values set in ActionPreference xml-->
   <string name="choose_action_title">Selecione a ação</string>

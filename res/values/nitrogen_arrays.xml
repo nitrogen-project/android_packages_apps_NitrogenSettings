@@ -184,12 +184,6 @@
         <item>2</item>
     </string-array>
 
-    <string-array name="systemui_navbar_mode_settings">
-        <item>@string/default_settings</item>
-        <item>@string/smartbar_settings_title</item>
-        <item>@string/fling_settings</item>
-    </string-array>
-
     <string-array name="smartbar_button_animation_entries">
         <item>@string/smartbar_button_animation_ripple</item>
         <item>@string/smartbar_button_animation_flip</item>

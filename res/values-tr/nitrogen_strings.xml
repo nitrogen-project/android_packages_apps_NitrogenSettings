@@ -362,8 +362,6 @@
     <string name="select_custom_activity_title">Özel etkinlik seçin</string>
     <string name="profile_applist_title">Uygulamalar</string>
     <string name="default_string">Varsayılan</string>
-    <string name="default_settings">Varsayılan ayarlar</string>
-    <string name="default_settings_summary">Varsayılan AOSP gezinme çubuğu</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Eylem seçin</string>

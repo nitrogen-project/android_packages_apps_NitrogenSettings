@@ -370,8 +370,6 @@
     <string name="select_custom_activity_title">Vyberte akci</string>
     <string name="profile_applist_title">Aplikace</string>
     <string name="default_string">Stock</string>
-    <string name="default_settings">Nastavení Stock</string>
-    <string name="default_settings_summary">Navigační lišta Stock AOSP</string>
 
     <!-- Hardware button navigation -->
     <string name="hardware_keys_home_key_title">Tlačítko Domů</string>

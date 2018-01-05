@@ -298,7 +298,7 @@
 
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Brightness icon</string>
-    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust autobrightness</string>
+    <string name="brightness_icon_summary">Show a brightness icon to the right of the brighness slider to adjust autobrightness</string>
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
@@ -362,8 +362,6 @@
     <string name="select_custom_activity_title">Select custom activity</string>
     <string name="profile_applist_title">Applications</string>
     <string name="default_string">Stock</string>
-    <string name="default_settings">Stock settings</string>
-    <string name="default_settings_summary">Stock AOSP navigation bar</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
     <string name="choose_action_title">Choose action</string>
