@@ -531,12 +531,11 @@
     <string name="anbi_title">Náhodný dotek</string>
     <string name="anbi_summary">Vypnout dotyková tlačítka při současném použití s obrazovkou</string>
 
-    <string name="systemui_theme_style_title">Styl rozhraní</string>
-    <string name="systemui_theme_style_auto">Auto (podle tapety)</string>
-    <string name="systemui_theme_style_light">Světlý</string>
-    <string name="systemui_theme_style_dark">Tmavý</string>
-
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrace při dotyku</string>
     <string name="quick_settings_vibrate_summary">Vibrovat při dotyku na dlaždice rychlých nastavení</string>
+
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Upozornění ve spodní části</string>
+    <string name="qs_footer_warnings_summary">Zobrazit upozornění ve spodní části panelu rychlých nastavení, když je síť ovládána aplikacemi nebo VPN</string>
 </resources>
