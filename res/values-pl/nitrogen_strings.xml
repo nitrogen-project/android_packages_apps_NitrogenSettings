@@ -59,7 +59,7 @@
 
     <!-- Alarm blocker -->
     <string name="alarm_blocker">Blokada alarmów</string>
-    <string name="alarm_blocker_title">Włącz</string>
+    <string name="alarm_blocker_title">Blokada alarmów</string>
     <string name="alarm_blocker_summary">Blokuj alarmy, gdy ekran jest wyłączony</string>
     <string name="alarm_blocker_save">Zapisz</string>
     <string name="alarm_list_header">Dostępne alarmy</string>
@@ -82,7 +82,7 @@
     <string name="incall_vibration_category">Opcje wibracji w trakcie rozmowy</string>
     <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
     <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
-    <string name="incall_vibrate_disconnect_title">Wibracje przy rozłączeniu</string>
+    <string name="incall_vibrate_disconnect_title">Wibracja przy rozłączeniu</string>
 
     <!-- Lockscreen weather -->
     <string name="lock_screen_weather_settings_title">Opcje pogody</string>
@@ -94,7 +94,7 @@
     <string name="weather_icon_pack_title">Paczka ikon stanu</string>
 
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Elementy paska stanu</string>
+    <string name="statusbar_items_title">Ikony paska stanu</string>
 
     <!-- Power notification controls -->
     <string name="power_notification_title">Ustawienia powiadomień zasilania</string>
@@ -142,10 +142,10 @@
     <string name="media_art_summary">Włącz okładkę albumu na ekranie blokady</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Latarka na wyłączonym ekranie przy użyciu klawisza zasilania</string>
-    <string name="torch_power_button_gesture_none">Wyłączona</string>
-    <string name="torch_power_button_gesture_dt">Szybko dwukrotnie wciśnij przycisk zasilania, aby włączyć latarkę</string>
-    <string name="torch_power_button_gesture_lp">Długo wciśnij przycisk zasilania, aby włączyć latarkę</string>
+    <string name="torch_power_button_gesture_title">Włącz latarkę, gdy ekran jest wyłączony</string>
+    <string name="torch_power_button_gesture_none">Nieaktywne</string>
+    <string name="torch_power_button_gesture_dt">Szybko dwukrotnie wciśnij przycisk zasilania</string>
+    <string name="torch_power_button_gesture_lp">Długo wciśnij przycisk zasilania</string>
 
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">Rzędy i kolumny przełączników</string>
@@ -533,4 +533,11 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Wibracja przy dotknięciu</string>
     <string name="quick_settings_vibrate_summary">Wibruj po dotknięciu przełącznika w szybkich ustawieniach</string>
+	
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">Ostrzeżenia w szybkich ustawieniach</string>
+    <string name="qs_footer_warnings_summary">Wyświetlaj ostrzeżenie w stopce panelu szybkich ustawień, gdy sieć jest monitorowana przez aplikacje zewnętrzne lub VPN</string>
+
+    <string name="qs_tile_title_visibility_title">Tytuł przełączników</string>
+    <string name="qs_tile_title_visibility_summary">Pokaż tytuł pod przełącznikami w szybkich ustawieniach</string>
 </resources>
