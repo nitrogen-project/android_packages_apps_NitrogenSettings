@@ -538,4 +538,7 @@
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Предупреждение в нижней части</string>
     <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней панели быстрых настроек, когда сеть контролируется приложениями или VPN</string>
+
+    <string name="qs_tile_title_visibility_title">Подписи плиток</string>
+    <string name="qs_tile_title_visibility_summary">Отображать подписи плиток в панели быстрых настроек</string>
 </resources>

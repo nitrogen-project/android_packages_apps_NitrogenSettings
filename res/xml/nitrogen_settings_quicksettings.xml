@@ -55,6 +55,12 @@
         android:summary="@string/qs_footer_warnings_summary"
         android:defaultValue="true" />
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_tile_title_visibility"
+        android:title="@string/qs_tile_title_visibility_title"
+        android:summary="@string/qs_tile_title_visibility_summary"
+        android:defaultValue="true" />
+
     <ListPreference
         android:key="smart_pulldown"
         android:title="@string/smart_pulldown_title"
