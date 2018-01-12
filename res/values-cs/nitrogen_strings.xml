@@ -181,7 +181,7 @@
     <string name="allow_incall_home_summary">Umožnit použití tlačítka Domů při příchozím hovoru</string>
 
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Časový limit podsvícení tlačítek</string>
+    <string name="backlight_timeout_title">Časový limit podsvícení</string>
     <string name="backlight_timeout_on">Vždy zapnuto</string>
     <string name="backlight_timeout_3s">3 sekundy</string>
     <string name="backlight_timeout_default">5 sekund (výchozí)</string>
@@ -394,7 +394,7 @@
 
     <!-- Fling -->
     <string name="fling_settings">Nastavení Fling</string>
-    <string name="fling_settings_summary">Jedinečný přizpůsobitelný navigační panel s gesty</string>
+    <string name="fling_settings_summary">Jedinečný navigační panel s gesty</string>
     <string name="fling_interface">Fling</string>
     <string name="fling_enable_title">Zapnout Fling</string>
     <string name="fling_back_home_policy">Zpět a Domů musí být vždy nastaveny. Pokud chcete změnit nastavení Zpět nebo Domů, nastavte nejdřív nové přiřazení</string>
@@ -538,4 +538,7 @@
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Upozornění ve spodní části</string>
     <string name="qs_footer_warnings_summary">Zobrazit upozornění ve spodní části panelu rychlých nastavení, když je síť ovládána aplikacemi nebo VPN</string>
+
+    <string name="qs_tile_title_visibility_title">Názvy dlaždic</string>
+    <string name="qs_tile_title_visibility_summary">Zobrazovat názvy dlaždic na panelu rychlých nastavení</string>
 </resources>
