@@ -544,4 +544,11 @@
 
     <string name="qs_tile_title_visibility_title">QS tile titles</string>
     <string name="qs_tile_title_visibility_summary">Show quick settings tiles titles</string>
+
+    <!-- Status bar notification ticker -->
+    <string name="ticker_mode_title">Notification ticker</string>
+    <string name="ticker_disabled">Disabled</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notification and music ticker</string>
+
 </resources>

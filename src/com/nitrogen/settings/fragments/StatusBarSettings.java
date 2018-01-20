@@ -41,6 +41,7 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
 
     private CustomSeekBarPreference mThreshold;
     private SystemSettingSwitchPreference mNetMonitor;
+    private ListPreference mTickerMode;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -63,6 +64,14 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
         mThreshold.setValue(value);
         mThreshold.setOnPreferenceChangeListener(this);
         mThreshold.setEnabled(isNetMonitorEnabled);
+
+        mTickerMode = (ListPreference) findPreference("ticker_mode");
+        mTickerMode.setOnPreferenceChangeListener(this);
+        int tickerMode = Settings.System.getIntForUser(resolver,
+                Settings.System.STATUS_BAR_SHOW_TICKER,
+                0, UserHandle.USER_CURRENT);
+        mTickerMode.setValue(String.valueOf(tickerMode));
+        mTickerMode.setSummary(mTickerMode.getEntry());
     }
 
     @Override
@@ -80,6 +89,14 @@ public class StatusBarSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(getContentResolver(),
                     Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, val,
                     UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mTickerMode) {
+            int tickerMode = Integer.parseInt(((String) objValue).toString());
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.STATUS_BAR_SHOW_TICKER,
+                    tickerMode, UserHandle.USER_CURRENT);
+            int index = mTickerMode.findIndexOfValue((String) objValue);
+            mTickerMode.setSummary(mTickerMode.getEntries()[index]);
             return true;
         }
         return false;
