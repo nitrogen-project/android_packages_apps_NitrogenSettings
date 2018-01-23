@@ -280,7 +280,7 @@
     <string name="fprint_sucess_vib_summary">Vibrar al desbloquear con la huella dactilar</string>
 
     <!-- Heads up -->
-	<string name="heads_up_notifications">Heads up</string>
+    <string name="heads_up_notifications">Heads up</string>
     <string name="summary_heads_up_enabled">Las notificaciones Pop-up están activadas</string>
     <string name="summary_heads_up_disabled">Las notificaciones Pop-up están desactivadas</string>
     <string name="add_heads_up_package">Añadir aplicación</string>
@@ -292,12 +292,8 @@
     <string name="dialog_delete_title">Eliminar</string>
     <string name="dialog_delete_message">¿Quiere eliminar el elemento seleccionado?</string>
 
-    <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
-
     <!-- Quick Settings brightness icon -->
-	<string name="status_bar_toggle_brightness">Control de brillo</string>
+    <string name="status_bar_toggle_brightness">Control de brillo</string>
     <string name="status_bar_toggle_brightness_summary">Ajusta el brillo deslizando sobre la barra de estado</string>
 
 
@@ -314,9 +310,9 @@
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Posponer notificaciones</string>
     <string name="heads_up_snooze_summary_one_minute">Deslizando hacia arriba en una notificación dejará de mostrar la notificación heads up para esa aplicación durante 1 minuto</string>
-	<string name="heads_up_snooze_summary">Deslizando hacia arriba en una notificación dejará de mostrar las notificaciones heads up para esa aplicación durante <xliff:g id="number">%d</xliff:g> minutos</string>    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_summary">Deslizando hacia arriba en una notificación dejará de mostrar las notificaciones heads up para esa aplicación durante <xliff:g id="number">%d</xliff:g> minutos</string>
     <string name="heads_up_snooze_disabled_summary">Posponer notificaciones está desactivado</string>
-	<string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
     <string name="heads_up_snooze_5min">5 minutos</string>
     <string name="heads_up_snooze_10min">10 minutos</string>
     <string name="heads_up_snooze_15min">15 minutos</string>
