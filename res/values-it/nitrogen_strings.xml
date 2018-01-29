@@ -533,4 +533,18 @@
 
     <string name="qs_tile_title_visibility_title">Titoli tile</string>
     <string name="qs_tile_title_visibility_summary">Mostra i titoli dei tile nelle impostazioni rapide</string>
+	
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Suoni di notifica meno frequenti</string>
+    <string name="less_notification_sounds_summary">Riproduci il suono di notifica di ogni app solo una volta per ogni periodo di tempo impostato</string>
+    <string name="less_notification_sounds_default">Comportamento predefinito</string>
+    <string name="less_notification_sounds_3s">Ogni 3 secondi</string>
+    <string name="less_notification_sounds_5s">Ogni 5 secondi</string>
+    <string name="less_notification_sounds_10s">Ogni 10 secondi</string>
+    <string name="less_notification_sounds_15s">Ogni 15 secondi</string>
+    <string name="less_notification_sounds_30s">Ogni 30 secondi</string>
+    <string name="less_notification_sounds_45s">Ogni 45 secondi</string>
+    <string name="less_notification_sounds_1m">Ogni 1 minuto</string>
+    <string name="less_notification_sounds_2m">Ogni 2 minuti</string>
+    <string name="less_notification_sounds_5m">Ogni 5 minuti</string>
 </resources>
