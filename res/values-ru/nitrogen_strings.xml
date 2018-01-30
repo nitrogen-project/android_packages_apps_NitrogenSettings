@@ -555,4 +555,7 @@
     <string name="less_notification_sounds_1m">1 минуту</string>
     <string name="less_notification_sounds_2m">2 минуты</string>
     <string name="less_notification_sounds_5m">5 минут</string>
+
+    <string name="face_auto_unlock_title">Автоматическая разблокировка</string>
+    <string name="face_auto_unlock_summary">Скрыть экран блокировки при разблокировке лицом</string>
 </resources>
