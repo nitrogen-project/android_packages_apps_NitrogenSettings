@@ -547,4 +547,7 @@
     <string name="less_notification_sounds_1m">Ogni 1 minuto</string>
     <string name="less_notification_sounds_2m">Ogni 2 minuti</string>
     <string name="less_notification_sounds_5m">Ogni 5 minuti</string>
+	
+    <string name="face_auto_unlock_title">Sblocco automatico con viso</string>
+    <string name="face_auto_unlock_summary">Sblocca automaticamente il dispositivo quando verrà riconosciuto il viso</string>
 </resources>
