@@ -541,4 +541,7 @@
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">QS面板底部警告</string>
     <string name="qs_footer_warnings_summary">当外部应用程序或VPN监控网络时，在QS面板的底部显示警告</string>
+    
+    <string name="qs_tile_title_visibility_title">QS 磁贴标签</string>
+    <string name="qs_tile_title_visibility_summary">显示QS面板磁贴的标签</string>
 </resources>
