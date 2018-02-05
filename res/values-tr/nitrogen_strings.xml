@@ -544,4 +544,21 @@
 	
     <string name="qs_tile_title_visibility_title">Hızlı ayarlar kare başlıkları</string>
     <string name="qs_tile_title_visibility_summary">Hızlı ayarlar kare başlıklarını göster</string>
-</resources> 
+	
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Daha az sıklıkta bildirim sesleri</string>
+    <string name="less_notification_sounds_summary">Her bir uygulamanın bildirim seslerini, yalnızca belirli bir zaman aralığı için bir kez çalacak şekilde sınırla</string>
+    <string name="less_notification_sounds_default">Varsayılan davranış</string>
+    <string name="less_notification_sounds_3s">3 saniye</string>
+    <string name="less_notification_sounds_5s">5 saniye</string>
+    <string name="less_notification_sounds_10s">10 saniye</string>
+    <string name="less_notification_sounds_15s">15 saniye</string>
+    <string name="less_notification_sounds_30s">30 saniye</string>
+    <string name="less_notification_sounds_45s">45 saniye</string>
+    <string name="less_notification_sounds_1m">1 dakika</string>
+    <string name="less_notification_sounds_2m">2 dakika</string>
+    <string name="less_notification_sounds_5m">5 dakika</string>
+
+    <string name="face_auto_unlock_title">Yüz kilidi ile otomatik kilit açma</string>
+    <string name="face_auto_unlock_summary">Yüz kilidini açtıktan sonra kilit ekranını kapat</string>
+</resources>
