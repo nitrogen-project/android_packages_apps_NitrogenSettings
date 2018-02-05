@@ -128,7 +128,7 @@
 
     <!-- Volume key controls media stream -->
     <string name="volume_keys_control_media_stream_title">Przyciski głośności regulują głośność multimediów</string>
-    <string name="volume_keys_control_media_stream_summary">Wymuś, aby klawisze głośności sterowały strumieniem multimediów</string>
+    <string name="volume_keys_control_media_stream_summary">Wymuś, aby przyciski głośności sterowały strumieniem multimediów</string>
 
     <string name="status_bar_quick_qs_pulldown">Szybkie rozwijanie</string>
     <string name="status_bar_quick_qs_pulldown_summary">Rozwiń pasek stanu z prawej strony, aby pokazać panel szybkich ustawień</string>
@@ -241,7 +241,7 @@
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Monitor transmisji danych</string>
     <string name="network_traffic_state_summary">Pokaż monitor transmisji danych na pasku stanu</string>
-    <string name="network_traffic_autohide_threshold_title">Próg auto ukrywania MTD (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">Próg auto ukrywania (KB/s)</string>
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Inteligentne rozwijanie</string>
@@ -519,7 +519,7 @@
     <string name="hardware_keys_long_press_title">Akcja długiego naciśnięcia</string>
     <string name="hardware_keys_double_tap_title">Akcja podwójnego naciśnięcia</string>
     <string name="hardware_keys_category">Przyciski sprzętowe</string>
-    <string name="hardware_keys_disable_title">Wyłącz klawisze sprzętowe</string>
+    <string name="hardware_keys_disable_title">Wyłącz przyciski sprzętowe</string>
 
     <!-- ANBI -->
     <string name="anbi_title">Przypadkowe dotknięcie</string>
@@ -540,4 +540,21 @@
 
     <string name="qs_tile_title_visibility_title">Tytuł przełączników</string>
     <string name="qs_tile_title_visibility_summary">Pokaż tytuł pod przełącznikami w szybkich ustawieniach</string>
+    
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Mniej częste dźwięki powiadomień</string>
+    <string name="less_notification_sounds_summary">Odtwarzaj dźwięk powiadomienia każdej aplikacji tylko raz na ustawiony okres czasu</string>
+    <string name="less_notification_sounds_default">Domyślne zachowanie</string>
+    <string name="less_notification_sounds_3s">Co 3 sekundy</string>
+    <string name="less_notification_sounds_5s">Co 5 sekund</string>
+    <string name="less_notification_sounds_10s">Co 10 sekund</string>
+    <string name="less_notification_sounds_15s">Co 15 sekund</string>
+    <string name="less_notification_sounds_30s">Co 30 sekund</string>
+    <string name="less_notification_sounds_45s">Co 45 sekund</string>
+    <string name="less_notification_sounds_1m">Co 1 minutę</string>
+    <string name="less_notification_sounds_2m">Co 2 minuty</string>
+    <string name="less_notification_sounds_5m">Co 5 minut</string>
+
+    <string name="face_auto_unlock_title">Automatyczne odblokowywanie twarzą</string>
+    <string name="face_auto_unlock_summary">Po rozpoznaniu twarzy, ekran blokady zostaje automatycznie odblokowany</string>
 </resources>
