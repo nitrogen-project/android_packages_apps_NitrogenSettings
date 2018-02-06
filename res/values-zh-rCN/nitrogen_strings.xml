@@ -21,7 +21,7 @@
     <string name="misc_title">杂项</string>
     <string name="navbar_title">导航栏</string>
     <string name="powermenu_title">电源菜单</string>
-    <string name="quicksettings_title">QS面板</string>
+    <string name="quicksettings_title">QS 面板</string>
     <string name="recents_title">最近任务</string>
     <string name="statusbar_title">状态栏</string>
     <string name="volume_title">音量键</string>
@@ -45,8 +45,8 @@
     <string name="color_default">默认</string>
 
     <!-- MTP Dirty Hack -->
-    <string name="enable_mtp_dirtyhack_title">MTP文件传输代替充电</string>
-    <string name="enable_mtp_dirtyhack_summary">当连接PC时启用MTP文件传输代替充电</string>
+    <string name="enable_mtp_dirtyhack_title">MTP 代替充电</string>
+    <string name="enable_mtp_dirtyhack_summary">当连接PC时启用MTP 文件传输代替充电</string>
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">唤醒拦截器</string>
@@ -55,17 +55,17 @@
     <string name="wakelock_list_header">可用的唤醒锁</string>
     <string name="wakelock_blocker_reload">刷新</string>
     <string name="wakelock_blocker_warning_title">谨慎操作</string>
-    <string name="wakelock_blocker_warning">拦截唤醒锁可能导致系统不稳定、崩溃或甚至数据丢失！</string>
+    <string name="wakelock_blocker_warning">拦截唤醒锁可能导致系统不稳定、崩溃甚至数据丢失！</string>
 
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">报警拦截器</string>
+    <string name="alarm_blocker">警报拦截器</string>
     <string name="alarm_blocker_title">启用</string>
-    <string name="alarm_blocker_summary">屏幕关闭时屏蔽报警</string>
+    <string name="alarm_blocker_summary">屏幕关闭时屏蔽警报</string>
     <string name="alarm_blocker_save">保存</string>
     <string name="alarm_list_header">可用的警报</string>
-    <string name="alarm_blocker_reload">重新加载</string>
+    <string name="alarm_blocker_reload">刷新</string>
     <string name="alarm_blocker_warning_title">谨慎操作</string>
-    <string name="alarm_blocker_warning">拦截警报可能导致系统不稳定、崩溃或数据丢失。</string>
+    <string name="alarm_blocker_warning">拦截警报可能导致系统不稳定、崩溃甚至数据丢失！</string>
 
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">一键清理</string>
@@ -108,7 +108,7 @@
 
     <!-- Quick Settings brightness slider -->
     <string name="qs_brightness_slider_title">亮度滑块</string>
-    <string name="qs_brightness_slider_summary">在QS面板中显示亮度滑块</string>
+    <string name="qs_brightness_slider_summary">在QS 面板中显示亮度滑块</string>
 
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">锁屏快捷方式</string>
@@ -148,7 +148,7 @@
     <string name="torch_power_button_gesture_lp">长按电源键切换手电筒</string>
 
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">QS面板行数和列数</string>
+    <string name="qs_rows_columns_title">QS 面板行和列</string>
     <string name="qs_rows_portrait_title">行数（纵向）</string>
     <string name="qs_rows_landscape_title">行数（横向）</string>
     <string name="qs_columns_portrait_title">列数（纵向）</string>
@@ -326,8 +326,8 @@
     <string name="toast_icon_summary">在 Toast 通知上显示对应应用的图标</string>
 
     <!-- Disable QS on secure Lockscreen -->
-    <string name="lockscreen_qs_disabled_title">禁用QS面板</string>
-    <string name="lockscreen_qs_disabled_summary">在安全锁屏界面禁用快速设置</string>
+    <string name="lockscreen_qs_disabled_title">禁用QS 面板</string>
+    <string name="lockscreen_qs_disabled_summary">在安全锁屏界面禁用QS 面板</string>
 
     <!-- Pocket judge -->
     <string name="pocket_judge_title">口袋检测</string>
@@ -355,7 +355,7 @@
     <string name="navigation_bar_left_summary">横屏时在屏幕左侧显示虚拟键</string>
     <string name="smartbar_interface">SmartBar</string>
     <string name="icon_pack_picker_dialog_title">图标包</string>
-    <string name="image_exceeds_max_allowed_size">图片不能超过512x512</string>
+    <string name="image_exceeds_max_allowed_size">所选图片尺寸不能超过512x512</string>
     <string name="invalid_icon_from_uri">无法从内容提供器中加载图像</string>
     <string name="picker_activities">活动</string>
     <string name="select_custom_app_title">选择自定义应用</string>
@@ -413,15 +413,15 @@
     <string name="long_swipe_reset">重置</string>
     <string name="fling_advanced">高级</string>
     <string name="fling_long_swipe_title">长滑动阈值</string>
-    <string name="fling_long_swipe_summary">基于Fling宽度或高度的百分比微调长滑动的阈值</string>
+    <string name="fling_long_swipe_summary">基于 Fling 宽度或高度的百分比微调长滑动的阈值</string>
     <string name="fling_appearance">外观</string>
-    <string name="fling_show_logo_title">显示 Fling Logo</string>
-    <string name="fling_animate_logo_title">Logo 动画</string>
-    <string name="fling_animate_logo_summary">触摸Logo的动画</string>
-    <string name="fling_logo_color">Logo 颜色</string>
-    <string name="fling_logo_custom_logo_pick_title">自定义Logo</string>
-    <string name="fling_logo_custom_logo_image_pick_title">自定义Logo图片</string>
-    <string name="fling_logo_custom_logo_reset_title">重置Logo图标</string>
+    <string name="fling_show_logo_title">显示 Fling LOGO</string>
+    <string name="fling_animate_logo_title">LOGO 动画</string>
+    <string name="fling_animate_logo_summary">触摸 LOGO 时的动画</string>
+    <string name="fling_logo_color">LOGO 颜色</string>
+    <string name="fling_logo_custom_logo_pick_title">自定义 LOGO</string>
+    <string name="fling_logo_custom_logo_image_pick_title">自定义 LOGO 图片</string>
+    <string name="fling_logo_custom_logo_reset_title">重置 LOGO 图标</string>
     <string name="fling_show_ripple_title">显示波纹动画</string>
     <string name="fling_show_ripple_summary">触摸的波纹效果</string>
     <string name="fling_ripple_color">波纹颜色</string>
@@ -431,10 +431,10 @@
     <string name="fling_longpress_summary">增加或减少执行长按的时间</string>
     <string name="fling_keyboard_cursors_title">动态键盘光标操作</string>
     <string name="fling_keyboard_cursors_summary">当键盘打开时，双击左右操作作为左右键盘光标操作</string>
-    <string name="fling_logo_opacity_title">Fling Logo的不透明度</string>
+    <string name="fling_logo_opacity_title">Fling LOGO 的不透明度</string>
 
     <!-- Pulse navigation bar music visualizer -->
-    <string name="pulse_help_policy_notice_summary">当使用扬声器时，Pulse在某些音源下可能不工作</string>
+    <string name="pulse_help_policy_notice_summary">当使用扬声器时，Pulse 在某些音源下可能不工作</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">导航栏音乐可视化</string>
     <string name="fling_show_pulse_title">显示 Pulse</string>
@@ -453,7 +453,7 @@
     <string name="pulse_solid_lines_count">实线计数</string>
     <string name="pulse_solid_units_opacity">实线不透明度</string>
     <string name="pulse_solid_dimen_category">实线模式设置</string>
-    <string name="pulse_custom_buttons_opacity_title">Pulse 上的 Smartbar 按键不透明度</string>
+    <string name="pulse_custom_buttons_opacity_title">Pulse 上 Smartbar 按键的不透明度</string>
 
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">栏宽度</string>
@@ -487,7 +487,7 @@
     <string name="smartbar_button_animation_pixel_home">Pixel (仅Home键)</string>
     <string name="smartbar_button_animation_pixel_home_ripple">Pixel (仅Home键)和波纹</string>
     <string name="smartbar_factory_reset_title">恢复默认设置</string>
-    <string name="smartbar_factory_reset_confirm">你确定要重置Smartbar到默认设置吗？</string>
+    <string name="smartbar_factory_reset_confirm">你确定要重置 Smartbar 到默认设置吗？</string>
     <string name="smartbar_ime_action_title">输入法和媒体操作</string>
     <string name="smartbar_ime_action_summary">设置在虚拟键盘显示或者播放音乐时所显示的按键</string>
     <string name="smartbar_ime_action_none">无</string>
@@ -499,10 +499,10 @@
     <string name="smartbar_config_name_edit_dialog_title">Smartbar 配置文件名</string>
     <string name="smartbar_config_name_edit_dialog_message">输入名称或留空</string>
     <string name="smartbar_config_dialog_title">Smartbar 配置文件</string>
-    <string name="smartbar_config_backup_success_toast">Smartbar配置文件备份成功</string>
-    <string name="smartbar_config_restore_success_toast">Smartbar配置文件还原成功</string>
-    <string name="smartbar_config_backup_error_toast">备份Smartbar配置文件时错误</string>
-    <string name="smartbar_config_restore_error_toast">恢复Smartbar配置文件时错误</string>
+    <string name="smartbar_config_backup_success_toast">Smartbar 配置文件备份成功</string>
+    <string name="smartbar_config_restore_success_toast">Smartbar 配置文件还原成功</string>
+    <string name="smartbar_config_backup_error_toast">备份Smartbar 配置文件时错误</string>
+    <string name="smartbar_config_restore_error_toast">恢复Smartbar 配置文件时错误</string>
     <string name="navbar_buttons_alpha_title">按键透明度</string>
     <string name="smartbar_longpress_delay_title">按键延迟</string>
     <string name="smartbar_longpress_delay_summary">设置系统在触发长按行为之前等待的时长</string>
@@ -536,9 +536,29 @@
     
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">点按振动</string>
-    <string name="quick_settings_vibrate_summary">触摸QS磁贴时震动</string>
+    <string name="quick_settings_vibrate_summary">触摸QS 面板磁贴时震动</string>
     
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">QS面板底部警告</string>
-    <string name="qs_footer_warnings_summary">当外部应用程序或VPN监控网络时，在QS面板的底部显示警告</string>
+    <string name="qs_footer_warnings_title">QS 面板底部警告</string>
+    <string name="qs_footer_warnings_summary">当外部应用程序或VPN监控网络时，在QS 面板的底部显示警告</string>
+    
+    <string name="qs_tile_title_visibility_title">QS 磁贴标签</string>
+    <string name="qs_tile_title_visibility_summary">显示QS 面板中磁贴的标签</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">减少通知的声音频率</string>
+    <string name="less_notification_sounds_summary">每个应用程序只有一次设置通知声音的时间段</string>
+    <string name="less_notification_sounds_default">默认情况下</string>
+    <string name="less_notification_sounds_3s">每 3秒</string>
+    <string name="less_notification_sounds_5s">每 5秒</string>
+    <string name="less_notification_sounds_10s">每10秒</string>
+    <string name="less_notification_sounds_15s">每 15秒</string>
+    <string name="less_notification_sounds_30s">每 30秒</string>
+    <string name="less_notification_sounds_45s">每 45秒</string>
+    <string name="less_notification_sounds_1m">每 1分钟</string>
+    <string name="less_notification_sounds_2m">每 2分钟</string>
+    <string name="less_notification_sounds_5m">每 5分钟</string>
+
+    <string name="face_auto_unlock_title">自动人脸解锁</string>
+    <string name="face_auto_unlock_summary">人脸解锁后直接进入手机</string>
 </resources>
