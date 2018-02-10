@@ -181,7 +181,7 @@
     <string name="allow_incall_home_summary">Umožniť použitie tlačidla Domov pri prichádzajúcom hovore</string>
 
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Časový limit podsvietenia</string>
+    <string name="backlight_timeout_title">Časový limit podsvietenia tlačidiel</string>
     <string name="backlight_timeout_on">Vždy zapnuté</string>
     <string name="backlight_timeout_3s">3 sekndy</string>
     <string name="backlight_timeout_default">5 sekúnd (predvolené)</string>
@@ -394,7 +394,7 @@
 
     <!-- Fling -->
     <string name="fling_settings">Nastavenia Fling</string>
-    <string name="fling_settings_summary">Jedinečný navigačný panel s gestami</string>
+    <string name="fling_settings_summary">Jedinečný prispôsobiteľný navigačný panel s gestami</string>
     <string name="fling_interface">Fling</string>
     <string name="fling_enable_title">Zapnúť Fling</string>
     <string name="fling_back_home_policy">Tlačidlá Späť a Domov musia byť vždy nastavené. Ak chcete zmeniť nastavenia Späť alebo Domov, najprv nastavte nové priradenie</string>
@@ -452,7 +452,7 @@
     <string name="pulse_help_policy_notice_summary">Pulse je výborný zvukový grafický ekvalizér zobrazený na navigačnom paneli pri prehrávaní hudby. Pulse nefunguje u niektorých zdrojov zvuku pri počúvaní hudby cez reproduktor zariadenia</string>
     <string name="pulse_settings">Grafický ekvalizér Pulse</string>
     <string name="pulse_settings_summary">Grafický ekvalizér v navigačnej lište</string>
-    <string name="fling_show_pulse_title">Zapnutie Pulse</string>
+    <string name="fling_show_pulse_title">Zapnuie Pulse</string>
     <string name="fling_show_pulse_summary">Zapnúť audio vizualizáciu v navigačnej lište</string>
     <string name="pulse_render_mode_title">Režim vykresľovania</string>
     <string name="pulse_render_mode_fading_bars">Miznúce bloky</string>
@@ -540,5 +540,22 @@
     <string name="qs_footer_warnings_summary">Zobraziť upozornenie v spodnej časti panela rýchlych nastavení, keď je sieť ovládaná aplikáciami alebo VPN</string>
 
     <string name="qs_tile_title_visibility_title">Názvy dlaždíc</string>
-    <string name="qs_tile_title_visibility_summary">Zobrazovať názvy dlaždíc na paneli rýchlych nastavení</string>
+    <string name="qs_tile_title_visibility_summary">Zobraziť názvy dlaždíc na paneli Rýchlych nastavení</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Menej časté zvuky upozornení</string>
+    <string name="less_notification_sounds_summary">Prehrať zvuk upozornenia z aplikácie iba raz za nastavené časové obdobie</string>
+    <string name="less_notification_sounds_default">Predvolený interval</string>
+    <string name="less_notification_sounds_3s">3 sekundy</string>
+    <string name="less_notification_sounds_5s">5 sekúnd</string>
+    <string name="less_notification_sounds_10s">10 sekúnd</string>
+    <string name="less_notification_sounds_15s">15 sekúnd</string>
+    <string name="less_notification_sounds_30s">30 sekúnd</string>
+    <string name="less_notification_sounds_45s">45 sekúnd</string>
+    <string name="less_notification_sounds_1m">1 minúta</string>
+    <string name="less_notification_sounds_2m">2 minúty</string>
+    <string name="less_notification_sounds_5m">5 minút</string>
+
+    <string name="face_auto_unlock_title">Automatické odomknutie</string>
+    <string name="face_auto_unlock_summary">Pri odomknutí tvárou rovno zobraziť plochu (nie obrazovku uzamknutia)</string>
 </resources>
