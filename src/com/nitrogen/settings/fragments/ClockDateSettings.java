@@ -108,8 +108,16 @@ public class ClockDateSettings extends SettingsPreferenceFragment implements OnP
 
         mClockDateFormat = (ListPreference) findPreference(PREF_CLOCK_DATE_FORMAT);
         mClockDateFormat.setOnPreferenceChangeListener(this);
-        if (mClockDateFormat.getValue() == null) {
-            mClockDateFormat.setValue("EEE");
+        String value = Settings.System.getString(getActivity().getContentResolver(),
+                Settings.System.STATUSBAR_CLOCK_DATE_FORMAT);
+        if (value == null || value.isEmpty()) {
+            value = "EEE";
+        }
+        int index = mClockDateFormat.findIndexOfValue((String) value);
+        if (index == -1) {
+            mClockDateFormat.setValueIndex(CUSTOM_CLOCK_DATE_FORMAT_INDEX);
+        } else {
+            mClockDateFormat.setValue(value);
         }
 
         parseClockDateFormats();
