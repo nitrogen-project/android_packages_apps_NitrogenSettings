@@ -604,5 +604,5 @@
     <string name="battery_style_hidden">Hidden</string>
     <string name="show_battery_percent_title">Show battery percentage</string>
     <string name="show_battery_percent_summary">Show battery level percentage near the icon</string>
-    <string name="battery_style_category_title">Battery level</string>
+    <string name="battery_style_category_title">Battery icon</string>
 </resources>

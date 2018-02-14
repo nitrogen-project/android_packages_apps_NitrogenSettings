@@ -599,5 +599,5 @@
     <string name="battery_style_hidden">Нет</string>
     <string name="show_battery_percent_title">Процент заряда</string>
     <string name="show_battery_percent_summary">Отображать процент заряда рядом с иконкой</string>
-    <string name="battery_style_category_title">Настройки батареи</string>
+    <string name="battery_style_category_title">Иконка батареи</string>
 </resources>
