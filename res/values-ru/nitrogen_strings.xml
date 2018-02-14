@@ -558,4 +558,46 @@
 
     <string name="face_auto_unlock_title">Автоматическая разблокировка</string>
     <string name="face_auto_unlock_summary">Скрыть экран блокировки при разблокировке лицом</string>
+
+    <!-- Status bar clock options -->
+    <string name="status_bar_clock">Дата и время</string>
+    <string name="clock_title_enable">Расположение</string>
+    <string name="status_bar_show_clock_title">Показывать время и дату</string>
+    <string name="status_bar_clock_seconds_title">Показывать секунды</string>
+    <string name="status_bar_am_pm_title">Показывать AM/PM</string>
+    <string name="status_bar_am_pm_info">24-часовой формат включён</string>
+    <string name="left_clock">Слева</string>
+    <string name="right_clock">Справа</string>
+    <string name="dont_show">Не показывать</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Отображать дату перед часами</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Формат даты: ММ/дд/гг</string>
+    <string name="clock_date_string_edittext_summary">Введите строку</string>
+    <string name="am_pm_clock_normal">Обычный размер шрифта</string>
+    <string name="am_pm_clock_small">Малый размер шрифта</string>
+    <string name="am_pm_clock_none">Не показывать</string>
+    <string name="clock_date_display_none">Не показывать</string>
+    <string name="clock_date_display_small">Малый размер шрифта</string>
+    <string name="clock_date_display_normal">Обычный размер шрифта</string>
+    <string name="clock_date_style_normal">Обычные</string>
+    <string name="clock_date_style_lowercase">Строчные</string>
+    <string name="clock_date_style_uppercase">ПРОПИСНЫЕ</string>
+    <string name="clock_date_format_custom">Свой Java-формат</string>	
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Стиль батареи</string>
+    <string name="battery_style_summary">Изменение вида иконки батареи в строке состояния</string>
+    <string name="battery_style_port">Вертикальный значок</string>
+    <string name="battery_style_land">Горизонтальный значок</string>
+    <string name="battery_style_circle">Круг</string>
+    <string name="battery_style_dotted_circle">Точечный круг</string>
+    <string name="battery_style_big_circle">Большой круг</string>
+    <string name="battery_style_big_dotted_circle">Большой точечный круг</string>
+    <string name="battery_style_text">Текст</string>
+    <string name="battery_style_hidden">Нет</string>
+    <string name="show_battery_percent_title">Процент заряда</string>
+    <string name="show_battery_percent_summary">Отображать процент заряда рядом с иконкой</string>
+    <string name="battery_style_category_title">Настройки батареи</string>
 </resources>

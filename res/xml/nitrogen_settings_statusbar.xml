@@ -28,7 +28,6 @@
     <Preference
             android:key="clock_settings"
             android:title="@string/status_bar_clock"
-            android:summary="@string/status_bar_clock_summary"
             android:fragment="com.nitrogen.settings.fragments.ClockDateSettings" />
 
     <PreferenceCategory
