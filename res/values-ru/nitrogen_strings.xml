@@ -588,7 +588,6 @@
 
     <!-- Battery Styles -->
     <string name="battery_style_title">Стиль батареи</string>
-    <string name="battery_style_summary">Изменение вида иконки батареи в строке состояния</string>
     <string name="battery_style_port">Вертикальный значок</string>
     <string name="battery_style_land">Горизонтальный значок</string>
     <string name="battery_style_circle">Круг</string>
@@ -598,6 +597,8 @@
     <string name="battery_style_text">Текст</string>
     <string name="battery_style_hidden">Нет</string>
     <string name="show_battery_percent_title">Процент заряда</string>
-    <string name="show_battery_percent_summary">Отображать процент заряда рядом с иконкой</string>
     <string name="battery_style_category_title">Иконка батареи</string>
+    <string name="battery_percent_none">Не отображать</string>
+    <string name="battery_percent_outside">Рядом с иконкой</string>
+    <string name="battery_percent_inside">Внутри иконки</string>
 </resources>

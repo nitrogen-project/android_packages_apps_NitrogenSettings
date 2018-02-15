@@ -38,9 +38,10 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
     private static final String BATTERY_STYLE = "battery_style";
+    private static final String BATTERY_PERCENT = "show_battery_percent";
 
     private ListPreference mBatteryIconStyle;
-    private SwitchPreference mBatteryPercentage;
+    private ListPreference mBatteryPercentage;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -55,12 +56,16 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements
                 Settings.Secure.STATUS_BAR_BATTERY_STYLE, 0);
         mBatteryIconStyle = (ListPreference) findPreference(BATTERY_STYLE);
         mBatteryIconStyle.setValue(Integer.toString(batteryStyle));
+        int valueIndex = mBatteryIconStyle.findIndexOfValue(String.valueOf(batteryStyle));
+        mBatteryIconStyle.setSummary(mBatteryIconStyle.getEntries()[valueIndex]);
         mBatteryIconStyle.setOnPreferenceChangeListener(this);
 
-        boolean show = Settings.System.getInt(resolver,
-                Settings.System.SHOW_BATTERY_PERCENT, 1) == 1;
-        mBatteryPercentage = (SwitchPreference) findPreference("show_battery_percent");
-        mBatteryPercentage.setChecked(show);
+        int showPercent = Settings.System.getInt(resolver,
+                Settings.System.SHOW_BATTERY_PERCENT, 1);
+        mBatteryPercentage = (ListPreference) findPreference(BATTERY_PERCENT);
+        mBatteryPercentage.setValue(Integer.toString(showPercent));
+        valueIndex = mBatteryPercentage.findIndexOfValue(String.valueOf(showPercent));
+        mBatteryPercentage.setSummary(mBatteryPercentage.getEntries()[valueIndex]);
         mBatteryPercentage.setOnPreferenceChangeListener(this);
         boolean hideForcePercentage = batteryStyle == 6 || batteryStyle == 7; /*text or hidden style*/
         mBatteryPercentage.setEnabled(!hideForcePercentage);
@@ -72,14 +77,21 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements
             int value = Integer.valueOf((String) objValue);
             Settings.Secure.putInt(getContentResolver(),
                     Settings.Secure.STATUS_BAR_BATTERY_STYLE, value);
+            int valueIndex = mBatteryIconStyle
+                    .findIndexOfValue((String) objValue);
+            mBatteryIconStyle
+                    .setSummary(mBatteryIconStyle.getEntries()[valueIndex]);
             boolean hideForcePercentage = value == 6 || value == 7;/*text or hidden style*/
             mBatteryPercentage.setEnabled(!hideForcePercentage);
             return true;
         } else  if (preference == mBatteryPercentage) {
-            boolean value = (Boolean) objValue;
+            int value = Integer.valueOf((String) objValue);
             Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.SHOW_BATTERY_PERCENT, value ? 1 : 0);
-            mBatteryPercentage.setChecked(value);
+                    Settings.System.SHOW_BATTERY_PERCENT, value);
+            int valueIndex = mBatteryPercentage
+                    .findIndexOfValue((String) objValue);
+            mBatteryPercentage
+                    .setSummary(mBatteryPercentage.getEntries()[valueIndex]);
             return true;
         }
         return false;
