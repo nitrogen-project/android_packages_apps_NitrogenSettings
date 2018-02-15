@@ -584,7 +584,10 @@
     <string name="clock_date_style_normal">Обычные</string>
     <string name="clock_date_style_lowercase">Строчные</string>
     <string name="clock_date_style_uppercase">ПРОПИСНЫЕ</string>
-    <string name="clock_date_format_custom">Свой Java-формат</string>	
+    <string name="clock_date_format_custom">Свой Java-формат</string>
+    <string name="clock_date_position">Расположение даты</string>
+    <string name="clock_date_right">Справа от часов</string>
+    <string name="clock_date_left">Слева от часов</string>
 
     <!-- Battery Styles -->
     <string name="battery_style_title">Стиль батареи</string>
