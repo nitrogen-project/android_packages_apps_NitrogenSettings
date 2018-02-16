@@ -170,7 +170,7 @@
     <string name="volume_rocker_wake_summary">Ses seviyesi tuşlarına basmak cihazı uyandırır</string>
 
     <string name="button_backlight_on_touch_only_title">Dokunmatik tuşlar</string>
-    <string name="button_backlight_on_touch_only_summary">Tuşa dokunulduğunda yalnızca zaman aşımıyla arka ışığı etkinleştirin</string>
+    <string name="button_backlight_on_touch_only_summary">Tuşa dokunulduğunda yalnızca zaman aşımıyla aydınlatma ışığını etkinleştirin</string>
 
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Arama geldiğinde ana ekran tuşu</string>
@@ -190,8 +190,8 @@
     <string name="button_brightness_title">Aydınlatma ışığı</string>
 
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Şarja takıldığında uyan</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Şarj cihazı takıldığında/çıkarıldığında cihazı uyandır</string>
+    <string name="wakeup_when_plugged_unplugged_title">Şarja takıldığında cihazı uyandır</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Şarj cihazı takıldığında/çıkarıldığında cihaz uyanır</string>
 
     <!-- Immersive Recents -->
     <string name="immersive_recents_title">Son kullanılanlar görünümü</string>
@@ -213,8 +213,8 @@
     <string name="show_cpu_info_summary">Geçerli işlemci bilgisini gösteren ekran paylaşımı</string>
 
     <!-- Whether to display IME switcher notifcation -->
-    <string name="ime_switcher_notify">Klavye seçici bildirimi</string>
-    <string name="ime_switcher_notify_summary">Giriş yöntemi seçici bildirimini görüntüle</string>
+    <string name="ime_switcher_notify">Klavye değiştirici bildirimi</string>
+    <string name="ime_switcher_notify_summary">Giriş yöntemi bildirimini görüntüle</string>
 
     <!-- Battery saver color -->
     <string name="battery_saver_color_title">Uyarı rengi</string>
@@ -225,7 +225,7 @@
     <string name="volume_answer_call_summary">Ses tuşlarına basarak gelen aramaları cevaplayın</string>
 
     <!-- Enable keys backlight-->
-    <string name="button_brightness_sw_title">Arka plan aydınlatmasını etkinleştir</string>
+    <string name="button_brightness_sw_title">Aydınlatma ışığını etkinleştir</string>
 
     <!-- Battery light -->
     <string name="battery_light_settings">Pil şarj ışığı</string>
@@ -245,12 +245,12 @@
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Akıllı aşağı çekme</string>
-    <string name="smart_pulldown_summary">Mevcut %1$s bildirimler olduğunda hızlı ayarları açar</string>
+    <string name="smart_pulldown_summary">%1$s hızlı ayarları açar</string>
     <string name="smart_pulldown_none_summary">Hiçbir bildirim olmadığında hızlı ayarları açın</string>
     <string name="smart_pulldown_off">Kapalı</string>
     <string name="smart_pulldown_none">Bildirim yoksa</string>
     <string name="smart_pulldown_dismissable">Kapatılabilir bildirim yoksa</string>
-    <string name="smart_pulldown_ongoing">Devam eden yoksa</string>
+    <string name="smart_pulldown_ongoing">Devam eden bildirim yoksa</string>
 
     <string name="notification_light_settings">Bildirim ışığı</string>
 
@@ -267,7 +267,7 @@
     <string name="powermenu_airplane">Uçak modu</string>
     <string name="powermenu_settings">Ayarlar</string>
     <string name="powermenu_lockdown">Kilitle</string>
-    <string name="powermenu_soundpanel">Sese paneli</string>
+    <string name="powermenu_soundpanel">Ses paneli</string>
     <string name="powermenu_users">Kullanıcılar</string>
     <string name="powermenu_torch">El feneri</string>
 
@@ -437,7 +437,7 @@
     <string name="pulse_help_policy_notice_summary">Pulse cihazın hoparlörü üzerinden dinlerken bazı ses kaynakları ile çalışmaz</string>
     <string name="pulse_settings">Pulse</string>
     <string name="pulse_settings_summary">Gezinme çubuğu ses görselleştirme</string>
-    <string name="fling_show_pulse_title">Pulse\'yi göster</string>
+    <string name="fling_show_pulse_title">Pulse\'u göster</string>
     <string name="fling_show_pulse_summary">Gezinme çubuğunda ses görselleştirme</string>
     <string name="pulse_render_mode_title">İşleme biçimi</string>
     <string name="pulse_render_mode_fading_bars">Solan bloklar</string>
@@ -544,4 +544,69 @@
 	
     <string name="qs_tile_title_visibility_title">Hızlı ayarlar kare başlıkları</string>
     <string name="qs_tile_title_visibility_summary">Hızlı ayarlar kare başlıklarını göster</string>
-</resources> 
+	
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Daha az sıklıkta bildirim sesleri</string>
+    <string name="less_notification_sounds_summary">Her bir uygulamanın bildirim seslerini, yalnızca belirli bir zaman aralığı için bir kez çalacak şekilde sınırla</string>
+    <string name="less_notification_sounds_default">Varsayılan davranış</string>
+    <string name="less_notification_sounds_3s">3 saniye</string>
+    <string name="less_notification_sounds_5s">5 saniye</string>
+    <string name="less_notification_sounds_10s">10 saniye</string>
+    <string name="less_notification_sounds_15s">15 saniye</string>
+    <string name="less_notification_sounds_30s">30 saniye</string>
+    <string name="less_notification_sounds_45s">45 saniye</string>
+    <string name="less_notification_sounds_1m">1 dakika</string>
+    <string name="less_notification_sounds_2m">2 dakika</string>
+    <string name="less_notification_sounds_5m">5 dakika</string>
+
+    <string name="face_auto_unlock_title">Yüz ile otomatik kilit açma</string>
+    <string name="face_auto_unlock_summary">Yüz ile kilidi açtıktan sonra kilit ekranını kapat</string>
+	
+    <!-- Status bar clock options -->
+    <string name="status_bar_clock">Saat ve Tarih</string>
+    <string name="clock_title_enable">Hizalama</string>
+    <string name="status_bar_show_clock_title">Saati ve tarihi göster</string>
+    <string name="status_bar_clock_seconds_title">Saniyeyi göster</string>
+    <string name="status_bar_am_pm_title">ÖÖ/ÖS</string>
+    <string name="status_bar_am_pm_info">24 saat biçimi etkin</string>
+    <string name="enable_clock_weekday">Haftanın günü</string>
+    <string name="enable_clock_weekday_summary">Saatten önce haftanın kısaltılmış günü</string>
+    <string name="right_clock">Saat sağda</string>
+    <string name="left_clock">Saat solda</string>
+    <string name="dont_show">Gösterme</string>
+    <string name="clock_date_display">Tarih</string>
+    <string name="clock_date_display_summary">Saatten önce özel tarihi görüntüle</string>
+    <string name="clock_date_style">Tarih stili</string>
+    <string name="clock_date_format">Tarih formatı</string>
+    <string name="clock_date_string_edittext_title">Tarih formatı bu şekilde olmalı örneğin. AA/gg/yy</string>
+    <string name="clock_date_string_edittext_summary">Dize girin</string>
+    <string name="am_pm_clock_normal">Normal yazı tipi boyutu</string>
+    <string name="am_pm_clock_small">Küçük yazı tipi boyutu</string>
+    <string name="am_pm_clock_none">Gösterme</string>
+    <string name="clock_date_display_none">Gösterme</string>
+    <string name="clock_date_display_small">Küçük yazı tipi boyutu</string>
+    <string name="clock_date_display_normal">Normal yazı tipi boyutu</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Küçük harf</string>
+    <string name="clock_date_style_uppercase">Büyük harf</string>
+    <string name="clock_date_format_custom">Özel java biçimi</string>
+    <string name="clock_date_right">Saatin sağında</string>
+    <string name="clock_date_left">Saatin solunda</string>
+    <string name="clock_date_position">Tarih konumu</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Pil simgesi stili</string>
+    <string name="battery_style_port">Dikey</string>
+    <string name="battery_style_land">Yatay</string>
+    <string name="battery_style_circle">Daire</string>
+    <string name="battery_style_dotted_circle">Noktalı daire</string>
+    <string name="battery_style_big_circle">Büyük daire</string>
+    <string name="battery_style_big_dotted_circle">Büyük noktalı daire</string>
+    <string name="battery_style_text">Yazı</string>
+    <string name="battery_style_hidden">Gizle</string>
+    <string name="show_battery_percent_title">Pil yüzdesini göster</string>
+    <string name="battery_style_category_title">Pil simgesi</string>
+    <string name="battery_percent_none">Gösterme</string>
+    <string name="battery_percent_outside">Simgenin yanında göster</string>
+    <string name="battery_percent_inside">Simgenin içinde göster</string>
+</resources>
