@@ -81,7 +81,7 @@
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opzioni di vibrazione in chiamata</string>
     <string name="incall_vibrate_connect_title">Vibra alla connessione</string>
-    <string name="incall_vibrate_call_wait_title">Vibra con chiamata in attesa</string>
+    <string name="incall_vibrate_call_wait_title">Vibra per chiamata in attesa</string>
     <string name="incall_vibrate_disconnect_title">Vibra alla disconnessione</string>
 
     <!-- Lockscreen weather -->
@@ -123,14 +123,14 @@
     <string name="double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
 
     <!-- Volume button orientation based on current rotation -->
-    <string name="swap_volume_buttons_title">Orientamento pulsanti del volume</string>
+    <string name="swap_volume_buttons_title">Orientamento pulsanti</string>
     <string name="swap_volume_buttons_summary">Regola l\'orientamento dei pulsanti del volume in base alla rotazione dello schermo</string>
 
     <!-- Volume key controls media stream -->
-    <string name="volume_keys_control_media_stream_title">I tasti del volume controllano il volume multimediale</string>
-    <string name="volume_keys_control_media_stream_summary">Forza i tasti del volume per consentire di controllare il flusso multimediale</string>
+    <string name="volume_keys_control_media_stream_title">Controllano del volume multimediale</string>
+    <string name="volume_keys_control_media_stream_summary">Forza i pulsanti del volume per consentire di controllare il volume multimediale</string>
 
-    <string name="status_bar_quick_qs_pulldown_title">Discesa rapida</string>
+    <string name="status_bar_quick_qs_pulldown">Discesa rapida</string>
     <string name="status_bar_quick_qs_pulldown_summary">Il bordo destro della barra di stato tira giù le impostazioni rapide</string>
 
     <!-- Volume rocker music control -->
@@ -166,15 +166,15 @@
     <string name="volume_key_cursor_control_on_reverse">Volume sù/giù spostano il cursore nel testo a destra/sinistra</string>
 
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Risveglia con tasti del volume</string>
-    <string name="volume_rocker_wake_summary">Premendo i tasti del volume si risveglierà il dispositivo</string>
+    <string name="volume_rocker_wake_title">Risveglio con pulsanti</string>
+    <string name="volume_rocker_wake_summary">Premendo i pulsanti del volume si risveglierà il dispositivo</string>
 
     <string name="button_backlight_on_touch_only_title">Tocco del tasto</string>
     <string name="button_backlight_on_touch_only_summary">Abilita la durata della retroilluminazione con il solo tocco di un tasto</string>
 
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Risposta con tasto home</string>
-    <string name="allow_incall_home_summary">Consenti di risposndera con il tasto home quando si riceve una chiamata</string>
+    <string name="allow_incall_home_summary">Consenti di rispondere con il tasto home quando si riceve una chiamata</string>
 
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Durata retroilluminazione dei tasti</string>
@@ -231,7 +231,7 @@
     <string name="battery_light_settings">Indicatore di carica della batteria</string>
     <string name="battery_light_enable">Abilita</string>
     <string name="battery_light_allow_on_dnd_title">La spia della batteria si accende in modalità Non disturbare</string>
-    <string name="battery_light_low_blinking_title">Luce lampeggiante su batteria scarica</string>
+    <string name="battery_light_low_blinking_title">Luce lampeggiante con batteria scarica</string>
     <string name="battery_light_cat">Colore della batteria durante la ricarica</string>
     <string name="battery_light_low_color">Batteria scarica</string>
     <string name="battery_light_medium_color">Batteria media</string>
@@ -241,7 +241,7 @@
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Traffico di rete</string>
     <string name="network_traffic_state_summary">Mostra l\'attività di rete nella barra di stato</string>
-    <string name="network_traffic_autohide_threshold_title">Nascondi automaticamente alla soglia per inattività (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">Nascondi soglia per inattività (KB/s)</string>
 
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Discesa rapida</string>
@@ -252,7 +252,7 @@
     <string name="smart_pulldown_dismissable">Non removibili</string>
     <string name="smart_pulldown_ongoing">Nessuna in corso</string>
 
-    <string name="notification_light_settings">Luce di notifiche</string>
+    <string name="notification_light_settings">Luci delle notifiche</string>
 
     <!-- ADB debugging notifications -->
     <string name="adb_notify">Notifica ADB</string>
@@ -260,7 +260,7 @@
 
     <!-- Power Menu -->
     <string name="powermenu_screenshot">Screenshot</string>
-    <string name="powermenu_screenrecord">Screenrecord</string>
+    <string name="powermenu_screenrecord">Registra schermo</string>
     <string name="powermenu_power">Alimentazione</string>
     <string name="powermenu_restart">Riavvio</string>
     <string name="powermenu_restart_recovery">Riavvio avanzato</string>
@@ -273,7 +273,7 @@
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Menù alimentazione quando bloccato</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disattiva il menù di alimentazione sulla schermata di blocco sicura</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disattiva il menù di alimentazione sulla schermata di blocco quando bloccato</string>
 
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Autenticazione impronta digitale con vibrazione</string>
@@ -462,8 +462,10 @@
     <!-- SmartBar -->
     <string name="smartbar_category">SmartBar</string>
     <string name="smartbar_settings_title">Impostazioni Smartbar</string>
-    <string name="smartbar_editor_title">Attiva o disattiva modifica pulsanti</string>
-    <string name="smartbar_editor_summary">Tieni premuto e trascina per cambiare la posizione. Tieni premuto a lungo per visualizzare il menù di modifica. La posizione del pulsante potrebbe cambiare durante la visualizzazione del menù.</string>
+    <string name="smartbar_settings_summary">Barra di navigazione completamente personalizzabile</string>
+    <string name="smartbar_editor_title">Avvia modalità modifica</string>
+    <string name="smartbar_editor_summary">Apri la modifica dei pulsanti della smartbar</string>
+    <string name="smartbar_help_policy_notice_summary">In modalità modifica, premere a metà e trascinare un pulsante per cambiarne la posizione o premere a lungo un pulsante per visualizzare il menù della modifica. La posizione del pulsante può essere modificata mentre viene visualizzato il menù.\n\nL\'impostazione di una doppia azione ritarderà il tocco di un singolo bit.</string>
     <string name="smartbar_context_menu_position_title">Posizione pulsanti contestuali</string>
     <string name="smartbar_context_menu_position_summary">Regola la posizione dei pulsanti contestuali, come il pulsante menù e il selettore della tastiera</string>
     <string name="smartbar_right">Destra</string>
@@ -531,6 +533,72 @@
     <string name="qs_footer_warnings_title">Avvisi footer</string>
     <string name="qs_footer_warnings_summary">Visualizza un avviso nella parte inferiore del pannello impostazioni rapide quando la rete viene controllata da applicazioni esterne o vpn</string>
 
-    <string name="qs_tile_title_visibility_title">Titoli tile</string>
-    <string name="qs_tile_title_visibility_summary">Mostra i titoli dei tile nelle impostazioni rapide</string>
+    <string name="qs_tile_title_visibility_title">Titolo tile</string>
+    <string name="qs_tile_title_visibility_summary">Mostra il titolo dei tile nelle impostazioni rapide</string>
+	
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Suoni di notifica meno frequenti</string>
+    <string name="less_notification_sounds_summary">Riproduci il suono di notifica di ogni app solo una volta per ogni periodo di tempo impostato</string>
+    <string name="less_notification_sounds_default">Comportamento predefinito</string>
+    <string name="less_notification_sounds_3s">Ogni 3 secondi</string>
+    <string name="less_notification_sounds_5s">Ogni 5 secondi</string>
+    <string name="less_notification_sounds_10s">Ogni 10 secondi</string>
+    <string name="less_notification_sounds_15s">Ogni 15 secondi</string>
+    <string name="less_notification_sounds_30s">Ogni 30 secondi</string>
+    <string name="less_notification_sounds_45s">Ogni 45 secondi</string>
+    <string name="less_notification_sounds_1m">Ogni 1 minuto</string>
+    <string name="less_notification_sounds_2m">Ogni 2 minuti</string>
+    <string name="less_notification_sounds_5m">Ogni 5 minuti</string>
+	
+    <string name="face_auto_unlock_title">Sblocco automatico con viso</string>
+    <string name="face_auto_unlock_summary">Sblocca automaticamente il dispositivo quando verrà riconosciuto il viso</string>
+
+    <!-- Status bar clock options -->
+    <string name="status_bar_clock">Orologio e data</string>
+    <string name="clock_title_enable">Allineamento</string>
+    <string name="status_bar_show_clock_title">Visualizza l\'orologio e la data</string>
+    <string name="status_bar_clock_seconds_title">Visualizza i secondi</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">Formato 24 ore attivo</string>
+    <string name="enable_clock_weekday">Giorno della settimana</string>
+    <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell\'orologio</string>
+    <string name="right_clock">Orologio a destra</string>
+    <string name="left_clock">Orologio a Sinistra</string>
+    <string name="dont_show">Nascondi</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Visualizza la data personalizzata prima dell\'orologio</string>
+    <string name="clock_date_style">Stile data</string>
+    <string name="clock_date_format">Formato data</string>
+    <string name="clock_date_string_edittext_title">Deve essere in formato data es. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Inserisci una stringa</string>
+    <string name="am_pm_clock_normal">Dimensione carattere normale</string>
+    <string name="am_pm_clock_small">Dimensione carattere piccolo</string>
+    <string name="am_pm_clock_none">Nascondi</string>
+    <string name="clock_date_display_none">Nascondi</string>
+    <string name="clock_date_display_small">Dimensione carattere piccolo</string>
+    <string name="clock_date_display_normal">Dimensione carattere normale</string>
+    <string name="clock_date_style_normal">Normale</string>
+    <string name="clock_date_style_lowercase">Minuscolo</string>
+    <string name="clock_date_style_uppercase">Maiuscolo</string>
+    <string name="clock_date_format_custom">Formato java personalizzato</string>
+    <string name="clock_date_right">Data a destra</string>
+    <string name="clock_date_left">Data a sinistra</string>
+    <string name="clock_date_position">Posizione aata</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Indicatore della batteria</string>
+    <string name="battery_style_port">Icona verticale</string>
+    <string name="battery_style_land">Icona orizzontale</string>
+    <string name="battery_style_circle">Cerchio</string>
+    <string name="battery_style_dotted_circle">Cerchio tratteggiato</string>
+    <string name="battery_style_big_circle">Cerchio grande</string>
+    <string name="battery_style_big_dotted_circle">Cerchio grande tratteggiato</string>
+    <string name="battery_style_square">Quadrato</string>
+    <string name="battery_style_text">Testo</string>
+    <string name="battery_style_hidden">Nascosta</string>
+    <string name="show_battery_percent_title">Visualizza la percentuale della batteria</string>
+    <string name="battery_style_category_title">Icona della batteria</string>
+    <string name="battery_percent_none">Nasconsta</string>
+    <string name="battery_percent_outside">Visualizza fuori l\'icona</string>
+    <string name="battery_percent_inside">Visualizza dentro l\'icona</string>
 </resources>
