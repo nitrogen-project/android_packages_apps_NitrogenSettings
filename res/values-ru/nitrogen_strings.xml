@@ -597,6 +597,7 @@
     <string name="battery_style_dotted_circle">Точечный круг</string>
     <string name="battery_style_big_circle">Большой круг</string>
     <string name="battery_style_big_dotted_circle">Большой точечный круг</string>
+    <string name="battery_style_square">Квадрат</string>
     <string name="battery_style_text">Текст</string>
     <string name="battery_style_hidden">Нет</string>
     <string name="show_battery_percent_title">Процент заряда</string>
