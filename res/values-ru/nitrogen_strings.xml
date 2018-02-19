@@ -153,10 +153,10 @@
 
     <!-- QS rows and columns -->
     <string name="qs_rows_columns_title">Ряды и столбцы</string>
-    <string name="qs_rows_portrait_title">Число плиток в ряду(портрет.)</string>
-    <string name="qs_rows_landscape_title">Число плиток в ряду(альбом.)</string>
-    <string name="qs_columns_portrait_title">Число плиток в столбце(портрет.)</string>
-    <string name="qs_columns_landscape_title">Число плиток в столбце(альбом.)</string>
+    <string name="qs_rows_portrait_title">Число рядов(портрет.)</string>
+    <string name="qs_rows_landscape_title">Число рядов(альбом.)</string>
+    <string name="qs_columns_portrait_title">Число столбцов(портрет.)</string>
+    <string name="qs_columns_landscape_title">Число столбцов(альбом.)</string>
 
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Информация о зарядке</string>
