@@ -558,4 +558,50 @@
 
     <string name="face_auto_unlock_title">Automatické odomknutie</string>
     <string name="face_auto_unlock_summary">Pri odomknutí tvárou rovno zobraziť plochu (nie obrazovku uzamknutia)</string>
+
+    <!-- Status bar clock options -->
+    <string name="status_bar_clock">Hodiny a dátum</string>
+    <string name="clock_title_enable">Zarovnanie</string>
+    <string name="status_bar_show_clock_title">Zobraziť hodiny a dátum</string>
+    <string name="status_bar_clock_seconds_title">Zobraziť sekundy</string>
+    <string name="status_bar_am_pm_title">Zobraziť AM/PM</string>
+    <string name="status_bar_am_pm_info">Je nastavený 24-hodinový formát</string>
+    <string name="left_clock">Hodiny vľavo</string>
+    <string name="right_clock">Hodiny vpravo</string>
+    <string name="dont_show">Nezobrazovať</string>
+    <string name="clock_date_display">Dátum</string>
+    <string name="clock_date_display_summary">Zobraziť dátum pred hodinami</string>
+    <string name="clock_date_style">Štýl dátumu</string>
+    <string name="clock_date_format">Formát dátumu</string>
+    <string name="clock_date_string_edittext_title">Formát dátumu: ММ/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Zadajte reťazec</string>
+    <string name="am_pm_clock_normal">Normálna veľkosť písma</string>
+    <string name="am_pm_clock_small">Malá veľkosť písma</string>
+    <string name="am_pm_clock_none">Nezobrazovať</string>
+    <string name="clock_date_display_none">Nezobrazovať</string>
+    <string name="clock_date_display_small">Malá veľkosť písma</string>
+    <string name="clock_date_display_normal">Normálna veľkosť písma</string>
+    <string name="clock_date_style_normal">Normálny</string>
+    <string name="clock_date_style_lowercase">Malé písmená</string>
+    <string name="clock_date_style_uppercase">Veľké písmená</string>
+    <string name="clock_date_format_custom">Vlastný Java-formát</string>
+    <string name="clock_date_position">Umiestnenie dátumu</string>
+    <string name="clock_date_right">Vpravo od hodín</string>
+    <string name="clock_date_left">Vľavo od hodín</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Štýl ikony batérie</string>
+    <string name="battery_style_port">Vertikálna ikona</string>
+    <string name="battery_style_land">Horizontálna ikona</string>
+    <string name="battery_style_circle">Kruh</string>
+    <string name="battery_style_dotted_circle">Bodový kruh</string>
+    <string name="battery_style_big_circle">Veľký kruh</string>
+    <string name="battery_style_big_dotted_circle">Veľký bodový kruh</string>
+    <string name="battery_style_text">Text</string>
+    <string name="battery_style_hidden">Skrytá</string>
+    <string name="show_battery_percent_title">Percento nabitia</string>
+    <string name="battery_style_category_title">Ikona batérie</string>
+    <string name="battery_percent_none">Nezobrazovať</string>
+    <string name="battery_percent_outside">Vedľa ikony</string>
+    <string name="battery_percent_inside">Vo vnútri ikony</string>
 </resources>

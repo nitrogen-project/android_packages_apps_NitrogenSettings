@@ -538,4 +538,70 @@
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Upozornění ve spodní části</string>
     <string name="qs_footer_warnings_summary">Zobrazit upozornění ve spodní části panelu rychlých nastavení, když je síť ovládána aplikacemi nebo VPN</string>
+
+    <string name="qs_tile_title_visibility_title">Názvy dlaždíc</string>
+    <string name="qs_tile_title_visibility_summary">Zobraziť názvy dlaždíc na paneli Rýchlych nastavení</string>
+
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Menej časté zvuky upozornení</string>
+    <string name="less_notification_sounds_summary">Prehrať zvuk upozornenia z aplikácie iba raz za nastavené časové obdobie</string>
+    <string name="less_notification_sounds_default">Predvolený interval</string>
+    <string name="less_notification_sounds_3s">3 sekundy</string>
+    <string name="less_notification_sounds_5s">5 sekúnd</string>
+    <string name="less_notification_sounds_10s">10 sekúnd</string>
+    <string name="less_notification_sounds_15s">15 sekúnd</string>
+    <string name="less_notification_sounds_30s">30 sekúnd</string>
+    <string name="less_notification_sounds_45s">45 sekúnd</string>
+    <string name="less_notification_sounds_1m">1 minúta</string>
+    <string name="less_notification_sounds_2m">2 minúty</string>
+    <string name="less_notification_sounds_5m">5 minút</string>
+
+    <string name="face_auto_unlock_title">Automatické odemknutí</string>
+    <string name="face_auto_unlock_summary">Při odemknutí obličejem rovnou zobrazit plochu (ne obrazovku uzamčení)</string>
+
+    <!-- Status bar clock options -->
+    <string name="status_bar_clock">Hodiny a datum</string>
+    <string name="clock_title_enable">Zarovnání</string>
+    <string name="status_bar_show_clock_title">Zobrazit hodiny a datum</string>
+    <string name="status_bar_clock_seconds_title">Zobrazit sekundy</string>
+    <string name="status_bar_am_pm_title">Zobraziť AM/PM</string>
+    <string name="status_bar_am_pm_info">Je nastaven 24hodinový formát</string>
+    <string name="left_clock">Hodiny vlevo</string>
+    <string name="right_clock">Hodiny vpravo</string>
+    <string name="dont_show">Nezobrazovat</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Zobrazit datum před hodinami</string>
+    <string name="clock_date_style">Styl data</string>
+    <string name="clock_date_format">Formát data</string>
+    <string name="clock_date_string_edittext_title">Formát data: ММ/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Zadejte řetězec</string>
+    <string name="am_pm_clock_normal">Normální velikost písma</string>
+    <string name="am_pm_clock_small">Malá velikost písma</string>
+    <string name="am_pm_clock_none">Nezobrazovat</string>
+    <string name="clock_date_display_none">Nezobrazovat</string>
+    <string name="clock_date_display_small">Malá velikost písma</string>
+    <string name="clock_date_display_normal">Normální velikost písma</string>
+    <string name="clock_date_style_normal">Normální</string>
+    <string name="clock_date_style_lowercase">Malá písmena</string>
+    <string name="clock_date_style_uppercase">Velká písmena</string>
+    <string name="clock_date_format_custom">Vlastní Java-formát</string>
+    <string name="clock_date_position">Umístění data</string>
+    <string name="clock_date_right">Vpravo od hodin</string>
+    <string name="clock_date_left">Vlevo od hodin</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Styl ikony baterie</string>
+    <string name="battery_style_port">Vertikální ikona</string>
+    <string name="battery_style_land">Horizontální ikona</string>
+    <string name="battery_style_circle">Kruh</string>
+    <string name="battery_style_dotted_circle">Bodový kruh</string>
+    <string name="battery_style_big_circle">Velký kruh</string>
+    <string name="battery_style_big_dotted_circle">Velký bodový kruh</string>
+    <string name="battery_style_text">Text</string>
+    <string name="battery_style_hidden">Skrytá</string>
+    <string name="show_battery_percent_title">Procento nabití</string>
+    <string name="battery_style_category_title">Ikona baterie</string>
+    <string name="battery_percent_none">Nezobrazovat</string>
+    <string name="battery_percent_outside">Vedle ikony</string>
+    <string name="battery_percent_inside">Uvnitř ikony</string>
 </resources>
