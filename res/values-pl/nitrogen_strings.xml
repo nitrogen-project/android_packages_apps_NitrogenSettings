@@ -298,7 +298,7 @@
 
     <!-- Quick Settings brightness icon -->
     <string name="brightness_icon_title">Ikona jasności</string>
-    <string name="brightness_icon_summary">Pokaż ikonę kontroli jasności na lewo od paska, aby dostosować auto jasność</string>
+    <string name="brightness_icon_summary">Pokaż ikonę kontroli jasności na prawo od suwaka, aby dostosować auto-jasność</string>
 
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Koniec czasu</string>
@@ -557,4 +557,52 @@
 
     <string name="face_auto_unlock_title">Automatyczne odblokowywanie twarzą</string>
     <string name="face_auto_unlock_summary">Po rozpoznaniu twarzy, ekran blokady zostaje automatycznie odblokowany</string>
+	
+	<!-- Status bar clock options -->
+    <string name="status_bar_clock">Data i zegar</string>
+    <string name="clock_title_enable">Wyrównanie</string>
+    <string name="status_bar_show_clock_title">Pokaż datę i zegar</string>
+    <string name="status_bar_clock_seconds_title">Pokaż sekundy</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">24 godzinny zegar jest włączony</string>
+    <string name="enable_clock_weekday">Dzień tygodnia</string>
+    <string name="enable_clock_weekday_summary">Skrócony dzień tygodnia przed zegarkiem</string>
+    <string name="right_clock">Zegar z prawej strony</string>
+    <string name="left_clock">Zegar z lewej strony</string>
+    <string name="dont_show">Nie pokazuj</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Wyświetlaj niestandardową datę przed zegarem</string>
+    <string name="clock_date_style">Styl daty</string>
+    <string name="clock_date_format">Format daty</string>
+    <string name="clock_date_string_edittext_title">Musi być w formacie daty, np. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Wpisz ciąg</string>
+    <string name="am_pm_clock_normal">Normalny rozmiar czcionki</string>
+    <string name="am_pm_clock_small">Mały rozmiar czcionki</string>
+    <string name="am_pm_clock_none">Nie pokazuj</string>
+    <string name="clock_date_display_none">Nie pokazuj</string>
+    <string name="clock_date_display_small">Mały rozmiar czcionki</string>
+    <string name="clock_date_display_normal">Normalny rozmiar czcionki</string>
+    <string name="clock_date_style_normal">Normalny</string>
+    <string name="clock_date_style_lowercase">Małe litery</string>
+    <string name="clock_date_style_uppercase">Duże litery</string>
+    <string name="clock_date_format_custom">Niestandardowy format java</string>
+    <string name="clock_date_right">Z prawej strony zegara</string>
+    <string name="clock_date_left">Z lewej strony zegara</string>
+    <string name="clock_date_position">Pozycja daty</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Styl ikony baterii</string>
+    <string name="battery_style_port">Pionowa</string>
+    <string name="battery_style_land">Pozioma</string>
+    <string name="battery_style_circle">Okrąg</string>
+    <string name="battery_style_dotted_circle">Kropkowany okrąg</string>
+    <string name="battery_style_big_circle">Duży okrąg</string>
+    <string name="battery_style_big_dotted_circle">Duży kropkowany okrąg</string>
+    <string name="battery_style_text">Tekst</string>
+    <string name="battery_style_hidden">Ukyta</string>
+    <string name="show_battery_percent_title">Pokaż procent baterii</string>
+    <string name="battery_style_category_title">Ikona baterii</string>
+    <string name="battery_percent_none">Nie pokazuj</string>
+    <string name="battery_percent_outside">Pokaż poza ikoną</string>
+    <string name="battery_percent_inside">Pokaż w ikonie</string>
 </resources>
