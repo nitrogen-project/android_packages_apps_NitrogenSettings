@@ -598,6 +598,7 @@
     <string name="battery_style_dotted_circle">Kropkowany okrąg</string>
     <string name="battery_style_big_circle">Duży okrąg</string>
     <string name="battery_style_big_dotted_circle">Duży kropkowany okrąg</string>
+    <string name="battery_style_square">Kwadrat</string>
     <string name="battery_style_text">Tekst</string>
     <string name="battery_style_hidden">Ukyta</string>
     <string name="show_battery_percent_title">Pokaż procent baterii</string>
