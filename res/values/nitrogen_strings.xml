@@ -257,4 +257,7 @@
     <string name="torch_long_press_power_timeout_10min">10 minutes</string>
 
     <string name="gesture_preference_nos">AOSP gestures</string>
+
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Opacity</string>
 </resources>
