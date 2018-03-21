@@ -602,6 +602,7 @@
     <string name="battery_style_dotted_circle">Noktalı daire</string>
     <string name="battery_style_big_circle">Büyük daire</string>
     <string name="battery_style_big_dotted_circle">Büyük noktalı daire</string>
+	<string name="battery_style_square">Kare</string>
     <string name="battery_style_text">Yazı</string>
     <string name="battery_style_hidden">Gizle</string>
     <string name="show_battery_percent_title">Pil yüzdesini göster</string>
@@ -609,4 +610,7 @@
     <string name="battery_percent_none">Gösterme</string>
     <string name="battery_percent_outside">Simgenin yanında göster</string>
     <string name="battery_percent_inside">Simgenin içinde göster</string>
+	
+	<!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Şeffaflık</string>
 </resources>
