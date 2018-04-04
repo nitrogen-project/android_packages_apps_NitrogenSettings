@@ -236,7 +236,7 @@
     <string name="battery_light_low_color">低电量</string>
     <string name="battery_light_medium_color">中电量</string>
     <string name="battery_light_full_color">将要充满</string>
-    <string name="battery_light_reallyfull_color">已充满 (100) </string>
+    <string name="battery_light_reallyfull_color">已充满 (100%) </string>
 
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">状态栏网速</string>
@@ -326,8 +326,8 @@
     <string name="toast_icon_summary">在 Toast 通知上显示对应应用的图标</string>
 
     <!-- Disable QS on secure Lockscreen -->
-    <string name="lockscreen_qs_disabled_title">禁用QS 面板</string>
-    <string name="lockscreen_qs_disabled_summary">在安全锁屏界面禁用QS 面板</string>
+    <string name="lockscreen_qs_disabled_title">禁用 QS面板</string>
+    <string name="lockscreen_qs_disabled_summary">在安全锁屏界面禁用 QS面板</string>
 
     <!-- Pocket judge -->
     <string name="pocket_judge_title">口袋检测</string>
@@ -559,6 +559,58 @@
     <string name="less_notification_sounds_2m">每 2分钟</string>
     <string name="less_notification_sounds_5m">每 5分钟</string>
 
-    <string name="face_auto_unlock_title">自动人脸解锁</string>
-    <string name="face_auto_unlock_summary">人脸解锁后直接进入手机</string>
+    <string name="face_auto_unlock_title">面部自动解锁</string>
+    <string name="face_auto_unlock_summary">面部解锁后直接进入手机界面</string>
+    
+    <!-- Status bar clock options -->
+    <string name="status_bar_clock">时钟和日期</string>
+    <string name="clock_title_enable">对准</string>
+    <string name="status_bar_show_clock_title">显示时钟和日期</string>
+    <string name="status_bar_clock_seconds_title">显示秒数</string>
+    <string name="status_bar_am_pm_title">上午/下午</string>
+    <string name="status_bar_am_pm_info">24小时制已启用</string>
+    <string name="enable_clock_weekday">一周中的天</string>
+    <string name="enable_clock_weekday_summary">时间前一周的简短日期</string>
+    <string name="right_clock">时间在右</string>
+    <string name="left_clock">时间在左</string>
+    <string name="dont_show">不显示</string>
+    <string name="clock_date_display">日期</string>
+    <string name="clock_date_display_summary">在时钟前显示自定义日期</string>
+    <string name="clock_date_style">日期样式</string>
+    <string name="clock_date_format">日期格式</string>
+    <string name="clock_date_string_edittext_title">必须规范日期格式，例如：MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">输入字符</string>
+    <string name="am_pm_clock_normal">正常字体大小</string>
+    <string name="am_pm_clock_small">小的字体大小</string>
+    <string name="am_pm_clock_none">不显示</string>
+    <string name="clock_date_display_none">不显示</string>
+    <string name="clock_date_display_small">小的字体大小</string>
+    <string name="clock_date_display_normal">正常字体大小</string>
+    <string name="clock_date_style_normal">正常</string>
+    <string name="clock_date_style_lowercase">小写</string>
+    <string name="clock_date_style_uppercase">大写</string>
+    <string name="clock_date_format_custom">自定义格式</string>
+    <string name="clock_date_right">时间在右</string>
+    <string name="clock_date_left">时间在左</string>
+    <string name="clock_date_position">日期位置</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">电池图标样式</string>
+    <string name="battery_style_port">纵向</string>
+    <string name="battery_style_land">横向</string>
+    <string name="battery_style_circle">圆圈</string>
+    <string name="battery_style_dotted_circle">虚线圆圈</string>
+    <string name="battery_style_big_circle">大圆圈</string>
+    <string name="battery_style_big_dotted_circle">大虚线圆圈</string>
+    <string name="battery_style_square">圆角框框</string>
+    <string name="battery_style_text">文字</string>
+    <string name="battery_style_hidden">隐藏</string>
+    <string name="show_battery_percent_title">显示电量百分比</string>
+    <string name="battery_style_category_title">电池图标</string>
+    <string name="battery_percent_none">隐藏</string>
+    <string name="battery_percent_outside">在图标旁显示</string>
+    <string name="battery_percent_inside">在图标内显示</string>
+
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">不透明度</string>
 </resources>
