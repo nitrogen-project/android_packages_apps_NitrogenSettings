@@ -17,12 +17,12 @@
     <!-- Categories -->
     <string name="button_title">Botones</string>
     <string name="gestures_title">Gestos</string>
-    <string name="lockscreen_title">Pantalla de bloqueo</string>
+    <string name="lockscreen_title">Pantalla de Bloqueo</string>
     <string name="misc_title">Misceláneos</string>
     <string name="navbar_title">Barra de Navegación</string>
     <string name="powermenu_title">Menu de Encendido</string>
     <string name="quicksettings_title">Ajustes Rápidos</string>
-    <string name="recents_title">Aplicaciones recientes</string>
+    <string name="recents_title">Aplicaciones Recientes</string>
     <string name="statusbar_title">Barra de Estado</string>
     <string name="volume_title">Controles de Volumen</string>
     <string name="notifications_title">Notificaciones</string>
@@ -540,4 +540,73 @@
 
     <string name="qs_tile_title_visibility_title">Títulos iconos ajustes rápidos</string>
     <string name="qs_tile_title_visibility_summary">Mostrar títulos de mosaicos de ajustes rápidos</string>
+	
+    <!-- Less Notification sounds -->
+    <string name="less_notification_sounds_title">Sonidos de notificación con menor frecuencia</string>
+    <string name="less_notification_sounds_summary">Reproduzca el sonido de notificación de cada aplicación solo una vez por período de tiempo establecido</string>
+    <string name="less_notification_sounds_default">Comportamiento predeterminado</string>
+    <string name="less_notification_sounds_3s">Cada 3 segundos</string>
+    <string name="less_notification_sounds_5s">Cada 5 segundos</string>
+    <string name="less_notification_sounds_10s">Cada 10 segundos</string>
+    <string name="less_notification_sounds_15s">Cada 15 segundos</string>
+    <string name="less_notification_sounds_30s">Cada 30 segundos</string>
+    <string name="less_notification_sounds_45s">Cada 45 segundos</string>
+    <string name="less_notification_sounds_1m">Cada 1 minute</string>
+    <string name="less_notification_sounds_2m">Cada 2 minutos</string>
+    <string name="less_notification_sounds_5m">Cada 5 minutos</string>
+
+    <string name="face_auto_unlock_title">Desbloqueo facial automático</string>
+    <string name="face_auto_unlock_summary">Desbloquear automáticamente al reconocer el rostro</string>
+
+    <!-- Status bar clock options -->
+    <string name="status_bar_clock">Hora y Fecha</string>
+    <string name="clock_title_enable">Alineación</string>
+    <string name="status_bar_show_clock_title">Mostrar hora y fecha</string>
+    <string name="status_bar_clock_seconds_title">Mostrar segundos</string>
+    <string name="status_bar_am_pm_title">AM/PM</string>
+    <string name="status_bar_am_pm_info">Formato de 24hs está activado</string>
+    <string name="enable_clock_weekday">Día de la semana</string>
+    <string name="enable_clock_weekday_summary">Día de la semana abreviado después de la hora</string>
+    <string name="right_clock">Reloj a la derecha</string>
+    <string name="left_clock">Reloj a la izquierda</string>
+    <string name="dont_show">No mostrar</string>
+    <string name="clock_date_display">Fecha</string>
+    <string name="clock_date_display_summary">Mostrar fecha personalizada antes del reloj</string>
+    <string name="clock_date_style">Estilo de fecha</string>
+    <string name="clock_date_format">Formato de fecha</string>
+    <string name="clock_date_string_edittext_title">Debe estar en FormatoFecha, por ej. MM/dd/aa</string>
+    <string name="clock_date_string_edittext_summary">Ingresar string</string>
+    <string name="am_pm_clock_normal">Tamaño de fuente normal</string>
+    <string name="am_pm_clock_small">Tamaño de fuente pequeña</string>
+    <string name="am_pm_clock_none">No mostrar</string>
+    <string name="clock_date_display_none">No mostrar</string>
+    <string name="clock_date_display_small">Tamaño de fuente pequeño</string>
+    <string name="clock_date_display_normal">Tamaño de fuente normal</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Minúscula</string>
+    <string name="clock_date_style_uppercase">Mayúscula</string>
+    <string name="clock_date_format_custom">Formato java personalizado</string>
+    <string name="clock_date_right">Derecha del tiempo</string>
+    <string name="clock_date_left">Izquierda del tiempo</string>
+    <string name="clock_date_position">Posición de la fecha</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Estilo del icono de la batería</string>
+    <string name="battery_style_port">Vertical</string>
+    <string name="battery_style_land">Horizontal</string>
+    <string name="battery_style_circle">Circulo</string>
+    <string name="battery_style_dotted_circle">Circulo punteado</string>
+    <string name="battery_style_big_circle">Circulo grande</string>
+    <string name="battery_style_big_dotted_circle">Circulo punteado grande</string>
+    <string name="battery_style_square">Cuadrado</string>
+    <string name="battery_style_text">Texto</string>
+    <string name="battery_style_hidden">Oculto</string>
+    <string name="show_battery_percent_title">Mostrar porcentaje de la batería</string>
+    <string name="battery_style_category_title">Icono de la batería</string>
+    <string name="battery_percent_none">No mostrar</string>
+    <string name="battery_percent_outside">Mostrar junto al icono</string>
+    <string name="battery_percent_inside">Mostrar dentro del icono</string>
+
+    <!-- QuickSettings Panel Transparency -->
+<string name="qs_panel_alpha_title">Opacidad</string>
 </resources>
