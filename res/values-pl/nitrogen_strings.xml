@@ -233,7 +233,7 @@
     <string name="battery_light_allow_on_dnd_title">Dioda LED w trybie \"Nie przeszkadzać\"</string>
     <string name="battery_light_low_blinking_title">Migająca dioda gdy poziom baterii jest niski</string>
     <string name="battery_light_cat">Kolor diody baterii podczas ładowania</string>
-    <string name="battery_light_low_color">Słaba poziom bateria</string>
+    <string name="battery_light_low_color">Niski poziom baterii</string>
     <string name="battery_light_medium_color">Średni poziom baterii</string>
     <string name="battery_light_full_color">Prawie pełny poziom baterii</string>
     <string name="battery_light_reallyfull_color">Pełny (100) poziom baterii</string>
@@ -542,7 +542,7 @@
     <string name="qs_tile_title_visibility_summary">Pokaż tytuł pod przełącznikami w szybkich ustawieniach</string>
     
     <!-- Less Notification sounds -->
-    <string name="less_notification_sounds_title">Mniej częste dźwięki powiadomień</string>
+    <string name="less_notification_sounds_title">Żadsze dźwięki powiadomień</string>
     <string name="less_notification_sounds_summary">Odtwarzaj dźwięk powiadomienia każdej aplikacji tylko raz na ustawiony okres czasu</string>
     <string name="less_notification_sounds_default">Domyślne zachowanie</string>
     <string name="less_notification_sounds_3s">Co 3 sekundy</string>
@@ -560,34 +560,34 @@
 	
 	<!-- Status bar clock options -->
     <string name="status_bar_clock">Data i zegar</string>
-    <string name="clock_title_enable">Wyrównanie</string>
+    <string name="clock_title_enable">Pozycja zegara</string>
     <string name="status_bar_show_clock_title">Pokaż datę i zegar</string>
     <string name="status_bar_clock_seconds_title">Pokaż sekundy</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
     <string name="status_bar_am_pm_info">24 godzinny zegar jest włączony</string>
     <string name="enable_clock_weekday">Dzień tygodnia</string>
     <string name="enable_clock_weekday_summary">Skrócony dzień tygodnia przed zegarkiem</string>
-    <string name="right_clock">Zegar z prawej strony</string>
-    <string name="left_clock">Zegar z lewej strony</string>
+    <string name="right_clock">Po prawej</string>
+    <string name="left_clock">Po lewej</string>
     <string name="dont_show">Nie pokazuj</string>
-    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display">Pokaż datę</string>
     <string name="clock_date_display_summary">Wyświetlaj niestandardową datę przed zegarem</string>
     <string name="clock_date_style">Styl daty</string>
     <string name="clock_date_format">Format daty</string>
     <string name="clock_date_string_edittext_title">Musi być w formacie daty, np. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Wpisz ciąg</string>
-    <string name="am_pm_clock_normal">Normalny rozmiar czcionki</string>
+    <string name="am_pm_clock_normal">Domyślny rozmiar czcionki</string>
     <string name="am_pm_clock_small">Mały rozmiar czcionki</string>
     <string name="am_pm_clock_none">Nie pokazuj</string>
     <string name="clock_date_display_none">Nie pokazuj</string>
-    <string name="clock_date_display_small">Mały rozmiar czcionki</string>
-    <string name="clock_date_display_normal">Normalny rozmiar czcionki</string>
-    <string name="clock_date_style_normal">Normalny</string>
-    <string name="clock_date_style_lowercase">Małe litery</string>
-    <string name="clock_date_style_uppercase">Duże litery</string>
+    <string name="clock_date_display_small">Mały rozmiar daty</string>
+    <string name="clock_date_display_normal">Domyślny rozmiar daty</string>
+    <string name="clock_date_style_normal">Domyślny</string>
+    <string name="clock_date_style_lowercase">małe litery</string>
+    <string name="clock_date_style_uppercase">DUŻE LITERY</string>
     <string name="clock_date_format_custom">Niestandardowy format java</string>
-    <string name="clock_date_right">Z prawej strony zegara</string>
-    <string name="clock_date_left">Z lewej strony zegara</string>
+    <string name="clock_date_right">Po prawej stronie zegara</string>
+    <string name="clock_date_left">Po lewej stronie zegara</string>
     <string name="clock_date_position">Pozycja daty</string>
 
     <!-- Battery Styles -->
@@ -606,4 +606,7 @@
     <string name="battery_percent_none">Nie pokazuj</string>
     <string name="battery_percent_outside">Pokaż poza ikoną</string>
     <string name="battery_percent_inside">Pokaż w ikonie</string>
+
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Przezroczystość</string>
 </resources>
