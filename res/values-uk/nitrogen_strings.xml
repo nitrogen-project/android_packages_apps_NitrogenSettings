@@ -11,11 +11,11 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- App Title -->
+    <!-- App Title -->
 
-  <string name="nitrogen_settings_title">Налаштування Nitrogen OS</string>
+    <string name="nitrogen_settings_title">Налаштування Nitrogen OS</string>
 
-  <!-- Categories -->
+    <!-- Categories -->
     <string name="button_title">Аппаратні кнопки</string>
     <string name="gestures_title">Жести</string>
     <string name="lockscreen_title">Екран блокування</string>
