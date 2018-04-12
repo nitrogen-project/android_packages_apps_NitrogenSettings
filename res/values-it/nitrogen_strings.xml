@@ -114,7 +114,7 @@
     <string name="lockscreen_tuner_title">Scorciatoie schermata di blocco</string>
 
     <!-- Double Tap -->
-    <string name="dtts_category_header">Doppio tocco per spegnare</string>
+    <string name="dtts_category_header">Doppio tocco per spegnere</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Schermata di blocco</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Doppio tocco sull\'area superiore o inferiore della schermata di blocco per spegnere lo schermo del dispositivo</string>
@@ -169,7 +169,7 @@
     <string name="volume_rocker_wake_title">Risveglio con pulsanti</string>
     <string name="volume_rocker_wake_summary">Premendo i pulsanti del volume si risveglierà il dispositivo</string>
 
-    <string name="button_backlight_on_touch_only_title">Tocco del tasto</string>
+    <string name="button_backlight_on_touch_only_title">Tempo retroilluminazione</string>
     <string name="button_backlight_on_touch_only_summary">Abilita la durata della retroilluminazione con il solo tocco di un tasto</string>
 
     <!-- Incall Home button behavior-->
@@ -280,12 +280,12 @@
     <string name="fprint_sucess_vib_summary">Vibra all\'avvenuta autenticazione tramite impronta digitale</string>
 
     <!-- Heads up -->
-    <string name="heads_up_notifications">Heads up</string>
-    <string name="summary_heads_up_enabled">Le notifiche Pop-up sono abilitate</string>
-    <string name="summary_heads_up_disabled">Le notifiche Pop-up sono disabilitate</string>
+    <string name="heads_up_notifications">Notifiche Fluttuanti</string>
+    <string name="summary_heads_up_enabled">Le notifiche fluttuanti sono abilitate</string>
+    <string name="summary_heads_up_disabled">Le notifiche fluttuanti sono disabilitate</string>
     <string name="add_heads_up_package">Aggiungi app</string>
-    <string name="add_heads_up_stoplist_summary">Disabilita le notifiche Heads up in queste applicazioni</string>
-    <string name="add_heads_up_blacklist_summary">Disabilita le heads up da queste applicazioni</string>
+    <string name="add_heads_up_stoplist_summary">Disabilita le notifiche fluttuanti in queste applicazioni</string>
+    <string name="add_heads_up_blacklist_summary">Disabilita le notifiche fluttuanti da queste applicazioni</string>
     <string name="heads_up_stoplist_title">Lista bloccata</string>
     <string name="heads_up_blacklist_title">Lista nera</string>
     <string name="profile_choose_app">Scegli app</string>
@@ -326,7 +326,7 @@
     <string name="toast_icon_summary">Visualizza l\'icona dell\'applicazione corrispondente al toast</string>
 
     <!-- Disable QS on secure Lockscreen -->
-    <string name="lockscreen_qs_disabled_title">Disabilita impostazioni rapide </string>
+    <string name="lockscreen_qs_disabled_title">Disabilita impostazioni rapide</string>
     <string name="lockscreen_qs_disabled_summary">Disabilita le impostazioni rapide sulla schermata di blocco</string>
 
     <!-- Pocket judge -->
@@ -356,7 +356,7 @@
     <string name="smartbar_interface">SmartBar</string>
     <string name="icon_pack_picker_dialog_title">Pacchetto icone</string>
     <string name="image_exceeds_max_allowed_size">L\'immagine non deve superare i 512x512</string>
-    <string name="invalid_icon_from_uri">Impossibile caricare l\'immagine dal provider di contenuti</string>
+    <string name="invalid_icon_from_uri">Impossibile caricare l\'immagine dal provider dei contenuti</string>
     <string name="picker_activities">Attività</string>
     <string name="select_custom_app_title">Seleziona app personalizzata</string>
     <string name="select_custom_activity_title">Seleziona attività personalizzata</string>
@@ -531,7 +531,7 @@
 
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Avvisi footer</string>
-    <string name="qs_footer_warnings_summary">Visualizza un avviso nella parte inferiore del pannello impostazioni rapide quando la rete viene controllata da applicazioni esterne o vpn</string>
+    <string name="qs_footer_warnings_summary">Visualizza un avviso nella parte inferiore del pannello delle impostazioni rapide quando la rete viene monitorata da applicazioni esterne o vpn</string>
 
     <string name="qs_tile_title_visibility_title">Titolo tile</string>
     <string name="qs_tile_title_visibility_summary">Mostra il titolo dei tile nelle impostazioni rapide</string>
@@ -551,7 +551,7 @@
     <string name="less_notification_sounds_5m">Ogni 5 minuti</string>
 	
     <string name="face_auto_unlock_title">Sblocco automatico con viso</string>
-    <string name="face_auto_unlock_summary">Sblocca automaticamente il dispositivo quando verrà riconosciuto il viso</string>
+    <string name="face_auto_unlock_summary">Sblocca automaticamente il dispositivo dopo il riconoscimento del viso</string>
 
     <!-- Status bar clock options -->
     <string name="status_bar_clock">Orologio e data</string>
@@ -563,7 +563,7 @@
     <string name="enable_clock_weekday">Giorno della settimana</string>
     <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell\'orologio</string>
     <string name="right_clock">Orologio a destra</string>
-    <string name="left_clock">Orologio a Sinistra</string>
+    <string name="left_clock">Orologio a sinistra</string>
     <string name="dont_show">Nascondi</string>
     <string name="clock_date_display">Data</string>
     <string name="clock_date_display_summary">Visualizza la data personalizzata prima dell\'orologio</string>
@@ -583,7 +583,7 @@
     <string name="clock_date_format_custom">Formato java personalizzato</string>
     <string name="clock_date_right">Data a destra</string>
     <string name="clock_date_left">Data a sinistra</string>
-    <string name="clock_date_position">Posizione aata</string>
+    <string name="clock_date_position">Posizione data</string>
 
     <!-- Battery Styles -->
     <string name="battery_style_title">Indicatore della batteria</string>
