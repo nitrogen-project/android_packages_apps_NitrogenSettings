@@ -597,6 +597,7 @@
     <string name="battery_style_dotted_circle">Bodový kruh</string>
     <string name="battery_style_big_circle">Veľký kruh</string>
     <string name="battery_style_big_dotted_circle">Veľký bodový kruh</string>
+    <string name="battery_style_square">Štvorec</string>
     <string name="battery_style_text">Text</string>
     <string name="battery_style_hidden">Skrytá</string>
     <string name="show_battery_percent_title">Percento nabitia</string>
@@ -604,4 +605,7 @@
     <string name="battery_percent_none">Nezobrazovať</string>
     <string name="battery_percent_outside">Vedľa ikony</string>
     <string name="battery_percent_inside">Vo vnútri ikony</string>
+
+    <!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Nepriehľadnosť</string>
 </resources>
