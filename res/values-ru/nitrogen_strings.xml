@@ -446,6 +446,17 @@
     <string name="fling_keyboard_cursors_title">Управление курсором</string>
     <string name="fling_keyboard_cursors_summary">Двойное нажатие слева и справа перемещают курсор при открытой клавиатуре</string>
     <string name="fling_logo_opacity_title">Прозрачность логотипа Fling</string>
+    <string name="fling_factory_reset_title">Сбросить по умолчанию</string>
+    <string name="fling_factory_reset_confirm">Сбросить настройки Fling по умолчанию?</string>
+    <string name="fling_backup_current_config_title">Сохранить профиль</string>
+    <string name="fling_restore_config_title">Восстановить профиль</string>
+    <string name="fling_config_name_edit_dialog_title">Имя профиля Fling</string>
+    <string name="fling_config_name_edit_dialog_message">Введите имя или оставьте пустым</string>
+    <string name="fling_config_dialog_title">Профили Fling</string>
+    <string name="fling_config_backup_success_toast">Профиль Fling успешно сохранен</string>
+    <string name="fling_config_restore_success_toast">Профиль Fling успешно восстановлен</string>
+    <string name="fling_config_backup_error_toast">Ошибка сохранения Fling профиля</string>
+    <string name="fling_config_restore_error_toast">Ошибка восстановления Fling профиля</string>
 
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">О Pulse</string>
