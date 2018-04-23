@@ -423,6 +423,17 @@
     <string name="fling_keyboard_cursors_title">Azione dei cursori della tastiera dinamica</string>
     <string name="fling_keyboard_cursors_summary">Doppio tocco a sinistra e destra, le azioni diventano azioni del cursore della tastiera per lo spostamento, se la tastiera è aperta</string>
     <string name="fling_logo_opacity_title"> Opacità del logo Fling</string>
+    <string name="fling_factory_reset_title">Ripristina a predefinito</string>
+    <string name="fling_factory_reset_confirm">Sei sicuro di voler ripristinare Fling alle impostazioni predefinite?</string>
+    <string name="fling_backup_current_config_title">Salva profilo</string>
+    <string name="fling_restore_config_title">Ripristina profilo</string>
+    <string name="fling_config_name_edit_dialog_title">Nome profilo Fling</string>
+    <string name="fling_config_name_edit_dialog_message">Inserisci il nome o lascia vuoto</string>
+    <string name="fling_config_dialog_title">Profili Fling</string>
+    <string name="fling_config_backup_success_toast">Profilo Fling salvato con successo</string>
+    <string name="fling_config_restore_success_toast">Profilo Fling ripristinato con successo</string>
+    <string name="fling_config_backup_error_toast">Errore durante il salvataggio del profilo Fling</string>
+    <string name="fling_config_restore_error_toast">Errore durante il ripristino del profilo Fling</string>
 
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_summary">Pulse non funziona con alcune fonti audio durante l\'ascolto sull\'altoparlante del dispositivo</string>
