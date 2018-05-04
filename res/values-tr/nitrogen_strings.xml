@@ -432,6 +432,17 @@
     <string name="fling_keyboard_cursors_title">Dinamik klavye imleçleri eylemi</string>
     <string name="fling_keyboard_cursors_summary">Klavye açıksa sola ve sağa iki kez hafifçe vurun, sol ve sağ klavye imleç hareketi işlemleri gerçekleşir</string>
     <string name="fling_logo_opacity_title">Fling logo saydamlığı</string>
+	<string name="fling_factory_reset_title">Varsayılana sıfırla</string>
+    <string name="fling_factory_reset_confirm">Fling\'i varsayılan ayarlarına sıfırlamak istediğinizden emin misiniz?</string>
+    <string name="fling_backup_current_config_title">Profili kaydet</string>
+    <string name="fling_restore_config_title">Profili geri yükle</string>
+    <string name="fling_config_name_edit_dialog_title">Fling profil adı</string>
+    <string name="fling_config_name_edit_dialog_message">Ad girin veya boş bırakın</string>
+    <string name="fling_config_dialog_title">Fling profilleri</string>
+    <string name="fling_config_backup_success_toast">Fling profili başarıyla kaydedildi</string>
+    <string name="fling_config_restore_success_toast">Fling profili başarıyla geri yüklendi</string>
+    <string name="fling_config_backup_error_toast">Fling profili kaydedilirken hata oluştu</string>
+    <string name="fling_config_restore_error_toast">Fling profili geri yükleme hatası</string>
 
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_summary">Pulse cihazın hoparlörü üzerinden dinlerken bazı ses kaynakları ile çalışmaz</string>
@@ -458,7 +469,7 @@
     <!-- Pulse config -->
     <string name="pulse_custom_dimen">Çubuk genişliği</string>
     <string name="pulse_custom_div">Çubuk aralığı</string>
-    <string name="pulse_filled_block_size">Blok bouyutu</string>
+    <string name="pulse_filled_block_size">Blok boyutu</string>
     <string name="pulse_empty_block_size">Blok aralığı</string>
 
     <!-- Navbar height -->
