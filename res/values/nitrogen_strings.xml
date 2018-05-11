@@ -272,8 +272,8 @@
     <string name="powermenu_torch">Flashlight</string>
 
     <!-- Power menu on secure lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Power menu when locked</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
+    <string name="lockscreen_power_menu_disabled_title"> Disable power menu when locked</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disables power menu on secure lockscreen</string>
 
     <!-- fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
