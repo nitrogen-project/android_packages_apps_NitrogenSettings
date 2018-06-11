@@ -184,4 +184,8 @@
 
     <string name="ambient_wake_gestures_title">Черно-белый экран</string>
     <string name="ambient_wake_gestures_summary">Черно-белый экран вместо экрана блокировки</string>
+
+     <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Скриншот жестом</string>
+    <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
 </resources>
