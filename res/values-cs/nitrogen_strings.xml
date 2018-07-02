@@ -280,7 +280,7 @@
     <string name="fprint_sucess_vib_summary">Vibrovat při úspěšném rozpoznání otisku prstu</string>
 
     <!-- Heads up -->
-    <string name="heads_up_notifications">Vyskakujícím oznámení</string>
+    <string name="heads_up_notifications">Vyskakující oznámení</string>
     <string name="summary_heads_up_enabled">Zapnuto</string>
     <string name="summary_heads_up_disabled">Vypnuto</string>
     <string name="add_heads_up_package">Přidat aplikaci</string>
