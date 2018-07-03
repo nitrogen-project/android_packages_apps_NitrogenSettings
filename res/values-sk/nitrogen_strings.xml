@@ -69,7 +69,7 @@
     <string name="alarm_blocker_warning">Blokovanie výstrah môže spôsobovať nestabilitu, pády alebo stratu dát</string>
 
     <!-- Recents panel settings -->
-    <string name="show_clear_all_recents_button_title">Zobraziť tlačidlo Vymazať všetko</string>
+    <string name="show_clear_all_recents_button_title">Tlačidlo Vymazať všetko</string>
     <string name="show_clear_all_recents_button_summary">Zobraziť tlačidlo Vymazať všetko na obrazovke zoznamu nedávnych aplikácií</string>
     <string name="recents_clear_all_location_title">Umiestnenie tlačidla Vymazať všetko</string>
     <string name="recents_clear_all_location_top_right">Vpravo hore</string>
@@ -135,7 +135,7 @@
     <string name="volume_keys_control_media_stream_summary">Tlačidlá hlasitosti slúžia pre nastavenie hlasitosť multimédií</string>
 
     <string name="status_bar_quick_qs_pulldown">Rýchly prístup</string>
-    <string name="status_bar_quick_qs_pulldown_summary">Potiahnutie stavového riadku na pravej strane otvorí panel rýchlych nastavení</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Potiahnutie stavového riadku na pravej strane otvorí panel Rýchlych nastavení</string>
 
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Ovládanie prehrávača</string>
@@ -152,7 +152,7 @@
     <string name="torch_power_button_gesture_lp">Dlhé stlačenie, keď je obrazovka vypnutá</string>
 
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">Mriežka dlaždíc rýchl. nastavení</string>
+    <string name="qs_rows_columns_title">Mriežka dlaždíc Rýchl. nastavení</string>
     <string name="qs_rows_portrait_title">Počet riadkov na výšku</string>
     <string name="qs_rows_landscape_title">Počet riadkov na šírku</string>
     <string name="qs_columns_portrait_title">Počet stĺpcov na výšku</string>
@@ -211,7 +211,7 @@
     <string name="hide_apps_from_recents_summary">Vyberte aplikácie, ktoré sa nebudú zobrazovať v zozname nedávnych zplikácií.</string>
 
     <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
-    <string name="show_cpu_info">Zobraziť informácie o procesore</string>
+    <string name="show_cpu_info">Informácie o procesore</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Zobraziť prekrytie s aktuálnymi informáciami o procesore</string>
 
