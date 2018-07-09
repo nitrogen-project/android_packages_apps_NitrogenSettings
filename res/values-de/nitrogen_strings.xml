@@ -126,7 +126,7 @@
   <string name="torch_power_button_gesture_dt">Zum Einschalten der Taschenlampe Ein-/Aus-Taste doppelt drücken (kleine Verzögerung zum einfachem Tippen)</string>
   <string name="torch_power_button_gesture_lp">Ein-/Aus-Taste lange drücken zum Anschalten der Taschenlampe</string>
   <!-- QS rows and columns -->
-  <string name="qs_rows_columns_title">QS-Zeilen und -Spalten</string>
+  <string name="qs_rows_columns_title">Schnelleinstellungs-Zeilen und -Spalten</string>
   <string name="qs_rows_portrait_title">Kachel-Zeilen im Hochformat</string>
   <string name="qs_rows_landscape_title">Kachel-Zeilen im Querformat</string>
   <string name="qs_columns_portrait_title">Kachel-Spalten im Hochformat</string>
@@ -154,9 +154,9 @@
   <string name="backlight_timeout_3s">3 Sekunden</string>
   <string name="backlight_timeout_default">5 Sekunden (Standard)</string>
   <string name="backlight_timeout_10s">10 Sekunden</string>
-  <string name="backlight_timeout_15s">15 Sek.</string>
+  <string name="backlight_timeout_15s">15 Sekunden</string>
   <string name="backlight_timeout_20s">20 Sekunden</string>
-  <string name="backlight_timeout_30s">30 Sek.</string>
+  <string name="backlight_timeout_30s">30 Sekunden</string>
   <!-- Enable keys backlight-->
   <string name="button_brightness_title">Gegenlicht</string>
   <!-- Wakeup options -->
@@ -207,7 +207,7 @@
   <string name="smart_pulldown_title">Intelligentes Herunterziehen</string>
   <string name="smart_pulldown_summary">Schnelleinstellungen öffnen, wenn %1$s Benachtichtigungen vorliegen</string>
   <string name="smart_pulldown_none_summary">Schnelleinstellungen öffnen, wenn keine Benachrichtigungen vorhanden sind</string>
-  <string name="smart_pulldown_off">auto</string>
+  <string name="smart_pulldown_off">Aus</string>
   <string name="smart_pulldown_none">Keine Benachrichtigungen</string>
   <string name="smart_pulldown_dismissable">keine Verwerfbaren</string>
   <string name="smart_pulldown_ongoing">keine Laufenden</string>
@@ -216,9 +216,9 @@
   <string name="adb_notify">ADB-Benachrichtigung</string>
   <string name="adb_notify_summary">Benachrichtigung anzeigen bei aktiviertem ADB-Debugging</string>
   <!-- Power Menu -->
-  <string name="powermenu_screenshot">Screenshots</string>
+  <string name="powermenu_screenshot">Screenshot</string>
   <string name="powermenu_screenrecord">Bildschirmaufnahme</string>
-  <string name="powermenu_power">Potenz</string>
+  <string name="powermenu_power">Herunterfahren</string>
   <string name="powermenu_restart">Neu starten</string>
   <string name="powermenu_restart_recovery">Erweiterter Neustart</string>
   <string name="powermenu_airplane">Flugmodus</string>
@@ -226,7 +226,7 @@
   <string name="powermenu_lockdown">Sperren</string>
   <string name="powermenu_soundpanel">Ton-Einstellungen</string>
   <string name="powermenu_users">Benutzer</string>
-  <string name="powermenu_torch">Hell</string>
+  <string name="powermenu_torch">Taschenlampe</string>
   <!-- Power menu on secure lockscreen -->
   <string name="lockscreen_power_menu_disabled_title">Ein-/Aus-Menü bei gesperrtem Bildschirm</string>
   <string name="lockscreen_power_menu_disabled_summary">Ein-/Aus-Menü auf sicherem Sperrbildschirm deaktivieren</string>
@@ -254,7 +254,7 @@
   <!-- Heads up timeout -->
   <string name="heads_up_time_out_title">Timeout</string>
   <string name="heads_up_time_out_summary">Heads Up-Benachrichtigung werden für <xliff:g id="number">%d</xliff:g> Sekunden angezeigt</string>
-  <string name="heads_up_time_out_2sec">2 Sek.</string>
+  <string name="heads_up_time_out_2sec">2 Sekunden</string>
   <string name="heads_up_time_out_4sec">4 Sekunden</string>
   <string name="heads_up_time_out_5sec">5 Sekunden</string>
   <string name="heads_up_time_out_6sec">6 Sekunden</string>
@@ -267,7 +267,7 @@
   <string name="heads_up_snooze_disabled_summary">Schlummer Zeit ist deaktiviert</string>
   <string name="heads_up_snooze_1min">1 Minute</string>
   <string name="heads_up_snooze_5min">5 Minuten</string>
-  <string name="heads_up_snooze_10min">10 m</string>
+  <string name="heads_up_snooze_10min">10 Minuten</string>
   <string name="heads_up_snooze_15min">15 Minuten</string>
   <string name="heads_up_snooze_20min">20 Minuten</string>
   <!-- Toast app icon -->
@@ -284,7 +284,7 @@
   <string name="navigationbar_title">Navigationsleiste</string>
   <string name="navigationbar_summary">Smartbar, Fling oder Pulse konfigurieren</string>
   <string name="navbar_buttons_title">Navigationsleisten Tasten</string>
-  <string name="navbar_buttons_summary">Navbar Layout und benutzerdefinierte Schaltflächen</string>
+  <string name="navbar_buttons_summary">Navigationsleisten-Layout und benutzerdefinierte Schaltflächen</string>
   <!-- DUI -->
   <string name="navbar_interface_title">Benutzeroberfläche</string>
   <string name="navbar_size">Größe der Leiste</string>
@@ -294,12 +294,12 @@
   <string name="navigationbar_settings_title">Navigationsleiste</string>
   <string name="bottom_nav_navigation_title">Navigationsleiste</string>
   <string name="navigationbar_settings_summary">Navigationsstil und -verhalten anpassen</string>
-  <string name="navbar_general_title">Advanced</string>
+  <string name="navbar_general_title">Erweitert</string>
   <string name="navigation_bar_left_title">Linkshänder-Modus</string>
-  <string name="navigation_bar_left_summary">Plaziert die Navigationsleiste auf der linken Seite im Querformat</string>
+  <string name="navigation_bar_left_summary">Platziert die Navigationsleiste auf der linken Seite im Querformat</string>
   <string name="smartbar_interface">Smart-Bar</string>
   <string name="icon_pack_picker_dialog_title">Symbolpakete</string>
-  <string name="image_exceeds_max_allowed_size">Bild darf 512×512 nicht überschreiten</string>
+  <string name="image_exceeds_max_allowed_size">Bild darf 512×512 Pixel nicht überschreiten</string>
   <string name="invalid_icon_from_uri">Bild vom Anbieter kann nicht geladen werden</string>
   <string name="picker_activities">Aktivitäten</string>
   <string name="select_custom_app_title">Benutzerdefinierte App auswählen</string>
@@ -344,7 +344,7 @@
   <string name="up_swipe_title">Hoch wischen</string>
   <string name="down_swipe_title">Nach unten wischen</string>
   <string name="long_swipe_reset">Zurücksetzen</string>
-  <string name="fling_advanced">Advanced</string>
+  <string name="fling_advanced">Erweitert</string>
   <string name="fling_long_swipe_title">Grenzwerte für langes Wischen</string>
   <string name="fling_long_swipe_summary">Feine Anpassung der Schwelle, basierend auf dem Prozentanteil der Fling-Oberfläche in Breite oder Höhe</string>
   <string name="fling_appearance">Darstellung</string>
@@ -388,7 +388,7 @@
   <string name="fling_pulse_color">Puls Farbe</string>
   <string name="eos_fling_lavalamp_title">Lava-Lampe einschalten</string>
   <string name="eos_fling_lavalamp_summary">Pulse wechselt automatisch die Farben in einem Lavalampen-Stil</string>
-  <string name="pulse_advanced_category">Advanced</string>
+  <string name="pulse_advanced_category">Erweitert</string>
   <string name="pulse_legacy_mode_advanced_category">Einstellungen für verblassende Blöcke</string>
   <string name="pulse_custom_fudge_factor">Vernünftiger Pegel</string>
   <string name="lavamp_solid_speed_title">Geschwindigkeit des Farbwechsels</string>
@@ -406,10 +406,10 @@
   <string name="navigation_bar_size_title">Größe der Leiste</string>
   <string name="portrait_title">Bildhöhe</string>
   <string name="land_vert_title">Höhe im Querformat</string>
-  <string name="land_hor_title">Höhe im Querformat</string>
-  <string name="positive_done">Done</string>
+  <string name="land_hor_title">Höhe im Hochformat</string>
+  <string name="positive_done">Fertig</string>
   <!-- SmartBar -->
-  <string name="smartbar_category">SmartBar</string>
+  <string name="smartbar_category">Smart-Bar</string>
   <string name="smartbar_settings_title">Smart-Bar Einstellungen</string>
   <string name="smartbar_settings_summary">Vollständig anpassbare Navigationsleiste</string>
   <string name="smartbar_editor_title">Editor-Modus starten</string>
@@ -422,7 +422,7 @@
   <string name="smartbar_button_animation_title">Tasten-Animation</string>
   <string name="smartbar_button_animation_summary">Wähle die Tasten-Animation, die beim Berühren der Tasten angezeigt wird</string>
   <string name="smartbar_button_animation_ripple">Welle</string>
-  <string name="smartbar_button_animation_flip">翻转</string>
+  <string name="smartbar_button_animation_flip">Drehen</string>
   <string name="smartbar_button_animation_pixel">Bildpunkt (alle Tasten)</string>
   <string name="smartbar_button_animation_pixel_home">Pixel (nur Hometaste)</string>
   <string name="smartbar_button_animation_pixel_home_ripple">Pixel (nur Hometaste) und Welle</string>
