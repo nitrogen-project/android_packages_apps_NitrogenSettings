@@ -45,7 +45,7 @@
   <string name="enable_mtp_dirtyhack_summary">MTP aktivieren statt Aufladen beim Anschließen an einen PC</string>
   <!-- Wakelock blocker -->
   <string name="wakelock_blocker_title">Wakelocks blockieren</string>
-  <string name="wakelock_blocker_summary">Blockiere System Wakelocks</string>
+  <string name="wakelock_blocker_summary">Blockiere System-Wakelocks</string>
   <string name="wakelock_blocker_save">Speichern</string>
   <string name="wakelock_list_header">Verfügbare Wakelocks</string>
   <string name="wakelock_blocker_reload">Erneut laden</string>
@@ -133,7 +133,7 @@
   <string name="qs_columns_landscape_title">Kachel-Spalten im Querformat</string>
   <!-- Lockscreen battery info indicator  -->
   <string name="lockscreen_battery_info_title">Ladeinfo auf Sperrbildschirm</string>
-  <string name="lockscreen_battery_info_summary">Zeige maximale ermittelte Ladespannung/-Strom und Batterie-Temperatur während des Ladens auf dem Sperrbildschirm</string>
+  <string name="lockscreen_battery_info_summary">Zeige maximale ermittelte Ladespannung/-Strom und Akku-Temperatur während des Ladens auf dem Sperrbildschirm</string>
   <!-- Language options - Volume rocker cursor control -->
   <string name="cursor_section_header">Cursor</string>
   <string name="volume_key_cursor_control_title">Cursor bewegen mit Lautstärketasten</string>
@@ -264,7 +264,7 @@
   <string name="heads_up_snooze_title">Schlummerfunktion</string>
   <string name="heads_up_snooze_summary_one_minute">Durch das Hochwischen der Heads-Up-Benachrichtigung werden alle Meldungen der entsprechenden App für 1 Minute pausiert</string>
   <string name="heads_up_snooze_summary">Durch das Hochwischen der Pop-Up Benachrichtigung, werden alle Meldungen der entsprechenden App für <xliff:g id="number">%d</xliff:g> Minuten pausiert.</string>
-  <string name="heads_up_snooze_disabled_summary">Schlummer Zeit ist deaktiviert</string>
+  <string name="heads_up_snooze_disabled_summary">Schlummer-Zeit ist deaktiviert</string>
   <string name="heads_up_snooze_1min">1 Minute</string>
   <string name="heads_up_snooze_5min">5 Minuten</string>
   <string name="heads_up_snooze_10min">10 Minuten</string>
@@ -364,7 +364,7 @@
   <string name="fling_longpress_summary">Erhöht oder verringert die Zeit bei langem Druck bis eine Aktion ausgeführt wird</string>
   <string name="fling_keyboard_cursors_title">Dynamische Aktionen zur Eingabebewegung (Tastatur)</string>
   <string name="fling_keyboard_cursors_summary">Doppeltes Tippen auf der rechten oder linken Seite wird bei Anzeige der Tastatur als Bewegung interpretiert</string>
-  <string name="fling_logo_opacity_title">Deckkraft des Fling-Logos</string>
+  <string name="fling_logo_opacity_title">Transparenz des Fling-Logos</string>
   <string name="fling_factory_reset_title">Auf Standard zurücksetzen</string>
   <string name="fling_factory_reset_confirm">Sind Sie sicher, dass Sie Fling auf die Grundeinstellungen zurücksetzen möchten?</string>
   <string name="fling_backup_current_config_title">Profil speichern</string>
@@ -414,8 +414,8 @@
   <string name="smartbar_settings_summary">Vollständig anpassbare Navigationsleiste</string>
   <string name="smartbar_editor_title">Editor-Modus starten</string>
   <string name="smartbar_editor_summary">SmartBar-Editor für Schaltflächen öffnen</string>
-  <string name="smartbar_help_policy_notice_summary">Im Editier-Modus mittellang eine Schaltfläche gedrückt halten und ziehen, um die Position zu ändern oder lange Drücken zum Aufruf des Bearbeitungsmenüs. Die Schaltflächenposition kann sich ändern, wenn das Menü angezeigt wird.\n\nDurch Einstellen einer Aktion für doppeltes Tippen wird das einfache Tippen ein wenig verzögert.</string>
-  <string name="smartbar_context_menu_position_title">Position des Kontexttasten</string>
+  <string name="smartbar_help_policy_notice_summary">Im Editor-Modus mittellang eine Schaltfläche gedrückt halten und ziehen, um die Position zu ändern oder lange Drücken zum Aufruf des Bearbeitungsmenüs. Die Schaltflächenposition kann sich ändern, wenn das Menü angezeigt wird.\n\nDurch Einstellen einer Aktion für doppeltes Tippen wird das einfache Tippen ein wenig verzögert.</string>
+  <string name="smartbar_context_menu_position_title">Position der Kontexttasten</string>
   <string name="smartbar_context_menu_position_summary">Die Position von Kontext-Tasten, wie die Menü-Taste oder der Eingabemethoden-Auswahl, festlegen.</string>
   <string name="smartbar_right">Rechte Seite</string>
   <string name="smartbar_left">Linke Seite</string>
@@ -445,7 +445,7 @@
   <string name="smartbar_config_restore_error_toast">Fehler beim Wiederherstellen des Smart-Bar-Profils</string>
   <string name="navbar_buttons_alpha_title">Transparenz der Schaltflächen</string>
   <string name="smartbar_longpress_delay_title">Verzögerung für langen Druck</string>
-  <string name="smartbar_longpress_delay_summary">Setze fest, wie lange gewartet werden soll, nachdem lang gedrückt wurde</string>
+  <string name="smartbar_longpress_delay_summary">Lege fest, wie lange gewartet werden soll nachdem lang gedrückt wurde</string>
   <string name="smartbar_longpress_delay_default">Standardverzögerung (schnell)</string>
   <string name="smartbar_longpress_delay_normal">Normale Verzögerung</string>
   <string name="smartbar_longpress_delay_long">Lange Verzögerung</string>
@@ -475,8 +475,8 @@
   <string name="quick_settings_vibrate_title">Bei Berührung vibrieren</string>
   <string name="quick_settings_vibrate_summary">Bei Berührung der Schaltflächen vibrieren</string>
   <!-- QS footer warnings -->
-  <string name="qs_footer_warnings_title">Schnelleinstellungs-Warnung (Fusszeile)</string>
-  <string name="qs_footer_warnings_summary">Zeige eine Warnung im unteren QS Panel wenn das Netzwerk von einer externen App oder Vpn verwendet wird</string>
+  <string name="qs_footer_warnings_title">Schnelleinstellungs-Warnung (Fußzeile)</string>
+  <string name="qs_footer_warnings_summary">Zeige eine Warnung im unteren QS Panel wenn das Netzwerk von einer externen App oder VPN verwendet wird</string>
   <string name="qs_tile_title_visibility_title">Schnelleinstellungen-Kachelbeschriftung</string>
   <string name="qs_tile_title_visibility_summary">Kachelnamen anzeigen</string>
   <!-- Less Notification sounds -->
@@ -502,7 +502,7 @@
   <string name="status_bar_am_pm_title">AM/PM</string>
   <string name="status_bar_am_pm_info">24-Stunden-Anzeige ist aktiviert</string>
   <string name="enable_clock_weekday">Wochentag</string>
-  <string name="enable_clock_weekday_summary">Wochentagabkürzung vor Uhrzeit</string>
+  <string name="enable_clock_weekday_summary">Abkürzung für Wochentag vor Uhrzeit</string>
   <string name="right_clock">Rechts</string>
   <string name="left_clock">Uhr links</string>
   <string name="dont_show">Nicht anzeigen</string>
@@ -526,7 +526,7 @@
   <string name="clock_date_left">Links von der Zeit</string>
   <string name="clock_date_position">Position des Datums</string>
   <!-- Battery Styles -->
-  <string name="battery_style_title">Akkusymbol (Stil)</string>
+  <string name="battery_style_title">Akku-Symbol (Stil)</string>
   <string name="battery_style_port">Porträt</string>
   <string name="battery_style_land">Landschaft</string>
   <string name="battery_style_circle">Kreis</string>
@@ -536,8 +536,8 @@
   <string name="battery_style_square">Quadrat</string>
   <string name="battery_style_text">Textnachricht an</string>
   <string name="battery_style_hidden">Versteckt</string>
-  <string name="show_battery_percent_title">Akku Prozentanzeige anzeigen</string>
-  <string name="battery_style_category_title">Batterie-Symbol</string>
+  <string name="show_battery_percent_title">Akkustand in Prozent anzeigen</string>
+  <string name="battery_style_category_title">Akku-Symbol</string>
   <string name="battery_percent_none">Nicht anzeigen</string>
   <string name="battery_percent_outside">Neben dem Symbol anzeigen</string>
   <string name="battery_percent_inside">Im Symbol anzeigen</string>
