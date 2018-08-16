@@ -57,4 +57,7 @@
     <string name="powermenu_logout">Выход из системы</string>
     <string name="powermenu_torch">Фонарик</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке</string>
+    <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
 </resources>
