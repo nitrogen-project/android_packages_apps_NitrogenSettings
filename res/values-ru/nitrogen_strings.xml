@@ -141,4 +141,8 @@
     <string name="battery_light_reallyfull_color">Заряжена (100%)</string>
 
     <string name="notification_light_settings">Индикация уведомлений</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке</string>
+    <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
 </resources>
