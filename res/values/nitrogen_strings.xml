@@ -141,4 +141,8 @@
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
     <string name="notification_light_settings">Notifications light</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
+    <string name="lockscreen_battery_info_summary">Display negociated charger max current and voltage and battery temperature on lockscreen while charging</string>
 </resources>
