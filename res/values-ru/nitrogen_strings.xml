@@ -46,8 +46,8 @@
     <string name="color_default">По умолчанию</string>
 
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Кнопка "Домой" при звонке</string>
-    <string name="allow_incall_home_summary">Разрешить использование кнопки "Домой" при входящем звонке</string>
+    <string name="allow_incall_home_title">Кнопка «Домой» при звонке</string>
+    <string name="allow_incall_home_summary">Разрешить использование кнопки «Домой» при входящем звонке</string>
 
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Таймаут подсветки кнопок</string>
