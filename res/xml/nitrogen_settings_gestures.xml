@@ -24,6 +24,12 @@
         android:fragment="com.android.settings.gestures.GestureSettings"
         settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
+    <Preference
+        android:key="gesture_settings"
+        android:title="@string/gesture_settings_title"
+        android:summary="@string/gesture_settings_summary"
+        android:fragment="com.nitrogen.settings.fragments.OmniGestureSettings" />
+
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
         android:key="torch_long_press_power_gesture"
         android:title="@string/torch_long_press_power_gesture_title"
