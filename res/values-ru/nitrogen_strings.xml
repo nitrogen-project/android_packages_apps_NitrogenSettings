@@ -62,4 +62,6 @@
     <string name="backlight_timeout_30s">30 сек</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Подсветка</string>
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_sw_title">Включить подсветку</string>
 </resources>
