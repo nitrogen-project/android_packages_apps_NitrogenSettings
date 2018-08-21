@@ -201,4 +201,6 @@
     <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
 
     <string name="radio_info_title">Radio info</string>
+
+    <string name="navbar_visibility">Allow navigation bar</string>
 </resources>

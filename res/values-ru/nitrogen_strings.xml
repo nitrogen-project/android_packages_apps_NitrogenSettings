@@ -195,4 +195,6 @@
     <string name="network_traffic_hidearrow_summary">Скрыть стрелки активности индикатора</string>
 
     <string name="radio_info_title">Информация о сети</string>
+
+    <string name="navbar_visibility">Включить панель навигации</string>
 </resources>
