@@ -58,12 +58,12 @@
             android:title="@string/powermenu_lockdown"
             android:defaultValue="false" />
 
-         <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+         <SwitchPreference
             android:key="powermenu_users"
             android:title="@string/powermenu_users"
             android:defaultValue="false" />
 
-         <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+         <SwitchPreference
             android:key="powermenu_logout"
             android:title="@string/powermenu_logout"
             android:defaultValue="false" />
