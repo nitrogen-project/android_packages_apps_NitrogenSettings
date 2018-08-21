@@ -127,4 +127,6 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Кнопки на панели навигации</string>
+
+    <string name="navbar_visibility">Включить панель навигации</string>
 </resources>

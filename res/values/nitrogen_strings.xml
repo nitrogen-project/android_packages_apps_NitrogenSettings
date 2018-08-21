@@ -132,4 +132,7 @@
 
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Navbar buttons</string>
+
+    <string name="navbar_visibility">Allow navigation bar</string>
+
 </resources>
