@@ -133,4 +133,6 @@
     <string name="battery_light_medium_color">Заряжается</string>
     <string name="battery_light_full_color">Заряжена (90%)</string>
     <string name="battery_light_reallyfull_color">Заряжена (100%)</string>
+
+    <string name="notification_light_settings">Индикация уведомлений</string>
 </resources>
