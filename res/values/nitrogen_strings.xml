@@ -145,4 +145,6 @@
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">Almost full battery</string>
     <string name="battery_light_reallyfull_color">Full (100) battery</string>
+
+    <string name="notification_light_settings">Notifications light</string>
 </resources>
