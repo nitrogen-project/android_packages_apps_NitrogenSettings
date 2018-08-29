@@ -224,4 +224,6 @@
     <string name="show_cpu_info">Показать информацию о процессоре</string>
     <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
     <string name="show_cpu_info_summary">Экранное наложение, показывающее текущую информацию ЦП</string>
+
+    <string name="notification_light_settings">Индикация уведомлений</string>
 </resources>
