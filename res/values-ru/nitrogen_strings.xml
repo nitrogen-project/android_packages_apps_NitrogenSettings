@@ -109,4 +109,13 @@
     <string name="volume_key_cursor_control_off">Выключено</string>
     <string name="volume_key_cursor_control_on">Кнопка "+" двигает курсор влево, "-" вправо</string>
     <string name="volume_key_cursor_control_on_reverse">Кнопка "+" двигает курсор вправо, "-" влево</string>
+
+    <string name="torch_long_press_power_gesture_title">Фонарик по кнопке питания</string>
+    <string name="torch_long_press_power_gesture_desc">Удерживайте кнопку питания при выключенном экране</string>
+    <string name="torch_long_press_power_timeout_title">Автоматическое выключение фонарика</string>
+    <string name="torch_long_press_power_timeout_never">Никогда</string>
+    <string name="torch_long_press_power_timeout_1min">1 минута</string>
+    <string name="torch_long_press_power_timeout_2min">2 минуты</string>
+    <string name="torch_long_press_power_timeout_5min">5 минут</string>
+    <string name="torch_long_press_power_timeout_10min">10 минут</string>
 </resources>
