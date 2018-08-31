@@ -168,4 +168,8 @@
 
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертированная разметка</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Регулятор яркости</string>
+    <string name="qs_show_brightness_summary">Показать регулятор яркости в панели быстрых настроек</string>
 </resources>
