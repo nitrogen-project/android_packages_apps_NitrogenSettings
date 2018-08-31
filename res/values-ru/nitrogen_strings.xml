@@ -255,4 +255,10 @@
 
     <!-- QuickSettings Panel Transparency -->
     <string name="qs_panel_alpha_title">Непрозрачность</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Регулятор яркости</string>
+    <string name="qs_show_brightness_summary">Показать регулятор яркости в панели быстрых настроек</string>
+    <string name="qs_brightness_position_bottom_title">Регулятор яркости внизу</string>
+    <string name="qs_brightness_position_bottom_summary">Показать регулятор яркости внизу панели быстрых настроек</string>
 </resources>
