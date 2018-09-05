@@ -38,13 +38,18 @@ import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.nitrogen.settings.preferences.Utils;
+
 public class LockScreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
+    private static final String KEY_FACE_AUTO_UNLOCK = "face_auto_unlock";
+    private static final String KEY_FACE_UNLOCK_PACKAGE = "com.android.facelock";
 
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
+    private SwitchPreference mFaceUnlock;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -64,6 +69,15 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
                 Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
         mFingerprintVib.setOnPreferenceChangeListener(this);
         }
+
+        mFaceUnlock = (SwitchPreference) findPreference(KEY_FACE_AUTO_UNLOCK);
+        if (!Utils.isPackageInstalled(getActivity(), KEY_FACE_UNLOCK_PACKAGE)){
+            prefScreen.removePreference(mFaceUnlock);
+        } else {
+            mFaceUnlock.setChecked((Settings.Secure.getInt(getContext().getContentResolver(),
+                    Settings.Secure.FACE_AUTO_UNLOCK, 0) == 1));
+            mFaceUnlock.setOnPreferenceChangeListener(this);
+        }
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -72,6 +86,11 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);
+            return true;
+        } else if (preference == mFaceUnlock) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.FACE_AUTO_UNLOCK, value ? 1 : 0);
             return true;
         }
         return false;
