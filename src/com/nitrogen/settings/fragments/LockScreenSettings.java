@@ -60,14 +60,12 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
         Resources resources = getResources();
 
-        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
+        // Remove the fingerprint success vibe switch if the device doesnt support it
+        mFingerprintManager = (FingerprintManager) this.getSystemService(
+                Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);
-        if (!mFingerprintManager.isHardwareDetected()){
+        if (mFingerprintManager == null) {
             prefScreen.removePreference(mFingerprintVib);
-        } else {
-        mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
-                Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
-        mFingerprintVib.setOnPreferenceChangeListener(this);
         }
 
         mFaceUnlock = (SwitchPreference) findPreference(KEY_FACE_AUTO_UNLOCK);
@@ -82,12 +80,7 @@ public class LockScreenSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mFingerprintVib) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.FINGERPRINT_SUCCESS_VIB, value ? 1 : 0);
-            return true;
-        } else if (preference == mFaceUnlock) {
+        if (preference == mFaceUnlock) {
             boolean value = (Boolean) newValue;
             Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.FACE_AUTO_UNLOCK, value ? 1 : 0);
