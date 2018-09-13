@@ -35,6 +35,12 @@
     <string name="cancel">Отмена</string>
     <string name="save">Сохранить</string>
 
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_on">Включено</string>
+
+    <!-- Label for feature switch [CHAR LIMIT=30] -->
+    <string name="switch_bar_off">Выключено</string>
+
     <!-- Color picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на цвет, чтобы применить</string>
@@ -299,20 +305,13 @@
 
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Блокировка *wakelocks*</string>
-    <string name="wakelock_blocker_summary">Заблокировать *wakelocks* системы</string>
     <string name="wakelock_blocker_save">Сохранить</string>
     <string name="wakelock_list_header">Доступные *wakelocks*</string>
-    <string name="wakelock_blocker_reload">Сбросить</string>
-    <string name="wakelock_blocker_warning_title">Продолжайте с осторожностью</string>
-    <string name="wakelock_blocker_warning">Блокировка *wakelocks* может вызвать нестабильную работу, краши и потерю данных</string>
+    <string name="wakelock_blocker_reload">Обновить</string>
 
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Блокировка *alarms*</string>
-    <string name="alarm_blocker_title">Включено</string>
-    <string name="alarm_blocker_summary">Заблокировать *alarms* при выключенном экране</string>
+    <string name="alarm_blocker_title">Блокировка *alarms*</string>
     <string name="alarm_blocker_save">Сохранить</string>
     <string name="alarm_list_header">Доступные *alarms*</string>
-    <string name="alarm_blocker_reload">Перезагрузить</string>
-    <string name="alarm_blocker_warning_title">Продолжайте с осторожностью</string>
-    <string name="alarm_blocker_warning">Блокировка *alarms* может вызвать нестабильную работу, краши и потерю данных</string>
+    <string name="alarm_blocker_reload">Обновить</string>
 </resources>
