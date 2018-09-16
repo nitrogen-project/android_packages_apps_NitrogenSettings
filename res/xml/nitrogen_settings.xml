@@ -39,11 +39,11 @@
             android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Navigation Bar -->
-        <Preference
-            android:key="navigationbar_category"
+        <PreferenceScreen
+            android:key="navigationbar_settings"
             android:title="@string/navbar_title"
-            android:fragment="com.nitrogen.settings.fragments.NavbarSettings"
-            android:icon="@drawable/ic_settings_navbar"/>
+            android:icon="@drawable/ic_settings_navbar"
+            android:fragment="com.android.settings.smartnav.NavigationBarSettings" />
 
         <!-- Gestures -->
         <Preference
