@@ -29,11 +29,15 @@ import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.support.v14.preference.SwitchPreference;
+import android.provider.SearchIndexableResource;
 import android.provider.Settings;
+
 import com.android.settings.R;
 import android.support.annotation.NonNull;
 
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
 
 import java.util.Arrays;
@@ -43,7 +47,7 @@ import java.util.List;
 import com.nitrogen.settings.preferences.Utils;
 
 public class PowerMenuSettings extends SettingsPreferenceFragment
-                implements Preference.OnPreferenceChangeListener {
+      implements Preference.OnPreferenceChangeListener, Indexable {
 
     private static final String KEY_POWERMENU_LOGOUT = "powermenu_logout";
     private static final String KEY_POWERMENU_TORCH = "powermenu_torch";
@@ -114,4 +118,27 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
         return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
 
+    /**
+     * For Search.
+     */
+    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                        boolean enabled) {
+                    final ArrayList<SearchIndexableResource> result = new ArrayList<>();
+
+                    final SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.nitrogen_settings_power;
+                    result.add(sir);
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    final List<String> keys = super.getNonIndexableKeys(context);
+                    return keys;
+                }
+    };
 }
