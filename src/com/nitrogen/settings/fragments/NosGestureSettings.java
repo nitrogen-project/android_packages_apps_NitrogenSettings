@@ -18,7 +18,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import java.util.ArrayList;
 import java.util.List;
 
-public class GestureSettings extends SettingsPreferenceFragment implements
+public class NosGestureSettings extends SettingsPreferenceFragment implements
                           Preference.OnPreferenceChangeListener, Indexable {
 
     private static final String KEY_TORCH_LONG_PRESS_POWER_TIMEOUT =

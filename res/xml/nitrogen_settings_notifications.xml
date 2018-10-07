@@ -35,7 +35,7 @@
 
     <Preference
         android:key="charging_light"
-        android:fragment="com.nitrogen.settings.BatteryLightSettings"
+        android:fragment="com.nitrogen.settings.fragments.BatteryLightSettings"
         android:title="@string/battery_light_settings" />
 
     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference

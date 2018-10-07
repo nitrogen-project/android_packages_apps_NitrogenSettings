@@ -49,7 +49,7 @@
         <Preference
             android:key="gestures_category"
             android:title="@string/gestures_title"
-            android:fragment="com.nitrogen.settings.fragments.GestureSettings"
+            android:fragment="com.nitrogen.settings.fragments.NosGestureSettings"
             android:icon="@drawable/ic_settings_gesture"/>
 
         <!-- Lock Screen -->
