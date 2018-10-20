@@ -58,6 +58,7 @@ public class SmartPixels extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.smart_pixels);
+        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.smart_pixels_info);
 
         resolver = getActivity().getContentResolver();
 

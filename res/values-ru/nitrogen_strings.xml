@@ -317,6 +317,7 @@
     <string name="smart_pixels_on_power_save_summary">Включить Smart Pixels, когда включен режим экономии заряда</string>
     <string name="smart_pixels_percent">Процент пикселей для отключения</string>
     <string name="smart_pixels_shift">Предотвратить выгорание, сдвигая пиксели каждые</string>
+    <string name="smart_pixels_info">Отображается поверх приложений и может вызывать проблемы с Google Pay и т.д.\n\nОтключите перед добавление карт в Google Pay или редактированием административных прав приложений</string>
     <string name="smart_pixels_shift_times_15s">15 секунд</string>
     <string name="smart_pixels_shift_times_30s">30 секунд</string>
     <string name="smart_pixels_shift_times_1min">1 минута</string>

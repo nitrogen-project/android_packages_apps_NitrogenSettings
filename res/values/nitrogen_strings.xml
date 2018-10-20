@@ -327,6 +327,7 @@
     <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
     <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
     <string name="smart_pixels_percent">Percent of pixels to disable</string>
+    <string name="smart_pixels_info">It draws over apps and can cause some troubles with Google Pay and etc.\n\nDisable it before adding cards to Pay or enabling/disabling device administators</string>
     <string name="smart_pixels_shift">Prevent burn-in by shifting pixels every</string>
     <string name="smart_pixels_shift_times_15s">15 seconds</string>
     <string name="smart_pixels_shift_times_30s">30 seconds</string>
