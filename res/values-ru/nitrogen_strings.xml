@@ -15,7 +15,7 @@
 
   <string name="nitrogen_settings_title">Настройки Nitrogen OS</string>
 
-  <!-- Categories -->
+    <!-- Categories -->
     <string name="button_title">Аппаратные кнопки</string>
     <string name="gestures_title">Жесты</string>
     <string name="lockscreen_title">Экран блокировки</string>
@@ -131,9 +131,9 @@
     <string name="navbar_visibility">Включить панель навигации</string>
 
     <!-- Recents panel settings -->
-    <string name="show_clear_all_recents_button_title">Показывать кнопку \"Очистить всё\"</string>
-    <string name="show_clear_all_recents_button_summary">Показывать кнопку \"Очистить всё\" в \"Недавних приложениях\"</string>
-    <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>
+    <string name="show_clear_all_recents_button_title">Показывать кнопку «Очистить всё»</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку «Очистить всё» в «Недавних приложениях»</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки «Очистить всё»</string>
     <string name="recents_clear_all_location_top_right">Вверху справа</string>
     <string name="recents_clear_all_location_top_left">Вверху слева</string>
     <string name="recents_clear_all_location_top_center">Вверху по центру</string>
@@ -239,8 +239,8 @@
     <string name="cursor_section_header">Курсор</string>
     <string name="volume_key_cursor_control_title">Перемещение курсора кнопками громкости</string>
     <string name="volume_key_cursor_control_off">Выключено</string>
-    <string name="volume_key_cursor_control_on">Кнопка "+" двигает курсор влево, "-" вправо</string>
-    <string name="volume_key_cursor_control_on_reverse">Кнопка "+" двигает курсор вправо, "-" влево</string>
+    <string name="volume_key_cursor_control_on">Кнопка «+» двигает курсор влево, «-» вправо</string>
+    <string name="volume_key_cursor_control_on_reverse">Кнопка «+» двигает курсор вправо, «-» влево</string>
 
     <string name="torch_long_press_power_gesture_title">Фонарик по кнопке питания</string>
     <string name="torch_long_press_power_gesture_desc">Удерживайте кнопку питания при выключенном экране</string>
