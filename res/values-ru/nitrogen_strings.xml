@@ -331,5 +331,11 @@
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
     <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
+
+    <!-- Weather -->
+    <string name="weather_title">Погода</string>
+    <string name="weather_unit">Единица измерения температуры</string>
+    <string name="weather_unit_metric">Градусы Цельсия</string>
+    <string name="weather_unit_imperial">Градусы Фаренгейта</string>
 </resources>
 
