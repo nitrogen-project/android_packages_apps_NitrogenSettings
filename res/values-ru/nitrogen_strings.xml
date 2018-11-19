@@ -334,4 +334,12 @@
     <string name="weather_unit">Единица измерения температуры</string>
     <string name="weather_unit_metric">Градусы Цельсия</string>
     <string name="weather_unit_imperial">Градусы Фаренгейта</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Кнопка адаптивной яркости</string>
+    <string name="brightness_icon_summary">Отображать кнопку включения адаптивной яркости справа от регулятора</string>
+
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Кнопки управления яркостью</string>
+    <string name="brightness_side_buttons_summary">Отображать кнопки управления яркостью по бокам регулятора</string>
 </resources>

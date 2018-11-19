@@ -345,4 +345,12 @@
     <string name="weather_unit">Temperature unit</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Adaptive brightness button</string>
+    <string name="brightness_icon_summary">Show adaptive brightness button</string>
+
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Brightness control buttons</string>
+    <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
 </resources>
