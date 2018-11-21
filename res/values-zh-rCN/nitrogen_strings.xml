@@ -127,7 +127,7 @@
     <string name="hardware_keys_disable_title">禁用实体键</string>
 
     <!-- ANBI -->
-    <string name="anbi_title">意外触控</string>
+    <string name="anbi_title">防误触</string>
     <string name="anbi_summary">防止在触摸屏幕时，因触摸到实体导航键而产生操作</string>
 
     <!-- Statusbar Tuner -->
