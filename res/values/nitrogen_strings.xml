@@ -264,9 +264,6 @@
 
     <string name="gesture_preference_nos">AOSP gestures</string>
 
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacity</string>
-
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Brightness slider</string>
     <string name="qs_show_brightness_summary">Show a brightness slider in the quick settings panel</string>

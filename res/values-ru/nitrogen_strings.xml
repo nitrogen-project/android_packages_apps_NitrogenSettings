@@ -253,9 +253,6 @@
 
     <string name="gesture_preference_nos">Жесты AOSP</string>
 
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Непрозрачность</string>
-
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Регулятор яркости</string>
     <string name="qs_show_brightness_summary">Показать регулятор яркости в панели быстрых настроек</string>
@@ -336,4 +333,3 @@
     <string name="weather_unit_metric">Градусы Цельсия</string>
     <string name="weather_unit_imperial">Градусы Фаренгейта</string>
 </resources>
-
