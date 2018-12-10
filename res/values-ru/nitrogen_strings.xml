@@ -264,6 +264,12 @@
     <string name="gesture_settings_summary">Использовать свайпы нижней части экрана для навигации</string>
     <string name="use_bottom_gesture_title">Использовать жесты</string>
     <string name="gesture_settings_info">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\nНазад\n- Свайп вверх слева или справа\n\nДомой\n- Свайп вверх по центру экрана\n\nНедавние приложения\n- Свайп вверх по центру экрана и удержание\n\nПоследнее приложение\n- Короткий свайп вверх и удержание.</string>
+    <string name="gesture_swipe_length_title">Высота срабатывания свайпа</string>
+    <string name="gesture_swipe_length_summary">Необходимая высота снизу для срабатывания свайпа</string>
+    <string name="gesture_action_timeout_title">Время срабатывания свайпа</string>
+    <string name="gesture_action_timeout_summary">Необхожимое время для срабатывания свайпа</string>
+    <string name="unit_msec">мс</string>
+    <string name="unit_px">пикс.</string>
 
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Предупреждение в нижней части</string>

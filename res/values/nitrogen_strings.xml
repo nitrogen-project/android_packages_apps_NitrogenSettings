@@ -275,6 +275,12 @@
     <string name="gesture_settings_summary">Use bottom swipe up gestures for navigation</string>
     <string name="use_bottom_gesture_title">Enable gestures</string>
     <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLast app\n- Short swipe up and hold in the center</string>
+    <string name="gesture_swipe_length_title">Swipe trigger height</string>
+    <string name="gesture_swipe_length_summary">Heigth from bottom to trigger swipe</string>
+    <string name="gesture_action_timeout_title">Swipe trigger timeout</string>
+    <string name="gesture_action_timeout_summary">Timeout before the gesture action is started</string>
+    <string name="unit_msec">ms</string>
+    <string name="unit_px">px</string>
 
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">QS footer warnings</string>
