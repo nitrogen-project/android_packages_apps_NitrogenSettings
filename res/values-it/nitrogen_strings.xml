@@ -59,7 +59,7 @@
     <string name="powermenu_settings">Impostazioni</string>
     <string name="powermenu_lockdown">Blocco</string>
     <string name="powermenu_users">Utenti</string>
-	<string name="powermenu_logout">Logout</string>
+    <string name="powermenu_logout">Logout</string>
     <string name="powermenu_torch">Torcia elettrica</string>
 
 
@@ -268,7 +268,13 @@
     <string name="gesture_settings_summary">Usa i gesti di scorrimento in basso per la navigazione</string>
     <string name="use_bottom_gesture_title">Abilita i gesti</string>
     <string name="gesture_settings_info">"La barra di navigazione deve essere disabilitata!\n\nGesti disponibili:\n\nIndietro\n- Scorri verso l'alto sul lato sinistro o destro\n\nHome\n- Scorri verso l'alto dal centro\n\nRecenti\n- Scorri verso l'alto dal centro e tieni premuto\n\nUltima app\n- Scorri verso l'alto e tieni premuto dal centro"</string>
-
+    <string name="gesture_swipe_length_title">Altezza attivazione di scorrimento</string>
+    <string name="gesture_swipe_length_summary">"Altezza richiesta dal basso per l'attivazione dello scorrimento"</string>
+    <string name="gesture_action_timeout_title">Tempo attivazione di scorrimento</string>
+    <string name="gesture_action_timeout_summary">"Tempo prima che l'azione gestuale venga avviata"</string>
+    <string name="unit_msec">ms</string>
+    <string name="unit_px">px</string>
+	
     <!-- QS footer warnings -->
     <string name="qs_footer_warnings_title">Avvisi footer</string>
     <string name="qs_footer_warnings_summary">Visualizza un avviso nella parte inferiore del pannello delle impostazioni rapide quando la rete viene monitorata da applicazioni esterne o vpn</string>
