@@ -83,6 +83,15 @@
     <string name="button_backlight_on_touch_only_title">按键触摸</string>
     <string name="button_backlight_on_touch_only_summary">仅在触摸按键时启用按键背光超时</string>
     <!-- HW Keys customization -->
+    <string name="action_value_default_action" translatable="false">default</string>
+    <string name="action_value_select_app" translatable="false">app</string>
+    <string name="action_value_custom_action" translatable="false">custom</string>
+    <string name="action_value_back" translatable="false">task_back</string>
+    <string name="action_value_home" translatable="false">task_home</string>
+    <string name="action_value_search_assist" translatable="false">task_assist</string>
+    <string name="action_value_recent_apps" translatable="false">task_recents</string>
+    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
+    <string name="action_value_menu" translatable="false">task_menu</string>
     <string name="picker_activities">活动</string>
     <string name="select_custom_app_title">选择自定义应用</string>
     <string name="select_custom_activity_title">选择自定义活动</string>
