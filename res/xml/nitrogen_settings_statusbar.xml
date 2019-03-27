@@ -37,4 +37,11 @@
         android:max="10"
         settings:min="0"
         settings:units="" />
+
+     <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="network_traffic_hidearrow"
+        android:title="@string/network_traffic_hidearrow"
+        android:summary="@string/network_traffic_hidearrow_summary"
+        android:dependency="network_traffic_state"
+        android:defaultValue="false" />
 </PreferenceScreen>
