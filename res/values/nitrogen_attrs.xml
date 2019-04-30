@@ -28,4 +28,8 @@
         <attr name="ledPreview" format="boolean" />
         <attr name="alphaSlider" format="boolean" />
     </declare-styleable>
+
+    <declare-styleable name="SystemSettingListPreference">
+        <attr name="dependentValue" format="string"/>
+    </declare-styleable>
 </resources>
