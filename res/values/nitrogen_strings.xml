@@ -325,25 +325,6 @@
     <string name="alarm_list_header">Available alarms</string>
     <string name="alarm_blocker_reload">Reload</string>
 
-    <!-- Smart Pixels -->
-    <string name="smart_pixels_title">Smart Pixels</string>
-    <string name="smart_pixels_enable_title">Enable Smart Pixels</string>
-    <string name="smart_pixels_enable_summary">Shut off pixels to reduce power consumption</string>
-    <string name="smart_pixels_on_power_save_title">Auto-enable on battery saver</string>
-    <string name="smart_pixels_on_power_save_summary">Enable Smart Pixels when battery saver is enabled</string>
-    <string name="smart_pixels_percent">Percent of pixels to disable</string>
-    <string name="smart_pixels_info">It draws over apps and can cause some troubles with Google Pay and etc.\n\nDisable it before adding cards to Pay or enabling/disabling device administators</string>
-    <string name="smart_pixels_shift">Prevent burn-in by shifting pixels every</string>
-    <string name="smart_pixels_shift_times_15s">15 seconds</string>
-    <string name="smart_pixels_shift_times_30s">30 seconds</string>
-    <string name="smart_pixels_shift_times_1min">1 minute</string>
-    <string name="smart_pixels_shift_times_2min">2 minutes</string>
-    <string name="smart_pixels_shift_times_5min">5 minutes</string>
-    <string name="smart_pixels_shift_times_10min">10 minutes</string>
-    <string name="smart_pixels_shift_times_20min">20 minutes</string>
-    <string name="smart_pixels_shift_times_30min">30 minutes</string>
-    <string name="smart_pixels_shift_times_1h">1 hour</string>
-
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
@@ -361,14 +342,4 @@
     <!-- Quick Settings brightness side buttons -->
     <string name="brightness_side_buttons_title">Brightness control buttons</string>
     <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
-
-    <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
 </resources>

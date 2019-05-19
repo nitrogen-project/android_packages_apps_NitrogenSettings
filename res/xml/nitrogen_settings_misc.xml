@@ -32,16 +32,6 @@
             android:title="@string/app_ops_settings"
             android:fragment="com.android.settings.applications.appops.AppOpsSummary"/>
 
-        <Preference
-            android:key="smart_pixels"
-            android:title="@string/smart_pixels_title"
-            android:fragment="com.nitrogen.settings.fragments.SmartPixels" />
-
-        <Preference
-            android:key="aggressive_battery"
-            android:title="@string/aggressive_battery_title"
-            android:fragment="com.nitrogen.settings.fragments.AggressiveBattery" />
-
         <com.nitrogen.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wakeup_when_plugged_unplugged_title"

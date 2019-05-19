@@ -40,13 +40,6 @@ public class MiscSettings extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.nitrogen_settings_misc);
 
-        boolean enableSmartPixels = getContext().getResources().
-                getBoolean(com.android.internal.R.bool.config_enableSmartPixels);
-        Preference SmartPixels = findPreference("smart_pixels");
-
-        if (!enableSmartPixels){
-            getPreferenceScreen().removePreference(SmartPixels);
-        }
     }
 
     @Override

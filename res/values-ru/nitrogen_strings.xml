@@ -314,25 +314,6 @@
     <string name="alarm_list_header">Доступные *alarms*</string>
     <string name="alarm_blocker_reload">Обновить</string>
 
-    <!-- Smart Pixels -->
-    <string name="smart_pixels_title">Smart Pixels</string>
-    <string name="smart_pixels_enable_title">Включить Smart Pixels</string>
-    <string name="smart_pixels_enable_summary">Выключить пиксели для снижения энергопотребления</string>
-    <string name="smart_pixels_on_power_save_title">Включать автоматически при экономии заряда</string>
-    <string name="smart_pixels_on_power_save_summary">Включить Smart Pixels, когда включен режим экономии заряда</string>
-    <string name="smart_pixels_percent">Процент пикселей для отключения</string>
-    <string name="smart_pixels_shift">Предотвратить выгорание, сдвигая пиксели каждые</string>
-    <string name="smart_pixels_info">Отображается поверх приложений и может вызывать проблемы с Google Pay и т.д.\n\nОтключите перед добавление карт в Google Pay или редактированием административных прав приложений</string>
-    <string name="smart_pixels_shift_times_15s">15 секунд</string>
-    <string name="smart_pixels_shift_times_30s">30 секунд</string>
-    <string name="smart_pixels_shift_times_1min">1 минута</string>
-    <string name="smart_pixels_shift_times_2min">2 минуты</string>
-    <string name="smart_pixels_shift_times_5min">5 минут</string>
-    <string name="smart_pixels_shift_times_10min">10 минут</string>
-    <string name="smart_pixels_shift_times_20min">20 минут</string>
-    <string name="smart_pixels_shift_times_30min">30 минут</string>
-    <string name="smart_pixels_shift_times_1h">1 час</string>
-
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">Звук и вибрация при включенном экране</string>
     <string name="notification_sound_vib_screen_on_summary">Воспроизводить звук и вибрацию при получении уведомлений когда экран включен</string>
@@ -350,14 +331,4 @@
     <!-- Quick Settings brightness side buttons -->
     <string name="brightness_side_buttons_title">Кнопки управления яркостью</string>
     <string name="brightness_side_buttons_summary">Отображать кнопки управления яркостью по бокам регулятора</string>
-
-    <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Агрессивное энергосбережение</string>
-    <string name="aggressive_battery_warning_text">Это функции энергосбережения. Включение этих режимов может создавать помехи службам, предназначенным для работы в режиме ожидания, например, навигационным приложениям. Вы можете включить эти приложения в белый список в настройках батареи приложения.</string>
-    <string name="aggressive_idle_title">Агрессивный режим ожидания</string>
-    <string name="aggressive_idle_summary">Чаще входить в режим ожидания и реже просыпаться</string>
-    <string name="aggressive_standby_title">Ограничение работы в фоне</string>
-    <string name="aggressive_standby_summary">Ограничить работу приложений в фоновом режиме</string>
-    <string name="aggressive_battery_saver_title">В режиме экономии батареи</string>
-    <string name="aggressive_battery_saver_summary">Автоматически включать агрессивное энергосбережение в режиме экономии батареи</string>
 </resources>
