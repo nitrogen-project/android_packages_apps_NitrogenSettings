@@ -44,4 +44,7 @@
     <string name="longpress_info">Удерживайте, чтобы сохранить цвет</string>
     <string name="set">Выбрать</string>
     <string name="color_default">По умолчанию</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертированная разметка</string>
 </resources>
