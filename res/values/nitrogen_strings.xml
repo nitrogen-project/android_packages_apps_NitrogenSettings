@@ -43,4 +43,7 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>
