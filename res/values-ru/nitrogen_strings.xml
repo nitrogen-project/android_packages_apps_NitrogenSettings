@@ -165,4 +165,7 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Отпечаток пальца</string>
     <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальца</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертированная разметка</string>
 </resources>
