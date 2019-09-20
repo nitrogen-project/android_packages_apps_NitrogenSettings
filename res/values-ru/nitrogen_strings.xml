@@ -146,8 +146,8 @@
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Ярлыки на экране блокировки</string>
 
-    <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Кнопки на панели навигации</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертированная разметка</string>
 
     <string name="navbar_visibility">Включить панель навигации</string>
 
