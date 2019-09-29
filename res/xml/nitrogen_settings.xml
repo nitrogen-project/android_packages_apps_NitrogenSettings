@@ -67,11 +67,11 @@
             android:icon="@drawable/ic_settings_powermenu"/>
 
         <!-- Recents -->
-        <Preference
+        <!--Preference
             android:key="recents_category"
             android:title="@string/recents_title"
             android:fragment="com.nitrogen.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
+            android:icon="@drawable/ic_settings_recents"/-->
 
         <!-- Notifications -->
         <Preference
