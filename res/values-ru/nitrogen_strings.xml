@@ -220,4 +220,8 @@
     <!-- Media art -->
     <string name="media_art_title">Медиа-обложка</string>
     <string name="media_art_summary">Включение медиа-обложки на экране блокировки</string>
+
+     <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Кнопка адаптивной яркости</string>
+    <string name="brightness_icon_summary">Отображать кнопку включения адаптивной яркости справа от регулятора</string>
 </resources>
