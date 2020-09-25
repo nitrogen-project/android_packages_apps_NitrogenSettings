@@ -82,4 +82,18 @@
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Кнопка «Домой» при звонке</string>
     <string name="allow_incall_home_summary">Разрешить использование кнопки «Домой» при входящем звонке</string>
+
+    <!-- Hardware keys -->
+    <string name="hardware_keys_category">Аппаратные кнопки</string>
+    <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Таймаут подсветки кнопок</string>
+    <string name="backlight_timeout_on">Включена постоянно</string>
+    <string name="backlight_timeout_3s">3 сек</string>
+    <string name="backlight_timeout_default">5 сек (по умолчанию)</string>
+    <string name="backlight_timeout_10s">10 сек</string>
+    <string name="backlight_timeout_15s">15 сек</string>
+    <string name="backlight_timeout_20s">20 сек</string>
+    <string name="backlight_timeout_30s">30 сек</string>
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_title">Подсветка</string>
 </resources>
