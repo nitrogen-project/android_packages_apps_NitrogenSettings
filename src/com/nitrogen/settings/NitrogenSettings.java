@@ -36,7 +36,9 @@ public class NitrogenSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         final String KEY_DEVICE_PART = "device_part";
+        final String KEY_DEVICE_PART2 = "device_part2";
         final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
+        final String KEY_DEVICE_PART_PACKAGE_NAME2 = "org.lineageos.settings";
 
         addPreferencesFromResource(R.xml.nitrogen_settings);
 
@@ -45,6 +47,10 @@ public class NitrogenSettings extends SettingsPreferenceFragment {
             getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
         }
 
+        // DeviceParts
+        if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME2)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART2));
+        }
     }
 
     @Override
