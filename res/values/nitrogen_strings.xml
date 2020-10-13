@@ -213,4 +213,13 @@
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Status bar</string>
     <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Brightness slider</string>
+    <string name="qs_show_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
+    <string name="qs_show_auto_brightness_title">Autobrightness icon</string>
+    <string name="qs_show_auto_brightness_summary">Show toggle for adaptive brightness near the slider</string>
+    <string name="qs_show_brightness_slider_show_never">Never show</string>
+    <string name="qs_show_brightness_slider_show_expanded">Show when expanded</string>
+    <string name="qs_show_brightness_slider_show_always">Show always</string>
 </resources>

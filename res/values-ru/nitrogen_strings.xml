@@ -207,4 +207,13 @@
     <!-- Double tap-to-sleep -->
     <string name="double_tap_to_sleep_title">Строка состояния</string>
     <string name="double_tap_to_sleep_summary">Дважды коснитесь строки состояния для перевода устройства в спящий режим</string>
+
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_slider_title">Регулятор яркости</string>
+    <string name="qs_show_brightness_slider_summary">Показать регулятор яркости в панели быстрых настроек</string>
+    <string name="qs_show_auto_brightness_title">Иконка автояркости</string>
+    <string name="qs_show_auto_brightness_summary">Показать переключатель адаптивной яркости рядом с ползунком</string>
+    <string name="qs_show_brightness_slider_show_never">Никогда не показывать</string>
+    <string name="qs_show_brightness_slider_show_expanded">Показывать в раскрытой панели быстрых настроек</string>
+    <string name="qs_show_brightness_slider_show_always">Показывать всегда</string>
 </resources>
