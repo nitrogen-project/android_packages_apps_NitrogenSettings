@@ -60,11 +60,11 @@
             android:icon="@drawable/ic_settings_lockscreens"/>
 
         <!-- Power Menu -->
-        <Preference
+        <!--Preference
             android:key="powermenu__category"
             android:title="@string/powermenu_title"
             android:fragment="com.nitrogen.settings.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>
+            android:icon="@drawable/ic_settings_powermenu"/-->
 
         <!-- Recents -->
         <!--Preference
