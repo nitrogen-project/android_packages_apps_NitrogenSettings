@@ -193,4 +193,6 @@
     <string name="network_traffic_autohide_threshold_title">Порог неактивности (KB/s)</string>
     <string name="network_traffic_hidearrow">Скрыть стрелки</string>
     <string name="network_traffic_hidearrow_summary">Скрыть стрелки активности индикатора</string>
+
+    <string name="radio_info_title">Информация о сети</string>
 </resources>
