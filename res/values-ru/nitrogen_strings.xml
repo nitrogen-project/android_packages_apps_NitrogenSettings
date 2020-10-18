@@ -51,4 +51,6 @@
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Пробуждение при зарядке</string>
     <string name="wakeup_when_plugged_unplugged_summary">Пробуждать устройство при подключении/отключении зарядного устройства.</string>
+
+    <string name="radio_info_title">Информация о сети</string>
 </resources>
