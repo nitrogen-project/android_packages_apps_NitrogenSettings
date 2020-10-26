@@ -40,6 +40,10 @@ import com.android.internal.util.hwkeys.ActionUtils;
 import com.nitrogen.settings.preferences.ActionFragment;
 import com.nitrogen.settings.preferences.CustomSeekBarPreference;
 
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
+
+@SearchIndexable
 public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
 
     //Keys
@@ -232,4 +236,6 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
 
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.nitrogen_settings_button);
 }

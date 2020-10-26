@@ -40,7 +40,10 @@ import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
 
+@SearchIndexable
 public class PowerMenuSettings extends SettingsPreferenceFragment
                 implements Preference.OnPreferenceChangeListener {
 
@@ -67,4 +70,6 @@ public class PowerMenuSettings extends SettingsPreferenceFragment
         return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
 
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.nitrogen_settings_power);
 }

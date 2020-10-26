@@ -40,6 +40,10 @@ import com.android.settings.R;
 
 import com.android.internal.util.hwkeys.ActionUtils;
 
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settingslib.search.SearchIndexable;
+
+@SearchIndexable
 public class NavbarSettings extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     private static final String NAVBAR_VISIBILITY = "navbar_visibility";
@@ -97,4 +101,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements OnPref
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.NITROGEN_SETTINGS;
     }
+
+    public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider(R.xml.nitrogen_settings_navigation);
 }
