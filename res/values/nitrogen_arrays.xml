@@ -120,4 +120,16 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <!--DeviceParts-->
+    <string-array name="targetPackage" translatable="false">
+        <item>org.omnirom.device</item>
+        <item>org.lineageos.settings.device</item>
+        <item>org.lineageos.settings</item>
+    </string-array>
+    <string-array name="targetClass" translatable="false">
+        <item>org.omnirom.device.DeviceSettings</item>
+        <item>org.lineageos.settings.device.DeviceSettingsActivity</item>
+        <item>org.lineageos.settings.MainActivity</item>
+    </string-array>
 </resources>

@@ -20,11 +20,12 @@ package com.nitrogen.settings;
 import com.android.internal.logging.nano.MetricsProto;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Surface;
-import android.preference.Preference;
+import androidx.preference.Preference;
 import com.android.settings.R;
 import com.nitrogen.settings.preferences.Utils;
 
@@ -35,22 +36,23 @@ public class NitrogenSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        final String KEY_DEVICE_PART = "device_part";
-        final String KEY_DEVICE_PART2 = "device_part2";
-        final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
-        final String KEY_DEVICE_PART_PACKAGE_NAME2 = "org.lineageos.settings";
-
         addPreferencesFromResource(R.xml.nitrogen_settings);
 
-        // DeviceParts
-        if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
-            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
-        }
+        final String KEY_DEVICE_PART = "device_part";
+        boolean packageInstalled = false;
 
         // DeviceParts
-        if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME2)) {
-            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART2));
+        String[] targetPackage = getResources().getStringArray(R.array.targetPackage);
+        String[] targetClass = getResources().getStringArray(R.array.targetClass);
+        Intent intentPref = getPreferenceScreen().findPreference(KEY_DEVICE_PART).getIntent();
+        for (int i=0; i < targetPackage.length; i++)
+        {
+            if (Utils.isPackageInstalled(getActivity(), targetPackage[i])) {
+                packageInstalled = true;
+                intentPref.setClassName(targetPackage[i], targetClass[i]);
+            }
         }
+        if (!packageInstalled) getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
     }
 
     @Override
