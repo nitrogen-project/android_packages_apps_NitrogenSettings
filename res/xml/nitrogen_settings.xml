@@ -93,19 +93,6 @@
             android:persistent="false"
             android:title="@string/device_part_title"
             android:icon="@drawable/ic_settings_device">
-            <intent android:action="android.intent.action.MAIN"
-                 android:targetPackage="org.omnirom.device"
-                 android:targetClass="org.omnirom.device.DeviceSettings"/>
-        </Preference>
-
-        <!-- Device Part -->
-        <Preference
-            android:key="device_part2"
-            android:persistent="false"
-            android:title="@string/device_part_title"
-            android:icon="@drawable/ic_settings_device">
-            <intent android:action="android.intent.action.MAIN"
-                 android:targetPackage="org.lineageos.settings"
-                 android:targetClass="org.lineageos.settings.MainActivity"/>
+            <intent android:action="android.intent.action.MAIN"/>
         </Preference>
 </PreferenceScreen>
