@@ -233,4 +233,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="powermenu_lockscreen_title">Lockscreen visibility</string>
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+
+    <!-- Power menu reboot fastbootd -->
+    <string name="powermenu_reboot_fastboot_title">Fastbootd mode</string>
+    <string name="powermenu_reboot_fastboot_summary">Reboot to fastbootd by long-pressing the advanced reboot button</string>
 </resources>

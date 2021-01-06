@@ -227,4 +227,8 @@
     <!-- Power menu on secure lockscreen -->
     <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
     <string name="powermenu_lockscreen_summary">Включите, чтобы использовать меню питания на защищенном экране блокировки</string>
+
+    <!-- Power menu reboot fastbootd -->
+    <string name="powermenu_reboot_fastboot_title">Режим fastbootd</string>
+    <string name="powermenu_reboot_fastboot_summary">Перезагрузка в режим fastbootd по долгому нажатию кнопки расширенной перезагрузки</string>
 </resources>

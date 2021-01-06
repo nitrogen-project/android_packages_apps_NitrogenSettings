@@ -24,4 +24,10 @@
         android:summary="@string/powermenu_lockscreen_summary"
         android:defaultValue="true" />
 
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_reboot_fastboot"
+        android:title="@string/powermenu_reboot_fastboot_title"
+        android:summary="@string/powermenu_reboot_fastboot_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
