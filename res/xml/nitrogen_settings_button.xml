@@ -18,7 +18,7 @@
         android:title="@string/button_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceScreen
+    <Preference
         android:key="volume_key"
         android:fragment="com.nitrogen.settings.fragments.VolumeRockerSettings"
         android:title="@string/volume_title" />
