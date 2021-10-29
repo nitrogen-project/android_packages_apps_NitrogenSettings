@@ -78,6 +78,7 @@
     <!-- Battery light -->
     <string name="battery_light_settings">Индикация батареи</string>
     <string name="battery_light_enable">Включена</string>
+    <string name="battery_full_light_enabled">Включить светодиод при полной зарядке</string>
     <string name="battery_light_allow_on_dnd_title">Включить светодиод в режиме «Не беспокоить»</string>
     <string name="battery_light_low_blinking_title">Мигать светодиодом при низком уровне заряда</string>
     <string name="battery_light_cat">Цвет светодиода во время зарядки</string>
