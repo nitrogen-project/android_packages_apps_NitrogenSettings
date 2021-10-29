@@ -77,6 +77,7 @@
     <!-- Battery light -->
     <string name="battery_light_settings">Battery charging light</string>
     <string name="battery_light_enable">Enable</string>
+    <string name="battery_full_light_enabled">Battery light when full charged</string>
     <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
     <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
     <string name="battery_light_cat">Battery light color when charging</string>
