@@ -135,4 +135,37 @@
     <!-- Fingerprint authentication vibration -->
     <string name="fprint_sucess_vib_title">Отпечаток пальца</string>
     <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальца</string>
+
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_switch_title">Иконка VoLTE</string>
+    <string name="volte_switch_summary">Отображать иконку VoLTE в статусбаре</string>
+    <string name="volte_icon_style_title">Выбор VoLTE иконки</string>
+    <string name="volte_icon_asus">VoLTE Asus</string>
+    <string name="volte_icon_vo">Vo</string>
+    <string name="volte_icon_volte">VoLTE</string>
+    <string name="volte_icon_oos">VoLTE OOS</string>
+    <string name="volte_icon_hd">HD</string>
+    <string name="volte_icon_hd2">HD CAF</string>
+    <string name="volte_icon_miui">MIUI 11</string>
+    <string name="volte_icon_emui">EMUI</string>
+    <string name="volte_icon_margaritov">HD Filled</string>
+    <string name="volte_icon_margaritov2">Margaritov VoLTE</string>
+    <string name="volte_icon_vivo">Vivo</string>
+
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Иконка VoWiFi</string>
+    <string name="vowifi_icon_enabled">VoWiFi иконка включена</string>
+    <string name="vowifi_icon_disabled">VoWiFi иконка выключена</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi вместо иконки VoLTE</string>
+    <string name="vowifi_icon_style_title">Стиль VoWiFi иконки</string>
+    <string name="vowifi_icon_default">Иконка по-умолчанию</string>
+    <string name="vowifi_icon_emui">Иконка EMUI</string>
+    <string name="vowifi_icon_asus">Иконка Asus</string>
+    <string name="vowifi_icon_oneplus">Иконка OOS</string>
+    <string name="vowifi_icon_moto">Иконка Motorola</string>
+    <string name="vowifi_icon_simple1">Просто иконка 1</string>
+    <string name="vowifi_icon_simple2">Просто иконка 2</string>
+    <string name="vowifi_icon_simple3">Просто иконка 3</string>
+    <string name="vowifi_icon_vivo">Иконка Vivo</string>
+    <string name="vowifi_icon_margaritov">Иконка Margaritov</string>
 </resources>
