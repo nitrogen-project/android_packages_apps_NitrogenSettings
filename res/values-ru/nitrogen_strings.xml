@@ -182,8 +182,4 @@
      <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Скриншот жестом</string>
     <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
-
-    <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Эффект волны</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Показать эффект волны при разблокировке с помощью отпечатка пальца</string>
 </resources>

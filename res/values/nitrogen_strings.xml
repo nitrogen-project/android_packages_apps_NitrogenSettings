@@ -183,8 +183,4 @@
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe three fingers to take screenshot</string>
-
-    <!-- Fingerprint Ripple Effect -->
-    <string name="enable_fingerprint_ripple_effect_title">Ripple effect</string>
-    <string name="enable_fingerprint_ripple_effect_summary">Show ripple effect on unlock with fingerprint</string>
 </resources>
