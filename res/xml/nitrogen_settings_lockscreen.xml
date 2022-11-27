@@ -29,4 +29,10 @@
         android:title="@string/lockscreen_battery_info_title"
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
+
+    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+        android:key="ambient_wake_gestures"
+        android:title="@string/ambient_wake_gestures_title"
+        android:summary="@string/ambient_wake_gestures_summary"
+        android:defaultValue="false" />
 </PreferenceScreen>
