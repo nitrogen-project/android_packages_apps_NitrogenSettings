@@ -30,9 +30,14 @@
         android:summary="@string/fprint_sucess_vib_summary"
         android:persistent="false" />
 
-    <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
-        android:key="ambient_wake_gestures"
-        android:title="@string/ambient_wake_gestures_title"
-        android:summary="@string/ambient_wake_gestures_summary"
-        android:defaultValue="false" />
+    <PreferenceCategory
+        android:key="ambient_display"
+        android:title="@string/ambient_display_category" >
+
+        <com.nitrogen.settings.preferences.SystemSettingSwitchPreference
+            android:key="ambient_wake_gestures"
+            android:title="@string/ambient_wake_gestures_title"
+            android:summary="@string/ambient_wake_gestures_summary"
+            android:defaultValue="false" />
+    </PreferenceCategory>
 </PreferenceScreen>

@@ -181,6 +181,9 @@
     <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
 
     <!-- Ambient Wake gesture -->
+    <string name="ambient_display_category">Ambient display</string>
+
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+
 </resources>

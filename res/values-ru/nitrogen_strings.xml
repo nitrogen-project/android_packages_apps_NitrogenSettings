@@ -180,6 +180,8 @@
     <string name="double_tap_to_sleep_summary">Дважды коснитесь строки состояния для перевода устройства в спящий режим</string>
 
     <!-- Ambient Wake gesture -->
+    <string name="ambient_display_category">Индикация событий</string>
+
     <string name="ambient_wake_gestures_title">Черно-белый экран</string>
     <string name="ambient_wake_gestures_summary">Черно-белый экран вместо экрана блокировки</string>
 </resources>
